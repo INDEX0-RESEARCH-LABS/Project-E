@@ -47,20 +47,26 @@ PHASE 8  Experiment plan ........................ DONE (not funded)
 PHASE 9  Red-team review ........................ DONE
 PHASE 10 Decision: branch selected ............... DONE (portable hybrid)
 PHASE 11 CI, tests, commit ...................... DONE
+PHASE 12 Sizing optimisation .................... DONE
+PHASE 13 Requirement feasibility study .......... DONE
+PHASE 14 Experimental design revision ........... DONE
+PHASE 15 Independent model audit + fixes ........ DONE
 ```
 
-**Cycle complete.** The next cycle is not authorised yet: it needs a real use
-case, quotations, and funding for the bench test. See
-`reports/NEXT_ACTIONS.md`.
+**Cycle 3 complete.** The next cycle still needs a real use case, quotations,
+and funding for the bench test. See `reports/NEXT_ACTIONS.md`.
 
 ### What is real
 
-- 51 passing tests: analytic reference values, dispatch convergence, economics,
+- 57 passing tests: analytic reference values, dispatch convergence, converter
+  loss accounting, config rejection, Carnot guard, economics, Pareto logic,
   architecture invariants.
 - Immutable run artifacts with config checksum, git commit, provenance, plots.
 - 12 DOI-verified sources; full texts not accessed, so no unverified numbers are
   quoted.
 - Sensitivity over 2,000 Monte Carlo draws and every declared parameter range.
+- Deterministic sizing grid (84 points) and mission/peak scaling studies, with
+  infeasible points reported rather than dropped.
 
 ### What is not real
 
@@ -74,28 +80,32 @@ case, quotations, and funding for the bench test. See
 
 | Key | Architecture | Mass kg | Volume L | Capex USD | LCOE $/kWh | Targets |
 |---|---|---:|---:|---:|---:|---:|
-| A1 | LiFePO4 battery only | 113.2 | 49.6 | 4,647 | 0.583 | 3/5 |
-| A2 | Battery + supercapacitor | 121.5 | 59.6 | 5,407 | 0.628 | 2/5 |
-| B1 | Diesel genset, no buffer | 129.8 | 58.0 | 2,400 | 1.199 | 3/5 |
-| B2 | TEG on a burner | 285.5 | 92.9 | 30,000 | 3.960 | 1/5 |
-| B3 | TPV + thermal store | 244.1 | 136.8 | 2,371 | 0.288 | 3/5 |
-| B4 | PEM fuel cell, no buffer | 98.4 | 51.0 | 21,900 | 1.665 | 2/5 |
-| C1 | Fuel cell + battery | 55.0 | 24.2 | 6,080 | 0.801 | 2/5 |
-| C2 | Diesel + battery | 47.5 | 15.3 | 1,150 | 0.596 | 3/5 |
+| A1 | LiFePO4 battery only | 118.4 | 52.2 | 4,866 | 0.602 | 3/5 |
+| A2 | Battery + supercapacitor | 127.2 | 65.4 | 5,647 | 0.648 | 1/5 |
+| B1 | Diesel genset, no buffer | 118.5 | 72.5 | 2,400 | 1.199 | 2/5 |
+| B2 | TEG on a burner | 300.3 | 122.3 | 31,579 | 4.169 | 1/5 |
+| B3 | TPV + thermal store | 256.9 | 144.0 | 2,453 | 0.301 | 3/5 |
+| B4 | PEM fuel cell, no buffer | 102.9 | 64.7 | 23,053 | 1.753 | 1/5 |
+| C1 | Fuel cell + battery | 56.5 | 31.7 | 6,583 | 0.871 | 2/5 |
+| C2 | Diesel + battery | 50.3 | 21.3 | 1,149 | 0.668 | 3/5 |
 
 **Plain reading:**
 
 1. **Nothing meets all five targets** at baseline, conservative, or optimistic
    (best: 3/5 baseline, 3/5 conservative, 4/5 optimistic).
-2. Battery is efficient and simple but 3× too heavy; 35 kg would need ~825 Wh/kg
-   pack-level versus 175 assumed.
-3. Diesel hybrid is lightest, smallest and cheapest to buy, but fuel sets a
-   ~$0.50/kWh floor; even free capital cannot reach $0.40.
-4. TEG is not viable at kW scale: 6.5% conversion, 36 m² radiator, 285 kg.
+2. Battery is efficient and simple but 3.4× too heavy; 35 kg would need ~870 Wh/kg
+   pack-level versus 175 assumed. It is also **power-limited**: even a 0.5 h
+   mission is 40.3 kg because of the 6 kW pulse.
+3. Diesel hybrid is lightest, smallest and cheapest to buy, but fuel alone contributes
+   ~$0.56/kWh; even free capital cannot reach $0.40.
+4. TEG is not viable at kW scale: 6.2% conversion, 38 m² radiator, 300 kg.
 5. TPV is cheapest per kWh only by ignoring mass, volume, and the ≥1500 °C heat
    supply. It is stationary, not portable.
-6. Supercapacitors add 8 kg and no energy; the mission is energy-limited.
-7. Fuel cell cannot reach the target even with free hydrogen ($0.44/kWh floor).
+6. Supercapacitors add 8.8 kg and no energy.
+7. Fuel cell cannot reach the target even with free hydrogen ($0.492/kWh floor).
+8. Re-sizing the hybrid finds 50.3 kg (C2) at 1.1× source and 0.3 kWh buffer —
+   still 15.3 kg over target. The gap is the converter plus pulse-rated pack,
+   not the buffer.
 
 ---
 
@@ -106,13 +116,18 @@ The portable-hybrid direction is retained, but the finding is that it is a
 
 | Candidate | Strength | Blocking gap |
 |---|---|---|
-| A1 battery | efficiency, simplicity, no fuel | mass (113 kg vs 35) |
-| C2 diesel hybrid | mass, volume, capex | LCOE ($0.596 vs $0.40) and indoor emissions |
-| C1 fuel-cell hybrid | volume, no local emissions | capex/LCOE ($0.80), H2 supply |
+| A1 battery | efficiency, simplicity, no fuel | mass (118.4 kg vs 35) |
+| C2 diesel hybrid | mass, volume, capex | LCOE ($0.668 vs $0.40) and indoor emissions |
+| C1 fuel-cell hybrid | volume, no local emissions | capex/LCOE ($0.871), H2 supply |
 
-The single most influential unknown is **missions per year** (up to $2.68/kWh),
-which is a use-case question. The second is diesel price ($1.24/kWh range).
+The single most influential unknown is **missions per year** (up to $2.824/kWh),
+which is a use-case question. The second is diesel price ($1.306/kWh range).
 Hardware cannot answer either.
+
+The requirement set itself is now a finding: 35 kg, 6 kW and 8 h are jointly
+infeasible for A1 and C2 with the assumed pulse-power components. The next cycle
+must either renegotiate the peak/mass requirement, adopt a modular pack, or
+measure a genuinely higher pulse-power density before more architecture work.
 
 ---
 
@@ -121,10 +136,11 @@ Hardware cannot answer either.
 | Step | Deliverable | Gate |
 |---|---|---|
 | 1 | Real use case + duty cycle | G1: dominant axis exists |
-| 2 | Three supplier quotations | G2: real prices within 20% of model |
-| 3 | Bench test of hybrid buffer (`experiments/EXPERIMENT_PLAN.md`) | G3: H1/H3 pass |
-| 4 | Re-rank with measured/real inputs | G4: 4/5 targets |
-| 5 | Only then consider a prototype | — |
+| 2 | Renegotiate peak/mass, or approve modular pack | G1b: a feasible requirement set |
+| 3 | Three supplier quotations | G2: real prices within 20% of model |
+| 4 | Bench test of pulse power and hybrid buffer (`experiments/EXPERIMENT_PLAN.md`) | G3: H1/H3 pass |
+| 5 | Re-rank with measured/real inputs | G4: 4/5 targets |
+| 6 | Only then consider a prototype | — |
 
 Estimated bench cost: **$3,000–7,750**, ~3 weeks. No purchase is authorised.
 

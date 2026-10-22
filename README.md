@@ -32,6 +32,9 @@ python3.12 -m venv .venv
 
 # sensitivity: one-at-a-time sweeps + cost Monte Carlo
 .venv/bin/python -m project_e sensitivity --config configs/baseline.yaml
+
+# deterministic design studies: hybrid sizing grid + mission/peak scaling
+.venv/bin/python -m project_e study --kind all
 ```
 
 Each run creates `results/runs/<UTC timestamp>_<config hash>/` containing the

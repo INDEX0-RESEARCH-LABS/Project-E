@@ -67,8 +67,9 @@ packages were installed, no `sudo` used, no global state changed.
    This is recorded so future runs do not silently mix interpreters.
 5. **No physical hardware, instruments, or laboratory access** in this
    environment. Therefore no experimental result can be produced, and none is
-   claimed. Evidence ceiling for this cycle is E4 (reference-validated
-   reduced-order models), not E5.
+   claimed. Evidence ceiling for this cycle is **E3** (model reproduced with
+   analytic or independent numerical checks), consistent with the validation
+   register; no E4–E6 evidence exists.
 
 ## 4. Safety restrictions observed
 

@@ -12,6 +12,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field, replace
 
+import numpy as np
+
 from ..models import conversion, thermal
 from ..models.storage import BatteryPack
 from ..models.validation import positive, require
@@ -59,32 +61,54 @@ def _m(component_kg: float, packaging: float) -> float:
     return component_kg * packaging
 
 
+def _replacement_schedule(cycles_per_year: float, p: dict, cost_usd: float) -> dict[int, float]:
+    """Replace a pack each time cumulative throughput reaches its cycle life.
+
+    The fade model is 20% loss at cycle_life plus 1%/a calendar fade, taken to the
+    80% end-of-life threshold. Repeat the interval for the whole project life: one
+    replacement is not enough for a heavily cycled buffer.
+    """
+    b = p["battery"]
+    decay_per_year = 0.20 * cycles_per_year / b["cycle_life"] + 0.01
+    interval = max(1, int(0.20 / decay_per_year + 0.9999))
+    out: dict[int, float] = {}
+    year = interval
+    while year <= p["assumptions"]["lifetime_years"]:
+        out[year] = cost_usd
+        year += interval
+    return out
+
+
 def battery_only(mission: Mission, p: dict) -> ArchResult:
     b = p["battery"]
     packaging = p["assumptions"]["packaging_factor"]
+    conv = p["assumptions"]["converter_efficiency"]
     eol = p["assumptions"]["degradation_margin"]
     soc_window = b["soc_max"] - b["soc_min"]
-    usable_eol = mission.energy_kwh / (1.0 - eol)
+    # The pack sits behind the output converter: it must supply E/conv, not E.
+    usable_eol = mission.energy_kwh / conv / (1.0 - eol)
     capacity = usable_eol / soc_window
     mass_cells = max(
         capacity * 1000.0 / b["specific_energy_wh_kg"],
-        mission.peak_load_kw * 1000.0 / b["specific_power_w_kg"],
+        mission.peak_load_kw / p["assumptions"]["converter_efficiency"] * 1000.0
+        / b["specific_power_w_kg"],
     )
     volume = capacity * 1000.0 / b["energy_density_wh_l"]
     capex = capacity * b["cost_usd_per_kwh"] + mission.peak_load_kw * b["power_electronics_usd_per_kw"]
-    charge_eff = b["round_trip_efficiency"] * p["assumptions"]["charger_efficiency"]
-    # Replacement year from the same fade model used elsewhere: 20% cycle fade at
-    # cycle_life plus 1%/a calendar fade, taken to the 80% end-of-life threshold.
-    cycles_per_year = p["assumptions"]["missions_per_year"]
-    decay_per_year = 0.20 * cycles_per_year / b["cycle_life"] + 0.01
-    replacement_year = int(round(0.20 / decay_per_year + 0.4999))
-    replacements = (
-        {replacement_year: capacity * b["cost_usd_per_kwh"]}
-        if replacement_year <= p["assumptions"]["lifetime_years"]
-        else {}
+    charge_eff = (
+        b["round_trip_efficiency"]
+        * p["assumptions"]["charger_efficiency"]
+        * p["assumptions"]["converter_efficiency"]
     )
+    # Cycles per year from actual throughput, not one mission = one cycle.
+    cycles_per_year = (
+        p["assumptions"]["missions_per_year"] * (mission.energy_kwh / conv) / (capacity * soc_window)
+    )
+    replacements = _replacement_schedule(cycles_per_year, p, capacity * b["cost_usd_per_kwh"])
     input_kwh = mission.energy_kwh / charge_eff
-    waste = input_kwh - mission.energy_kwh
+    # Only discharge-side losses are rejected onboard; charger loss is off-board.
+    dc_discharge = mission.energy_kwh / conv
+    waste = dc_discharge * (1.0 / b["round_trip_efficiency"] - 1.0) + mission.energy_kwh * (1.0 / conv - 1.0)
     return ArchResult(
         key="A1",
         name="LiFePO4 battery only",
@@ -94,7 +118,7 @@ def battery_only(mission: Mission, p: dict) -> ArchResult:
         input_kwh=input_kwh,
         efficiency=charge_eff,
         mass_kg=_m(mass_cells, packaging),
-        volume_l=volume * packaging,
+        volume_l=volume,
         capex_usd=capex,
         capex_items={
             "battery": capacity * b["cost_usd_per_kwh"],
@@ -128,7 +152,11 @@ def battery_supercap(mission: Mission, p: dict) -> ArchResult:
     """Same energy, plus a capacitor bank: demonstrates that capacitors do not add energy."""
     base = battery_only(mission, p)
     sc = p["supercap"]
-    cap_kwh = mission.pulse_energy_kwh * p["assumptions"]["pulse_cap_margin"]
+    cap_kwh = (
+        mission.pulse_energy_kwh
+        * p["assumptions"]["pulse_cap_margin"]
+        / p["assumptions"]["converter_efficiency"]
+    )
     cap_mass = cap_kwh * 1000.0 / sc["specific_energy_wh_kg"]
     converter_kw = mission.peak_load_kw
     extra_capex = cap_kwh * sc["cost_usd_per_kwh"] + converter_kw * sc["converter_usd_per_kw"]
@@ -147,8 +175,9 @@ def battery_supercap(mission: Mission, p: dict) -> ArchResult:
         },
         notes=base.notes
         + (
-            "capacitor covers one 30 s pulse; it cannot reduce mission energy",
-            "strictly heavier and costlier than A1 for this mission",
+            "capacitor covers one 30 s pulse on top of a 6 kW-rated pack",
+            "heavier and costlier than A1 for this mission; a power-optimised pack "
+            "would be a different architecture, not this control",
         ),
     )
 
@@ -193,10 +222,13 @@ def diesel_direct(mission: Mission, p: dict) -> ArchResult:
 def teg_generator(mission: Mission, p: dict) -> ArchResult:
     t = p["teg"]
     eta = conversion.teg_efficiency(
-        t["hot_c"] + 273.15, t["cold_c"] + 273.15, t["zt"])
+        t["hot_c"] + 273.15, t["cold_c"] + 273.15, t["zt"]) * p["assumptions"]["converter_efficiency"]
     fuel_kwh = mission.energy_kwh / (eta * t["burner_efficiency"])
-    litres = fuel_kwh / conversion.LHV_DIESEL_KWH_PER_L if t["fuel"] == "diesel" else 0.0
-    mass = mission.peak_load_kw * t["mass_kg_per_kw"] + litres * 0.83
+    if t["fuel"] != "diesel":
+        raise ValueError(f"B2: unsupported fuel {t['fuel']!r}; only diesel has a cost path")
+    litres = fuel_kwh / conversion.LHV_DIESEL_KWH_PER_L
+    peak_dc_kw = mission.peak_load_kw / p["assumptions"]["converter_efficiency"]
+    mass = peak_dc_kw * t["mass_kg_per_kw"] + litres * p["diesel"]["fuel_density_kg_per_l"]
     waste = fuel_kwh - mission.energy_kwh
     return ArchResult(
         key="B2",
@@ -207,9 +239,9 @@ def teg_generator(mission: Mission, p: dict) -> ArchResult:
         input_kwh=fuel_kwh,
         efficiency=mission.energy_kwh / fuel_kwh,
         mass_kg=_m(mass, p["assumptions"]["packaging_factor"]),
-        volume_l=mission.peak_load_kw * 12.0 + litres * 1.35,
-        capex_usd=mission.peak_load_kw * 1000.0 * t["cost_usd_per_w"],
-        capex_items={"teg": mission.peak_load_kw * 1000.0 * t["cost_usd_per_w"]},
+        volume_l=peak_dc_kw * 12.0 + litres * 1.35,
+        capex_usd=peak_dc_kw * 1000.0 * t["cost_usd_per_w"],
+        capex_items={"teg": peak_dc_kw * 1000.0 * t["cost_usd_per_w"]},
         fuel_driver="diesel",
         waste_heat_kw=waste / mission.duration_h,
         radiator_area_m2=_radiator_area(
@@ -230,10 +262,15 @@ def teg_generator(mission: Mission, p: dict) -> ArchResult:
 def tpv_storage(mission: Mission, p: dict) -> ArchResult:
     v = p["tpv"]
     packaging = p["assumptions"]["packaging_factor"]
-    eta = v["efficiency"] * v["spectral_quality"]
+    # Carnot guard: reject a cell efficiency that is not physically possible at
+    # the declared emitter/cell temperatures before it inflates B3.
+    cell_eta = conversion.tpv_efficiency(
+        v["emitter_c"] + 273.15, v["cold_c"] + 273.15, v["efficiency"]
+    )
+    eta = cell_eta * v["spectral_quality"] * p["assumptions"]["converter_efficiency"]
     thermal_kwh = mission.energy_kwh / eta
     store_mass = thermal_kwh / v["storage_specific_kwh_per_kg"] * (1.0 + v["vessel_mass_fraction"])
-    area_m2 = mission.peak_load_kw * 1000.0 / v["power_density_w_cm2"] / 10000.0
+    area_m2 = mission.peak_load_kw / p["assumptions"]["converter_efficiency"] * 1000.0 / v["power_density_w_cm2"] / 10000.0
     cell_mass = area_m2 * v["cell_mass_kg_per_m2"]
     waste = thermal_kwh - mission.energy_kwh
     capex = (
@@ -250,7 +287,7 @@ def tpv_storage(mission: Mission, p: dict) -> ArchResult:
         input_kwh=thermal_kwh,
         efficiency=eta,
         mass_kg=_m(store_mass + cell_mass, packaging),
-        volume_l=(store_mass / v["storage_density_kg_per_l"]) * packaging,
+        volume_l=store_mass / v["storage_density_kg_per_l"],
         capex_usd=capex,
         capex_items={
             "tpv_cells": area_m2 * v["cell_cost_usd_per_m2"],
@@ -276,10 +313,12 @@ def tpv_storage(mission: Mission, p: dict) -> ArchResult:
 
 def fuel_cell_direct(mission: Mission, p: dict) -> ArchResult:
     f = p["fuel_cell"]
-    h2_kg = mission.energy_kwh / (f["efficiency_lhv"] * conversion.LHV_H2_KWH_PER_KG)
+    eta = f["efficiency_lhv"] * p["assumptions"]["converter_efficiency"]
+    h2_kg = mission.energy_kwh / (eta * conversion.LHV_H2_KWH_PER_KG)
     tank_mass = h2_kg / f["tank_gravimetric_fraction"]
-    mass = mission.peak_load_kw * f["mass_kg_per_kw"] + tank_mass + f["balance_of_plant_kg"]
-    fuel_kwh = mission.energy_kwh / f["efficiency_lhv"]
+    peak_dc_kw = mission.peak_load_kw / p["assumptions"]["converter_efficiency"]
+    mass = peak_dc_kw * f["mass_kg_per_kw"] + tank_mass + f["balance_of_plant_kg"]
+    fuel_kwh = mission.energy_kwh / eta
     waste = fuel_kwh - mission.energy_kwh
     return ArchResult(
         key="B4",
@@ -288,12 +327,12 @@ def fuel_cell_direct(mission: Mission, p: dict) -> ArchResult:
         energy_source="compressed hydrogen",
         delivered_kwh=mission.energy_kwh,
         input_kwh=fuel_kwh,
-        efficiency=f["efficiency_lhv"],
+        efficiency=eta,
         mass_kg=_m(mass, p["assumptions"]["packaging_factor"]),
         volume_l=mission.peak_load_kw * 6.0 + h2_kg * f["tank_l_per_kg_h2"],
-        capex_usd=mission.peak_load_kw * f["cost_usd_per_kw"] + h2_kg * f["tank_cost_usd_per_kg_h2"],
+        capex_usd=peak_dc_kw * f["cost_usd_per_kw"] + h2_kg * f["tank_cost_usd_per_kg_h2"],
         capex_items={
-            "fuel_cell": mission.peak_load_kw * f["cost_usd_per_kw"],
+            "fuel_cell": peak_dc_kw * f["cost_usd_per_kw"],
             "h2_tank": h2_kg * f["tank_cost_usd_per_kg_h2"],
         },
         fuel_driver="h2",
@@ -341,13 +380,38 @@ def _hybrid(
         soc_min=p["battery"]["soc_min"],
         soc_max=p["battery"]["soc_max"],
         p_charge_kw=max(source_kw * 1.5, 1.0),
-        p_discharge_kw=mission.peak_load_kw,
+        p_discharge_kw=mission.peak_load_kw / p["assumptions"]["converter_efficiency"],
         soc=0.6,
     )
-    sim = simulate_hybrid(mission, source_kw, source_eta, battery, dt_s=p["assumptions"]["dt_s"])
+    sim = simulate_hybrid(
+        mission,
+        source_kw,
+        source_eta,
+        battery,
+        dt_s=p["assumptions"]["dt_s"],
+        converter_efficiency=p["assumptions"]["converter_efficiency"],
+    )
     require(sim.unmet_kwh <= 1e-6,
-            f"{key}: buffer too small, unmet {sim.unmet_kwh:.4f} kWh")
+            f"{key}: unmet {sim.unmet_kwh:.4f} kWh — source rating, buffer size or "
+            "controller lag; inspect the dispatch series")
+    # Cyclic sustainability: the source must be able to cover the DC load *and*
+    # replace the buffer's round-trip losses. A source rated at exactly average
+    # load serves one mission by draining the buffer, then fails on the next.
+    # Use the authoritative average, not the curtailed energy a particular
+    # controller happened to use.
+    avg_dc_kw = mission.energy_kwh / mission.duration_h / p["assumptions"]["converter_efficiency"]
+    loss_kw = sim.storage_loss_kwh / mission.duration_h
+    require(source_kw >= avg_dc_kw + loss_kw - 1e-6,
+            f"{key}: source {source_kw:.3f} kW cannot sustain DC load {avg_dc_kw:.3f} kW "
+            f"plus buffer loss {loss_kw:.3f} kW; this point relies on stored energy")
     waste = sim.fuel_kwh - sim.delivered_kwh
+    dt_h = p["assumptions"]["dt_s"] / 3600.0
+    throughput = float(np.sum(np.maximum(sim.series["battery_dc_kw"], 0.0))) * dt_h
+    usable = buffer_kwh * (p["battery"]["soc_max"] - p["battery"]["soc_min"])
+    cycles_per_year = p["assumptions"]["missions_per_year"] * throughput / usable
+    pack_replacements = _replacement_schedule(
+        cycles_per_year, p, buffer_kwh * p["battery"]["cost_usd_per_kwh"]
+    )
     return ArchResult(
         key=key,
         name=name,
@@ -372,16 +436,7 @@ def _hybrid(
         fuel_unit=fuel_unit,
         fuel_cost_usd=fuel_cost_usd,
         annual_om_usd=annual_om_usd,
-        replacements_usd={
-            **(replacements or {}),
-            **(
-                {int(round(0.20 / (0.20 * p["assumptions"]["missions_per_year"] / p["battery"]["cycle_life"] + 0.01) + 0.4999)):
-                 buffer_kwh * p["battery"]["cost_usd_per_kwh"]}
-                if 0.20 / (0.20 * p["assumptions"]["missions_per_year"] / p["battery"]["cycle_life"] + 0.01)
-                <= p["assumptions"]["lifetime_years"] - 1
-                else {}
-            ),
-        },
+        replacements_usd={**(replacements or {}), **pack_replacements},
         coolant_fraction=coolant_fraction,
         notes=notes + (f"dispatch: SOC {sim.soc_min:.2f}-{sim.soc_max:.2f}, unmet {sim.unmet_kwh:.2e} kWh",),
     )
@@ -389,9 +444,16 @@ def _hybrid(
 
 def fuel_cell_hybrid(mission: Mission, p: dict) -> ArchResult:
     f = p["fuel_cell"]
-    source_kw = mission.base_load_kw * f["source_sizing_factor"]
-    buffer_kwh = max(f["buffer_kwh"], mission.pulse_energy_kwh / 0.10)
-    h2_kg = mission.energy_kwh / (f["efficiency_lhv"] * conversion.LHV_H2_KWH_PER_KG)
+    conv = p["assumptions"]["converter_efficiency"]
+    avg_dc_kw = mission.energy_kwh / mission.duration_h / conv
+    source_kw = avg_dc_kw * f["source_sizing_factor"]
+    buffer_kwh = max(
+        f["buffer_kwh"],
+        mission.pulse_energy_kwh / conv / (p["battery"]["soc_max"] - p["battery"]["soc_min"]) * 1.2,
+    )
+    h2_kg = mission.energy_kwh / (
+        f["efficiency_lhv"] * p["assumptions"]["converter_efficiency"] * conversion.LHV_H2_KWH_PER_KG
+    )
     tank_mass = h2_kg / f["tank_gravimetric_fraction"]
     mass = (
         source_kw * f["mass_kg_per_kw"]
@@ -432,10 +494,21 @@ def fuel_cell_hybrid(mission: Mission, p: dict) -> ArchResult:
 
 def diesel_hybrid(mission: Mission, p: dict) -> ArchResult:
     d = p["diesel"]
-    source_kw = mission.base_load_kw * d["source_sizing_factor"]
-    buffer_kwh = max(d["buffer_kwh"], mission.pulse_energy_kwh / 0.10)
-    eta = d["efficiency_lhv"]
-    fuel_kwh = mission.energy_kwh / eta
+    conv = p["assumptions"]["converter_efficiency"]
+    avg_dc_kw = mission.energy_kwh / mission.duration_h / conv
+    source_kw = avg_dc_kw * d["source_sizing_factor"]
+    # Physical floor only: enough buffer to cover one pulse across the SOC window.
+    buffer_kwh = max(
+        d["buffer_kwh"],
+        mission.pulse_energy_kwh / conv / (p["battery"]["soc_max"] - p["battery"]["soc_min"]) * 1.2,
+    )
+    # One diesel model: part-load efficiency at the source's actual average
+    # fraction, same curve as B1. Converter loss is charged once, in dispatch.
+    load_fraction = avg_dc_kw / source_kw
+    eta = d["efficiency_lhv"] * (
+        d["part_load_floor"] + (1.0 - d["part_load_floor"]) * load_fraction
+    )
+    fuel_kwh = mission.energy_kwh / (eta * conv)
     litres = fuel_kwh / conversion.LHV_DIESEL_KWH_PER_L
     mass = (
         source_kw * d["mass_kg_per_kw"]
@@ -471,6 +544,42 @@ def diesel_hybrid(mission: Mission, p: dict) -> ArchResult:
     )
 
 
+def screen_architecture(r: ArchResult, mission: Mission, p: dict) -> ArchResult:
+    """Apply the common thermal, converter-mass, and validity screening.
+
+    Every candidate goes through this, so no architecture can hide its radiator
+    or its power electronics.
+    """
+    a = p["assumptions"]
+    positive("delivered_kwh", r.delivered_kwh, "kWh")
+    require(r.efficiency <= 1.0 + 1e-9, f"{r.key}: efficiency above 1 without a heat pump")
+    require(0 <= r.coolant_fraction <= 1, f"{r.key}: coolant_fraction outside [0,1]")
+    # The coolant-side fraction of waste heat needs a real surface area.
+    dt = r.coolant_c - a["ambient_c"]
+    if r.waste_heat_kw > 0 and dt <= 0:
+        raise ValueError(
+            f"{r.key}: coolant ({r.coolant_c} C) must exceed ambient ({a['ambient_c']} C)"
+        )
+    area = 0.0 if dt <= 0 else r.waste_heat_kw * 1000.0 * r.coolant_fraction / (a["h_convection_w_m2k"] * dt)
+    radiator_mass = area * a["radiator_kg_per_m2"]
+    # Every candidate needs power conversion; its mass is easy to forget and material
+    # at a 35 kg target, so it is charged to all architectures at peak throughput.
+    # B1 is a native-AC genset: its alternator is inside efficiency_lhv, so it does
+    # not carry a separate inverter.
+    converter_mass = 0.0 if r.key == "B1" else _m(
+        mission.peak_load_kw * a["power_electronics_kg_per_kw"], a["packaging_factor"]
+    )
+    # Apply the packaging factor to volume here, once, for every candidate. Some
+    # architectures used to pre-multiply it and others did not, which made the
+    # 60 L comparison apples-to-oranges.
+    return replace(
+        r,
+        radiator_area_m2=area,
+        mass_kg=r.mass_kg + radiator_mass + converter_mass,
+        volume_l=r.volume_l * a["packaging_factor"],
+    )
+
+
 def all_architectures(mission: Mission, p: dict) -> list[ArchResult]:
     results = [
         battery_only(mission, p),
@@ -482,19 +591,4 @@ def all_architectures(mission: Mission, p: dict) -> list[ArchResult]:
         fuel_cell_hybrid(mission, p),
         diesel_hybrid(mission, p),
     ]
-    a = p["assumptions"]
-    screened = []
-    for r in results:
-        positive("delivered_kwh", r.delivered_kwh, "kWh")
-        require(r.efficiency <= 1.0 + 1e-9, f"{r.key}: efficiency above 1 without a heat pump")
-        require(0 <= r.coolant_fraction <= 1, f"{r.key}: coolant_fraction outside [0,1]")
-        # Thermal screening is applied uniformly here so no architecture can hide its
-        # radiator: the coolant-side fraction of waste heat needs a real surface area.
-        dt = r.coolant_c - a["ambient_c"]
-        area = 0.0 if dt <= 0 else r.waste_heat_kw * 1000.0 * r.coolant_fraction / (a["h_convection_w_m2k"] * dt)
-        radiator_mass = area * a["radiator_kg_per_m2"]
-        # Every candidate needs power conversion; its mass is easy to forget and material
-        # at a 35 kg target, so it is charged to all architectures at peak throughput.
-        converter_mass = _m(mission.peak_load_kw * a["power_electronics_kg_per_kw"], a["packaging_factor"])
-        screened.append(replace(r, radiator_area_m2=area, mass_kg=r.mass_kg + radiator_mass + converter_mass))
-    return screened
+    return [screen_architecture(r, mission, p) for r in results]

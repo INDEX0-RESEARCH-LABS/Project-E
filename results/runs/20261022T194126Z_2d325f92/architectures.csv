@@ -1,0 +1,9 @@
+key,name,class,source,delivered_kwh,input_kwh,efficiency,mass_kg,volume_l,capex_usd,lcoe_usd_per_kwh,waste_heat_kw,radiator_area_m2,unmet_kwh,targets_met
+A1,LiFePO4 battery only,A storage,grid/electric charging before mission,10.0,11.6635,0.8574,85.61,33.2,2819.0,0.2715,0.135,0.18,0.0,4
+A2,LiFePO4 + supercapacitor pulse buffer,A storage,grid/electric charging before mission,10.0,11.6635,0.8574,94.39,45.3,3600.0,0.3047,0.135,0.18,0.0,4
+B1,"Diesel genset, no buffer (rated to peak)",B generation,diesel fuel,10.0,62.4268,0.1602,94.3,65.0,2400.0,0.7402,6.553,1.83,0.0,2
+B2,Thermoelectric generator on a burner,B generation,combustion heat -> TEG,10.0,130.4562,0.0767,193.95,107.5,12632.0,1.8503,15.057,8.6,0.0,1
+B3,TPV + high-temperature thermal store,B generation (stored heat),external heat >=1500 C charging the thermal store,10.0,30.9598,0.323,145.61,84.8,2142.0,0.2151,2.62,2.1,0.0,3
+B4,"PEM fuel cell, no buffer (rated to peak)",B generation,compressed hydrogen,10.0,18.1488,0.551,89.1,57.1,11804.0,0.666,1.019,0.41,0.0,2
+C1,PEM fuel cell + small battery buffer,C hybrid,compressed hydrogen,10.0,18.2623,0.5476,46.05,26.4,3575.0,0.3532,1.033,0.41,0.0,4
+C2,Diesel genset + small battery buffer,C hybrid,diesel fuel,10.0,34.1131,0.2931,38.65,18.6,1113.0,0.4059,3.014,0.84,0.0,3

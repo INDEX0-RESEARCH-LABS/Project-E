@@ -2,7 +2,7 @@
 
 **Scope:** attack the model, the mission, and the conclusions. Each item states
 severity, evidence, response, and status. Written against the baseline run
-`20261022T181859Z_9c00c799` and sensitivity report of the same commit.
+`20261022T194106Z_920ce114` and the cycle-3 sensitivity report.
 
 Severity: **H** could change the decision, **M** changes a number, **L** cosmetic.
 
@@ -14,7 +14,7 @@ Severity: **H** could change the decision, **M** changes a number, **L** cosmeti
 customer. Every conclusion is conditional on it.
 
 *Response:* locked in `docs/PROJECT_E_REQUIREMENTS.md` with change control. A
-different mission requires a full rerun. At 50 kg, C2 (47.5 kg) would pass mass
+different mission requires a full rerun. At 60 kg, C2 (50.3 kg) would pass mass
 and only LCOE would block it — the decision is sensitive to a target nobody has
 validated.
 
@@ -24,8 +24,8 @@ validated.
 
 ## 2. Prices are E0 and they decide the winner
 
-**H.** The Monte Carlo P10–P90 spread (e.g. C2 $0.53–$0.90/kWh) is wider than the
-difference between candidates. "B3 is cheapest in 82% of draws" is a statement
+**H.** The Monte Carlo P10–P90 spread (e.g. C2 $0.590–$1.008/kWh) is wider than the
+difference between candidates. "B3 is cheapest in 83% of draws" is a statement
 about assumed ranges, not about the world.
 
 *Response:* every price carries a range and evidence level; the report says the
@@ -43,7 +43,7 @@ charging. An 8 h hold at 1500 °C with real insulation loses a significant
 fraction. Ignoring it flatters B3's mass by roughly the loss fraction.
 
 *Response:* not yet fixed. B3 is rejected on mass and volume regardless, so the
-decision does not change — but the $0.288/kWh figure is optimistic.
+decision does not change — but the $0.301/kWh figure is optimistic.
 
 *Status:* open, low priority while B3 is out of scope for portable use.
 
@@ -94,11 +94,15 @@ therefore conservative **against** the non-diesel options.
 converter losses (≈5%) are absent. This understates fuel by a few percent and
 slightly understates heat rejection.
 
-*Response:* converter **mass** was added after review; efficiency was not. The
-effect is smaller than the price uncertainty but should be fixed before any
-efficiency claim.
+*Response:* fixed. Dispatch now carries the AC load as `load / 0.95` on the DC
+bus, charges the loss to the energy account, and sizes the hybrid source from
+average **DC** power. The cycle-3 audit then found C2 was still multiplying its
+genset efficiency by the converter *and* letting dispatch divide by it again;
+that double charge is removed, and the diesel part-load model is now shared with
+B1. B1 is exempt because its alternator is inside the native genset efficiency.
+Fuel and heat rise, as expected; the ranking does not change.
 
-*Status:* open, quick fix.
+*Status:* closed. The effect is smaller than the price uncertainty.
 
 ---
 
@@ -134,10 +138,15 @@ separately from fuel.
 not a theorem. Sizing was fixed, not optimised: C2's 1.3 kW source and 0.5 kWh
 buffer were chosen by rule, not by search.
 
-*Response:* wording is scoped in every document. An optimisation pass could find
-a better C2 point, but cannot close a $0.20/kWh fuel gap.
+*Response:* cycle 3 ran the search: 42 points per hybrid over source factor
+0.9–1.5 and buffer 0.3–1.0 kWh, with a sustainability test that rejects a source
+rated at exactly average load. The lightest feasible C2 is 50.3 kg at 1.1× and
+0.3 kWh, $0.669/kWh — 15.3 kg above target and still 3/5. The gap is the
+converter and pulse-rated pack, so optimisation saved 7.3 kg against the old
+1.3×/0.5 rule but does not rescue the requirement.
 
-*Status:* accepted. Optimisation is a next-cycle task, not a rescue.
+*Status:* closed for this requirement set. The result is a stronger negative
+finding, not a rescue.
 
 ---
 
@@ -166,7 +175,7 @@ correlate and are not uniform.
 
 ## 13. Tests verify code, not physics
 
-**M.** 37 tests check formulas and invariants against hand calculations. A bug
+**M.** 57 tests check formulas and invariants against hand calculations. A bug
 that is consistently wrong in both code and test would pass.
 
 *Response:* the validation register keeps the ceiling at E3 and lists what is
@@ -207,13 +216,29 @@ case and a single dominant axis are chosen.
 
 ---
 
+## 16. Published numbers drifted from the code
+
+**H.** The cycle-3 audit found documents quoting a prior run (A1 87.4% vs 83.0%;
+C2 47.5 kg / $0.596 vs the then-current 55.1 / $0.633) and a validation-register
+note that still said converter efficiency was excluded. Numbers no current code
+path reproduces are the most dangerous artefact in the repository.
+
+*Response:* every report now stamps the run it came from; the comparison, cost
+model, status and plan were regenerated from run `20261022T194106Z_920ce114`;
+register item 18 and the environment-audit evidence ceiling were corrected.
+
+*Status:* closed for this cycle. The rule is regenerate from a pinned run, not
+hand-edit a table.
+
+---
+
 ## Summary
 
 | Severity | Count | Decision-changing? |
 |---|---:|---|
-| H | 5 | Only #1 and #15; the rest are scope boundaries |
-| M | 9 | No — they move numbers, not the ranking |
-| L | 1 | No |
+| H | 7 | Only #1 and #15; the rest are scope boundaries or trust defects now closed |
+| M | 8 | No — they move numbers, not the ranking |
+| L | 0 | — |
 
 The ranking (battery efficiency, diesel mass/capex, TPV $/kWh, fuel cell last on
 cost) survives every attack listed. The **absolute** numbers do not deserve

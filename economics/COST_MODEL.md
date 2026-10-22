@@ -58,17 +58,17 @@ Capacitor and TEG costs are the weakest numbers in the model (E0).
 
 | Input | Baseline | Range | Evidence | Effect on LCOE |
 |---|---:|---|---|---|
-| Missions per year | 250 | 100–350 | E0 | up to $2.68/kWh across all candidates |
-| Diesel price | $1.40/L | 1.00–2.20 | E0 | up to $1.24/kWh (C2/B1) |
-| Battery price | $300/kWh | 180–450 | E0 | up to $0.19/kWh (A1) |
-| Hydrogen price | $6.00/kg | 3–12 | E0 | up to $0.36/kWh (C1) |
-| Fuel-cell stack | $3,500/kW | 1,800–6,000 | E0 | up to $0.89/kWh (C1/B4) |
-| Heat price | $0.04/kWh | 0–0.12 | E0 | up to $0.29/kWh (B3) |
-| Discount rate | 8% | 4–12% | E0 | up to $0.34/kWh |
-| Lifetime | 10 a | 5–15 a | E0 | up to $1.22/kWh |
+| Missions per year | 250 | 100–350 | E0 | up to $2.824/kWh across all candidates |
+| Diesel price | $1.40/L | 1.00–2.20 | E0 | up to $1.306/kWh (C2/B1) |
+| Battery price | $300/kWh | 180–450 | E0 | up to $0.191/kWh (A1) |
+| Hydrogen price | $6.00/kg | 3–12 | E0 | up to $0.379/kWh (C1) |
+| Fuel-cell stack | $3,500/kW | 1,800–6,000 | E0 | up to $0.941/kWh (C1/B4) |
+| Heat price | $0.04/kWh | 0–0.12 | E0 | up to $0.310/kWh (B3) |
+| Discount rate | 8% | 4–12% | E0 | up to $0.353/kWh |
+| Lifetime | 10 a | 5–15 a | E0 | up to $1.281/kWh |
 
 The first row is not a component at all: **utilisation dominates**. A unit that
-runs 100 missions/year costs roughly 1.5–2× more per kWh than one that runs 500.
+runs 100 missions/year costs roughly 1.2–2.2× more per kWh than one that runs 500.
 That is a deployment question, and it cannot be answered by better hardware.
 
 ---
@@ -77,10 +77,10 @@ That is a deployment question, and it cannot be answered by better hardware.
 
 | Option | Mass kg | Capex USD | LCOE $/kWh | Meets mission? | Notes |
 |---|---:|---:|---:|---|---|
-| A1 battery only | 113.2 | 4,647 | 0.583 | energy yes, mass no | needs 825 Wh/kg for 35 kg |
-| B1 diesel genset, 6 kW | 129.8 | 2,400 | 1.199 | energy yes, mass no | one mission of fuel; 13.6% avg efficiency |
-| C2 diesel + battery | 47.5 | 1,150 | 0.596 | energy yes, mass 12.5 kg over | closest to mission |
-| C1 fuel cell + battery | 55.0 | 6,080 | 0.801 | energy yes, mass 20 kg over | H2 supply dependency |
+| A1 battery only | 118.4 | 4,866 | 0.602 | energy yes, mass no | needs ~870 Wh/kg for 35 kg |
+| B1 diesel genset, 6 kW | 118.5 | 2,400 | 1.199 | energy yes, mass no | one mission of fuel; 13.6% avg efficiency |
+| C2 diesel + battery | 50.3 | 1,149 | 0.668 | energy yes, mass 15.3 kg over | closest to mission |
+| C1 fuel cell + battery | 56.5 | 6,583 | 0.871 | energy yes, mass 21.5 kg over | H2 supply dependency |
 | Grid extension | not modelled | — | $0.15/kWh (assumed tariff) | site-dependent | not portable; excluded |
 
 The honest incumbent for a portable 1 kW / 6 kW mission is **C2 or B1**, not a
@@ -99,26 +99,26 @@ Solved by bisection on the full model, all else at baseline:
 
 | Question | Threshold | Baseline | Interpretation |
 |---|---:|---:|---|
-| Battery price for A1 ≤ $0.40/kWh | $157/kWh | $300/kWh | pack must be 48% cheaper |
-| Diesel price for C2 ≤ $0.40/kWh | $0.85/L | $1.40/L | fuel must be 39% cheaper |
-| Hydrogen price for C1 ≤ $0.40/kWh | not reachable | $6.00/kg | floor is $0.441/kWh even at $0/kg |
-| Heat price for B3 ≤ $0.40/kWh | $0.070/kWh | $0.04/kWh | already met |
-| Missions/year for A1 ≤ $0.40/kWh | 500/yr | 250/yr | doubles utilisation |
+| Battery price for A1 ≤ $0.40/kWh | $145.9/kWh | $300/kWh | pack must be 51% cheaper |
+| Diesel price for C2 ≤ $0.40/kWh | $0.732/L | $1.40/L | fuel must be 48% cheaper |
+| Hydrogen price for C1 ≤ $0.40/kWh | not reachable | $6.00/kg | floor is $0.492/kWh even at $0/kg |
+| Heat price for B3 ≤ $0.40/kWh | $0.0656/kWh | $0.04/kWh | already met |
+| Missions/year for A1 ≤ $0.40/kWh | ~520/yr | 250/yr | $0.408 at 500/yr |
 | Missions/year for B3 ≤ $0.40/kWh | 150/yr | 250/yr | TPV is already below target per kWh |
-| Battery specific energy for 35 kg | ~825 Wh/kg | 175 Wh/kg | 4.7× beyond current Li-ion packs |
+| Battery specific energy for 35 kg | ~870 Wh/kg | 175 Wh/kg | 5.0× beyond current Li-ion packs |
 
 ### Utilisation sensitivity
 
 | Missions/year | A1 | B3 | C2 | C1 |
 |---:|---:|---:|---:|---:|
-| 100 | 0.864 | 0.500 | 0.694 | 1.451 |
-| 250 | 0.583 | 0.288 | 0.596 | 0.801 |
-| 500 | 0.395 | 0.218 | 0.560 | 0.544 |
+| 100 | 0.906 | 0.520 | 0.771 | 1.583 |
+| 250 | 0.602 | 0.301 | 0.669 | 0.871 |
+| 500 | 0.408 | 0.228 | 0.635 | 0.593 |
 
 C2 improves only slowly with utilisation because fuel, not capex, dominates.
-A1 crosses the target only at ~500 missions/year. That is 10 missions/week for
-10 years — a utilisation assumption that must be justified by a real duty cycle,
-not assumed.
+A1 reaches $0.408/kWh at 500 missions/year — still above target; the crossing is
+~520 missions/year. That is 10 missions/week for 10 years, a utilisation
+assumption that must be justified by a real duty cycle, not assumed.
 
 ---
 
@@ -130,11 +130,15 @@ not assumed.
    constraint, not priced.
 3. **No hydrogen supply chain.** Production, compression, and boil-off are
    outside the boundary.
-4. **No volume or mass penalty in cost.** A 244 kg TPV unit can still show a low
+4. **No volume or mass penalty in cost.** A 257 kg TPV unit can still show a low
    $/kWh; the mass target is applied separately.
-5. **No learning curve or volume pricing.** All prices are single-unit estimates.
-6. **No financing, tax, warranty, or end-of-life.**
-7. **Uniform independent distributions** in the Monte Carlo; real prices
+5. **Radiator and some balance-of-plant hardware are not costed.** Radiator mass
+   is included, but its capex is not; B2/B3/B4 do not carry a separate inverter
+   line, and C2 has no fuel-tank capex. Each omission is under $1,000 here, but
+   they are asymmetries, not zeros.
+6. **No learning curve or volume pricing.** All prices are single-unit estimates.
+7. **No financing, tax, warranty, or end-of-life.**
+8. **Uniform independent distributions** in the Monte Carlo; real prices
    correlate and are not uniform.
 
 These omissions are stated so that no reader treats the LCOE column as a
@@ -146,9 +150,8 @@ purchasable price.
 
 - The battery is the cheapest per kWh only if utilisation is high and the mass
   target is abandoned.
-- The diesel hybrid is the cheapest to buy and the lightest, but its fuel sets a
-  hard floor near $0.50/kWh — above the $0.40 target at any plausible diesel
-  price in this range.
+- The diesel hybrid is the cheapest to buy and the lightest, but fuel alone contributes ≈$0.56/kWh — above the $0.40 target at any plausible
+  diesel price in this range.
 - The fuel-cell hybrid cannot reach the target even with free hydrogen, because
   stack capex and replacement dominate.
 - TPV is the only candidate that meets the LCOE target at baseline, and it does

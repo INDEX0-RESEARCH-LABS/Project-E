@@ -11,8 +11,11 @@ import pytest
 from project_e.config import load_config
 from project_e.economics import CostStreams
 from project_e.models.storage import BatteryPack
+from project_e.config import resolve
+from project_e.simulation.architectures import battery_only, screen_architecture
 from project_e.simulation.dispatch import Mission, simulate_hybrid
 from project_e.simulation.runner import evaluate
+from project_e.simulation.studies import pareto
 
 
 def _mission() -> Mission:
@@ -98,6 +101,28 @@ def test_dispatch_rejects_invalid_source_efficiency(efficiency: float):
         simulate_hybrid(_mission(), 1.3, efficiency, _pack())
 
 
+def test_converter_loss_increases_fuel_and_is_in_the_energy_account():
+    # A larger source keeps the mission served in both cases, so the only
+    # difference is the AC-boundary loss.
+    ideal = simulate_hybrid(_mission(), 1.8, 0.28, _pack(), dt_s=2.0, converter_efficiency=1.0)
+    real = simulate_hybrid(_mission(), 1.8, 0.28, _pack(), dt_s=2.0, converter_efficiency=0.90)
+    assert ideal.unmet_kwh <= 1e-6 and real.unmet_kwh <= 1e-6
+    assert real.fuel_kwh > ideal.fuel_kwh * 1.05
+    assert real.account.e_loss_kwh > ideal.account.e_loss_kwh
+    assert real.delivered_kwh == pytest.approx(ideal.delivered_kwh, rel=1e-6)
+
+
+def test_pareto_drops_dominated_sizing_points():
+    rows = [
+        {"feasible": True, "mass_kg": 50.0, "lcoe": 0.70},
+        {"feasible": True, "mass_kg": 60.0, "lcoe": 0.60},
+        {"feasible": True, "mass_kg": 70.0, "lcoe": 0.65},  # dominated by the 60 kg point
+        {"feasible": False, "mass_kg": 10.0, "lcoe": 0.10},
+    ]
+    front = pareto(rows)
+    assert [r["mass_kg"] for r in front] == [50.0, 60.0]
+
+
 # --- architecture invariants -------------------------------------------------
 
 
@@ -137,3 +162,33 @@ def test_no_candidate_claims_over_unity_or_unmet_load(baseline):
 def test_no_candidate_meets_the_mass_target(baseline):
     results, _ = baseline
     assert all(r.mass_kg > 35.0 for r in results.values())
+
+
+def test_invalid_converter_efficiency_is_rejected_at_config_boundary():
+    raw = load_config("configs/baseline.yaml")
+    raw["assumptions"]["converter_efficiency"]["value"] = 0.0
+    with pytest.raises(ValueError, match="converter_efficiency"):
+        resolve(raw)
+
+
+def test_tpv_efficiency_above_carnot_is_rejected():
+    from project_e.models.conversion import tpv_efficiency
+
+    with pytest.raises(ValueError, match="Carnot"):
+        tpv_efficiency(1773.15, 333.15, 0.95)
+
+
+def test_bisection_refuses_non_monotone_lcoe():
+    from project_e.simulation.studies import max_value_at
+
+    with pytest.raises(ValueError, match="mass_kg"):
+        max_value_at("A1", load_config("configs/baseline.yaml"), "lcoe", 0.65)
+
+
+def test_mission_mass_grows_with_duration_at_fixed_peak():
+    cfg = resolve(load_config("configs/baseline.yaml"))
+    short = Mission(2.0, 1.0, 6.0, 30.0, 600.0)
+    long = Mission(8.0, 1.0, 6.0, 30.0, 600.0)
+    a = screen_architecture(battery_only(short, cfg), short, cfg)
+    b = screen_architecture(battery_only(long, cfg), long, cfg)
+    assert b.mass_kg > a.mass_kg

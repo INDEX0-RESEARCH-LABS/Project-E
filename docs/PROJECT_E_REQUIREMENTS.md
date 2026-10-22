@@ -100,7 +100,7 @@ satisfied. They are candidates for the experiment plan, not for the model.
 |---|---|---:|---|---|
 | A-1 | Missions per year | 250 | E0 | LCOE is highly sensitive; 500/yr is needed for battery parity |
 | A-2 | Diesel delivered price | $1.40/L | E0 | Break-even for $0.40/kWh is $0.85/L |
-| A-3 | Pack-level battery specific energy | 175 Wh/kg | E2 | 825 Wh/kg is needed for the 35 kg target |
+| A-3 | Pack-level battery specific energy | 175 Wh/kg | E2 | ~870 Wh/kg would be needed for 35 kg; the 6 kW pulse also sets a ~40 kg floor |
 | A-4 | Hydrogen delivered price | $6.00/kg | E0 | Free H2 still leaves the fuel-cell hybrid at $0.44/kWh |
 | A-5 | Process heat price | $0.04/kWh | E0 | TPV stays under $0.40/kWh up to $0.070/kWh |
 | A-6 | Discount rate | 8% real | E0 | ±4 points moves LCOE by ~$0.34/kWh |

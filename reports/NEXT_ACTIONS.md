@@ -12,10 +12,10 @@ Ordered by decision value per unit of effort. Nothing here is funded.
 
 | ID | Action | Why | Effort | Gate |
 |---|---|---|---|---|
-| A1 | Define the real use case and duty cycle (missions/year, indoor/outdoor, payload) | Utilisation is the single most influential parameter ($2.68/kWh); the mission was invented | 1 h with the user | no purchase until answered |
-| A2 | Decide whether the 35 kg target is dry or wet (fuel, cables, spares) | C2 is 47.5 kg dry; the answer changes whether it is 12 kg or 20 kg over | 30 min | requirements v1.1 |
-| A3 | Get three real quotations: 0.5 kWh LFP + 6 kW converter, 2 kW genset, 48 V BMS | All capex is E0; quotations replace the weakest inputs | 1 week lead time, no cost | update configs, rerun |
-| A4 | Fix converter efficiency in dispatch (±5%) | Known model gap; affects efficiency and heat rejection | 1 h code + rerun | tests pass |
+| A1 | Define the real use case and duty cycle (missions/year, indoor/outdoor, payload) | Utilisation is the single most influential parameter ($2.824/kWh); the mission was invented | 1 h with the user | no purchase until answered |
+| A2 | Decide whether the 35 kg target is dry or wet (fuel, cables, spares) | C2 is 50.3 kg dry, 15.3 kg over; the answer changes the gap | 30 min | requirements v1.1 |
+| A3 | Negotiate the peak/mass requirement or approve modular packs | A1 cannot reach 35 kg at any duration; C2's floor is 44.8 kg | 1 h with the user | G1b |
+| A4 | Get three real quotations: 0.3 kWh LFP + 6 kW converter, 2 kW genset, 48 V BMS | All capex is E0; quotations replace the weakest inputs | 1 week lead time, no cost | update configs, rerun |
 | A5 | Commit and push the current cycle | Reproducibility | 15 min | CI green |
 
 ## B. Next — one decisive bench test
@@ -32,7 +32,7 @@ Ordered by decision value per unit of effort. Nothing here is funded.
 |---|---|---|
 | C1 | Build a costed BOM from quotations for C2 and A1 | Replace every E0 price |
 | C2 | Test a second mission (e.g. 4 h, 2 kW) to see if the ranking holds | The current result is one mission |
-| C3 | Optimise C2 sizing (source 1.0–2.0 kW, buffer 0.3–1.0 kWh) | Fixed sizing may be 10–20% off |
+| C3 | Extend the sizing search to real component part-load maps | The current search assumes constant part-load efficiency; measured maps may move the optimum |
 | C4 | Decide on emissions/noise enclosure cost | Currently excluded and biased toward diesel |
 
 ## D. Do not do
@@ -50,6 +50,7 @@ Ordered by decision value per unit of effort. Nothing here is funded.
 | Gate | Question | If no |
 |---|---|---|
 | G1 | Is there a real use case with a dominant axis? | Stop at the comparison; publish the negative result |
+| G1b | Is there a requirement set that is physically feasible (mass/peak)? | Re-negotiate or modularise before any design work |
 | G2 | Do quotations keep C2 or A1 within 20% of the model? | Re-rank with real prices |
 | G3 | Does the bench test pass H1 and H3? | Drop C2/C1; fall back to A1 with a relaxed mass target |
 | G4 | Can the unit meet 4 of 5 targets with measured inputs? | Do not build a prototype |

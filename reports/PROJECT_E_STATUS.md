@@ -1,8 +1,9 @@
 # Project E — Status
 
-**Cycle:** 2026-10-22 → 2026-10-23 (cycle 1, complete)
-**Overall state:** comparison and decision complete; no hardware; no candidate
-meets all targets.
+**Cycle:** 2026-10-22 → 2026-10-23 (cycle 3, complete)
+**Overall state:** comparison, sizing, requirement-feasibility, and an
+independent model audit are complete; no hardware; no candidate meets all
+targets.
 **Plan:** [`docs/PLAN.md`](../docs/PLAN.md)
 **Next actions:** [`reports/NEXT_ACTIONS.md`](NEXT_ACTIONS.md)
 
@@ -11,11 +12,13 @@ meets all targets.
 | Item | State |
 |---|---|
 | Repository | `INDEX0-RESEARCH-LABS/Project-E`, branch `main` |
-| Tests | 51 passing (`tests/test_core.py`, `tests/test_systems.py`) |
-| Baseline run | `results/runs/20261022T181859Z_9c00c799` |
-| Conservative run | `results/runs/20261022T181904Z_2300c6ab` |
-| Optimistic run | `results/runs/20261022T181913Z_df1cb11b` |
+| Tests | 57 passing (`tests/test_core.py`, `tests/test_systems.py`) |
+| Baseline run | `results/runs/20261022T194106Z_920ce114` |
+| Conservative run | `results/runs/20261022T194115Z_fb0edc0a` |
+| Optimistic run | `results/runs/20261022T194126Z_2d325f92` |
 | Sensitivity | 2,000 draws, `reports/SENSITIVITY_ANALYSIS.md` |
+| Sizing study | 84 grid points, `reports/SIZING_STUDY.md` |
+| Mission scaling | `reports/MISSION_SCALING.md` |
 | Literature | 12 DOI-verified records; abstracts only |
 | Physical prototype | none; no measurement claimed |
 
@@ -26,22 +29,22 @@ $5,000, $0.40/kWh.
 
 | Key | Architecture | Mass kg | Volume L | Capex USD | LCOE $/kWh | Targets |
 |---|---|---:|---:|---:|---:|---:|
-| A1 | Battery only | 113.2 | 49.6 | 4,647 | 0.583 | 3/5 |
-| A2 | Battery + supercap | 121.5 | 59.6 | 5,407 | 0.628 | 2/5 |
-| B1 | Diesel, no buffer | 129.8 | 58.0 | 2,400 | 1.199 | 3/5 |
-| B2 | TEG burner | 285.5 | 92.9 | 30,000 | 3.960 | 1/5 |
-| B3 | TPV + thermal store | 244.1 | 136.8 | 2,371 | 0.288 | 3/5 |
-| B4 | Fuel cell, no buffer | 98.4 | 51.0 | 21,900 | 1.665 | 2/5 |
-| C1 | Fuel cell + battery | 55.0 | 24.2 | 6,080 | 0.801 | 2/5 |
-| C2 | Diesel + battery | 47.5 | 15.3 | 1,150 | 0.596 | 3/5 |
+| A1 | Battery only | 118.4 | 52.2 | 4,866 | 0.602 | 3/5 |
+| A2 | Battery + supercap | 127.2 | 65.4 | 5,647 | 0.648 | 1/5 |
+| B1 | Diesel, no buffer | 118.5 | 72.5 | 2,400 | 1.199 | 2/5 |
+| B2 | TEG burner | 300.3 | 122.3 | 31,579 | 4.169 | 1/5 |
+| B3 | TPV + thermal store | 256.9 | 144.0 | 2,453 | 0.301 | 3/5 |
+| B4 | Fuel cell, no buffer | 102.9 | 64.7 | 23,053 | 1.753 | 1/5 |
+| C1 | Fuel cell + battery | 56.5 | 31.7 | 6,583 | 0.871 | 2/5 |
+| C2 | Diesel + battery | 50.3 | 21.3 | 1,149 | 0.668 | 3/5 |
 
 ## Scenario robustness
 
 | Scenario | Best targets | Lightest | Cheapest per kWh |
 |---|---:|---|---|
-| Conservative | 3/5 (C2) | 81.7 kg (C1) | $0.488 (B3, 694 kg) |
-| Baseline | 3/5 (A1, B1, B3, C2) | 47.5 kg (C2) | $0.288 (B3, 244 kg) |
-| Optimistic | 4/5 (A1, A2, C1, C2) | 36.9 kg (C2) | $0.206 (B3, 139 kg) |
+| Conservative | 3/5 (C2) | 84.7 kg (C1) | $0.510 (B3, 732 kg) |
+| Baseline | 3/5 (A1, B3, C2) | 50.3 kg (C2) | $0.301 (B3, 257 kg) |
+| Optimistic | 4/5 (A1, A2, C1) | 38.6 kg (C2) | $0.215 (B3, 146 kg) |
 
 No candidate reaches 5/5 in any scenario.
 
@@ -49,10 +52,10 @@ No candidate reaches 5/5 in any scenario.
 
 | Key | P10 | P50 | P90 | P(cheapest) | P(≤$0.40) |
 |---|---:|---:|---:|---:|---:|
-| A1 | 0.467 | 0.677 | 1.079 | 9% | 3% |
-| B3 | 0.227 | 0.447 | 0.682 | 82% | 41% |
-| C2 | 0.527 | 0.714 | 0.897 | 9% | 0% |
-| C1 | 0.703 | 1.072 | 1.643 | 0% | 0% |
+| A1 | 0.472 | 0.688 | 1.080 | 12% | 3% |
+| B3 | 0.236 | 0.468 | 0.714 | 83% | 38% |
+| C2 | 0.590 | 0.801 | 1.008 | 5% | 0% |
+| C1 | 0.764 | 1.165 | 1.798 | 0% | 0% |
 
 The spread is wider than the difference between candidates. This is a bounded
 what-if, not a forecast.
@@ -61,11 +64,24 @@ what-if, not a forecast.
 
 | To meet $0.40/kWh | Need | Assumed |
 |---|---:|---:|
-| A1 battery | ≤ $157/kWh | $300/kWh |
-| C2 diesel | ≤ $0.85/L | $1.40/L |
-| C1 fuel cell | unreachable (floor $0.441 with free H2) | $6/kg |
-| A1 utilisation | ≥ 500 missions/yr | 250/yr |
-| A1 mass 35 kg | ~825 Wh/kg pack | 175 Wh/kg |
+| A1 battery | ≤ $145.9/kWh | $300/kWh |
+| C2 diesel | ≤ $0.732/L | $1.40/L |
+| C1 fuel cell | unreachable (floor $0.492 with free H2) | $6/kg |
+| A1 utilisation | ~520 missions/yr ($0.408 at 500) | 250/yr |
+| A1 mass 35 kg | ~870 Wh/kg pack | 175 Wh/kg |
+
+## The requirement set is the binding constraint
+
+| Architecture | Mass at 0.5 h | Mass at 8 h | Binding term |
+|---|---:|---:|---|
+| A1 battery | 40.3 kg | 118.4 kg | 6 kW pulse pack + converter |
+| C2 diesel hybrid | 44.8 kg | 50.3 kg | converter + genset + buffer + radiator |
+| B1 genset | 111.3 kg | 118.5 kg | 6 kW genset |
+
+A1 cannot reach 35 kg at **any** duration: 6 kW ÷ 300 W/kg = 21.1 kg of cells
+before packaging, plus an 11.25 kg converter. C2's floor is 44.8 kg; even at a
+2 kW peak it is 36.8 kg. Re-sizing the hybrid finds 50.3 kg at 1.1× source and
+0.3 kWh buffer — still 15.3 kg over.
 
 ## Evidence level
 
@@ -81,14 +97,28 @@ Retain the portable-hybrid branch as a **cost and integration** problem.
 Do not buy hardware until:
 
 1. a real use case fixes the duty cycle (G1), and
-2. quotations replace the E0 prices (G2), and
-3. the bench test passes (`experiments/EXPERIMENT_PLAN.md`, G3).
+2. the peak/mass requirement is renegotiated or a modular pack is approved
+   (G1b), and
+3. quotations replace the E0 prices (G2), and
+4. the bench test passes (`experiments/EXPERIMENT_PLAN.md`, G3).
 
-## What changed in this cycle
+## What changed in cycle 3
 
-- Added converter mass (1.5 kg/kW) uniformly — this removed the false optimistic
-  pass and raised every mass by ~9–11 kg.
-- Added supercapacitor volume, which made A2's volume 59.6 L (still just inside
-  the limit) instead of 49.6 L.
-- Regenerated all runs, sensitivity, and figures on the corrected model.
-- Added 14 system regression tests.
+An independent audit found real defects. The ones that changed published
+numbers were fixed and everything was rerun:
+
+- C2 charged the converter twice; it now pays it once, in dispatch.
+- B1 and C2 used different diesel part-load models; both now use the same curve,
+  evaluated at their own load fraction. C2 efficiency fell from 28% to 24.7%.
+- Battery capacity was sized on AC energy; it now includes the 95% output stage,
+  +0.7 kWh and ~4 kg.
+- Hybrid sizing now rejects a source rated at exactly average load, which cannot
+  replace buffer losses over repeated missions. The baseline moved from 1.3×/0.5
+  to the lightest sustainable point, 1.1×/0.3.
+- Buffer replacement follows cycle throughput (≈3 cycles per mission), not one
+  replacement per mission.
+- TPV efficiency now passes a Carnot guard; config values are range-validated at
+  the boundary; packaged volume is applied uniformly to every candidate, which
+  drops B1 and B4 to 2/5 and 1/5.
+- The sensitivity figure now plots signed deltas, not absolute values.
+- Docs are stamped with the run they came from.

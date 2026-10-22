@@ -86,21 +86,27 @@ def simulate_hybrid(
     battery: BatteryPack,
     dt_s: float = 1.0,
     soc_target: float = 0.60,
-    control_time_constant_h: float = 0.5,
+    control_time_constant_h: float = 0.2,
+    converter_efficiency: float = 1.0,
 ) -> DispatchResult:
     """Run a source + battery hybrid against the mission load.
 
     Controller: the source supplies the instantaneous load plus a proportional
     correction that drives SOC toward soc_target. The battery absorbs pulses.
     Source output is clipped to [0, rated]; unmet load is reported, never hidden.
+
+    ``converter_efficiency`` is applied at the AC boundary: the DC bus must
+    supply load / efficiency, and converter loss is charged to the energy account.
     """
     positive("source_rated_kw", source_rated_kw, "kW")
     require(0 < source_efficiency <= 1, "source_efficiency must be in (0, 1]")
     require(0 < soc_target < 1, "soc_target must be in (0, 1)")
     positive("dt_s", dt_s, "s")
+    require(0 < converter_efficiency <= 1, "converter_efficiency must be in (0, 1]")
 
     t, load_series = mission.series(dt_s)
-    load = load_series[:-1]  # one value per time step; last node closes the interval
+    load_ac = load_series[:-1]  # one value per time step; last node closes the interval
+    load = load_ac / converter_efficiency  # DC-bus demand behind the converter
     n = load.size
     p_source = np.zeros(n)
     p_batt = np.zeros(n)  # >0 discharge to load, <0 charge from source
@@ -109,6 +115,7 @@ def simulate_hybrid(
     curtailed = np.zeros(n)
     gen = 0.0
     stor_loss = 0.0
+    conv_loss = 0.0
     deliv = 0.0
 
     gain_kw = battery.capacity_kwh / control_time_constant_h
@@ -129,8 +136,9 @@ def simulate_hybrid(
             stor_loss += r.loss_kwh
             p_batt[k] = r.energy_terminal_kwh * 3600.0 / dt_s
             served = min(load[k], p_src + p_batt[k])
-            unmet[k] = max(load[k] - served, 0.0)
-        deliv += served * dt_s / 3600.0
+            unmet[k] = max(load_ac[k] - served * converter_efficiency, 0.0)
+        deliv += served * converter_efficiency * dt_s / 3600.0
+        conv_loss += served * (1.0 - converter_efficiency) * dt_s / 3600.0
         gen += p_src * dt_s / 3600.0
         soc[k] = battery.soc
 
@@ -140,7 +148,7 @@ def simulate_hybrid(
     account = EnergyAccount(
         e_in_kwh=fuel_in,
         e_useful_kwh=deliv,
-        e_loss_kwh=rejected_heat + stor_loss + float(np.sum(curtailed)),
+        e_loss_kwh=rejected_heat + stor_loss + float(np.sum(curtailed)) + conv_loss,
         e_stored_delta_kwh=e_stored_delta,
         e_aux_kwh=0.0,
         tolerance_kwh=1e-6,
@@ -160,11 +168,11 @@ def simulate_hybrid(
         account=account,
         series={
             "t_s": t[:-1],
-            "load_kw": load,
-            "source_kw": p_source,
-            "battery_kw": p_batt,
+            "load_dc_kw": load,
+            "source_dc_kw": p_source,
+            "battery_dc_kw": p_batt,
             "soc": soc,
-            "unmet_kw": unmet,
+            "unmet_ac_kw": unmet,
         },
     )
 

@@ -13,8 +13,8 @@ charged by a source sized near average load, actually delivers 6 kW pulses for
 
 | ID | Hypothesis | Falsified if |
 |---|---|---|
-| H1 | A 1.3 kW source + 0.5 kWh LFP buffer serves the 8 h mission with unmet energy ≤ 0.1% | unmet > 1% of 10 kWh, or the run aborts |
-| H2 | Measured source-to-load efficiency is within ±15% relative of the modelled 27.9% (C2) | measured efficiency < 70% of model |
+| H1 | A 1.45 kW DC source (1.1× average) + 0.3 kWh LFP buffer serves the 8 h mission with unmet energy ≤ 0.1% | unmet > 1% of 10 kWh, or the run aborts |
+| H2 | Measured source-to-load efficiency is within ±15% relative of the modelled 24.7% (C2) | measured efficiency < 70% of model |
 | H3 | At 40 °C ambient, buffer and converter stay below datasheet limits with the modelled radiator | any limit exceeded, or thermal shutdown |
 | H4 | The dispatch rule holds SOC within 5–95% across three repeats | SOC leaves the window |
 
@@ -41,7 +41,7 @@ Two stages, so a control failure is not confused with a source failure.
 
 | Item | Specification | Purpose | Cost estimate (E0) |
 |---|---|---|---:|
-| LFP pack | 48 V, 0.5 kWh usable, BMS with CAN | buffer under test | $350–700 |
+| LFP pack | 48 V, 0.3 kWh usable, BMS with CAN | buffer under test | $300–600 |
 | Bidirectional inverter/charger | 6 kW peak, 48 V, ≥94% | pulse delivery and recharge | $500–1,200 |
 | DC source (stage 1) | 0–60 V, 0–2 kW, programmable | emulates the genset without fuel | $300–900 (or lab supply) |
 | Diesel genset (stage 2) | 2 kW electric, inverter or synchronous | real source efficiency and fuel use | $500–1,000 |
@@ -65,6 +65,26 @@ the uncertainty; no result will be reported to more precision than this.
 
 ## 4. Procedure
 
+### 4.1 Design, before any run
+
+The unit of replication is **one complete 8 h mission**, not an individual
+sample. Treating 10 Hz samples as replicates would fabricate precision.
+
+| Element | Choice |
+|---|---|
+| Factors | source type: DC emulator vs diesel genset; ambient: 25 °C vs 40 °C |
+| Cells | 2 × 2 = 4 conditions, 3 missions each = 12 missions |
+| Control | DC emulator at 25 °C: tests dispatch without fuel or heat |
+| Blocking | one block per chamber/day; all four conditions appear in each block where possible |
+| Randomisation | run order pre-generated with seed `20261022`, recorded before the first run |
+| Blinding | not possible; analysis uses raw logger files and a fixed script |
+| MSA | calibrate power/current shunts and thermocouples before and after each block; repeat one reference mission at the start and end |
+| Stopping | fixed 3 repeats per cell; no early stop on a favourable result; stop immediately on a safety limit or repeated fault |
+
+A failed mission is a data point and is reported. Repeats are used for a range
+and a visual consistency check, not a significance test: n = 3 cannot support
+one.
+
 ### Stage 0 — characterisation (1 day)
 
 1. Measure buffer round-trip efficiency at 0.5 C charge / 2 C pulse discharge.
@@ -75,14 +95,16 @@ the uncertainty; no result will be reported to more precision than this.
 ### Stage 1 — control and buffer with a DC source (3 days)
 
 1. Program the exact mission profile: 1 kW base, 6 kW for 30 s every 600 s, 8 h.
-2. Run three complete missions. Between runs, recharge the buffer as the design
+2. Set the DC source to 1.45 kW (1.1× average DC load), not 1.3 kW.
+3. Run three complete missions. Between runs, recharge the buffer as the design
    intends and record recharge energy and time.
-3. Log at 10 Hz: load, source current, buffer current, SOC, temperatures.
-4. Compute unmet energy, delivered energy, round-trip efficiency, SOC range.
+4. Log at 10 Hz: load, source current, buffer current, SOC, temperatures.
+5. Compute unmet energy, delivered energy, round-trip efficiency, SOC range.
 
 ### Stage 2 — diesel source (2 days, outdoors)
 
-1. Repeat one 8 h mission with the genset as the source.
+1. Repeat three 8 h missions at 25 °C with the genset as the source, then three
+   at 40 °C.
 2. Measure fuel mass before and after; compute fuel energy from LHV (9.94 kWh/L,
    0.83 kg/L) and system efficiency.
 3. Record CO at 1 m from the exhaust; confirm outdoor-only operation.
@@ -90,8 +112,8 @@ the uncertainty; no result will be reported to more precision than this.
 ### Stage 3 — thermal (2 days)
 
 1. Place the buffer and converter in the insulated enclosure; hold 40 ± 2 °C.
-2. Repeat one mission at that ambient with the modelled radiator area (2.83 m²)
-   and airflow.
+2. Repeat three missions at that ambient with the modelled radiator area
+   (3.33 m²) and airflow.
 3. Record peak cell, converter, and coolant temperatures.
 
 ### Repeats

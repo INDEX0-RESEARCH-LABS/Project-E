@@ -88,10 +88,14 @@ def _validate_thermal_feasibility(cfg: dict) -> None:
 def check_invariants(results: list[ArchResult], mission: Mission) -> list[str]:
     problems = []
     for r in results:
-        if abs(r.delivered_kwh - mission.energy_kwh) > 1e-3:
-            problems.append(f"{r.key}: delivered {r.delivered_kwh:.4f} != mission {mission.energy_kwh:.4f}")
-        if r.unmet_kwh > 1e-6:
-            problems.append(f"{r.key}: unmet load {r.unmet_kwh:.6g} kWh")
+        # Only the hybrids are dispatched. Direct architectures set delivered and
+        # unmet analytically from their rating, so checking those two values there
+        # would be tautological; their mass/cost/heat invariants are still checked.
+        if r.key in {"C1", "C2"}:
+            if abs(r.delivered_kwh - mission.energy_kwh) > 1e-3:
+                problems.append(f"{r.key}: delivered {r.delivered_kwh:.4f} != mission {mission.energy_kwh:.4f}")
+            if r.unmet_kwh > 1e-6:
+                problems.append(f"{r.key}: unmet load {r.unmet_kwh:.6g} kWh")
         if not (0 < r.efficiency <= 1):
             problems.append(f"{r.key}: efficiency outside (0,1]: {r.efficiency}")
         if r.mass_kg <= 0 or r.capex_usd <= 0:
@@ -218,7 +222,7 @@ def run(
     run_dir.mkdir(parents=True, exist_ok=False)
 
     (run_dir / "config.resolved.json").write_text(
-        json.dumps(raw_cfg, indent=2, default=str)
+        json.dumps(cfg, indent=2, default=str)
     )
     (run_dir / "mission.json").write_text(json.dumps(cfg["mission"], indent=2))
     write_provenance_csv(raw_cfg, run_dir / "provenance.csv")

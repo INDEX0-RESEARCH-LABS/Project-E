@@ -24,6 +24,10 @@ def build_parser() -> argparse.ArgumentParser:
     sen.add_argument("--samples", type=int, default=2000)
     sen.add_argument("--seed", type=int, default=20261022)
 
+    st = sub.add_parser("study", help="deterministic sizing and mission-scaling studies")
+    st.add_argument("--config", default="configs/baseline.yaml")
+    st.add_argument("--kind", choices=["sizing", "mission", "all"], default="all")
+
     return p
 
 
@@ -45,6 +49,14 @@ def main(argv: list[str] | None = None) -> int:
 
         path = run_sensitivity(args.config, args.out, samples=args.samples, seed=args.seed)
         print(f"wrote {path}")
+        return 0
+    if args.command == "study":
+        from .simulation.studies import run_mission_study, run_sizing_study
+
+        if args.kind in ("sizing", "all"):
+            print(f"wrote {run_sizing_study(args.config)}")
+        if args.kind in ("mission", "all"):
+            print(f"wrote {run_mission_study(args.config)}")
         return 0
     return 1
 

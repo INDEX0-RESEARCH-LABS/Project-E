@@ -27,7 +27,7 @@ prices.** No E4–E6 exists.
 | # | Claim | Level | Verification performed | What is missing | Action to raise |
 |---|---|---|---|---|---|
 | 1 | Energy balance closes for every architecture | E3 | `EnergyAccount` closure asserted; dispatch asserts unmet ≤ 1e-6 kWh | none within model | — |
-| 2 | Battery sizing at 20% degradation margin | E3 | hand-checked capacity 13.89 kWh; SOC window 5–95% | real pack at temperature | bench test |
+| 2 | Battery sizing at 20% degradation margin | E3 | hand-checked capacity 14.62 kWh including the 95% output converter; SOC window 5–95% | real pack at temperature | bench test |
 | 3 | LiFePO4 pack specific energy 175 Wh/kg | E2 | range 140–200 in sensitivity | supplier datasheet, measured pack | request quotes |
 | 4 | Battery round-trip 92% | E2 | range 88–95% | measured at pulse C-rate | bench test |
 | 5 | Battery cycle life 3,000 to 80% | E2 | replacement year computed from fade | cycle test at mission depth | supplier data |
@@ -37,13 +37,13 @@ prices.** No E4–E6 exists.
 | 9 | Steady-state thermal only | E1 | not modelled | transient warm-up, hot-day soak | experiment |
 | 10 | Carnot limit enforcement | E3 | test rejects efficiency above Carnot | — | — |
 | 11 | TEG efficiency from ZT | E3 | formula checked against hand calculation at ZT=1 | module ZT at temperature | datasheet/bench |
-| 12 | TEG 6.5% at 230/50 °C | E2/E3 | computed from ZT and temperatures | contact resistance, leg geometry | bench test |
+| 12 | TEG 6.2% at 230/50 °C | E2/E3 | computed from ZT and temperatures | contact resistance, leg geometry | bench test |
 | 13 | TPV 32% cell × 0.85 spectral | E2 | range 20–40% tested | system-level measured efficiency | literature/bench |
 | 14 | Thermal store 0.28 kWh/kg, no standby loss | E1/E2 | mass computed; **losses not modelled** | insulation loss over 8 h | experiment or detailed model |
 | 15 | PEM fuel cell 50% LHV | E2 | range 42–58% | part-load curve, degradation | datasheet/bench |
 | 16 | H2 tank 5 wt%, 25 L/kg | E2 | range tested | certified system data | supplier |
-| 17 | Diesel 28% at rated load, part-load floor 0.35 | E1/E2 | B1 derates to 13.6%; C2 runs near rated | measured part-load curve | bench test |
-| 18 | Hybrid dispatch meets pulses with 0.5 kWh buffer | E3 | 1 s simulation; converged at 2 s and 0.5 s; unmet 0 | converter efficiency excluded | experiment |
+| 17 | Diesel 28% at rated load, part-load floor 0.35 | E1/E2 | B1 derates to 13.6%; C2 to ~23.5% at 1.1× source using the same curve | measured part-load curve | bench test |
+| 18 | Hybrid dispatch meets pulses with 0.3 kWh buffer at 1.1× source | E3 | 1 s simulation; converged at 2 s and 0.5 s; unmet 0; converter loss and buffer replacement included; source verified above load + buffer loss | controller tuning and real pulse efficiency | experiment |
 | 19 | Converter mass 1.5 kg/kW | E1 | applied uniformly to all candidates | weighed inverter | bench |
 | 20 | Packaging factor 1.25 | E1 | sensitivity 1.15–1.40 | built enclosure | prototype |
 | 21 | Capex estimates | E0 | ranges in sensitivity | quotations | supplier RFQ |
