@@ -98,17 +98,21 @@ def _oat(raw: dict, base_lcoe: dict[str, float], base_mass: dict[str, float]):
             for r in res:
                 deltas.setdefault(r.key, []).append(lcoe[r.key] - base_lcoe[r.key])
                 mass_deltas.setdefault(r.key, []).append(r.mass_kg - base_mass[r.key])
-        # Keep the signed delta with the largest magnitude: the decrease bar in
-        # the plot must be negative, not abs().
+        # Keep the signed delta with the largest magnitude per architecture, and
+        # the true signed span across architecture and bound for the plot.
         d_max = {k: max(vals, key=abs) for k, vals in deltas.items()}
         m_max = {k: max(vals, key=abs) for k, vals in mass_deltas.items()}
+        span_low = min((min(v) for v in deltas.values()), default=float("inf"))
+        span_high = max((max(v) for v in deltas.values()), default=float("-inf"))
         rows.append(
             {
                 "parameter": path,
                 "low": lo,
                 "high": hi,
-                "max_dlcoe": max(abs(v) for v in d_max.values()) if d_max else float("inf"),
+                "max_dlcoe": max(abs(span_low), abs(span_high)),
                 "max_dmass": max(abs(v) for v in m_max.values()) if m_max else float("inf"),
+                "span_low": span_low,
+                "span_high": span_high,
                 "dlcoe": d_max,
                 "dmass": m_max,
                 "ranking_flip": bool(best_at_bounds and any(b != best_base for b in best_at_bounds)),
@@ -190,8 +194,8 @@ def _plots(oat_rows, lcoes, out_dir: pathlib.Path, target: float) -> list[str]:
         fig, ax = plt.subplots(figsize=(8.5, 4.8))
         labels = [r["parameter"].replace("assumptions.", "").replace("_", " ") for r in top]
         y = np.arange(len(top))
-        spans_low = [min(r["dlcoe"].values()) for r in top]
-        spans_high = [max(r["dlcoe"].values()) for r in top]
+        spans_low = [r["span_low"] for r in top]
+        spans_high = [r["span_high"] for r in top]
         ax.barh(y, spans_high, color="#c44e52", alpha=0.8, label="max increase")
         ax.barh(y, spans_low, color="#4c72b0", alpha=0.8, label="max decrease")
         ax.set_yticks(y)
