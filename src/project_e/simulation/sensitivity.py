@@ -279,7 +279,7 @@ def run_sensitivity(
         "",
         "- **One-at-a-time:** each parameter's declared range is applied at both bounds and",
         "  the full model is rerun. This measures influence, not probability.",
-        "- **Monte Carlo:** cost drivers only, uniform over declared ranges, 2,000 draws.",
+        f"- **Monte Carlo:** cost drivers only, uniform over declared ranges, {samples} draws.",
         "  Dispatch and efficiencies stay at baseline, so this is **not** a performance forecast.",
         "- Uniform ranges are uncertainty bounds. Treating them as distributions is an",
         "  assumption made for stress-testing, not evidence.",

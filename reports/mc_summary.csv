@@ -1,0 +1,9 @@
+key,name,p10,p50,p90,p_cheapest,p_meets_target
+A1,LiFePO4 battery only,0.4666,0.6765,1.0794,0.088,0.034
+A2,LiFePO4 + supercapacitor pulse buffer,0.5116,0.7480,1.2061,0.000,0.009
+B1,"Diesel genset, no buffer (rated to peak)",1.0455,1.4350,1.8050,0.000,0.000
+B2,Thermoelectric generator on a burner,3.5009,5.3980,8.8699,0.000,0.000
+B3,TPV + high-temperature thermal store,0.2266,0.4472,0.6818,0.818,0.411
+B4,"PEM fuel cell, no buffer (rated to peak)",1.2836,2.1856,3.9483,0.000,0.000
+C1,PEM fuel cell + small battery buffer,0.7026,1.0718,1.6435,0.002,0.001
+C2,Diesel genset + small battery buffer,0.5273,0.7144,0.8974,0.092,0.000

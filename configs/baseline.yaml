@@ -98,6 +98,11 @@ assumptions:
     source: "capacitor sizing margin over one pulse"
     evidence: E1
     range: [1.0, 2.0]
+  power_electronics_kg_per_kw:
+    value: 1.5
+    source: "inverter/DC-DC and controls mass per kW throughput ESTIMATE"
+    evidence: E1
+    range: [0.8, 3.0]
 
 battery:
   specific_energy_wh_kg:
@@ -144,6 +149,11 @@ supercap:
     source: "commercial symmetric supercapacitor pack ESTIMATE"
     evidence: E2
     range: [4.0, 10.0]
+  energy_density_wh_l:
+    value: 5.0
+    source: "commercial supercapacitor pack volumetric ESTIMATE"
+    evidence: E2
+    range: [3.0, 9.0]
   cost_usd_per_kwh:
     value: 8000.0
     source: "ESTIMATE, high-power capacitor bank"

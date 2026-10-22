@@ -137,6 +137,7 @@ def battery_supercap(mission: Mission, p: dict) -> ArchResult:
         key="A2",
         name="LiFePO4 + supercapacitor pulse buffer",
         mass_kg=base.mass_kg + cap_mass,
+        volume_l=base.volume_l + cap_kwh * 1000.0 / sc["energy_density_wh_l"],
         capex_usd=base.capex_usd + extra_capex,
         capex_items={
             **base.capex_items,
@@ -492,5 +493,8 @@ def all_architectures(mission: Mission, p: dict) -> list[ArchResult]:
         dt = r.coolant_c - a["ambient_c"]
         area = 0.0 if dt <= 0 else r.waste_heat_kw * 1000.0 * r.coolant_fraction / (a["h_convection_w_m2k"] * dt)
         radiator_mass = area * a["radiator_kg_per_m2"]
-        screened.append(replace(r, radiator_area_m2=area, mass_kg=r.mass_kg + radiator_mass))
+        # Every candidate needs power conversion; its mass is easy to forget and material
+        # at a 35 kg target, so it is charged to all architectures at peak throughput.
+        converter_mass = _m(mission.peak_load_kw * a["power_electronics_kg_per_kw"], a["packaging_factor"])
+        screened.append(replace(r, radiator_area_m2=area, mass_kg=r.mass_kg + radiator_mass + converter_mass))
     return screened
