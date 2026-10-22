@@ -81,7 +81,7 @@ and funding for the bench test. See `reports/NEXT_ACTIONS.md`.
 | Key | Architecture | Mass kg | Volume L | Capex USD | LCOE $/kWh | Targets |
 |---|---|---:|---:|---:|---:|---:|
 | A1 | LiFePO4 battery only | 118.4 | 52.2 | 4,866 | 0.602 | 3/5 |
-| A2 | Battery + supercapacitor | 129.4 | 65.4 | 5,647 | 0.648 | 1/5 |
+| A2 | Battery + supercapacitor | 129.3 | 65.4 | 5,647 | 0.648 | 1/5 |
 | B1 | Diesel genset, no buffer | 118.5 | 72.5 | 2,400 | 1.199 | 2/5 |
 | B2 | TEG on a burner | 300.3 | 122.3 | 31,579 | 4.169 | 1/5 |
 | B3 | TPV + thermal store | 256.9 | 144.0 | 2,453 | 0.301 | 3/5 |
