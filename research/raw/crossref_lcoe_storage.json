@@ -1,0 +1,250 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 3587902,
+  "items": [
+   {
+    "DOI": "10.1016/j.apenergy.2016.08.165",
+    "title": [
+     "Comparison of electricity storage options using levelized cost of storage (LCOS) method"
+    ],
+    "author": [
+     {
+      "given": "Verena",
+      "family": "J\u00fclch",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2016,
+       12
+      ]
+     ]
+    },
+    "container-title": [
+     "Applied Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 481
+   },
+   {
+    "DOI": "10.1002/9781119790402.ch3",
+    "title": [
+     "Levelized Cost of Electricity for Photovoltaic with Energy Storage"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2022,
+       11,
+       18
+      ]
+     ]
+    },
+    "container-title": [
+     "Smart Energy for Transportation and Health in a Smart City"
+    ],
+    "type": "other",
+    "is-referenced-by-count": 1
+   },
+   {
+    "DOI": "10.11648/j.ajme.20190501.11",
+    "title": [
+     "Modified Levelized Cost of Electricity or Energy, MLOCE and Modified Levelized Avoidable Cost of Electricity or Energy, MLACE and Decision Making"
+    ],
+    "author": [
+     {
+      "given": "Huseyin",
+      "family": "Murat Cekirge",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2019
+      ]
+     ]
+    },
+    "container-title": [
+     "American Journal of Modern Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 9
+   },
+   {
+    "DOI": "10.1016/j.apenergy.2016.12.153",
+    "title": [
+     "Levelized cost of electricity for solar photovoltaic and electrical energy storage"
+    ],
+    "author": [
+     {
+      "given": "Chun Sing",
+      "family": "Lai",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Malcolm D.",
+      "family": "McCulloch",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2017,
+       3
+      ]
+     ]
+    },
+    "container-title": [
+     "Applied Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 493
+   },
+   {
+    "DOI": "10.1016/j.apenergy.2021.117309",
+    "title": [
+     "Applying levelized cost of storage methodology to utility-scale second-life lithium-ion battery energy storage systems"
+    ],
+    "author": [
+     {
+      "given": "Tobiah",
+      "family": "Steckel",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Alissa",
+      "family": "Kendall",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Hanjiro",
+      "family": "Ambrose",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2021,
+       10
+      ]
+     ]
+    },
+    "container-title": [
+     "Applied Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 160
+   },
+   {
+    "DOI": "10.11591/ijpeds.v11.i4.pp2223-2230",
+    "title": [
+     "A simple levelized cost of electricity for EV charging with PV and battery energy storage system: Thailand case study"
+    ],
+    "author": [
+     {
+      "given": "Aree",
+      "family": "Wangsupphaphol",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Surachai",
+      "family": "Chaitusaney",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2020,
+       12,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "International Journal of Power Electronics and Drive Systems (IJPEDS)"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 4,
+    "abstract": "<jats:p>This paper proposes the calculation of the simple levelized cost of electricity of PV and battery energy storage system for supporting the investment decision of the EV hybrid charging station. The paper introduces the problems of EV charging against the grid power system. Thus, the hybrid charging for EV is suggested. The study provides an architecture of the hybrid EV charging station along with the factor impacting the EV infrastructure for acknowledgment. The cost elements of the station are presented to address the benefits of the investment. Besides, the profit is mainly from the margin of the electricity price, therefore, this study compares the electricity cost of PV and PV equipped with a battery with the commercial on-peak electricity tariff.\u00a0 The results show that the charging cost contributed by PV alone has the lowest amount throughout the study period year 2020 \u2013 2030. In contrast, the hybrid charging cost contributed by PV and battery has a higher value than the on-peak tariff during 2020 \u2013 2025 but it is lower afterward. The result supports the feasibility of charging an EV by solar power and the hybrid power system in the future.</jats:p>"
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

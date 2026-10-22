@@ -1,0 +1,194 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 6157192,
+  "items": [
+   {
+    "DOI": "10.1016/j.energy.2018.10.131",
+    "title": [
+     "Degradation model and cycle life prediction for lithium-ion battery used in hybrid energy storage system"
+    ],
+    "author": [
+     {
+      "ORCID": "https://orcid.org/0000-0002-7292-6107",
+      "authenticated-orcid": false,
+      "given": "Chang",
+      "family": "Liu",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "ORCID": "https://orcid.org/0000-0001-5722-2673",
+      "authenticated-orcid": false,
+      "given": "Yujie",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "ORCID": "https://orcid.org/0000-0001-9312-9089",
+      "authenticated-orcid": false,
+      "given": "Zonghai",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2019,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 191
+   },
+   {
+    "DOI": "10.1021/acs.est.5c10922.s001",
+    "title": [
+     "Real-World Life-Cycle Assessment of Industrial-Scale Lithium-Ion-Battery Hydrometallurgical Recycling"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acssuschemeng.8b04136.s002",
+    "title": [
+     "Life Cycle Assessment of Silicon-Nanotube-Based Lithium Ion Battery for Electric Vehicles"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acssuschemeng.8b04136.s001",
+    "title": [
+     "Life Cycle Assessment of Silicon-Nanotube-Based Lithium Ion Battery for Electric Vehicles"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1115/1.0002158v",
+    "title": [
+     "Surrogate Model Assisted Lithium-Ion Battery Co-Design for Fast Charging and Cycle Life Performances"
+    ],
+    "author": [
+     {
+      "given": "Tonghui",
+      "family": "Cui",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Zhuoyuan",
+      "family": "Zheng",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Pingfeng",
+      "family": "Wang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2021,
+       7,
+       16
+      ]
+     ]
+    },
+    "type": "posted-content",
+    "is-referenced-by-count": 1
+   },
+   {
+    "DOI": "10.1021/acs.est.8b02171.s001",
+    "title": [
+     "Use-Phase Drives Lithium-Ion Battery Life Cycle Environmental Impacts When Used for Frequency Regulation"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

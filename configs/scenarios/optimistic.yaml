@@ -1,0 +1,101 @@
+# Optimistic scenario: favourable end of each uncertainty range.
+# Used to test whether a conclusion survives the best case, never as a performance claim.
+meta:
+  name: optimistic
+  description: "Favourable component performance and cost; physics unchanged."
+
+assumptions:
+  packaging_factor:
+    value: 1.15
+    source: "scenario: optimised integration"
+    evidence: E1
+  degradation_margin:
+    value: 0.10
+    source: "scenario: shallow cycling margin"
+    evidence: E1
+  missions_per_year:
+    value: 350.0
+    source: "scenario: high utilisation"
+    evidence: E0
+  electricity_usd_per_kwh:
+    value: 0.08
+    source: "scenario: low off-peak tariff"
+    evidence: E0
+  h_convection_w_m2k:
+    value: 25.0
+    source: "scenario: forced convection"
+    evidence: E1
+  ambient_c:
+    value: 15.0
+    source: "scenario: cold ambient"
+    evidence: E1
+
+battery:
+  specific_energy_wh_kg:
+    value: 200.0
+    source: "scenario: high-energy pack"
+    evidence: E2
+  energy_density_wh_l:
+    value: 450.0
+    source: "scenario: high-density pack"
+    evidence: E2
+  cost_usd_per_kwh:
+    value: 180.0
+    source: "scenario: 2026 low pack price"
+    evidence: E0
+  round_trip_efficiency:
+    value: 0.95
+    source: "scenario: best-in-class round trip"
+    evidence: E2
+
+diesel:
+  efficiency_lhv:
+    value: 0.33
+    source: "scenario: best small genset"
+    evidence: E2
+  fuel_usd_per_l:
+    value: 1.0
+    source: "scenario: low fuel price"
+    evidence: E0
+  maintenance_usd_per_kwh:
+    value: 0.01
+    source: "scenario: low maintenance"
+    evidence: E0
+
+teg:
+  zt:
+    value: 1.4
+    source: "scenario: advanced TEG modules"
+    evidence: E2
+  cost_usd_per_w:
+    value: 2.0
+    source: "scenario: volume TEG cost"
+    evidence: E0
+
+tpv:
+  efficiency:
+    value: 0.40
+    source: "scenario: S01-class tandem cell in a system"
+    evidence: E2
+  storage_specific_kwh_per_kg:
+    value: 0.35
+    source: "scenario: high-temperature storage"
+    evidence: E2
+
+fuel_cell:
+  efficiency_lhv:
+    value: 0.58
+    source: "scenario: best PEM system"
+    evidence: E2
+  cost_usd_per_kw:
+    value: 1800.0
+    source: "scenario: volume PEM cost"
+    evidence: E0
+  h2_usd_per_kg:
+    value: 3.0
+    source: "scenario: low hydrogen price"
+    evidence: E0
+  tank_cost_usd_per_kg_h2:
+    value: 800.0
+    source: "scenario: volume tank cost"
+    evidence: E0

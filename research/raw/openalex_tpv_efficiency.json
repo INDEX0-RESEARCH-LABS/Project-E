@@ -1,0 +1,959 @@
+{
+ "id": "https://openalex.org/W2128315113",
+ "doi": "https://doi.org/10.23860/thesis-lin-laura-2015",
+ "title": "ANALYSIS OF DIFFERENT SELECTIVE THERMAL EMITTER DESIGNS FOR INCREASING THE EFFICIENCY OF THERMOPHOTOVOLTAIC SYSTEMS",
+ "display_name": "ANALYSIS OF DIFFERENT SELECTIVE THERMAL EMITTER DESIGNS FOR INCREASING THE EFFICIENCY OF THERMOPHOTOVOLTAIC SYSTEMS",
+ "publication_year": 2015,
+ "publication_date": "2015-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2128315113",
+  "doi": "https://doi.org/10.23860/thesis-lin-laura-2015",
+  "mag": "2128315113"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.23860/thesis-lin-laura-2015",
+  "doi": "https://doi.org/10.23860/thesis-lin-laura-2015",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.23860/thesis-lin-laura-2015",
+  "pdf_url": "https://digitalcommons.uri.edu/cgi/viewcontent.cgi?article=1630&context=theses",
+  "source": null,
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "University of Rhode Island",
+  "raw_type": "dissertation"
+ },
+ "volume": null,
+ "type": "dissertation",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://digitalcommons.uri.edu/cgi/viewcontent.cgi?article=1630&context=theses",
+  "any_repository_has_fulltext": null
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5103101767",
+    "display_name": "Laura Lin",
+    "orcid": "https://orcid.org/0009-0003-1787-6631",
+    "observed_orcids": [
+     "https://orcid.org/0009-0003-1787-6631"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I17626003",
+     "display_name": "University of Rhode Island",
+     "ror": "https://ror.org/013ckk937",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I17626003"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Lin, Laura",
+   "raw_affiliation_strings": [
+    "University of Rhode Island"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Rhode Island",
+     "institution_ids": [
+      "https://openalex.org/I17626003"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5103101767"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I17626003"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": null,
+ "has_fulltext": true,
+ "cited_by_count": 1,
+ "citation_normalized_percentile": null,
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12442",
+  "display_name": "Thermal Radiation and Cooling Technologies",
+  "score": 1.0,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2205",
+   "display_name": "Civil and Structural Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12442",
+   "display_name": "Thermal Radiation and Cooling Technologies",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2205",
+    "display_name": "Civil and Structural Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10905",
+   "display_name": "Solar Thermal and Photovoltaic Systems",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2105",
+    "display_name": "Renewable Energy, Sustainability and the Environment"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12019",
+   "display_name": "Calibration and Measurement Techniques",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2202",
+    "display_name": "Aerospace Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/selective-thermal-emitters",
+   "display_name": "selective thermal emitters",
+   "score": 0.9990000128746033
+  },
+  {
+   "id": "https://openalex.org/keywords/thermophotovoltaics",
+   "display_name": "thermophotovoltaics",
+   "score": 0.8949999809265137
+  },
+  {
+   "id": "https://openalex.org/keywords/spectral-emissivity",
+   "display_name": "spectral emissivity",
+   "score": 0.9580000042915344
+  },
+  {
+   "id": "https://openalex.org/keywords/tungsten-nanoparticles",
+   "display_name": "tungsten nanoparticles",
+   "score": 0.7730000019073486
+  },
+  {
+   "id": "https://openalex.org/keywords/silicon-carbide",
+   "display_name": "silicon carbide",
+   "score": 0.7720000147819519
+  },
+  {
+   "id": "https://openalex.org/keywords/silica",
+   "display_name": "silica",
+   "score": 0.9919999837875366
+  },
+  {
+   "id": "https://openalex.org/keywords/surface-gratings",
+   "display_name": "surface gratings",
+   "score": 0.8859999775886536
+  },
+  {
+   "id": "https://openalex.org/keywords/effective-medium-theory",
+   "display_name": "effective medium theory",
+   "score": 0.8970000147819519
+  },
+  {
+   "id": "https://openalex.org/keywords/thin-films",
+   "display_name": "thin films",
+   "score": 0.6639999747276306
+  },
+  {
+   "id": "https://openalex.org/keywords/dielectric-function",
+   "display_name": "dielectric function",
+   "score": 0.6240000128746033
+  },
+  {
+   "id": "https://openalex.org/keywords/infrared-radiation",
+   "display_name": "infrared radiation",
+   "score": 0.33799999952316284
+  },
+  {
+   "id": "https://openalex.org/keywords/solar-cell-efficiency",
+   "display_name": "solar cell efficiency",
+   "score": 0.35100001096725464
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C117537405",
+   "wikidata": "https://www.wikidata.org/wiki/Q2944104",
+   "display_name": "Thermophotovoltaic",
+   "level": 3,
+   "score": 0.9945487976074219
+  },
+  {
+   "id": "https://openalex.org/C46918542",
+   "wikidata": "https://www.wikidata.org/wiki/Q1648344",
+   "display_name": "Common emitter",
+   "level": 2,
+   "score": 0.9226990938186646
+  },
+  {
+   "id": "https://openalex.org/C163651212",
+   "wikidata": "https://www.wikidata.org/wiki/Q899670",
+   "display_name": "Emissivity",
+   "level": 2,
+   "score": 0.7564172744750977
+  },
+  {
+   "id": "https://openalex.org/C41291067",
+   "wikidata": "https://www.wikidata.org/wiki/Q1897785",
+   "display_name": "Photovoltaic system",
+   "level": 2,
+   "score": 0.6954216957092285
+  },
+  {
+   "id": "https://openalex.org/C204530211",
+   "wikidata": "https://www.wikidata.org/wiki/Q752823",
+   "display_name": "Thermal",
+   "level": 2,
+   "score": 0.5827175974845886
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.580601692199707
+  },
+  {
+   "id": "https://openalex.org/C2742236",
+   "wikidata": "https://www.wikidata.org/wiki/Q924713",
+   "display_name": "Efficient energy use",
+   "level": 2,
+   "score": 0.5504738092422485
+  },
+  {
+   "id": "https://openalex.org/C206991015",
+   "wikidata": "https://www.wikidata.org/wiki/Q192704",
+   "display_name": "Energy conversion efficiency",
+   "level": 2,
+   "score": 0.5060474276542664
+  },
+  {
+   "id": "https://openalex.org/C61696701",
+   "wikidata": "https://www.wikidata.org/wiki/Q770766",
+   "display_name": "Engineering physics",
+   "level": 1,
+   "score": 0.4955247640609741
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.49334946274757385
+  },
+  {
+   "id": "https://openalex.org/C144822601",
+   "wikidata": "https://www.wikidata.org/wiki/Q11271324",
+   "display_name": "Energy transformation",
+   "level": 2,
+   "score": 0.47667956352233887
+  },
+  {
+   "id": "https://openalex.org/C154582812",
+   "wikidata": "https://www.wikidata.org/wiki/Q7447791",
+   "display_name": "Selective surface",
+   "level": 2,
+   "score": 0.4704674184322357
+  },
+  {
+   "id": "https://openalex.org/C206588197",
+   "wikidata": "https://www.wikidata.org/wiki/Q846574",
+   "display_name": "Reuse",
+   "level": 2,
+   "score": 0.44331634044647217
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.3771671652793884
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.20386040210723877
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.19734126329421997
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.16509023308753967
+  },
+  {
+   "id": "https://openalex.org/C548081761",
+   "wikidata": "https://www.wikidata.org/wiki/Q180388",
+   "display_name": "Waste management",
+   "level": 1,
+   "score": 0.10751897096633911
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.09301504492759705
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C153294291",
+   "wikidata": "https://www.wikidata.org/wiki/Q25261",
+   "display_name": "Meteorology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.23860/thesis-lin-laura-2015",
+   "doi": "https://doi.org/10.23860/thesis-lin-laura-2015",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.23860/thesis-lin-laura-2015",
+   "pdf_url": "https://digitalcommons.uri.edu/cgi/viewcontent.cgi?article=1630&context=theses",
+   "source": null,
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "University of Rhode Island",
+   "raw_type": "dissertation"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.23860/thesis-lin-laura-2015",
+  "doi": "https://doi.org/10.23860/thesis-lin-laura-2015",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.23860/thesis-lin-laura-2015",
+  "pdf_url": "https://digitalcommons.uri.edu/cgi/viewcontent.cgi?article=1630&context=theses",
+  "source": null,
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "University of Rhode Island",
+  "raw_type": "dissertation"
+ },
+ "sustainable_development_goals": [
+  {
+   "score": 0.875,
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "score": 0.8100000023841858,
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320322958",
+   "display_name": "Technische Universit\u00e4t Braunschweig",
+   "ror": "https://ror.org/010nsgg66"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W2128315113.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W2128315113.grobid-xml"
+ },
+ "referenced_works_count": 55,
+ "referenced_works": [
+  "https://openalex.org/W166604106",
+  "https://openalex.org/W560574480",
+  "https://openalex.org/W615632784",
+  "https://openalex.org/W623159196",
+  "https://openalex.org/W652260053",
+  "https://openalex.org/W1516460738",
+  "https://openalex.org/W1823108704",
+  "https://openalex.org/W1966478948",
+  "https://openalex.org/W1970279518",
+  "https://openalex.org/W1975847327",
+  "https://openalex.org/W1978929581",
+  "https://openalex.org/W1983204181",
+  "https://openalex.org/W2001054007",
+  "https://openalex.org/W2001735474",
+  "https://openalex.org/W2004522515",
+  "https://openalex.org/W2006443714",
+  "https://openalex.org/W2018317114",
+  "https://openalex.org/W2018890340",
+  "https://openalex.org/W2019648845",
+  "https://openalex.org/W2027737381",
+  "https://openalex.org/W2027969730",
+  "https://openalex.org/W2028182888",
+  "https://openalex.org/W2033937037",
+  "https://openalex.org/W2040050613",
+  "https://openalex.org/W2050173548",
+  "https://openalex.org/W2052898719",
+  "https://openalex.org/W2058208824",
+  "https://openalex.org/W2063394936",
+  "https://openalex.org/W2065808579",
+  "https://openalex.org/W2069093828",
+  "https://openalex.org/W2073909604",
+  "https://openalex.org/W2077480445",
+  "https://openalex.org/W2083926174",
+  "https://openalex.org/W2086077279",
+  "https://openalex.org/W2095978718",
+  "https://openalex.org/W2116854228",
+  "https://openalex.org/W2127213228",
+  "https://openalex.org/W2136247760",
+  "https://openalex.org/W2136621684",
+  "https://openalex.org/W2139036618",
+  "https://openalex.org/W2140127807",
+  "https://openalex.org/W2162123284",
+  "https://openalex.org/W2199532858",
+  "https://openalex.org/W2314633849",
+  "https://openalex.org/W2322010211",
+  "https://openalex.org/W2334022927",
+  "https://openalex.org/W2486998647",
+  "https://openalex.org/W3027737806",
+  "https://openalex.org/W3097657055",
+  "https://openalex.org/W4229499352",
+  "https://openalex.org/W4240549567",
+  "https://openalex.org/W4242633987",
+  "https://openalex.org/W4299908858",
+  "https://openalex.org/W4302083512",
+  "https://openalex.org/W4307023419"
+ ],
+ "related_works": [
+  "https://openalex.org/W2099539967",
+  "https://openalex.org/W3092508786",
+  "https://openalex.org/W1608872265",
+  "https://openalex.org/W4206198626",
+  "https://openalex.org/W2189388007",
+  "https://openalex.org/W4389675368",
+  "https://openalex.org/W2481987047",
+  "https://openalex.org/W4212854934",
+  "https://openalex.org/W2394797988",
+  "https://openalex.org/W4302369910"
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0,
+   77,
+   130
+  ],
+  "application": [
+   1
+  ],
+  "of": [
+   2,
+   15,
+   25,
+   42,
+   80,
+   104,
+   117,
+   132,
+   146,
+   153,
+   160,
+   167,
+   180,
+   186
+  ],
+  "selective": [
+   3,
+   55,
+   163
+  ],
+  "thermal": [
+   4,
+   56,
+   164
+  ],
+  "emitters": [
+   5
+  ],
+  "can": [
+   6
+  ],
+  "increase": [
+   7
+  ],
+  "the": [
+   8,
+   12,
+   23,
+   38,
+   50,
+   65,
+   84,
+   88,
+   101,
+   114,
+   123,
+   133,
+   154,
+   157
+  ],
+  "efficiency": [
+   9,
+   24
+  ],
+  "and": [
+   10,
+   46,
+   87,
+   110,
+   177,
+   193
+  ],
+  "reduce": [
+   11
+  ],
+  "waste": [
+   13
+  ],
+  "energy": [
+   14,
+   19
+  ],
+  "thermo": [
+   16
+  ],
+  "photovoltaic": [
+   17
+  ],
+  "(TPV)": [
+   18
+  ],
+  "conversion": [
+   20
+  ],
+  "systems.": [
+   21,
+   76
+  ],
+  "However,": [
+   22
+  ],
+  "these": [
+   26
+  ],
+  "solar": [
+   27
+  ],
+  "cells": [
+   28
+  ],
+  "still": [
+   29
+  ],
+  "has": [
+   30
+  ],
+  "room": [
+   31
+  ],
+  "for": [
+   32,
+   40,
+   74,
+   99,
+   136
+  ],
+  "improvement.": [
+   33
+  ],
+  "One": [
+   34
+  ],
+  "important": [
+   35
+  ],
+  "aspect": [
+   36
+  ],
+  "is": [
+   37
+  ],
+  "need": [
+   39
+  ],
+  "investigations": [
+   41
+  ],
+  "different": [
+   43,
+   54,
+   105,
+   137
+  ],
+  "emitter": [
+   44,
+   57,
+   165
+  ],
+  "materials": [
+   45,
+   109,
+   119,
+   142,
+   182
+  ],
+  "structures": [
+   47,
+   139
+  ],
+  "to": [
+   48,
+   67,
+   95,
+   125,
+   188
+  ],
+  "optimize": [
+   49
+  ],
+  "spectral": [
+   51,
+   102,
+   134
+  ],
+  "emissivity.": [
+   52
+  ],
+  "Therefore,": [
+   53
+  ],
+  "designs": [
+   58,
+   166
+  ],
+  "are": [
+   59,
+   91,
+   120
+  ],
+  "analyzed": [
+   60
+  ],
+  "in": [
+   61,
+   122,
+   156
+  ],
+  "this": [
+   62
+  ],
+  "study": [
+   63
+  ],
+  "with": [
+   64,
+   144,
+   174
+  ],
+  "aim": [
+   66
+  ],
+  "find": [
+   68
+  ],
+  "a": [
+   69,
+   97,
+   150
+  ],
+  "new": [
+   70
+  ],
+  "enhanced": [
+   71
+  ],
+  "design": [
+   72,
+   138
+  ],
+  "applicable": [
+   73
+  ],
+  "TPV": [
+   75
+  ],
+  "physical": [
+   78
+  ],
+  "principles": [
+   79
+  ],
+  "radiation": [
+   81
+  ],
+  "heat": [
+   82
+  ],
+  "transfer,": [
+   83
+  ],
+  "Maxwell-Garnett-Mie": [
+   85
+  ],
+  "theory": [
+   86,
+   90
+  ],
+  "Effective-Medium": [
+   89
+  ],
+  "implemented": [
+   92,
+   121
+  ],
+  "into": [
+   93
+  ],
+  "MATLAB": [
+   94
+  ],
+  "generate": [
+   96
+  ],
+  "code": [
+   98,
+   124
+  ],
+  "calculating": [
+   100
+  ],
+  "emissivity": [
+   103,
+   135,
+   155,
+   184
+  ],
+  "thin": [
+   106
+  ],
+  "films,": [
+   107
+  ],
+  "doped": [
+   108,
+   143,
+   173
+  ],
+  "surface": [
+   111,
+   178
+  ],
+  "gratings.": [
+   112
+  ],
+  "Furthermore,": [
+   113
+  ],
+  "optical": [
+   115
+  ],
+  "data": [
+   116
+  ],
+  "suitable": [
+   118
+  ],
+  "obtain": [
+   126
+  ],
+  "their": [
+   127
+  ],
+  "dielectric": [
+   128
+  ],
+  "functions.": [
+   129
+  ],
+  "calculation": [
+   131
+  ],
+  "shows": [
+   140
+  ],
+  "that": [
+   141
+  ],
+  "nanoparticles": [
+   145,
+   176
+  ],
+  "reflective": [
+   147
+  ],
+  "metals": [
+   148
+  ],
+  "show": [
+   149
+  ],
+  "great": [
+   151
+  ],
+  "enhancement": [
+   152
+  ],
+  "wavelength": [
+   158
+  ],
+  "range": [
+   159
+  ],
+  "interest.": [
+   161
+  ],
+  "Developed": [
+   162
+  ],
+  "Silicon": [
+   168,
+   171
+  ],
+  "Carbide": [
+   169
+  ],
+  "or": [
+   170
+  ],
+  "Dioxide": [
+   172
+  ],
+  "Tungsten": [
+   175
+  ],
+  "gratings": [
+   179
+  ],
+  "those": [
+   181
+  ],
+  "reach": [
+   183
+  ],
+  "values": [
+   185
+  ],
+  "up": [
+   187
+  ],
+  "0.9": [
+   189
+  ],
+  "between": [
+   190
+  ],
+  "0.4": [
+   191
+  ],
+  "\u03bcm": [
+   192
+  ],
+  "2": [
+   194
+  ],
+  "\u03bcm.": [
+   195
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2022,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-10-16T09:59:22.235173",
+ "created_date": "2016-06-24T00:00:00"
+}

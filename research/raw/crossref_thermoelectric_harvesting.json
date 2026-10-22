@@ -1,0 +1,223 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 2411626,
+  "items": [
+   {
+    "DOI": "10.14741/ijcet/22774106/spl.4.2016.2",
+    "title": [
+     "Thermoelectric Power Generation using Waste-Heat Energy from Internal Combustion Engine"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2011,
+       1,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "International Journal of Current Engineering and Technology"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 1
+   },
+   {
+    "DOI": "10.37099/mtu.dc.etd-restricted/121",
+    "title": [
+     "Cylinder wall waste heat recovery from liquid-cooled internal combustion engines utilizing thermoelectric generators"
+    ],
+    "author": [
+     {
+      "given": "John Randall",
+      "family": "Armstead",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "dissertation",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1115/ihtc14-23110",
+    "title": [
+     "Simulation Research on the Application of Thermoelectric Waste Heat Recovery of Internal Combustion Engine"
+    ],
+    "author": [
+     {
+      "given": "Maohai",
+      "family": "Wang",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "Tsinghua University, Beijing, China"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Thomas Josef",
+      "family": "Daun",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "RWTH Aachen University, Aachen, Germany"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Yangjun",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "Tsinghua University, Beijing, China"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Weilin",
+      "family": "Zhuge",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "Tsinghua University, Beijing, China"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2010,
+       1,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "2010 14th International Heat Transfer Conference, Volume 4"
+    ],
+    "type": "proceedings-article",
+    "is-referenced-by-count": 1,
+    "abstract": "<jats:p>In this paper, the development of a thermoelectric generator (TEG) simulation model and its implementation into an internal combustion engine (ICE) system model are demonstrated. The TEG model is calibrated with respect to an experimental basis presented in a previously published paper. A TEG parameter study, an analysis of the overall system and the interaction between the TEG and the ICE are carried out. The simulation results indicate that the exhaust gas temperature has a much more significant influence on the TEG performance than the exhaust gas mass flow rate. Without considering the influence of additional backpressure, the application of a TEG shows potential to increase the effective engine power; thereby improving the overall efficiency by approximately 0.6 to 1.7% (depending on engine speed and load). However, when taking additional backpressure into account, this gain in effective engine power is reduced slightly, resulting in a change of the efficiency range to between 0.2 and 1.7%. This illustrates the importance of taking the backpressure into account when designing a real world TEG.</jats:p>"
+   },
+   {
+    "DOI": "10.1016/0198-7593(86)90212-2",
+    "title": [
+     "Waste heat recovery system for an internal combustion engine"
+    ],
+    "author": [
+     {
+      "given": "Yoshihar",
+      "family": "Tanaka",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1986,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Heat Recovery Systems"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1016/0890-4332(90)90147-c",
+    "title": [
+     "Waste heat recovery system for horizontal liquid-cooled internal combustion engine"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1990,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "Heat Recovery Systems and CHP"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1016/0890-4332(90)90232-9",
+    "title": [
+     "4911110 Waste heat recovery system for liquid-cooled internal combustion engine"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1990,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "Heat Recovery Systems and CHP"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 0
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

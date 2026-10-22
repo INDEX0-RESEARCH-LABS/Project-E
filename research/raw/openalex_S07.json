@@ -1,0 +1,726 @@
+{
+ "id": "https://openalex.org/W2594758347",
+ "doi": "https://doi.org/10.1016/j.enconman.2017.02.070",
+ "title": "Thermoelectric generators: A review of applications",
+ "display_name": "Thermoelectric generators: A review of applications",
+ "publication_year": 2017,
+ "publication_date": "2017-03-07",
+ "ids": {
+  "openalex": "https://openalex.org/W2594758347",
+  "doi": "https://doi.org/10.1016/j.enconman.2017.02.070",
+  "mag": "2594758347"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.enconman.2017.02.070",
+  "doi": "https://doi.org/10.1016/j.enconman.2017.02.070",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/j.enconman.2017.02.070",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S105637730",
+   "display_name": "Energy Conversion and Management",
+   "issn_l": "0196-8904",
+   "issn": [
+    "0196-8904",
+    "1879-2227"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-b",
+    "jufo-2",
+    "ki-jl-1",
+    "norway-1",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Energy Conversion and Management",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5001222680",
+    "display_name": "Daniel Champier",
+    "orcid": "https://orcid.org/0000-0002-8194-5166",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8194-5166"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I144889574",
+     "display_name": "Universit\u00e9 de Pau et des Pays de l'Adour",
+     "ror": "https://ror.org/01frn9647",
+     "country_code": "FR",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I144889574"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4405258868",
+     "display_name": "Laboratoire des Sciences de l'Ing\u00e9nieur Appliqu\u00e9es \u00e0 la M\u00e9canique et au g\u00e9nie Electrique",
+     "ror": "https://ror.org/01az1jj42",
+     "country_code": "FR",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I144889574",
+      "https://openalex.org/I4405258868"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4405259913",
+     "display_name": "Institut Pluridisciplinaire de Recherche Appliqu\u00e9e",
+     "ror": "https://ror.org/02xrayj16",
+     "country_code": "FR",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I144889574",
+      "https://openalex.org/I4405259913"
+     ]
+    }
+   ],
+   "countries": [
+    "FR"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Daniel Champier",
+   "raw_affiliation_strings": [
+    "Univ Pau & Pays Adour, Laboratoire des Sciences de l'Ing\u00e9nieur Appliqu\u00e9es \u00e0 la M\u00e9canique et au G\u00e9nie Electrique-SIAME, F\u00e9d\u00e9ration IPRA, EA4581, Pau, France"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Univ Pau & Pays Adour, Laboratoire des Sciences de l'Ing\u00e9nieur Appliqu\u00e9es \u00e0 la M\u00e9canique et au G\u00e9nie Electrique-SIAME, F\u00e9d\u00e9ration IPRA, EA4581, Pau, France",
+     "institution_ids": [
+      "https://openalex.org/I144889574",
+      "https://openalex.org/I4405258868",
+      "https://openalex.org/I4405259913"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5001222680"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I144889574",
+  "https://openalex.org/I4405258868",
+  "https://openalex.org/I4405259913"
+ ],
+ "apc_list": {
+  "value": 4600,
+  "currency": "USD",
+  "value_usd": 4600
+ },
+ "apc_paid": null,
+ "fwci": 46.539,
+ "has_fulltext": false,
+ "cited_by_count": 1427,
+ "citation_normalized_percentile": {
+  "value": 0.99976949,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "140",
+  "issue": null,
+  "first_page": "167",
+  "last_page": "181"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10440",
+  "display_name": "Advanced Thermoelectric Materials and Devices",
+  "score": 1.0,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2505",
+   "display_name": "Materials Chemistry"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/25",
+   "display_name": "Materials Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10440",
+   "display_name": "Advanced Thermoelectric Materials and Devices",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14327",
+   "display_name": "Advanced Energy Technologies and Civil Engineering Innovations",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2104",
+    "display_name": "Nuclear Energy and Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11230",
+   "display_name": "Innovative Energy Harvesting Technologies",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/thermoelectric-generators",
+   "display_name": "thermoelectric generators",
+   "score": 1.0
+  },
+  {
+   "id": "https://openalex.org/keywords/waste-heat-recovery",
+   "display_name": "waste heat recovery",
+   "score": 0.8830000162124634
+  },
+  {
+   "id": "https://openalex.org/keywords/thermoelectric-materials",
+   "display_name": "thermoelectric materials",
+   "score": 0.7580000162124634
+  },
+  {
+   "id": "https://openalex.org/keywords/solar-thermoelectric-generator",
+   "display_name": "solar thermoelectric generator",
+   "score": 0.7689999938011169
+  },
+  {
+   "id": "https://openalex.org/keywords/remote-power-generation",
+   "display_name": "remote power generation",
+   "score": 0.6420000195503235
+  },
+  {
+   "id": "https://openalex.org/keywords/energy-efficiency",
+   "display_name": "energy efficiency",
+   "score": 0.6489999890327454
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C117127486",
+   "wikidata": "https://www.wikidata.org/wiki/Q11569191",
+   "display_name": "Thermoelectric generator",
+   "level": 3,
+   "score": 0.727859616279602
+  },
+  {
+   "id": "https://openalex.org/C423512",
+   "wikidata": "https://www.wikidata.org/wiki/Q383973",
+   "display_name": "Electricity generation",
+   "level": 3,
+   "score": 0.6449668407440186
+  },
+  {
+   "id": "https://openalex.org/C206658404",
+   "wikidata": "https://www.wikidata.org/wiki/Q12725",
+   "display_name": "Electricity",
+   "level": 2,
+   "score": 0.5982663631439209
+  },
+  {
+   "id": "https://openalex.org/C63024428",
+   "wikidata": "https://www.wikidata.org/wiki/Q552456",
+   "display_name": "Thermoelectric effect",
+   "level": 2,
+   "score": 0.5203577876091003
+  },
+  {
+   "id": "https://openalex.org/C2779343474",
+   "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+   "display_name": "Context (archaeology)",
+   "level": 2,
+   "score": 0.49052828550338745
+  },
+  {
+   "id": "https://openalex.org/C188573790",
+   "wikidata": "https://www.wikidata.org/wiki/Q12705",
+   "display_name": "Renewable energy",
+   "level": 2,
+   "score": 0.47820234298706055
+  },
+  {
+   "id": "https://openalex.org/C107861326",
+   "wikidata": "https://www.wikidata.org/wiki/Q209233",
+   "display_name": "Thermal energy",
+   "level": 2,
+   "score": 0.4498641788959503
+  },
+  {
+   "id": "https://openalex.org/C207365445",
+   "wikidata": "https://www.wikidata.org/wiki/Q15020929",
+   "display_name": "Thermoelectric materials",
+   "level": 3,
+   "score": 0.4275066554546356
+  },
+  {
+   "id": "https://openalex.org/C2776756539",
+   "wikidata": "https://www.wikidata.org/wiki/Q221620",
+   "display_name": "Cogeneration",
+   "level": 4,
+   "score": 0.41694432497024536
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.4145921468734741
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.3916272521018982
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.34620338678359985
+  },
+  {
+   "id": "https://openalex.org/C134560507",
+   "wikidata": "https://www.wikidata.org/wiki/Q753291",
+   "display_name": "Environmental economics",
+   "level": 1,
+   "score": 0.3220033645629883
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.2870970666408539
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.20576834678649902
+  },
+  {
+   "id": "https://openalex.org/C162324750",
+   "wikidata": "https://www.wikidata.org/wiki/Q8134",
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.0866871178150177
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.08100959658622742
+  },
+  {
+   "id": "https://openalex.org/C69990965",
+   "wikidata": "https://www.wikidata.org/wiki/Q65402698",
+   "display_name": "Electrical resistivity and conductivity",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C151730666",
+   "wikidata": "https://www.wikidata.org/wiki/Q7205",
+   "display_name": "Paleontology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.enconman.2017.02.070",
+   "doi": "https://doi.org/10.1016/j.enconman.2017.02.070",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.enconman.2017.02.070",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S105637730",
+    "display_name": "Energy Conversion and Management",
+    "issn_l": "0196-8904",
+    "issn": [
+     "0196-8904",
+     "1879-2227"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-class-a",
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-2",
+     "ki-jl-1",
+     "norway-1",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Energy Conversion and Management",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:HAL:hal-02014514v1",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "https://hal.science/hal-02014514",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306402512",
+    "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1294671590",
+    "host_organization_name": "Centre National de la Recherche Scientifique",
+    "host_organization_lineage": [
+     "https://openalex.org/I1294671590"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Energy Conversion and Management, 2017, 140, pp.167-181",
+   "raw_type": "info:eu-repo/semantics/article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 1.0
+  },
+  {
+   "id": "https://metadata.un.org/sdg/9",
+   "display_name": "Industry, innovation and infrastructure",
+   "score": 0.5378999710083008
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 0.41999998688697815
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 122,
+ "referenced_works": [
+  "https://openalex.org/W78878922",
+  "https://openalex.org/W134167248",
+  "https://openalex.org/W262600141",
+  "https://openalex.org/W389868541",
+  "https://openalex.org/W601365429",
+  "https://openalex.org/W639111436",
+  "https://openalex.org/W764500550",
+  "https://openalex.org/W1488579860",
+  "https://openalex.org/W1492209254",
+  "https://openalex.org/W1544928071",
+  "https://openalex.org/W1725369491",
+  "https://openalex.org/W1877180039",
+  "https://openalex.org/W1907548673",
+  "https://openalex.org/W1939102173",
+  "https://openalex.org/W1964029657",
+  "https://openalex.org/W1965159348",
+  "https://openalex.org/W1966164342",
+  "https://openalex.org/W1966764959",
+  "https://openalex.org/W1968606695",
+  "https://openalex.org/W1968691464",
+  "https://openalex.org/W1968910430",
+  "https://openalex.org/W1983463717",
+  "https://openalex.org/W1983576392",
+  "https://openalex.org/W1987399107",
+  "https://openalex.org/W1988113670",
+  "https://openalex.org/W1988398844",
+  "https://openalex.org/W1991591263",
+  "https://openalex.org/W1992188944",
+  "https://openalex.org/W1993028271",
+  "https://openalex.org/W1994458877",
+  "https://openalex.org/W1995672170",
+  "https://openalex.org/W1998129292",
+  "https://openalex.org/W2001566902",
+  "https://openalex.org/W2002345507",
+  "https://openalex.org/W2003552593",
+  "https://openalex.org/W2008001472",
+  "https://openalex.org/W2014763097",
+  "https://openalex.org/W2016460447",
+  "https://openalex.org/W2017044853",
+  "https://openalex.org/W2017728591",
+  "https://openalex.org/W2019716548",
+  "https://openalex.org/W2024389460",
+  "https://openalex.org/W2025534280",
+  "https://openalex.org/W2034583260",
+  "https://openalex.org/W2038237671",
+  "https://openalex.org/W2040302530",
+  "https://openalex.org/W2041293049",
+  "https://openalex.org/W2043937450",
+  "https://openalex.org/W2044559152",
+  "https://openalex.org/W2045772074",
+  "https://openalex.org/W2048577530",
+  "https://openalex.org/W2049539391",
+  "https://openalex.org/W2051568319",
+  "https://openalex.org/W2051802578",
+  "https://openalex.org/W2053716190",
+  "https://openalex.org/W2055453645",
+  "https://openalex.org/W2055876623",
+  "https://openalex.org/W2055972392",
+  "https://openalex.org/W2059371507",
+  "https://openalex.org/W2060375547",
+  "https://openalex.org/W2061789636",
+  "https://openalex.org/W2063546902",
+  "https://openalex.org/W2064358828",
+  "https://openalex.org/W2066294960",
+  "https://openalex.org/W2068001160",
+  "https://openalex.org/W2071068633",
+  "https://openalex.org/W2071603115",
+  "https://openalex.org/W2072522348",
+  "https://openalex.org/W2077970241",
+  "https://openalex.org/W2078004628",
+  "https://openalex.org/W2080978846",
+  "https://openalex.org/W2082991638",
+  "https://openalex.org/W2084309685",
+  "https://openalex.org/W2088805941",
+  "https://openalex.org/W2089068466",
+  "https://openalex.org/W2089325955",
+  "https://openalex.org/W2090813637",
+  "https://openalex.org/W2090939921",
+  "https://openalex.org/W2101079337",
+  "https://openalex.org/W2105733071",
+  "https://openalex.org/W2107536786",
+  "https://openalex.org/W2112650153",
+  "https://openalex.org/W2114378104",
+  "https://openalex.org/W2114999873",
+  "https://openalex.org/W2118691197",
+  "https://openalex.org/W2122565241",
+  "https://openalex.org/W2125072384",
+  "https://openalex.org/W2126274070",
+  "https://openalex.org/W2138146704",
+  "https://openalex.org/W2139538952",
+  "https://openalex.org/W2142932506",
+  "https://openalex.org/W2144770509",
+  "https://openalex.org/W2146075252",
+  "https://openalex.org/W2152531382",
+  "https://openalex.org/W2160288545",
+  "https://openalex.org/W2162814686",
+  "https://openalex.org/W2164806831",
+  "https://openalex.org/W2166940831",
+  "https://openalex.org/W2167203949",
+  "https://openalex.org/W2169090355",
+  "https://openalex.org/W2183921059",
+  "https://openalex.org/W2186007456",
+  "https://openalex.org/W2186386246",
+  "https://openalex.org/W2188656879",
+  "https://openalex.org/W2210183092",
+  "https://openalex.org/W2225498204",
+  "https://openalex.org/W2278747636",
+  "https://openalex.org/W2282599683",
+  "https://openalex.org/W2284225839",
+  "https://openalex.org/W2302146428",
+  "https://openalex.org/W2323742196",
+  "https://openalex.org/W2410531798",
+  "https://openalex.org/W2522529256",
+  "https://openalex.org/W2543274532",
+  "https://openalex.org/W2725581510",
+  "https://openalex.org/W2827107240",
+  "https://openalex.org/W2900157898",
+  "https://openalex.org/W3098744793",
+  "https://openalex.org/W3216830629",
+  "https://openalex.org/W4285719527",
+  "https://openalex.org/W6603118726",
+  "https://openalex.org/W6680514643"
+ ],
+ "related_works": [
+  "https://openalex.org/W2948256387",
+  "https://openalex.org/W4308191264",
+  "https://openalex.org/W2901480515",
+  "https://openalex.org/W3093857753",
+  "https://openalex.org/W2153807800",
+  "https://openalex.org/W2115585447",
+  "https://openalex.org/W2890326640",
+  "https://openalex.org/W2802430672",
+  "https://openalex.org/W4387094989",
+  "https://openalex.org/W2808223191"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 117
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 180
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 181
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 187
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 150
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 199
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 175
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 125
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 89
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 23
+  }
+ ],
+ "updated_date": "2026-10-22T09:42:04.148104",
+ "created_date": "2025-10-10T00:00:00"
+}

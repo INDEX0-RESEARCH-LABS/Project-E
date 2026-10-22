@@ -1,0 +1,829 @@
+{
+ "id": "https://openalex.org/W1969243292",
+ "doi": "https://doi.org/10.1016/j.enpol.2008.09.036",
+ "title": "Hydrogen and fuel cells: Towards a sustainable energy future",
+ "display_name": "Hydrogen and fuel cells: Towards a sustainable energy future",
+ "publication_year": 2008,
+ "publication_date": "2008-11-10",
+ "ids": {
+  "openalex": "https://openalex.org/W1969243292",
+  "doi": "https://doi.org/10.1016/j.enpol.2008.09.036",
+  "mag": "1969243292"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.enpol.2008.09.036",
+  "doi": "https://doi.org/10.1016/j.enpol.2008.09.036",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/j.enpol.2008.09.036",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S175056054",
+   "display_name": "Energy Policy",
+   "issn_l": "0301-4215",
+   "issn": [
+    "0301-4215",
+    "1873-6777"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "abdc-a",
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "fnege-2",
+    "jufo-1",
+    "norway-1",
+    "poland-140",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Energy Policy",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5037352901",
+    "display_name": "Peter Philip Edwards",
+    "orcid": "https://orcid.org/0000-0002-1379-9400",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-1379-9400"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I40120149",
+     "display_name": "University of Oxford",
+     "ror": "https://ror.org/052gg0110",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I40120149"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "P.P. Edwards",
+   "raw_affiliation_strings": [
+    "Inorganic Chemistry Laboratory, University of Oxford, South Parks Road, Oxford OX1 3QR, UK",
+    "Inorganic Chemistry Laboratory, University of Oxford, South Parks Road, Oxford, OX1 3QR UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Inorganic Chemistry Laboratory, University of Oxford, South Parks Road, Oxford OX1 3QR, UK",
+     "institution_ids": [
+      "https://openalex.org/I40120149"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Inorganic Chemistry Laboratory, University of Oxford, South Parks Road, Oxford, OX1 3QR UK",
+     "institution_ids": [
+      "https://openalex.org/I40120149"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5026934282",
+    "display_name": "\u0412. \u041b. \u041a\u0443\u0437\u043d\u0435\u0446\u043e\u0432",
+    "orcid": "https://orcid.org/0000-0001-7011-7499",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7011-7499"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I40120149",
+     "display_name": "University of Oxford",
+     "ror": "https://ror.org/052gg0110",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I40120149"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "V.L. Kuznetsov",
+   "raw_affiliation_strings": [
+    "Inorganic Chemistry Laboratory, University of Oxford, South Parks Road, Oxford OX1 3QR, UK",
+    "Inorganic Chemistry Laboratory, University of Oxford, South Parks Road, Oxford, OX1 3QR UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Inorganic Chemistry Laboratory, University of Oxford, South Parks Road, Oxford OX1 3QR, UK",
+     "institution_ids": [
+      "https://openalex.org/I40120149"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Inorganic Chemistry Laboratory, University of Oxford, South Parks Road, Oxford, OX1 3QR UK",
+     "institution_ids": [
+      "https://openalex.org/I40120149"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5088627937",
+    "display_name": "William I. F. David",
+    "orcid": "https://orcid.org/0000-0003-1913-3682",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1913-3682"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1286704778",
+     "display_name": "Rutherford Appleton Laboratory",
+     "ror": "https://ror.org/03gq8fr08",
+     "country_code": "GB",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1286704778",
+      "https://openalex.org/I162524378",
+      "https://openalex.org/I4210087105"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4387152483",
+     "display_name": "ISIS Neutron and Muon Source",
+     "ror": "https://ror.org/01t8fg661",
+     "country_code": null,
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I162524378",
+      "https://openalex.org/I4210087105",
+      "https://openalex.org/I4387152483"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "W.I.F. David",
+   "raw_affiliation_strings": [
+    "ISIS Facility, Rutherford Appleton Laboratory, Harwell Science and Innovation Campus, Didcot OX11 0QX, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "ISIS Facility, Rutherford Appleton Laboratory, Harwell Science and Innovation Campus, Didcot OX11 0QX, UK",
+     "institution_ids": [
+      "https://openalex.org/I1286704778",
+      "https://openalex.org/I4387152483"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5035580795",
+    "display_name": "Nigel Peter Brandon",
+    "orcid": "https://orcid.org/0000-0003-2230-8666",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-2230-8666"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I47508984",
+     "display_name": "Imperial College London",
+     "ror": "https://ror.org/041kmwe10",
+     "country_code": "GB",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I47508984"
+     ]
+    }
+   ],
+   "countries": [
+    "GB"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "N.P. Brandon",
+   "raw_affiliation_strings": [
+    "Department of Earth Science and Engineering, South Kensington Campus, Imperial College, London SW7 2AZ, UK",
+    "Department of Earth Science and Engineering, South Kensington Campus, Imperial College London, SW7 2AZ, UK"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Earth Science and Engineering, South Kensington Campus, Imperial College, London SW7 2AZ, UK",
+     "institution_ids": [
+      "https://openalex.org/I47508984"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Earth Science and Engineering, South Kensington Campus, Imperial College London, SW7 2AZ, UK",
+     "institution_ids": [
+      "https://openalex.org/I47508984"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 4,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5037352901"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I40120149"
+ ],
+ "apc_list": {
+  "value": 3940,
+  "currency": "USD",
+  "value_usd": 3940
+ },
+ "apc_paid": null,
+ "fwci": 12.8589,
+ "has_fulltext": false,
+ "cited_by_count": 1204,
+ "citation_normalized_percentile": {
+  "value": 0.98846154,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "36",
+  "issue": "12",
+  "first_page": "4356",
+  "last_page": "4362"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11007",
+  "display_name": "Hybrid Renewable Energy Systems",
+  "score": 0.9467999935150146,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2102",
+   "display_name": "Energy Engineering and Power Technology"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/21",
+   "display_name": "Energy"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11007",
+   "display_name": "Hybrid Renewable Energy Systems",
+   "score": 0.9467999935150146,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2102",
+    "display_name": "Energy Engineering and Power Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10409",
+   "display_name": "Fuel Cells and Related Materials",
+   "score": 0.04320000112056732,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10495",
+   "display_name": "Catalysts for Methane Reforming",
+   "score": 0.0026000000070780516,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1503",
+    "display_name": "Catalysis"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/15",
+    "display_name": "Chemical Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/hydrogen",
+   "display_name": "hydrogen",
+   "score": 0.9319999814033508
+  },
+  {
+   "id": "https://openalex.org/keywords/fuel-cells",
+   "display_name": "fuel cells",
+   "score": 0.9990000128746033
+  },
+  {
+   "id": "https://openalex.org/keywords/sustainable-energy",
+   "display_name": "sustainable energy",
+   "score": 0.8489999771118164
+  },
+  {
+   "id": "https://openalex.org/keywords/hydrogen-economy",
+   "display_name": "hydrogen economy",
+   "score": 0.7770000100135803
+  },
+  {
+   "id": "https://openalex.org/keywords/climate-change-mitigation",
+   "display_name": "climate change mitigation",
+   "score": 0.9229999780654907
+  },
+  {
+   "id": "https://openalex.org/keywords/energy-security",
+   "display_name": "energy security",
+   "score": 0.8339999914169312
+  },
+  {
+   "id": "https://openalex.org/keywords/energy-storage",
+   "display_name": "energy storage",
+   "score": 0.621999979019165
+  },
+  {
+   "id": "https://openalex.org/keywords/transportation",
+   "display_name": "transportation",
+   "score": 0.6100000143051147
+  },
+  {
+   "id": "https://openalex.org/keywords/technological-barriers",
+   "display_name": "technological barriers",
+   "score": 0.5299999713897705
+  },
+  {
+   "id": "https://openalex.org/keywords/clean-energy-technologies",
+   "display_name": "clean energy technologies",
+   "score": 0.6259999871253967
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C9682599",
+   "wikidata": "https://www.wikidata.org/wiki/Q11549077",
+   "display_name": "Hydrogen fuel",
+   "level": 3,
+   "score": 0.6457033157348633
+  },
+  {
+   "id": "https://openalex.org/C2777172336",
+   "wikidata": "https://www.wikidata.org/wiki/Q2700433",
+   "display_name": "Energy security",
+   "level": 3,
+   "score": 0.6112657189369202
+  },
+  {
+   "id": "https://openalex.org/C39380314",
+   "wikidata": "https://www.wikidata.org/wiki/Q478859",
+   "display_name": "Hydrogen economy",
+   "level": 4,
+   "score": 0.5616825819015503
+  },
+  {
+   "id": "https://openalex.org/C68189081",
+   "wikidata": "https://www.wikidata.org/wiki/Q12748",
+   "display_name": "Fossil fuel",
+   "level": 2,
+   "score": 0.5555824041366577
+  },
+  {
+   "id": "https://openalex.org/C520343842",
+   "wikidata": "https://www.wikidata.org/wiki/Q3353193",
+   "display_name": "Energy engineering",
+   "level": 3,
+   "score": 0.5411583185195923
+  },
+  {
+   "id": "https://openalex.org/C134560507",
+   "wikidata": "https://www.wikidata.org/wiki/Q753291",
+   "display_name": "Environmental economics",
+   "level": 1,
+   "score": 0.48719948530197144
+  },
+  {
+   "id": "https://openalex.org/C7453809",
+   "wikidata": "https://www.wikidata.org/wiki/Q568469",
+   "display_name": "Energy carrier",
+   "level": 3,
+   "score": 0.48567116260528564
+  },
+  {
+   "id": "https://openalex.org/C542482507",
+   "wikidata": "https://www.wikidata.org/wiki/Q1854358",
+   "display_name": "Hydrogen technologies",
+   "level": 5,
+   "score": 0.4673944413661957
+  },
+  {
+   "id": "https://openalex.org/C2777890234",
+   "wikidata": "https://www.wikidata.org/wiki/Q795757",
+   "display_name": "Energy transition",
+   "level": 4,
+   "score": 0.46169552206993103
+  },
+  {
+   "id": "https://openalex.org/C174503800",
+   "wikidata": "https://www.wikidata.org/wiki/Q5381254",
+   "display_name": "Environmental impact of the energy industry",
+   "level": 4,
+   "score": 0.4228651225566864
+  },
+  {
+   "id": "https://openalex.org/C2987658370",
+   "wikidata": "https://www.wikidata.org/wiki/Q180253",
+   "display_name": "Fuel cells",
+   "level": 2,
+   "score": 0.42255932092666626
+  },
+  {
+   "id": "https://openalex.org/C552854447",
+   "wikidata": "https://www.wikidata.org/wiki/Q131201",
+   "display_name": "Sustainable development",
+   "level": 2,
+   "score": 0.41156303882598877
+  },
+  {
+   "id": "https://openalex.org/C188573790",
+   "wikidata": "https://www.wikidata.org/wiki/Q12705",
+   "display_name": "Renewable energy",
+   "level": 2,
+   "score": 0.3882632851600647
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.37543338537216187
+  },
+  {
+   "id": "https://openalex.org/C144133560",
+   "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+   "display_name": "Business",
+   "level": 0,
+   "score": 0.37537211179733276
+  },
+  {
+   "id": "https://openalex.org/C131046424",
+   "wikidata": "https://www.wikidata.org/wiki/Q1805337",
+   "display_name": "Energy policy",
+   "level": 3,
+   "score": 0.3357910215854645
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.2738485336303711
+  },
+  {
+   "id": "https://openalex.org/C548081761",
+   "wikidata": "https://www.wikidata.org/wiki/Q180388",
+   "display_name": "Waste management",
+   "level": 1,
+   "score": 0.22509172558784485
+  },
+  {
+   "id": "https://openalex.org/C17744445",
+   "wikidata": "https://www.wikidata.org/wiki/Q36442",
+   "display_name": "Political science",
+   "level": 0,
+   "score": 0.16378307342529297
+  },
+  {
+   "id": "https://openalex.org/C162324750",
+   "wikidata": "https://www.wikidata.org/wiki/Q8134",
+   "display_name": "Economics",
+   "level": 0,
+   "score": 0.1565951108932495
+  },
+  {
+   "id": "https://openalex.org/C204787440",
+   "wikidata": "https://www.wikidata.org/wiki/Q188504",
+   "display_name": "Alternative medicine",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C199539241",
+   "wikidata": "https://www.wikidata.org/wiki/Q7748",
+   "display_name": "Law",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C26993612",
+   "wikidata": "https://www.wikidata.org/wiki/Q910154",
+   "display_name": "Panacea (medicine)",
+   "level": 3,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C42360764",
+   "wikidata": "https://www.wikidata.org/wiki/Q83588",
+   "display_name": "Chemical engineering",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C142724271",
+   "wikidata": "https://www.wikidata.org/wiki/Q7208",
+   "display_name": "Pathology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.enpol.2008.09.036",
+   "doi": "https://doi.org/10.1016/j.enpol.2008.09.036",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.enpol.2008.09.036",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S175056054",
+    "display_name": "Energy Policy",
+    "issn_l": "0301-4215",
+    "issn": [
+     "0301-4215",
+     "1873-6777"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "abdc-a",
+     "anvur-class-a",
+     "anvur-scientific",
+     "cwts-core",
+     "fnege-2",
+     "jufo-1",
+     "norway-1",
+     "poland-140",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Energy Policy",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:RePEc:eee:enepol:v:36:y:2008:i:12:p:4356-4362",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "http://www.sciencedirect.com/science/article/pii/S0301-4215(08)00450-3",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401271",
+    "display_name": "RePEc: Research Papers in Economics",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I77793887",
+    "host_organization_name": "Federal Reserve Bank of St. Louis",
+    "host_organization_lineage": [
+     "https://openalex.org/I77793887"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "score": 1.0,
+   "display_name": "Affordable and clean energy",
+   "id": "https://metadata.un.org/sdg/7"
+  },
+  {
+   "score": 1.0,
+   "display_name": "Climate action",
+   "id": "https://metadata.un.org/sdg/13"
+  },
+  {
+   "score": 0.7207000255584717,
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9"
+  }
+ ],
+ "sustainable_development_goals_aurora": [],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G2230390951",
+   "display_name": null,
+   "funder_award_id": "EP/E039995/1",
+   "funder_id": "https://openalex.org/F4320334627",
+   "funder_display_name": "Engineering and Physical Sciences Research Council"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320334627",
+   "display_name": "Engineering and Physical Sciences Research Council",
+   "ror": "https://ror.org/0439y7842"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 7,
+ "referenced_works": [
+  "https://openalex.org/W1628791437",
+  "https://openalex.org/W1989065996",
+  "https://openalex.org/W2017670421",
+  "https://openalex.org/W2064333797",
+  "https://openalex.org/W2155122311",
+  "https://openalex.org/W2163884891",
+  "https://openalex.org/W2165465120"
+ ],
+ "related_works": [
+  "https://openalex.org/W2277727683",
+  "https://openalex.org/W4368227740",
+  "https://openalex.org/W4387203710",
+  "https://openalex.org/W4382914080",
+  "https://openalex.org/W2026835620",
+  "https://openalex.org/W2082332240",
+  "https://openalex.org/W4281832627",
+  "https://openalex.org/W1983064897",
+  "https://openalex.org/W2526165032",
+  "https://openalex.org/W4225863812"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 62
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 101
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 114
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 123
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 87
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 113
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 115
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 110
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 89
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 57
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 51
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 50
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 28
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 32
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 24
+  }
+ ],
+ "updated_date": "2026-10-21T09:56:26.102985",
+ "created_date": "2025-10-10T00:00:00"
+}

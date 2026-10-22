@@ -1,0 +1,232 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 5052930,
+  "items": [
+   {
+    "DOI": "10.1007/978-1-4757-3058-6_15",
+    "title": [
+     "Energy Density and Power Density of Electrical Energy Storage Devices"
+    ],
+    "author": [
+     {
+      "given": "B. E.",
+      "family": "Conway",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1999
+      ]
+     ]
+    },
+    "container-title": [
+     "Electrochemical Supercapacitors"
+    ],
+    "type": "book-chapter",
+    "is-referenced-by-count": 4
+   },
+   {
+    "DOI": "10.1557/proc-1100-jj06-02",
+    "title": [
+     "Materials Research for High Energy Density Electrochemical Capacitor"
+    ],
+    "author": [
+     {
+      "given": "Andrew F.",
+      "family": "Burke",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2008
+      ]
+     ]
+    },
+    "container-title": [
+     "MRS Proceedings"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 5,
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>In April 2007, the Office of Basic Energy Science, United States Department of Energy organized and conducted a Basic Energy Sciences Workshop for Electrical Energy Storage at which basic research needs for capacitive energy storage were considered in detail. This paper is intended to highlight the materials research findings/needs of the workshop and to relate them to the development of high energy density capacitors that can have an energy density approaching that of lead acid batteries, a power density greater than that of lithium ion batteries, and cycle life approaching that of carbon/carbon double-layer capacitors. Capacitors inherently have long cycle life and high power capability so the key issue is how to increase their energy density with minimum sacrifice of their inherent cycle life and power advantages. This requires the development of electrode charge storage materials with an effective high specific capacitance (F/g) and high electronic conductivity. The most promising electrode materials appear to be optimized activated carbons, graphitic carbons, nanotube carbons, and metal oxides. Cells can be assembled that utilize one of these materials in the one electrode and another of the material in the other electrode. Such hybrid cells can operate at 3-4V using organic electrolytes and potentially can have energy densities of 15-25 Wh/kg. Initial research is also underway on solid-state, high energy density devices utilizing high dielectric materials (K&gt;15000) which would operate at very high cell voltage. If such dielectric materials can be developed, these devices may have energy densities approaching those of lithium batteries.</jats:p>"
+   },
+   {
+    "DOI": "10.1021/acsenergylett.1c00170.s001",
+    "title": [
+     "Flexible Self-Charging, Ultrafast, High-Power-Density Ceramic Capacitor System"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1049/ic:19970419",
+    "title": [
+     "Recent developments in high energy density metallised electrode capacitor technology"
+    ],
+    "author": [
+     {
+      "given": "J.B.",
+      "family": "Ennis",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1997
+      ]
+     ]
+    },
+    "container-title": [
+     "IEE Colloquium Pulsed Power '97"
+    ],
+    "type": "proceedings-article",
+    "is-referenced-by-count": 1
+   },
+   {
+    "DOI": "10.1016/j.jpowsour.2007.01.037",
+    "title": [
+     "High-energy-density hybrid electrochemical capacitor using graphitizable carbon activated with KOH for positive electrode"
+    ],
+    "author": [
+     {
+      "given": "Taira",
+      "family": "Aida",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ichiro",
+      "family": "Murayama",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Koji",
+      "family": "Yamada",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Masayuki",
+      "family": "Morita",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2007,
+       4
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Power Sources"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 62
+   },
+   {
+    "DOI": "10.1149/ma2008-02/5/491",
+    "title": [
+     "A Proposed High Energy Density Electrochemical Capacitor"
+    ],
+    "author": [
+     {
+      "given": "Jim P.",
+      "family": "Zheng",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2008,
+       8,
+       29
+      ]
+     ]
+    },
+    "container-title": [
+     "ECS Meeting Abstracts"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 0,
+    "abstract": "<jats:p>Abstract not Available.</jats:p>"
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

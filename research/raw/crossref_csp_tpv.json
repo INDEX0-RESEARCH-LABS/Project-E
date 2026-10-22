@@ -1,0 +1,325 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 4146844,
+  "items": [
+   {
+    "DOI": "10.1016/j.solener.2015.02.007",
+    "title": [
+     "Towards a near-field concentrated solar thermophotovoltaic microsystem: Part I \u2013 Modeling"
+    ],
+    "author": [
+     {
+      "given": "Mahmoud",
+      "family": "Elzouka",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Sidy",
+      "family": "Ndao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2017,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "Solar Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 33
+   },
+   {
+    "DOI": "10.1115/imece2014-38396",
+    "title": [
+     "Modeling of Near-Field Concentrated Solar Thermophotovoltaic Microsystem"
+    ],
+    "author": [
+     {
+      "given": "Mahmoud",
+      "family": "Elzouka",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "University of Nebraska - Lincoln, Lincoln, NE"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mukesh",
+      "family": "Kulsreshath",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "University of Nebraska - Lincoln, Lincoln, NE"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sidy",
+      "family": "Ndao",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "University of Nebraska - Lincoln, Lincoln, NE"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2014,
+       11,
+       14
+      ]
+     ]
+    },
+    "container-title": [
+     "Volume 10: Micro- and Nano-Systems Engineering and Packaging"
+    ],
+    "type": "proceedings-article",
+    "is-referenced-by-count": 3,
+    "abstract": "<jats:p>Modeling of a near-field concentrated solar thermophotovoltaic (STPV) microsystem is carried out to investigate the use of STPV-based solid-state energy conversion as a high power density MEMS power generator. Near-field radiation can be realized between two closely separated surfaces (i.e. order of radiation wavelength), resulting in the enhancement of the heat radiation flux orders of magnitudes higher than the blackbody limit, consequently increasing cell output power density. The Near-field STPV model consists of an absorber/emitter model used to estimate the net power absorbed from solar irradiance, a near-field radiation transfer model to evaluate the power tunneled from the emitter to the PV cell at different separation distances, and a PV cell model to determine the photocurrent generated due to thermal radiation absorbed. Results reveal that decreasing separation distance between the emitter and the PV cell increases the absorber/emitter thermal efficiency, increases conversion efficiency, and the power density (\u00d7100 far-field). The results also predict increase in cooling power requirement as the separation distance is decreased, which may be a limiting design parameter for near-field STPV microsystems. Based on the model, an overall conversion efficiency of 17% at a separation distance of 10 nm and emitter temperature of 2000 K with solar concentration 6000 sun can be reached; this corresponds to an output power density of 9\u00d7105 W/m2.</jats:p>"
+   },
+   {
+    "DOI": "10.1016/j.solmat.2010.01.024",
+    "title": [
+     "Novel thin film thermophotovoltaic system"
+    ],
+    "author": [
+     {
+      "given": "Wilhelm",
+      "family": "Durisch",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Bernd",
+      "family": "Bitnar",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2010,
+       6
+      ]
+     ]
+    },
+    "container-title": [
+     "Solar Energy Materials and Solar Cells"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 28
+   },
+   {
+    "DOI": "10.1016/j.solener.2014.07.005",
+    "title": [
+     "Night time performance of a storage integrated solar thermophotovoltaic (SISTPV) system"
+    ],
+    "author": [
+     {
+      "given": "A.",
+      "family": "Veeraragavan",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "L.",
+      "family": "Montgomery",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "A.",
+      "family": "Datas",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2014,
+       10
+      ]
+     ]
+    },
+    "container-title": [
+     "Solar Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 50
+   },
+   {
+    "DOI": "10.1016/s0927-0248(97)00253-5",
+    "title": [
+     "Design of a thermophotovoltaic residential heating system"
+    ],
+    "author": [
+     {
+      "given": "M",
+      "family": "Schubnell",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1998,
+       3,
+       16
+      ]
+     ]
+    },
+    "container-title": [
+     "Solar Energy Materials and Solar Cells"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 23
+   },
+   {
+    "DOI": "10.1016/j.solener.2013.07.002",
+    "title": [
+     "Steady state analysis of a storage integrated solar thermophotovoltaic (SISTPV) system"
+    ],
+    "author": [
+     {
+      "given": "A.",
+      "family": "Datas",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "D.L.",
+      "family": "Chubb",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "A.",
+      "family": "Veeraragavan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2013,
+       10
+      ]
+     ]
+    },
+    "container-title": [
+     "Solar Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 71
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

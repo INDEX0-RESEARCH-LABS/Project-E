@@ -1,0 +1,2141 @@
+{
+ "id": "https://openalex.org/W3195805204",
+ "doi": "https://doi.org/10.1038/s41586-022-04473-y",
+ "title": "Thermophotovoltaic efficiency of 40%",
+ "display_name": "Thermophotovoltaic efficiency of 40%",
+ "publication_year": 2022,
+ "publication_date": "2022-04-13",
+ "ids": {
+  "openalex": "https://openalex.org/W3195805204",
+  "doi": "https://doi.org/10.1038/s41586-022-04473-y",
+  "mag": "3195805204",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/35418635"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1038/s41586-022-04473-y",
+  "doi": "https://doi.org/10.1038/s41586-022-04473-y",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1038/s41586-022-04473-y",
+  "pdf_url": "https://www.nature.com/articles/s41586-022-04473-y.pdf",
+  "source": {
+   "id": "https://openalex.org/S137773608",
+   "display_name": "Nature",
+   "issn_l": "0028-0836",
+   "issn": [
+    "0028-0836",
+    "1476-4687"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-a",
+    "doyens",
+    "erih-plus",
+    "jufo-3",
+    "ki-jl-3",
+    "medline",
+    "norway-2",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310319908",
+   "host_organization_name": "Nature Portfolio",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319908",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Nature Portfolio",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Nature",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "arxiv",
+  "crossref",
+  "datacite",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://www.nature.com/articles/s41586-022-04473-y.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5059657128",
+    "display_name": "Alina D. LaPotin",
+    "orcid": "https://orcid.org/0000-0002-9002-4174",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9002-4174"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Alina LaPotin",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-9002-4174",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5086174167",
+    "display_name": "Kevin L. Schulte",
+    "orcid": "https://orcid.org/0000-0003-4273-6254",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-4273-6254"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1297288678",
+     "display_name": "National Laboratory of the Rockies",
+     "ror": "https://ror.org/036266993",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1297288678",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I2800842121"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kevin L. Schulte",
+   "raw_affiliation_strings": [
+    "National Renewable Energy Laboratory, Golden, CO, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0003-4273-6254",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National Renewable Energy Laboratory, Golden, CO, USA",
+     "institution_ids": [
+      "https://openalex.org/I1297288678"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5028471863",
+    "display_name": "Myles A. Steiner",
+    "orcid": "https://orcid.org/0000-0003-1643-9766",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1643-9766"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1297288678",
+     "display_name": "National Laboratory of the Rockies",
+     "ror": "https://ror.org/036266993",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1297288678",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I2800842121"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Myles A. Steiner",
+   "raw_affiliation_strings": [
+    "National Renewable Energy Laboratory, Golden, CO, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National Renewable Energy Laboratory, Golden, CO, USA",
+     "institution_ids": [
+      "https://openalex.org/I1297288678"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5076218568",
+    "display_name": "Kyle Buznitsky",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Kyle Buznitsky",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5025357693",
+    "display_name": "Colin C. Kelsall",
+    "orcid": "https://orcid.org/0000-0001-7734-3958",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7734-3958"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Colin C. Kelsall",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5108373002",
+    "display_name": "D. J. Friedman",
+    "orcid": "https://orcid.org/0000-0002-3967-8746",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3967-8746"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1297288678",
+     "display_name": "National Laboratory of the Rockies",
+     "ror": "https://ror.org/036266993",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1297288678",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I2800842121"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Daniel J. Friedman",
+   "raw_affiliation_strings": [
+    "National Renewable Energy Laboratory, Golden, CO, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National Renewable Energy Laboratory, Golden, CO, USA",
+     "institution_ids": [
+      "https://openalex.org/I1297288678"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5014598762",
+    "display_name": "Eric J. Tervo",
+    "orcid": "https://orcid.org/0000-0002-8517-9649",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-8517-9649"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1297288678",
+     "display_name": "National Laboratory of the Rockies",
+     "ror": "https://ror.org/036266993",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1297288678",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I2800842121"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Eric J. Tervo",
+   "raw_affiliation_strings": [
+    "National Renewable Energy Laboratory, Golden, CO, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-8517-9649",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National Renewable Energy Laboratory, Golden, CO, USA",
+     "institution_ids": [
+      "https://openalex.org/I1297288678"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5017334932",
+    "display_name": "Ryan M. France",
+    "orcid": "https://orcid.org/0000-0002-2040-4809",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2040-4809"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1297288678",
+     "display_name": "National Laboratory of the Rockies",
+     "ror": "https://ror.org/036266993",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1297288678",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I2800842121"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ryan M. France",
+   "raw_affiliation_strings": [
+    "National Renewable Energy Laboratory, Golden, CO, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National Renewable Energy Laboratory, Golden, CO, USA",
+     "institution_ids": [
+      "https://openalex.org/I1297288678"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "Michelle R. Young",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1297288678",
+     "display_name": "National Laboratory of the Rockies",
+     "ror": "https://ror.org/036266993",
+     "country_code": "US",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1297288678",
+      "https://openalex.org/I1330989302",
+      "https://openalex.org/I2800842121"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Michelle R. Young",
+   "raw_affiliation_strings": [
+    "National Renewable Energy Laboratory, Golden, CO, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "National Renewable Energy Laboratory, Golden, CO, USA",
+     "institution_ids": [
+      "https://openalex.org/I1297288678"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5018494557",
+    "display_name": "Andrew Rohskopf",
+    "orcid": "https://orcid.org/0000-0002-2712-8296",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2712-8296"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Andrew Rohskopf",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5084807401",
+    "display_name": "Shomik Verma",
+    "orcid": "https://orcid.org/0000-0002-0402-9930",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-0402-9930"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Shomik Verma",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-0402-9930",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5076296735",
+    "display_name": "Evelyn N. Wang",
+    "orcid": "https://orcid.org/0000-0001-7045-1200",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7045-1200"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Evelyn N. Wang",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-7045-1200",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5088920915",
+    "display_name": "Asegun S. Henry",
+    "orcid": "https://orcid.org/0000-0002-9097-4882",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9097-4882"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I63966007",
+     "display_name": "Massachusetts Institute of Technology",
+     "ror": "https://ror.org/042nb2s44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Asegun Henry",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA. ase@mit.edu",
+    "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-9097-4882",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA. ase@mit.edu",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA",
+     "institution_ids": [
+      "https://openalex.org/I63966007"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5088920915"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I63966007"
+ ],
+ "apc_list": {
+  "value": 11390,
+  "currency": "USD",
+  "value_usd": 11390
+ },
+ "apc_paid": {
+  "value": 11390,
+  "currency": "USD",
+  "value_usd": 11390
+ },
+ "fwci": 30.452,
+ "has_fulltext": true,
+ "cited_by_count": 337,
+ "citation_normalized_percentile": {
+  "value": 0.99968484,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "604",
+  "issue": "7905",
+  "first_page": "287",
+  "last_page": "291"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12442",
+  "display_name": "Thermal Radiation and Cooling Technologies",
+  "score": 0.9868000149726868,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2205",
+   "display_name": "Civil and Structural Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12442",
+   "display_name": "Thermal Radiation and Cooling Technologies",
+   "score": 0.9868000149726868,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2205",
+    "display_name": "Civil and Structural Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12309",
+   "display_name": "solar cell performance optimization",
+   "score": 0.010200000368058681,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10440",
+   "display_name": "Advanced Thermoelectric Materials and Devices",
+   "score": 0.000699999975040555,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/thermophotovoltaics",
+   "display_name": "thermophotovoltaics",
+   "score": 0.9729999899864197
+  },
+  {
+   "id": "https://openalex.org/keywords/iii-v-semiconductors",
+   "display_name": "III-V semiconductors",
+   "score": 0.8989999890327454
+  },
+  {
+   "id": "https://openalex.org/keywords/back-reflector",
+   "display_name": "back reflector",
+   "score": 0.8669999837875366
+  },
+  {
+   "id": "https://openalex.org/keywords/high-temperature-emitters",
+   "display_name": "high-temperature emitters",
+   "score": 0.6700000166893005
+  },
+  {
+   "id": "https://openalex.org/keywords/dispatchable-renewable-energy",
+   "display_name": "dispatchable renewable energy",
+   "score": 0.9430000185966492
+  },
+  {
+   "id": "https://openalex.org/keywords/solar-cell-efficiency",
+   "display_name": "solar cell efficiency",
+   "score": 0.6660000085830688
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C117537405",
+   "wikidata": "https://www.wikidata.org/wiki/Q2944104",
+   "display_name": "Thermophotovoltaic",
+   "level": 3,
+   "score": 0.8933202624320984
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.44685062766075134
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.1336706578731537
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.07002949714660645
+  },
+  {
+   "id": "https://openalex.org/C41291067",
+   "wikidata": "https://www.wikidata.org/wiki/Q1897785",
+   "display_name": "Photovoltaic system",
+   "level": 2,
+   "score": 0.06394121050834656
+  }
+ ],
+ "mesh": [
+  {
+   "descriptor_ui": "D004560",
+   "descriptor_name": "Electricity",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D004560",
+   "descriptor_name": "Electricity",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D004560",
+   "descriptor_name": "Electricity",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D006358",
+   "descriptor_name": "Hot Temperature",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D006358",
+   "descriptor_name": "Hot Temperature",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D006358",
+   "descriptor_name": "Hot Temperature",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": true
+  },
+  {
+   "descriptor_ui": "D007259",
+   "descriptor_name": "Infrared Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D007259",
+   "descriptor_name": "Infrared Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D007259",
+   "descriptor_name": "Infrared Rays",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D013696",
+   "descriptor_name": "Temperature",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D013696",
+   "descriptor_name": "Temperature",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  },
+  {
+   "descriptor_ui": "D013696",
+   "descriptor_name": "Temperature",
+   "qualifier_ui": null,
+   "qualifier_name": null,
+   "is_major_topic": false
+  }
+ ],
+ "locations_count": 9,
+ "locations": [
+  {
+   "id": "doi:10.1038/s41586-022-04473-y",
+   "doi": "https://doi.org/10.1038/s41586-022-04473-y",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1038/s41586-022-04473-y",
+   "pdf_url": "https://www.nature.com/articles/s41586-022-04473-y.pdf",
+   "source": {
+    "id": "https://openalex.org/S137773608",
+    "display_name": "Nature",
+    "issn_l": "0028-0836",
+    "issn": [
+     "0028-0836",
+     "1476-4687"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-class-a",
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-a",
+     "doyens",
+     "erih-plus",
+     "jufo-3",
+     "ki-jl-3",
+     "medline",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310319908",
+    "host_organization_name": "Nature Portfolio",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319908",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Nature Portfolio",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Nature",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:35418635",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/35418635",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Nature",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:arXiv.org:2108.09613",
+   "doi": null,
+   "is_oa": true,
+   "landing_page_url": "http://arxiv.org/abs/2108.09613",
+   "pdf_url": "https://arxiv.org/pdf/2108.09613",
+   "source": {
+    "id": "https://openalex.org/S4306400194",
+    "display_name": "arXiv (Cornell University)",
+    "issn_l": "2331-8422",
+    "issn": [
+     "2331-8422"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I205783295",
+    "host_organization_name": "Cornell University",
+    "host_organization_lineage": [
+     "https://openalex.org/I205783295"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "text"
+  },
+  {
+   "id": "pmh:oai:dspace.mit.edu:1721.1/153383",
+   "doi": null,
+   "is_oa": true,
+   "landing_page_url": "https://hdl.handle.net/1721.1/153383",
+   "pdf_url": "https://dspace.mit.edu/bitstreams/75260af9-f986-4a98-bfb1-f78a1c84bc7e/download",
+   "source": {
+    "id": "https://openalex.org/S4306400425",
+    "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I63966007",
+    "host_organization_name": "Massachusetts Institute of Technology",
+    "host_organization_lineage": [
+     "https://openalex.org/I63966007"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Springer Nature",
+   "raw_type": "Article"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:9007744",
+   "doi": null,
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9007744",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Nature",
+   "raw_type": "Text"
+  },
+  {
+   "id": "pmh:oai:RePEc:nat:nature:v:604:y:2022:i:7905:d:10.1038_s41586-022-04473-y",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "https://www.nature.com/articles/s41586-022-04473-y",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401271",
+    "display_name": "RePEc: Research Papers in Economics",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I77793887",
+    "host_organization_name": "Federal Reserve Bank of St. Louis",
+    "host_organization_lineage": [
+     "https://openalex.org/I77793887"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "article"
+  },
+  {
+   "id": "pmh:oai:osti.gov:1865112",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "https://www.osti.gov/biblio/1865112",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306402487",
+    "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I139351228",
+    "host_organization_name": "Office of Scientific and Technical Information",
+    "host_organization_lineage": [
+     "https://openalex.org/I139351228"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": null
+  },
+  {
+   "id": "pmh:oai:osti.gov:1879110",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "https://www.osti.gov/biblio/1879110",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306402487",
+    "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I139351228",
+    "host_organization_name": "Office of Scientific and Technical Information",
+    "host_organization_lineage": [
+     "https://openalex.org/I139351228"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": null
+  },
+  {
+   "id": "doi:10.48550/arxiv.2108.09613",
+   "doi": "https://doi.org/10.48550/arxiv.2108.09613",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.48550/arxiv.2108.09613",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400194",
+    "display_name": "arXiv (Cornell University)",
+    "issn_l": "2331-8422",
+    "issn": [
+     "2331-8422"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I205783295",
+    "host_organization_name": "Cornell University",
+    "host_organization_lineage": [
+     "https://openalex.org/I205783295"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": null,
+   "is_accepted": false,
+   "is_published": null,
+   "raw_source_name": null,
+   "raw_type": "article-journal"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1038/s41586-022-04473-y",
+  "doi": "https://doi.org/10.1038/s41586-022-04473-y",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1038/s41586-022-04473-y",
+  "pdf_url": "https://www.nature.com/articles/s41586-022-04473-y.pdf",
+  "source": {
+   "id": "https://openalex.org/S137773608",
+   "display_name": "Nature",
+   "issn_l": "0028-0836",
+   "issn": [
+    "0028-0836",
+    "1476-4687"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-a",
+    "doyens",
+    "erih-plus",
+    "jufo-3",
+    "ki-jl-3",
+    "medline",
+    "norway-2",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310319908",
+   "host_organization_name": "Nature Portfolio",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319908",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Nature Portfolio",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Nature",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 1.0,
+   "display_name": "Affordable and clean energy"
+  },
+  {
+   "id": "https://metadata.un.org/sdg/13",
+   "score": 0.5351999998092651,
+   "display_name": "Climate action"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.8899999856948853,
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G14908310",
+   "display_name": null,
+   "funder_award_id": "DE -AC36-08GO28308",
+   "funder_id": "https://openalex.org/F4320306084",
+   "funder_display_name": "U.S. Department of Energy"
+  },
+  {
+   "id": "https://openalex.org/G2439896633",
+   "display_name": null,
+   "funder_award_id": "DE-AC36-08GO28308",
+   "funder_id": "https://openalex.org/F4320332276",
+   "funder_display_name": "Advanced Research Projects Agency - Energy"
+  },
+  {
+   "id": "https://openalex.org/G2987214736",
+   "display_name": "HIGH TEMPERATURE PUMPS AND VALVES FOR MOLTEN SALT",
+   "funder_award_id": "DEEE0008381",
+   "funder_id": "https://openalex.org/F4320306084",
+   "funder_display_name": "U.S. Department of Energy"
+  },
+  {
+   "id": "https://openalex.org/G3172411733",
+   "display_name": null,
+   "funder_award_id": "DE-EE0008375",
+   "funder_id": "https://openalex.org/F4320332360",
+   "funder_display_name": "Office of Energy Efficiency and Renewable Energy"
+  },
+  {
+   "id": "https://openalex.org/G399272915",
+   "display_name": null,
+   "funder_award_id": "DE-AC36-08-GO28308.",
+   "funder_id": "https://openalex.org/F4320332360",
+   "funder_display_name": "Office of Energy Efficiency and Renewable Energy"
+  },
+  {
+   "id": "https://openalex.org/G440252240",
+   "display_name": null,
+   "funder_award_id": "DE-AC36-08-GO28308",
+   "funder_id": "https://openalex.org/F4320338290",
+   "funder_display_name": "National Renewable Energy Laboratory"
+  },
+  {
+   "id": "https://openalex.org/G4757526613",
+   "display_name": "CERAMIC CASTABLE CEMENT TANKS AND PIPING FOR MOLTEN SALT",
+   "funder_award_id": "DEEE0008375",
+   "funder_id": "https://openalex.org/F4320306084",
+   "funder_display_name": "U.S. Department of Energy"
+  },
+  {
+   "id": "https://openalex.org/G4785159920",
+   "display_name": null,
+   "funder_award_id": "AC36-08GO28308",
+   "funder_id": "https://openalex.org/F4320338290",
+   "funder_display_name": "National Renewable Energy Laboratory"
+  },
+  {
+   "id": "https://openalex.org/G494139048",
+   "display_name": null,
+   "funder_award_id": "DE-EE0008381",
+   "funder_id": "https://openalex.org/F4320332360",
+   "funder_display_name": "Office of Energy Efficiency and Renewable Energy"
+  },
+  {
+   "id": "https://openalex.org/G5010035048",
+   "display_name": null,
+   "funder_award_id": "DE-AR0001005",
+   "funder_id": "https://openalex.org/F4320332276",
+   "funder_display_name": "Advanced Research Projects Agency - Energy"
+  },
+  {
+   "id": "https://openalex.org/G645873479",
+   "display_name": null,
+   "funder_award_id": "AC36-08-GO28308",
+   "funder_id": "https://openalex.org/F4320332360",
+   "funder_display_name": "Office of Energy Efficiency and Renewable Energy"
+  },
+  {
+   "id": "https://openalex.org/G7021897321",
+   "display_name": null,
+   "funder_award_id": "08GO28308",
+   "funder_id": "https://openalex.org/F4320306084",
+   "funder_display_name": "U.S. Department of Energy"
+  },
+  {
+   "id": "https://openalex.org/G7462416962",
+   "display_name": null,
+   "funder_award_id": "AC36-08GO28308",
+   "funder_id": "https://openalex.org/F4320332276",
+   "funder_display_name": "Advanced Research Projects Agency - Energy"
+  },
+  {
+   "id": "https://openalex.org/G8142658735",
+   "display_name": null,
+   "funder_award_id": "DE-AC36",
+   "funder_id": "https://openalex.org/F4320306084",
+   "funder_display_name": "U.S. Department of Energy"
+  },
+  {
+   "id": "https://openalex.org/G944719100",
+   "display_name": null,
+   "funder_award_id": "AC36\u201008GO28308",
+   "funder_id": "https://openalex.org/F4320306084",
+   "funder_display_name": "U.S. Department of Energy"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306084",
+   "display_name": "U.S. Department of Energy",
+   "ror": "https://ror.org/01bj3aw27"
+  },
+  {
+   "id": "https://openalex.org/F4320332276",
+   "display_name": "Advanced Research Projects Agency - Energy",
+   "ror": "https://ror.org/03q1rgc19"
+  },
+  {
+   "id": "https://openalex.org/F4320332360",
+   "display_name": "Office of Energy Efficiency and Renewable Energy",
+   "ror": "https://ror.org/02xznz413"
+  },
+  {
+   "id": "https://openalex.org/F4320332815",
+   "display_name": "Advanced Research Projects Agency",
+   "ror": "https://ror.org/02caytj08"
+  },
+  {
+   "id": "https://openalex.org/F4320337919",
+   "display_name": "Office of Energy Efficiency",
+   "ror": null
+  },
+  {
+   "id": "https://openalex.org/F4320338290",
+   "display_name": "National Renewable Energy Laboratory",
+   "ror": "https://ror.org/036266993"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W3195805204.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W3195805204.grobid-xml"
+ },
+ "referenced_works_count": 60,
+ "referenced_works": [
+  "https://openalex.org/W13357183",
+  "https://openalex.org/W433287374",
+  "https://openalex.org/W855189336",
+  "https://openalex.org/W1511488895",
+  "https://openalex.org/W1527290365",
+  "https://openalex.org/W1533289590",
+  "https://openalex.org/W1561206397",
+  "https://openalex.org/W1608619007",
+  "https://openalex.org/W1931622143",
+  "https://openalex.org/W1965168449",
+  "https://openalex.org/W1978314898",
+  "https://openalex.org/W1987689626",
+  "https://openalex.org/W2013943268",
+  "https://openalex.org/W2017046962",
+  "https://openalex.org/W2021201233",
+  "https://openalex.org/W2026071941",
+  "https://openalex.org/W2027426921",
+  "https://openalex.org/W2054157571",
+  "https://openalex.org/W2054242865",
+  "https://openalex.org/W2058199769",
+  "https://openalex.org/W2080442359",
+  "https://openalex.org/W2080512818",
+  "https://openalex.org/W2089130501",
+  "https://openalex.org/W2105421564",
+  "https://openalex.org/W2110808476",
+  "https://openalex.org/W2115855276",
+  "https://openalex.org/W2120961042",
+  "https://openalex.org/W2143030724",
+  "https://openalex.org/W2149531031",
+  "https://openalex.org/W2201336537",
+  "https://openalex.org/W2301098783",
+  "https://openalex.org/W2345369893",
+  "https://openalex.org/W2469925285",
+  "https://openalex.org/W2560117910",
+  "https://openalex.org/W2565584346",
+  "https://openalex.org/W2589922015",
+  "https://openalex.org/W2619434497",
+  "https://openalex.org/W2650367466",
+  "https://openalex.org/W2763241250",
+  "https://openalex.org/W2767845257",
+  "https://openalex.org/W2787431038",
+  "https://openalex.org/W2787672879",
+  "https://openalex.org/W2808259519",
+  "https://openalex.org/W2883186691",
+  "https://openalex.org/W2899633823",
+  "https://openalex.org/W2945036857",
+  "https://openalex.org/W2962332569",
+  "https://openalex.org/W2965435789",
+  "https://openalex.org/W2969695854",
+  "https://openalex.org/W2996263883",
+  "https://openalex.org/W3045765780",
+  "https://openalex.org/W3087731601",
+  "https://openalex.org/W3091844878",
+  "https://openalex.org/W3118750057",
+  "https://openalex.org/W3148996535",
+  "https://openalex.org/W3169781174",
+  "https://openalex.org/W4200288603",
+  "https://openalex.org/W4235193728",
+  "https://openalex.org/W6745585042",
+  "https://openalex.org/W6885068036"
+ ],
+ "related_works": [
+  "https://openalex.org/W4392611567",
+  "https://openalex.org/W3129747343",
+  "https://openalex.org/W1497812909",
+  "https://openalex.org/W2973136371",
+  "https://openalex.org/W4212854934",
+  "https://openalex.org/W2011040521",
+  "https://openalex.org/W2126680743",
+  "https://openalex.org/W2114047126",
+  "https://openalex.org/W4385362564",
+  "https://openalex.org/W2897097282"
+ ],
+ "abstract_inverted_index": {
+  "Abstract": [
+   0
+  ],
+  "Thermophotovoltaics": [
+   1
+  ],
+  "(TPVs)": [
+   2
+  ],
+  "convert": [
+   3
+  ],
+  "predominantly": [
+   4
+  ],
+  "infrared": [
+   5
+  ],
+  "wavelength": [
+   6
+  ],
+  "light": [
+   7
+  ],
+  "to": [
+   8,
+   18,
+   168,
+   178,
+   184,
+   259,
+   273,
+   282
+  ],
+  "electricity": [
+   9,
+   38,
+   287
+  ],
+  "via": [
+   10
+  ],
+  "the": [
+   11,
+   32,
+   42,
+   87,
+   111,
+   127,
+   162,
+   185,
+   286
+  ],
+  "photovoltaic": [
+   12
+  ],
+  "effect,": [
+   13
+  ],
+  "and": [
+   14,
+   22,
+   57,
+   69,
+   113,
+   124,
+   147,
+   209,
+   238,
+   278
+  ],
+  "can": [
+   15,
+   81,
+   247
+  ],
+  "enable": [
+   16,
+   260,
+   283
+  ],
+  "approaches": [
+   17
+  ],
+  "energy": [
+   19,
+   256,
+   270
+  ],
+  "storage": [
+   20,
+   258,
+   272
+  ],
+  "1,2": [
+   21
+  ],
+  "conversion": [
+   23
+  ],
+  "3\u20139": [
+   24
+  ],
+  "that": [
+   25,
+   34,
+   78,
+   150
+  ],
+  "use": [
+   26
+  ],
+  "higher": [
+   27
+  ],
+  "temperature": [
+   28,
+   212,
+   241
+  ],
+  "heat": [
+   29
+  ],
+  "sources": [
+   30
+  ],
+  "than": [
+   31,
+   122
+  ],
+  "turbines": [
+   33
+  ],
+  "are": [
+   35,
+   90,
+   137,
+   151
+  ],
+  "ubiquitous": [
+   36
+  ],
+  "in": [
+   37
+  ],
+  "production": [
+   39
+  ],
+  "today.": [
+   40
+  ],
+  "Since": [
+   41
+  ],
+  "first": [
+   43
+  ],
+  "demonstration": [
+   44
+  ],
+  "of": [
+   45,
+   115,
+   120,
+   129,
+   156,
+   164,
+   195,
+   204,
+   213,
+   224,
+   233,
+   242,
+   285
+  ],
+  "29%": [
+   46
+  ],
+  "efficient": [
+   47
+  ],
+  "TPVs": [
+   48
+  ],
+  "(Fig.": [
+   49
+  ],
+  "1a)": [
+   50
+  ],
+  "using": [
+   51,
+   172
+  ],
+  "an": [
+   52,
+   210,
+   239
+  ],
+  "integrated": [
+   53,
+   249
+  ],
+  "back": [
+   54,
+   175,
+   183
+  ],
+  "surface": [
+   55,
+   176
+  ],
+  "reflector": [
+   56
+  ],
+  "a": [
+   58,
+   192,
+   201,
+   221,
+   230,
+   251,
+   266
+  ],
+  "tungsten": [
+   59
+  ],
+  "emitter": [
+   60,
+   154,
+   211,
+   240
+  ],
+  "at": [
+   61,
+   98,
+   200,
+   229
+  ],
+  "2,000": [
+   62
+  ],
+  "\u00b0C": [
+   63,
+   104
+  ],
+  "(ref.": [
+   64
+  ],
+  "10": [
+   65
+  ],
+  "),": [
+   66,
+   86
+  ],
+  "TPV": [
+   67,
+   79,
+   116,
+   132,
+   135,
+   252
+  ],
+  "fabrication": [
+   68,
+   112
+  ],
+  "performance": [
+   70
+  ],
+  "have": [
+   71
+  ],
+  "improved": [
+   72
+  ],
+  "11,12": [
+   73
+  ],
+  ".": [
+   74
+  ],
+  "However,": [
+   75
+  ],
+  "despite": [
+   76
+  ],
+  "predictions": [
+   77
+  ],
+  "efficiencies": [
+   80,
+   89,
+   119
+  ],
+  "exceed": [
+   82
+  ],
+  "50%": [
+   83
+  ],
+  "(refs.": [
+   84,
+   105
+  ],
+  "11,13,14": [
+   85
+  ],
+  "demonstrated": [
+   88
+  ],
+  "still": [
+   91
+  ],
+  "only": [
+   92
+  ],
+  "as": [
+   93,
+   95
+  ],
+  "high": [
+   94,
+   170,
+   276
+  ],
+  "32%,": [
+   96
+  ],
+  "albeit": [
+   97
+  ],
+  "much": [
+   99
+  ],
+  "lower": [
+   100
+  ],
+  "temperatures": [
+   101,
+   155
+  ],
+  "below": [
+   102
+  ],
+  "1,300": [
+   103
+  ],
+  "13\u201315": [
+   106
+  ],
+  ").": [
+   107
+  ],
+  "Here": [
+   108
+  ],
+  "we": [
+   109
+  ],
+  "report": [
+   110
+  ],
+  "measurement": [
+   114
+  ],
+  "cells": [
+   117,
+   136,
+   160,
+   246
+  ],
+  "with": [
+   118,
+   143
+  ],
+  "more": [
+   121
+  ],
+  "40%": [
+   123
+  ],
+  "experimentally": [
+   125
+  ],
+  "demonstrate": [
+   126
+  ],
+  "efficiency": [
+   128,
+   194,
+   223,
+   277
+  ],
+  "high-bandgap": [
+   130
+  ],
+  "tandem": [
+   131
+  ],
+  "cells.": [
+   133
+  ],
+  "The": [
+   134,
+   159
+  ],
+  "two-junction": [
+   138
+  ],
+  "devices": [
+   139
+  ],
+  "comprising": [
+   140
+  ],
+  "III\u2013V": [
+   141
+  ],
+  "materials": [
+   142
+  ],
+  "bandgaps": [
+   144
+  ],
+  "between": [
+   145
+  ],
+  "1.0": [
+   146
+  ],
+  "1.4": [
+   148
+  ],
+  "eV": [
+   149,
+   189,
+   218
+  ],
+  "optimized": [
+   152
+  ],
+  "for": [
+   153,
+   254,
+   268
+  ],
+  "1,900\u20132,400": [
+   157
+  ],
+  "\u00b0C.": [
+   158,
+   215,
+   244
+  ],
+  "exploit": [
+   161
+  ],
+  "concept": [
+   163
+  ],
+  "band-edge": [
+   165
+  ],
+  "spectral": [
+   166
+  ],
+  "filtering": [
+   167
+  ],
+  "obtain": [
+   169
+  ],
+  "efficiency,": [
+   171
+  ],
+  "highly": [
+   173
+  ],
+  "reflective": [
+   174
+  ],
+  "reflectors": [
+   177
+  ],
+  "reject": [
+   179
+  ],
+  "unusable": [
+   180
+  ],
+  "sub-bandgap": [
+   181
+  ],
+  "radiation": [
+   182
+  ],
+  "emitter.": [
+   186
+  ],
+  "A": [
+   187,
+   216
+  ],
+  "1.4/1.2": [
+   188
+  ],
+  "device": [
+   190,
+   219
+  ],
+  "reached": [
+   191,
+   220
+  ],
+  "maximum": [
+   193,
+   222
+  ],
+  "(41.1": [
+   196
+  ],
+  "\u00b1": [
+   197,
+   226
+  ],
+  "1)%": [
+   198,
+   227
+  ],
+  "operating": [
+   199,
+   228
+  ],
+  "power": [
+   202,
+   231
+  ],
+  "density": [
+   203,
+   232
+  ],
+  "2.39": [
+   205
+  ],
+  "W": [
+   206,
+   235
+  ],
+  "cm": [
+   207,
+   236
+  ],
+  "\u20132": [
+   208,
+   237
+  ],
+  "2,400": [
+   214
+  ],
+  "1.2/1.0": [
+   217
+  ],
+  "(39.3": [
+   225
+  ],
+  "1.8": [
+   234
+  ],
+  "2,127": [
+   243
+  ],
+  "These": [
+   245
+  ],
+  "be": [
+   248
+  ],
+  "into": [
+   250
+  ],
+  "system": [
+   253
+  ],
+  "thermal": [
+   255,
+   269
+  ],
+  "grid": [
+   257,
+   271
+  ],
+  "dispatchable": [
+   261
+  ],
+  "renewable": [
+   262
+  ],
+  "energy.": [
+   263
+  ],
+  "This": [
+   264
+  ],
+  "creates": [
+   265
+  ],
+  "pathway": [
+   267
+  ],
+  "reach": [
+   274
+  ],
+  "sufficiently": [
+   275,
+   279
+  ],
+  "low": [
+   280
+  ],
+  "cost": [
+   281
+  ],
+  "decarbonization": [
+   284
+  ],
+  "grid.": [
+   288
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 64
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 99
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 70
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 67
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 37
+  }
+ ],
+ "updated_date": "2026-10-20T09:52:01.089006",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,867 @@
+{
+ "id": "https://openalex.org/W4408602496",
+ "doi": "https://doi.org/10.58837/chula.the.2009.1698",
+ "title": "Electrical efficiency of ethanol fuelled solid oxide fuel cell system : comparison between distillation and pervaporation for bioethanol purification",
+ "display_name": "Electrical efficiency of ethanol fuelled solid oxide fuel cell system : comparison between distillation and pervaporation for bioethanol purification",
+ "publication_year": 2009,
+ "publication_date": "2009-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4408602496",
+  "doi": "https://doi.org/10.58837/chula.the.2009.1698"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.58837/chula.the.2009.1698",
+  "doi": "https://doi.org/10.58837/chula.the.2009.1698",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.58837/chula.the.2009.1698",
+  "pdf_url": null,
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Chulalongkorn University",
+  "raw_type": "dissertation"
+ },
+ "volume": null,
+ "type": "dissertation",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5060049514",
+    "display_name": "Issara Choedkiatsakul",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Issara Choedkiatsakul",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "Suttichai Assabumrungrat",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Suttichai Assabumrungrat",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": null,
+    "display_name": "Sumittra Charojrochkul",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Sumittra Charojrochkul",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5060049514"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": null,
+ "has_fulltext": false,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": null,
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10311",
+  "display_name": "Advancements in Solid Oxide Fuel Cells",
+  "score": 0.9423999786376953,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2505",
+   "display_name": "Materials Chemistry"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/25",
+   "display_name": "Materials Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10311",
+   "display_name": "Advancements in Solid Oxide Fuel Cells",
+   "score": 0.9423999786376953,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11007",
+   "display_name": "Hybrid Renewable Energy Systems",
+   "score": 0.012400000356137753,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2102",
+    "display_name": "Energy Engineering and Power Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10171",
+   "display_name": "Biofuel production and bioconversion",
+   "score": 0.01080000028014183,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2204",
+    "display_name": "Biomedical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/solid-oxide-fuel-cells",
+   "display_name": "solid oxide fuel cells",
+   "score": 0.9829999804496765
+  },
+  {
+   "id": "https://openalex.org/keywords/bioethanol-purification",
+   "display_name": "bioethanol purification",
+   "score": 0.8600000143051147
+  },
+  {
+   "id": "https://openalex.org/keywords/pervaporation",
+   "display_name": "pervaporation",
+   "score": 0.9150000214576721
+  },
+  {
+   "id": "https://openalex.org/keywords/distillation",
+   "display_name": "distillation",
+   "score": 0.972000002861023
+  },
+  {
+   "id": "https://openalex.org/keywords/ethanol-recovery",
+   "display_name": "ethanol recovery",
+   "score": 0.6869999766349792
+  },
+  {
+   "id": "https://openalex.org/keywords/electrical-efficiency",
+   "display_name": "electrical efficiency",
+   "score": 0.859000027179718
+  },
+  {
+   "id": "https://openalex.org/keywords/permeate-pressure",
+   "display_name": "permeate pressure",
+   "score": 0.8450000286102295
+  },
+  {
+   "id": "https://openalex.org/keywords/heating-energy-consumption",
+   "display_name": "heating energy consumption",
+   "score": 0.6330000162124634
+  },
+  {
+   "id": "https://openalex.org/keywords/operating-temperature",
+   "display_name": "operating temperature",
+   "score": 0.46799999475479126
+  },
+  {
+   "id": "https://openalex.org/keywords/operating-voltage",
+   "display_name": "operating voltage",
+   "score": 0.7419999837875366
+  },
+  {
+   "id": "https://openalex.org/keywords/separation-factor",
+   "display_name": "separation factor",
+   "score": 0.5059999823570251
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C53991642",
+   "wikidata": "https://www.wikidata.org/wiki/Q128991",
+   "display_name": "Biofuel",
+   "level": 2,
+   "score": 0.8067789077758789
+  },
+  {
+   "id": "https://openalex.org/C204030448",
+   "wikidata": "https://www.wikidata.org/wiki/Q101017",
+   "display_name": "Distillation",
+   "level": 2,
+   "score": 0.790546715259552
+  },
+  {
+   "id": "https://openalex.org/C69141292",
+   "wikidata": "https://www.wikidata.org/wiki/Q2072760",
+   "display_name": "Pervaporation",
+   "level": 4,
+   "score": 0.701761782169342
+  },
+  {
+   "id": "https://openalex.org/C2780161600",
+   "wikidata": "https://www.wikidata.org/wiki/Q153",
+   "display_name": "Ethanol",
+   "level": 2,
+   "score": 0.6075876951217651
+  },
+  {
+   "id": "https://openalex.org/C528095902",
+   "wikidata": "https://www.wikidata.org/wiki/Q2283886",
+   "display_name": "Pulp and paper industry",
+   "level": 1,
+   "score": 0.4494181275367737
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.4247050881385803
+  },
+  {
+   "id": "https://openalex.org/C548081761",
+   "wikidata": "https://www.wikidata.org/wiki/Q180388",
+   "display_name": "Waste management",
+   "level": 1,
+   "score": 0.4156496226787567
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.4031548798084259
+  },
+  {
+   "id": "https://openalex.org/C42360764",
+   "wikidata": "https://www.wikidata.org/wiki/Q83588",
+   "display_name": "Chemical engineering",
+   "level": 1,
+   "score": 0.3910827338695526
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.3706595301628113
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.3376167416572571
+  },
+  {
+   "id": "https://openalex.org/C43617362",
+   "wikidata": "https://www.wikidata.org/wiki/Q170050",
+   "display_name": "Chromatography",
+   "level": 1,
+   "score": 0.3054714798927307
+  },
+  {
+   "id": "https://openalex.org/C178790620",
+   "wikidata": "https://www.wikidata.org/wiki/Q11351",
+   "display_name": "Organic chemistry",
+   "level": 1,
+   "score": 0.28277379274368286
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.25697311758995056
+  },
+  {
+   "id": "https://openalex.org/C41625074",
+   "wikidata": "https://www.wikidata.org/wiki/Q176088",
+   "display_name": "Membrane",
+   "level": 2,
+   "score": 0.1492026448249817
+  },
+  {
+   "id": "https://openalex.org/C55493867",
+   "wikidata": "https://www.wikidata.org/wiki/Q7094",
+   "display_name": "Biochemistry",
+   "level": 1,
+   "score": 0.08249178528785706
+  },
+  {
+   "id": "https://openalex.org/C50670333",
+   "wikidata": "https://www.wikidata.org/wiki/Q907651",
+   "display_name": "Permeation",
+   "level": 3,
+   "score": 0.04965221881866455
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.58837/chula.the.2009.1698",
+   "doi": "https://doi.org/10.58837/chula.the.2009.1698",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.58837/chula.the.2009.1698",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Chulalongkorn University",
+   "raw_type": "dissertation"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "score": 1.0,
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "sustainable_development_goals_aurora": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [
+  "https://openalex.org/W1644862741",
+  "https://openalex.org/W2075692413",
+  "https://openalex.org/W4400822775",
+  "https://openalex.org/W2115014390",
+  "https://openalex.org/W2173937389",
+  "https://openalex.org/W2553845186",
+  "https://openalex.org/W2356469567",
+  "https://openalex.org/W4211022185",
+  "https://openalex.org/W4232559678",
+  "https://openalex.org/W2029480594"
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0,
+   67,
+   174
+  ],
+  "overall": [
+   1,
+   195
+  ],
+  "electrical": [
+   2,
+   45,
+   90,
+   196
+  ],
+  "efficiencies": [
+   3
+  ],
+  "of": [
+   4,
+   59,
+   151,
+   159,
+   189
+  ],
+  "the": [
+   5,
+   30,
+   43,
+   50,
+   60,
+   71,
+   75,
+   94,
+   99,
+   102,
+   108,
+   111,
+   124,
+   136,
+   141,
+   149,
+   152,
+   155,
+   160,
+   178,
+   186,
+   193
+  ],
+  "solid": [
+   6
+  ],
+  "oxide": [
+   7
+  ],
+  "fuel": [
+   8
+  ],
+  "cell": [
+   9
+  ],
+  "(SOFC)": [
+   10
+  ],
+  "systemintegrated": [
+   11
+  ],
+  "with": [
+   12,
+   98,
+   164,
+   182,
+   185
+  ],
+  "two": [
+   13,
+   56
+  ],
+  "different": [
+   14,
+   57
+  ],
+  "bio-ethanol": [
+   15
+  ],
+  "purification": [
+   16,
+   31,
+   100
+  ],
+  "processes,": [
+   17
+  ],
+  "i.e.": [
+   18
+  ],
+  "distillation": [
+   19,
+   41,
+   165
+  ],
+  "and": [
+   20,
+   24,
+   132,
+   135,
+   145,
+   166,
+   171,
+   213
+  ],
+  "pervaporation": [
+   21,
+   33,
+   64,
+   167,
+   183
+  ],
+  "were": [
+   22,
+   65,
+   105
+  ],
+  "investigated": [
+   23
+  ],
+  "compared.": [
+   25
+  ],
+  "It": [
+   26,
+   120
+  ],
+  "was": [
+   27,
+   121
+  ],
+  "found": [
+   28,
+   122
+  ],
+  "that": [
+   29,
+   39,
+   70,
+   110,
+   123,
+   177,
+   198
+  ],
+  "by": [
+   32,
+   40
+  ],
+  "consumed": [
+   34
+  ],
+  "less": [
+   35,
+   85
+  ],
+  "heat": [
+   36,
+   86,
+   114
+  ],
+  "energy": [
+   37
+  ],
+  "than": [
+   38
+  ],
+  "but": [
+   42,
+   88
+  ],
+  "additional": [
+   44
+  ],
+  "power": [
+   46,
+   91
+  ],
+  "is": [
+   47,
+   116,
+   129,
+   139,
+   199
+  ],
+  "required": [
+   48,
+   84
+  ],
+  "for": [
+   49,
+   63
+  ],
+  "vacuum": [
+   51
+  ],
+  "pump": [
+   52
+  ],
+  "operation.": [
+   53
+  ],
+  "In": [
+   54
+  ],
+  "addition,": [
+   55
+  ],
+  "levels": [
+   58
+  ],
+  "permeate": [
+   61,
+   76,
+   187
+  ],
+  "pressure": [
+   62,
+   73,
+   188
+  ],
+  "studied.": [
+   66
+  ],
+  "results": [
+   68,
+   175
+  ],
+  "show": [
+   69
+  ],
+  "lowering": [
+   72
+  ],
+  "at": [
+   74
+  ],
+  "side": [
+   77
+  ],
+  "from": [
+   78
+  ],
+  "0.1": [
+   79,
+   190
+  ],
+  "atm": [
+   80,
+   83,
+   191
+  ],
+  "to": [
+   81,
+   118
+  ],
+  "0.05": [
+   82
+  ],
+  "consumption": [
+   87
+  ],
+  "more": [
+   89
+  ],
+  "consumption.": [
+   92
+  ],
+  "For": [
+   93,
+   148
+  ],
+  "SOFC": [
+   95,
+   161,
+   179
+  ],
+  "system": [
+   96,
+   162,
+   180
+  ],
+  "integrated": [
+   97,
+   163,
+   181
+  ],
+  "process,": [
+   101
+  ],
+  "simulation": [
+   103
+  ],
+  "studies": [
+   104
+  ],
+  "based": [
+   106
+  ],
+  "on": [
+   107
+  ],
+  "condition": [
+   109
+  ],
+  "net": [
+   112
+  ],
+  "useful": [
+   113
+  ],
+  "(Qnet)": [
+   115
+  ],
+  "equal": [
+   117
+  ],
+  "zero.": [
+   119
+  ],
+  "most": [
+   125
+  ],
+  "suitable": [
+   126
+  ],
+  "operating": [
+   127,
+   137
+  ],
+  "voltage": [
+   128
+  ],
+  "between": [
+   130,
+   143
+  ],
+  "0.65": [
+   131
+  ],
+  "0.8": [
+   133
+  ],
+  "V": [
+   134
+  ],
+  "temperature": [
+   138,
+   205
+  ],
+  "in": [
+   140
+  ],
+  "range": [
+   142
+  ],
+  "973": [
+   144
+  ],
+  "1173": [
+   146
+  ],
+  "K.": [
+   147
+  ],
+  "effect": [
+   150
+  ],
+  "ethanol": [
+   153,
+   157,
+   214
+  ],
+  "recovery,": [
+   154
+  ],
+  "optimal": [
+   156
+  ],
+  "recovery": [
+   158,
+   215
+  ],
+  "process": [
+   168,
+   184
+  ],
+  "are": [
+   169
+  ],
+  "95%": [
+   170
+  ],
+  "99%": [
+   172
+  ],
+  "respectively.": [
+   173
+  ],
+  "indicate": [
+   176
+  ],
+  "offers": [
+   192
+  ],
+  "maximum": [
+   194
+  ],
+  "efficiency": [
+   197
+  ],
+  "41.6%": [
+   200
+  ],
+  "(voltage": [
+   201
+  ],
+  "=": [
+   202,
+   206,
+   211,
+   216
+  ],
+  "0.7": [
+   203
+  ],
+  "V,": [
+   204
+  ],
+  "1073": [
+   207
+  ],
+  "K,": [
+   208
+  ],
+  "separation": [
+   209
+  ],
+  "factor": [
+   210
+  ],
+  "923": [
+   212
+  ],
+  "99%)": [
+   217
+  ]
+ },
+ "counts_by_year": [],
+ "updated_date": "2026-05-21T06:26:12.895304",
+ "created_date": "2025-03-20T00:00:00"
+}

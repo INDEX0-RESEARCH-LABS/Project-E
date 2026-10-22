@@ -1,0 +1,248 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 1397566,
+  "items": [
+   {
+    "DOI": "10.1021/acsami.6c07948.s001",
+    "title": [
+     "Achieving a High Average Thermoelectric Figure of Merit (ZT) in Medium-Entropy SnTe Alloys"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acsami.9b11042.s001",
+    "title": [
+     "Achieving Out-of-Plane Thermoelectric Figure of Merit ZT = 1.44 in a pType Bi2Te3/Bi0.5Sb1.5Te3 Superlattice Film with Low Interfacial Resistance"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1063/1.4979328",
+    "title": [
+     "The relationship between the thermoelectric generator efficiency and the device engineering figure of merit Zd,eng. The maximum efficiency \ud835\udf3cmax"
+    ],
+    "author": [
+     {
+      "given": "C. L.",
+      "family": "Hapenciuc",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "National Institute for Lasers Plasma and Radiation Physics 1 , Magurele, Bucharest RO-77125, Romania"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "T.",
+      "family": "Borca-Tasciuc",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "Rensselaer Polytechnic Institute 2 , Troy, New York 12180, USA"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "I. N.",
+      "family": "Mihailescu",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "National Institute for Lasers Plasma and Radiation Physics 1 , Magurele, Bucharest RO-77125, Romania"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2017,
+       4,
+       1
+      ]
+     ]
+    },
+    "container-title": [
+     "AIP Advances"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 14,
+    "abstract": "<jats:p>Thermoelectric materials are used today in thermoelectric devices for heat to electricity(thermoelectric generators-TEG) or electricity to heat(heat pumps) conversion in a large range of applications. In the case of TEGs the final measure of their performance is given by a quantity named the maximum efficiency which shows how much from the heat input is converted into electrical power. Therefore it is of great interest to know correctly how much is the efficiency of a device to can make commercial assessments. The concept of engineering figure of merit, Zeng, and engineering power factor, Peng, were already introduced in the field to quantify the efficiency of a single material under temperature dependent thermoelectric properties, with the mention that the formulas derivation was limited to one leg of the thermoelectric generator. In this paper we propose to extend the concept of engineering figure of merit to a thermoelectric generator by introducing a more general concept of device engineering thermoelectric figure of merit, Zd,eng, which depends on the both TEG materials properties and which shall be the right quantity to be used when we are interested in the evaluation of the efficiency. Also, this work takes into account the electrical contact resistance between the electrodes and thermoelement legs in an attempt to quantify its influence upon the performance of a TEG. Finally, a new formula is proposed for the maximum efficiency of a TEG.</jats:p>"
+   },
+   {
+    "DOI": "10.1063/1.5127175",
+    "title": [
+     "Limitations of zT as a figure of merit for nanostructured thermoelectric materials"
+    ],
+    "author": [
+     {
+      "ORCID": "https://orcid.org/0000-0002-9425-0814",
+      "authenticated-orcid": false,
+      "given": "Xufeng",
+      "family": "Wang",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "Electrical and Computer Engineering, Purdue University , West Lafayette, Indiana 47907, USA"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "ORCID": "https://orcid.org/0000-0003-1460-7973",
+      "authenticated-orcid": false,
+      "given": "Mark",
+      "family": "Lundstrom",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "Electrical and Computer Engineering, Purdue University , West Lafayette, Indiana 47907, USA"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2019,
+       11,
+       21
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Applied Physics"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 9,
+    "abstract": "<jats:p>Thermoelectric properties of nanocomposites are numerically studied as a function of average grain size or nanoparticle density by simulating the measurements as they would be done experimentally. In accordance with previous theoretical and experimental results, we find that the Seebeck coefficient, power factor, and figure of merit, zT, can be increased by nanostructuring when energy barriers exist around the grain boundaries or embedded nanoparticles. When we simulate the performance of a thermoelectric cooler with the same material, however, we find that the maximum temperature difference, \u0394Tmax, is much less than expected from the given zT. This occurs because the measurements are done in a way that minimizes Joule heating, but the Joule heating that occurs in operating devices has a large effect for these kinds of materials. The same nanocomposite but without energy barriers at the grain boundaries has a lower measured zT but a higher \u0394Tmax. The physical reason for these results is explained. The results illustrate the limitations of zT as a figure of merit for nanocomposites with electrically active grain boundaries.</jats:p>"
+   },
+   {
+    "DOI": "10.21741/9781644903018-6",
+    "title": [
+     "Thermoelectric Conversion Efficiency and Figure of Merit"
+    ],
+    "author": [
+     {
+      "given": "Bhavya",
+      "family": "Padha",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2024,
+       3,
+       15
+      ]
+     ]
+    },
+    "container-title": [
+     "Materials Research Foundations",
+     "Thermoelectric Polymers"
+    ],
+    "type": "book-chapter",
+    "is-referenced-by-count": 3,
+    "abstract": "<jats:p>Thermoelectric (TE) materials are useful in renewable energy applications because they can transform waste heat into electricity. To accomplish large-scale thermoelectric applications, materials must have high thermoelectric conversion efficiency, be inexpensive, and operate within a specific temperature range. The high and low temperatures at the junction, as well as a parameter called the figure of merit, are related to the coefficient of performance (COP) of a thermoelectric heat pump and efficiency of a thermoelectric generator. By enhancing electrical behavior and lowering thermal conductivity, a high dimensionless figure of merit (z) value can be achieved.</jats:p>"
+   },
+   {
+    "DOI": "10.1007/s11664-019-06943-y",
+    "title": [
+     "Beyond zT: Is There a Limit to Thermoelectric Figure of Merit?"
+    ],
+    "author": [
+     {
+      "ORCID": "https://orcid.org/0000-0002-3593-1687",
+      "authenticated-orcid": false,
+      "given": "Yuriy",
+      "family": "Lobunets",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2019,
+       1,
+       18
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Electronic Materials"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 8
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

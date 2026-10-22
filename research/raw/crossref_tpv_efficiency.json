@@ -1,0 +1,204 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 589829,
+  "items": [
+   {
+    "DOI": "10.23860/thesis-lin-laura-2015",
+    "title": [
+     "ANALYSIS OF DIFFERENT SELECTIVE THERMAL EMITTER DESIGNS FOR INCREASING THE EFFICIENCY OF THERMOPHOTOVOLTAIC SYSTEMS"
+    ],
+    "author": [
+     {
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Laura",
+      "family": "Lin",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "dissertation",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acsphotonics.9b00984.s001",
+    "title": [
+     "High-Efficiency Thermophotovoltaic System That Employs an Emitter Based on a Silicon Rod-Type Photonic Crystal"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acsami.1c10451.s001",
+    "title": [
+     "High-Temperature Carbonized Ceria Thermophotovoltaic Emitter beyond Tungsten"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1063/1.4895932",
+    "title": [
+     "High efficiency rare-earth emitter for thermophotovoltaic applications"
+    ],
+    "author": [
+     {
+      "given": "E. S.",
+      "family": "Sakr",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "Purdue University Birck Nanotechnology Center, School of Electrical and Computer Engineering, , 1205 W. State St., West Lafayette, Indiana 47907, USA"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Z.",
+      "family": "Zhou",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "Purdue University Birck Nanotechnology Center, School of Electrical and Computer Engineering, , 1205 W. State St., West Lafayette, Indiana 47907, USA"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "ORCID": "https://orcid.org/0000-0001-7140-0667",
+      "authenticated-orcid": false,
+      "given": "P.",
+      "family": "Bermel",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "Purdue University Birck Nanotechnology Center, School of Electrical and Computer Engineering, , 1205 W. State St., West Lafayette, Indiana 47907, USA"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2014,
+       9,
+       15
+      ]
+     ]
+    },
+    "container-title": [
+     "Applied Physics Letters"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 40,
+    "abstract": "<jats:p>In this work, we propose a rare-earth-based ceramic thermal emitter design that can boost thermophotovoltaic (TPV) efficiencies significantly without cold-side filters at a temperature of 1573\u2009K (1300\u2009\u00b0C). The proposed emitter enhances a naturally occurring rare earth transition using quality-factor matching, with a quarter-wave stack as a highly reflective back mirror, while suppressing parasitic losses via exponential chirping of a multilayer reflector transmitting only at short wavelengths. This allows the emissivity to approach the blackbody limit for wavelengths overlapping with the absorption peak of the rare-earth material, while effectively reducing the losses associated with undesirable long-wavelength emission. We obtain TPV efficiencies of 34% using this layered design, which only requires modest index contrast, making it particularly amenable to fabrication via a wide variety of techniques, including sputtering, spin-coating, and plasma-enhanced chemical vapor deposition.</jats:p>"
+   },
+   {
+    "DOI": "10.1021/acsaem.0c03201.s001",
+    "title": [
+     "Selective Thermophotovoltaic Emitter with Aperiodic Multilayer Structures Designed by Machine Learning"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.21236/ada418470",
+    "title": [
+     "Thermophotovoltaic Emitter Material Selection and Design"
+    ],
+    "author": [
+     {
+      "given": "Patrick C.",
+      "family": "Saxton",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1997,
+       5,
+       7
+      ]
+     ]
+    },
+    "type": "report",
+    "is-referenced-by-count": 0
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

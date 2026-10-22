@@ -1,0 +1,717 @@
+{
+ "id": "https://openalex.org/W2148596493",
+ "doi": "https://doi.org/10.1038/nmat2090",
+ "title": "Complex thermoelectric materials",
+ "display_name": "Complex thermoelectric materials",
+ "publication_year": 2008,
+ "publication_date": "2008-01-25",
+ "ids": {
+  "openalex": "https://openalex.org/W2148596493",
+  "doi": "https://doi.org/10.1038/nmat2090",
+  "mag": "2148596493",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/18219332"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1038/nmat2090",
+  "doi": "https://doi.org/10.1038/nmat2090",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1038/nmat2090",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S103895331",
+   "display_name": "Nature Materials",
+   "issn_l": "1476-1122",
+   "issn": [
+    "1476-1122",
+    "1476-4660"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-a",
+    "jufo-3",
+    "ki-jl-3",
+    "medline",
+    "norway-2",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310319908",
+   "host_organization_name": "Nature Portfolio",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319908",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Nature Portfolio",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Nature Materials",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5049121943",
+    "display_name": "Gerald Jeffrey Snyder",
+    "orcid": "https://orcid.org/0000-0003-1414-8682",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-1414-8682"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I122411786",
+     "display_name": "California Institute of Technology",
+     "ror": "https://ror.org/05dxps055",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I122411786"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "G. Jeffrey Snyder",
+   "raw_affiliation_strings": [
+    "Materials Science, California Institute of Technology, 1200 East California Boulevard, Pasadena, California 91125, USA. jsnyder@caltech.edu",
+    "Materials Science, California Institute of Technology, 1200 East California Boulevard, Pasadena, 91125, California, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Materials Science, California Institute of Technology, 1200 East California Boulevard, Pasadena, California 91125, USA. jsnyder@caltech.edu",
+     "institution_ids": [
+      "https://openalex.org/I122411786"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Materials Science, California Institute of Technology, 1200 East California Boulevard, Pasadena, 91125, California, USA",
+     "institution_ids": [
+      "https://openalex.org/I122411786"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5042988082",
+    "display_name": "Eric S. Toberer",
+    "orcid": "https://orcid.org/0000-0003-0826-2446",
+    "observed_orcids": [
+     "https://orcid.org/0000-0003-0826-2446"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I122411786",
+     "display_name": "California Institute of Technology",
+     "ror": "https://ror.org/05dxps055",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I122411786"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Eric S. Toberer",
+   "raw_affiliation_strings": [
+    "Materials Science, California Institute of Technology, 1200 East California Boulevard, Pasadena, 91125, California, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Materials Science, California Institute of Technology, 1200 East California Boulevard, Pasadena, 91125, California, USA",
+     "institution_ids": [
+      "https://openalex.org/I122411786"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5049121943"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I122411786"
+ ],
+ "apc_list": {
+  "value": 12690,
+  "currency": "USD",
+  "value_usd": 12690
+ },
+ "apc_paid": null,
+ "fwci": 102.0041,
+ "has_fulltext": false,
+ "cited_by_count": 11474,
+ "citation_normalized_percentile": {
+  "value": 0.99987783,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "7",
+  "issue": "2",
+  "first_page": "105",
+  "last_page": "114"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10440",
+  "display_name": "Advanced Thermoelectric Materials and Devices",
+  "score": 1.0,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2505",
+   "display_name": "Materials Chemistry"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/25",
+   "display_name": "Materials Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10440",
+   "display_name": "Advanced Thermoelectric Materials and Devices",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11277",
+   "display_name": "Thermal properties of materials",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13251",
+   "display_name": "Electrical and Thermal Properties of Materials",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/thermoelectric-materials",
+   "display_name": "thermoelectric materials",
+   "score": 0.9890000224113464
+  },
+  {
+   "id": "https://openalex.org/keywords/thermoelectric-efficiency",
+   "display_name": "thermoelectric efficiency",
+   "score": 0.8450000286102295
+  },
+  {
+   "id": "https://openalex.org/keywords/waste-heat-recovery",
+   "display_name": "waste heat recovery",
+   "score": 0.7129999995231628
+  },
+  {
+   "id": "https://openalex.org/keywords/nanoscale-materials",
+   "display_name": "nanoscale materials",
+   "score": 0.8519999980926514
+  },
+  {
+   "id": "https://openalex.org/keywords/seebeck-coefficient",
+   "display_name": "Seebeck coefficient",
+   "score": 0.9010000228881836
+  },
+  {
+   "id": "https://openalex.org/keywords/thermal-conductivity-reduction",
+   "display_name": "thermal conductivity reduction",
+   "score": 0.9240000247955322
+  },
+  {
+   "id": "https://openalex.org/keywords/complex-materials",
+   "display_name": "complex materials",
+   "score": 0.33500000834465027
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C207365445",
+   "wikidata": "https://www.wikidata.org/wiki/Q15020929",
+   "display_name": "Thermoelectric materials",
+   "level": 3,
+   "score": 0.8258285522460938
+  },
+  {
+   "id": "https://openalex.org/C63024428",
+   "wikidata": "https://www.wikidata.org/wiki/Q552456",
+   "display_name": "Thermoelectric effect",
+   "level": 2,
+   "score": 0.7982795238494873
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.6275043487548828
+  },
+  {
+   "id": "https://openalex.org/C2780841128",
+   "wikidata": "https://www.wikidata.org/wiki/Q5073781",
+   "display_name": "Characterization (materials science)",
+   "level": 2,
+   "score": 0.5708031058311462
+  },
+  {
+   "id": "https://openalex.org/C206658404",
+   "wikidata": "https://www.wikidata.org/wiki/Q12725",
+   "display_name": "Electricity",
+   "level": 2,
+   "score": 0.5300915837287903
+  },
+  {
+   "id": "https://openalex.org/C112625512",
+   "wikidata": "https://www.wikidata.org/wiki/Q1091448",
+   "display_name": "Seebeck coefficient",
+   "level": 3,
+   "score": 0.5072562098503113
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.48548129200935364
+  },
+  {
+   "id": "https://openalex.org/C61696701",
+   "wikidata": "https://www.wikidata.org/wiki/Q770766",
+   "display_name": "Engineering physics",
+   "level": 1,
+   "score": 0.48280084133148193
+  },
+  {
+   "id": "https://openalex.org/C97346530",
+   "wikidata": "https://www.wikidata.org/wiki/Q487005",
+   "display_name": "Thermal conductivity",
+   "level": 2,
+   "score": 0.46945303678512573
+  },
+  {
+   "id": "https://openalex.org/C184235594",
+   "wikidata": "https://www.wikidata.org/wiki/Q288706",
+   "display_name": "Waste heat",
+   "level": 3,
+   "score": 0.4554561674594879
+  },
+  {
+   "id": "https://openalex.org/C128458982",
+   "wikidata": "https://www.wikidata.org/wiki/Q18891486",
+   "display_name": "Thermoelectric cooling",
+   "level": 3,
+   "score": 0.41134291887283325
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.35223138332366943
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.21511876583099365
+  },
+  {
+   "id": "https://openalex.org/C159985019",
+   "wikidata": "https://www.wikidata.org/wiki/Q181790",
+   "display_name": "Composite material",
+   "level": 1,
+   "score": 0.12473109364509583
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.10844123363494873
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.09634986519813538
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.07716375589370728
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.06919717788696289
+  },
+  {
+   "id": "https://openalex.org/C107706546",
+   "wikidata": "https://www.wikidata.org/wiki/Q189124",
+   "display_name": "Heat exchanger",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1038/nmat2090",
+   "doi": "https://doi.org/10.1038/nmat2090",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1038/nmat2090",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S103895331",
+    "display_name": "Nature Materials",
+    "issn_l": "1476-1122",
+    "issn": [
+     "1476-1122",
+     "1476-4660"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-a",
+     "jufo-3",
+     "ki-jl-3",
+     "medline",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310319908",
+    "host_organization_name": "Nature Portfolio",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319908",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Nature Portfolio",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Nature Materials",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:18219332",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18219332",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Nature materials",
+   "raw_type": "Journal Article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 0.9090999960899353
+  },
+  {
+   "id": "https://metadata.un.org/sdg/12",
+   "display_name": "Responsible consumption and production",
+   "score": 0.5171999931335449
+  }
+ ],
+ "sustainable_development_goals_aurora": [],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 88,
+ "referenced_works": [
+  "https://openalex.org/W98942046",
+  "https://openalex.org/W272252525",
+  "https://openalex.org/W352460856",
+  "https://openalex.org/W389868541",
+  "https://openalex.org/W629361254",
+  "https://openalex.org/W1498657046",
+  "https://openalex.org/W1499322116",
+  "https://openalex.org/W1506235858",
+  "https://openalex.org/W1601617705",
+  "https://openalex.org/W1630679882",
+  "https://openalex.org/W1678214933",
+  "https://openalex.org/W1851232153",
+  "https://openalex.org/W1963728435",
+  "https://openalex.org/W1964433287",
+  "https://openalex.org/W1967423507",
+  "https://openalex.org/W1968953137",
+  "https://openalex.org/W1973174933",
+  "https://openalex.org/W1975255398",
+  "https://openalex.org/W1976633985",
+  "https://openalex.org/W1981244754",
+  "https://openalex.org/W1983189690",
+  "https://openalex.org/W1986576442",
+  "https://openalex.org/W1989940695",
+  "https://openalex.org/W1992041937",
+  "https://openalex.org/W1992335770",
+  "https://openalex.org/W1993689580",
+  "https://openalex.org/W1994284432",
+  "https://openalex.org/W1994715177",
+  "https://openalex.org/W1995234492",
+  "https://openalex.org/W1995933877",
+  "https://openalex.org/W1996775416",
+  "https://openalex.org/W1998693739",
+  "https://openalex.org/W2000217137",
+  "https://openalex.org/W2001139162",
+  "https://openalex.org/W2003261739",
+  "https://openalex.org/W2007219628",
+  "https://openalex.org/W2008375944",
+  "https://openalex.org/W2010734961",
+  "https://openalex.org/W2015459463",
+  "https://openalex.org/W2019189906",
+  "https://openalex.org/W2021102287",
+  "https://openalex.org/W2021550221",
+  "https://openalex.org/W2023003113",
+  "https://openalex.org/W2028285928",
+  "https://openalex.org/W2028849123",
+  "https://openalex.org/W2033873461",
+  "https://openalex.org/W2039849324",
+  "https://openalex.org/W2042357966",
+  "https://openalex.org/W2044209149",
+  "https://openalex.org/W2049203101",
+  "https://openalex.org/W2050040310",
+  "https://openalex.org/W2050674108",
+  "https://openalex.org/W2053262135",
+  "https://openalex.org/W2058361301",
+  "https://openalex.org/W2067330001",
+  "https://openalex.org/W2070093297",
+  "https://openalex.org/W2071265202",
+  "https://openalex.org/W2072025892",
+  "https://openalex.org/W2074037593",
+  "https://openalex.org/W2074310922",
+  "https://openalex.org/W2075937489",
+  "https://openalex.org/W2089681190",
+  "https://openalex.org/W2091369745",
+  "https://openalex.org/W2093778976",
+  "https://openalex.org/W2094943433",
+  "https://openalex.org/W2102141179",
+  "https://openalex.org/W2102280514",
+  "https://openalex.org/W2110761887",
+  "https://openalex.org/W2110875966",
+  "https://openalex.org/W2116427130",
+  "https://openalex.org/W2122565241",
+  "https://openalex.org/W2126530009",
+  "https://openalex.org/W2133926120",
+  "https://openalex.org/W2140932614",
+  "https://openalex.org/W2144309157",
+  "https://openalex.org/W2145601485",
+  "https://openalex.org/W2163857577",
+  "https://openalex.org/W2167233005",
+  "https://openalex.org/W2325134537",
+  "https://openalex.org/W2379026575",
+  "https://openalex.org/W2531745781",
+  "https://openalex.org/W2566310696",
+  "https://openalex.org/W2569686371",
+  "https://openalex.org/W2606578952",
+  "https://openalex.org/W2790678299",
+  "https://openalex.org/W2802044307",
+  "https://openalex.org/W3098181606",
+  "https://openalex.org/W3127100663"
+ ],
+ "related_works": [
+  "https://openalex.org/W2811402122",
+  "https://openalex.org/W3035164232",
+  "https://openalex.org/W1570137576",
+  "https://openalex.org/W3155225018",
+  "https://openalex.org/W2149020627",
+  "https://openalex.org/W2139121501",
+  "https://openalex.org/W4205778619",
+  "https://openalex.org/W2080573930",
+  "https://openalex.org/W2062302580",
+  "https://openalex.org/W2895853674"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 870
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 841
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 727
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 749
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 729
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 820
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 800
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 833
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 814
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 862
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 723
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 681
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 587
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 437
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 390
+  }
+ ],
+ "updated_date": "2026-10-22T09:42:04.148104",
+ "created_date": "2025-10-10T00:00:00"
+}

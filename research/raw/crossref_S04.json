@@ -1,0 +1,70 @@
+{
+ "DOI": "10.1016/j.mattod.2014.10.040",
+ "title": [
+  "Li-ion battery materials: present and future"
+ ],
+ "author": [
+  {
+   "given": "Naoki",
+   "family": "Nitta",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Feixiang",
+   "family": "Wu",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jung Tae",
+   "family": "Lee",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Gleb",
+   "family": "Yushin",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "issued": {
+  "date-parts": [
+   [
+    2015,
+    6
+   ]
+  ]
+ },
+ "container-title": [
+  "Materials Today"
+ ],
+ "type": "journal-article",
+ "is-referenced-by-count": 7247,
+ "publisher": "Elsevier BV"
+}

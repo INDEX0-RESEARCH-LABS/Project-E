@@ -1,0 +1,843 @@
+{
+ "id": "https://openalex.org/W2151080396",
+ "doi": "https://doi.org/10.1016/j.rser.2007.10.005",
+ "title": "Review on thermal energy storage with phase change materials and applications",
+ "display_name": "Review on thermal energy storage with phase change materials and applications",
+ "publication_year": 2008,
+ "publication_date": "2008-02-11",
+ "ids": {
+  "openalex": "https://openalex.org/W2151080396",
+  "doi": "https://doi.org/10.1016/j.rser.2007.10.005",
+  "mag": "2151080396"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.rser.2007.10.005",
+  "doi": "https://doi.org/10.1016/j.rser.2007.10.005",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/j.rser.2007.10.005",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S68497187",
+   "display_name": "Renewable and Sustainable Energy Reviews",
+   "issn_l": "1364-0321",
+   "issn": [
+    "1364-0321",
+    "1879-0690"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "abdc-a",
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-b",
+    "jufo-2",
+    "ki-jl-2",
+    "norway-2",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Renewable and Sustainable Energy Reviews",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5061283860",
+    "display_name": "Atul Sharma",
+    "orcid": "https://orcid.org/0000-0002-3754-8550",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3754-8550"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I190409851",
+     "display_name": "Kun Shan University",
+     "ror": "https://ror.org/01gzkdv90",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I190409851"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Atul Sharma",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Kun Shan University, 949, Da-Wan Road, Yung-Kung City, Tainan Hsien 710, Taiwan, ROC"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Kun Shan University, 949, Da-Wan Road, Yung-Kung City, Tainan Hsien 710, Taiwan, ROC",
+     "institution_ids": [
+      "https://openalex.org/I190409851"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101484536",
+    "display_name": "V.V. Tyagi",
+    "orcid": "https://orcid.org/0000-0002-3098-0201",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3098-0201"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I138272832",
+     "display_name": "Devi Ahilya Vishwavidyalaya",
+     "ror": "https://ror.org/05c2p1f98",
+     "country_code": "IN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I138272832"
+     ]
+    }
+   ],
+   "countries": [
+    "IN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "V.V. Tyagi",
+   "raw_affiliation_strings": [
+    "Thermal Energy Storage Laboratory, School of Energy & Environmental Studies, Khandwa Road Campus, Devi Ahilya University, Indore 452017, India"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Thermal Energy Storage Laboratory, School of Energy & Environmental Studies, Khandwa Road Campus, Devi Ahilya University, Indore 452017, India",
+     "institution_ids": [
+      "https://openalex.org/I138272832"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5024229015",
+    "display_name": "C.R. Chen",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I190409851",
+     "display_name": "Kun Shan University",
+     "ror": "https://ror.org/01gzkdv90",
+     "country_code": "TW",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I190409851"
+     ]
+    }
+   ],
+   "countries": [
+    "TW"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "C.R. Chen",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Kun Shan University, 949, Da-Wan Road, Yung-Kung City, Tainan Hsien 710, Taiwan, ROC"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Kun Shan University, 949, Da-Wan Road, Yung-Kung City, Tainan Hsien 710, Taiwan, ROC",
+     "institution_ids": [
+      "https://openalex.org/I190409851"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5088117771",
+    "display_name": "Dharam Buddhi",
+    "orcid": "https://orcid.org/0000-0001-7305-0795",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-7305-0795"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I138272832",
+     "display_name": "Devi Ahilya Vishwavidyalaya",
+     "ror": "https://ror.org/05c2p1f98",
+     "country_code": "IN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I138272832"
+     ]
+    }
+   ],
+   "countries": [
+    "IN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "D. Buddhi",
+   "raw_affiliation_strings": [
+    "Thermal Energy Storage Laboratory, School of Energy & Environmental Studies, Khandwa Road Campus, Devi Ahilya University, Indore 452017, India"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Thermal Energy Storage Laboratory, School of Energy & Environmental Studies, Khandwa Road Campus, Devi Ahilya University, Indore 452017, India",
+     "institution_ids": [
+      "https://openalex.org/I138272832"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5061283860"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I190409851"
+ ],
+ "apc_list": {
+  "value": 5220,
+  "currency": "USD",
+  "value_usd": 5220
+ },
+ "apc_paid": null,
+ "fwci": 136.4349,
+ "has_fulltext": false,
+ "cited_by_count": 5923,
+ "citation_normalized_percentile": {
+  "value": 0.99992602,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "13",
+  "issue": "2",
+  "first_page": "318",
+  "last_page": "345"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10938",
+  "display_name": "Phase Change Materials Research",
+  "score": 1.0,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10938",
+   "display_name": "Phase Change Materials Research",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11774",
+   "display_name": "Adsorption and Cooling Systems",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11529",
+   "display_name": "Refrigeration and Air Conditioning Technologies",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/phase-change-materials",
+   "display_name": "phase change materials",
+   "score": 0.9240000247955322
+  },
+  {
+   "id": "https://openalex.org/keywords/thermal-energy-storage",
+   "display_name": "thermal energy storage",
+   "score": 0.8880000114440918
+  },
+  {
+   "id": "https://openalex.org/keywords/latent-heat-storage",
+   "display_name": "latent heat storage",
+   "score": 0.9959999918937683
+  },
+  {
+   "id": "https://openalex.org/keywords/heat-pumps",
+   "display_name": "heat pumps",
+   "score": 0.9020000100135803
+  },
+  {
+   "id": "https://openalex.org/keywords/solar-energy-storage",
+   "display_name": "solar energy storage",
+   "score": 0.6150000095367432
+  },
+  {
+   "id": "https://openalex.org/keywords/spacecraft-thermal-control",
+   "display_name": "spacecraft thermal control",
+   "score": 0.9990000128746033
+  },
+  {
+   "id": "https://openalex.org/keywords/building-heating-and-cooling",
+   "display_name": "building heating and cooling",
+   "score": 0.9819999933242798
+  },
+  {
+   "id": "https://openalex.org/keywords/isothermal-storage",
+   "display_name": "isothermal storage",
+   "score": 0.4869999885559082
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C183287310",
+   "wikidata": "https://www.wikidata.org/wiki/Q2142963",
+   "display_name": "Thermal energy storage",
+   "level": 2,
+   "score": 0.8656362295150757
+  },
+  {
+   "id": "https://openalex.org/C58024561",
+   "wikidata": "https://www.wikidata.org/wiki/Q207721",
+   "display_name": "Latent heat",
+   "level": 2,
+   "score": 0.6663352251052856
+  },
+  {
+   "id": "https://openalex.org/C73916439",
+   "wikidata": "https://www.wikidata.org/wiki/Q837718",
+   "display_name": "Energy storage",
+   "level": 3,
+   "score": 0.5974321961402893
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.5971277952194214
+  },
+  {
+   "id": "https://openalex.org/C133256868",
+   "wikidata": "https://www.wikidata.org/wiki/Q7180940",
+   "display_name": "Phase change",
+   "level": 2,
+   "score": 0.5871566534042358
+  },
+  {
+   "id": "https://openalex.org/C2778119658",
+   "wikidata": "https://www.wikidata.org/wiki/Q1806889",
+   "display_name": "Phase-change material",
+   "level": 3,
+   "score": 0.5603489875793457
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.5568832159042358
+  },
+  {
+   "id": "https://openalex.org/C133347239",
+   "wikidata": "https://www.wikidata.org/wiki/Q486921",
+   "display_name": "Isothermal process",
+   "level": 2,
+   "score": 0.5143871903419495
+  },
+  {
+   "id": "https://openalex.org/C204530211",
+   "wikidata": "https://www.wikidata.org/wiki/Q752823",
+   "display_name": "Thermal",
+   "level": 2,
+   "score": 0.5040847063064575
+  },
+  {
+   "id": "https://openalex.org/C29829512",
+   "wikidata": "https://www.wikidata.org/wiki/Q40218",
+   "display_name": "Spacecraft",
+   "level": 2,
+   "score": 0.5013582706451416
+  },
+  {
+   "id": "https://openalex.org/C107861326",
+   "wikidata": "https://www.wikidata.org/wiki/Q209233",
+   "display_name": "Thermal energy",
+   "level": 2,
+   "score": 0.4863360524177551
+  },
+  {
+   "id": "https://openalex.org/C194739806",
+   "wikidata": "https://www.wikidata.org/wiki/Q66221",
+   "display_name": "Computer data storage",
+   "level": 2,
+   "score": 0.438950777053833
+  },
+  {
+   "id": "https://openalex.org/C116915560",
+   "wikidata": "https://www.wikidata.org/wiki/Q83504",
+   "display_name": "Nuclear engineering",
+   "level": 1,
+   "score": 0.3515973687171936
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.32886803150177
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.23855698108673096
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.23177874088287354
+  },
+  {
+   "id": "https://openalex.org/C146978453",
+   "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+   "display_name": "Aerospace engineering",
+   "level": 1,
+   "score": 0.2294534146785736
+  },
+  {
+   "id": "https://openalex.org/C61696701",
+   "wikidata": "https://www.wikidata.org/wiki/Q770766",
+   "display_name": "Engineering physics",
+   "level": 1,
+   "score": 0.1794539988040924
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.17701157927513123
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.07073944807052612
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.rser.2007.10.005",
+   "doi": "https://doi.org/10.1016/j.rser.2007.10.005",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.rser.2007.10.005",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S68497187",
+    "display_name": "Renewable and Sustainable Energy Reviews",
+    "issn_l": "1364-0321",
+    "issn": [
+     "1364-0321",
+     "1879-0690"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "abdc-a",
+     "anvur-class-a",
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-2",
+     "ki-jl-2",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Renewable and Sustainable Energy Reviews",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:RePEc:eee:rensus:v:13:y:2009:i:2:p:318-345",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "http://www.sciencedirect.com/science/article/pii/S1364-0321(07)00140-2",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401271",
+    "display_name": "RePEc: Research Papers in Economics",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I77793887",
+    "host_organization_name": "Federal Reserve Bank of St. Louis",
+    "host_organization_lineage": [
+     "https://openalex.org/I77793887"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.8485000133514404,
+   "display_name": "Affordable and clean energy"
+  },
+  {
+   "id": "https://metadata.un.org/sdg/13",
+   "score": 0.4399999976158142,
+   "display_name": "Climate action"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.8899999856948853,
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 115,
+ "referenced_works": [
+  "https://openalex.org/W118410031",
+  "https://openalex.org/W1484904511",
+  "https://openalex.org/W1484904601",
+  "https://openalex.org/W1487484205",
+  "https://openalex.org/W1492778261",
+  "https://openalex.org/W1524048798",
+  "https://openalex.org/W1524283478",
+  "https://openalex.org/W1622725182",
+  "https://openalex.org/W1623878489",
+  "https://openalex.org/W1640572105",
+  "https://openalex.org/W1963689278",
+  "https://openalex.org/W1964441599",
+  "https://openalex.org/W1966668294",
+  "https://openalex.org/W1972208566",
+  "https://openalex.org/W1973421031",
+  "https://openalex.org/W1978279137",
+  "https://openalex.org/W1978401324",
+  "https://openalex.org/W1978408247",
+  "https://openalex.org/W1982480330",
+  "https://openalex.org/W1988149977",
+  "https://openalex.org/W1988823769",
+  "https://openalex.org/W1990468179",
+  "https://openalex.org/W1992972376",
+  "https://openalex.org/W1994936051",
+  "https://openalex.org/W1997190890",
+  "https://openalex.org/W1997997461",
+  "https://openalex.org/W1998512662",
+  "https://openalex.org/W1999203696",
+  "https://openalex.org/W2002527852",
+  "https://openalex.org/W2002729176",
+  "https://openalex.org/W2003439954",
+  "https://openalex.org/W2006809149",
+  "https://openalex.org/W2007451264",
+  "https://openalex.org/W2007623911",
+  "https://openalex.org/W2008048251",
+  "https://openalex.org/W2010253428",
+  "https://openalex.org/W2011652605",
+  "https://openalex.org/W2015118981",
+  "https://openalex.org/W2015448719",
+  "https://openalex.org/W2023347362",
+  "https://openalex.org/W2027818451",
+  "https://openalex.org/W2028141014",
+  "https://openalex.org/W2029627851",
+  "https://openalex.org/W2029709516",
+  "https://openalex.org/W2030045917",
+  "https://openalex.org/W2032116403",
+  "https://openalex.org/W2032720392",
+  "https://openalex.org/W2034657407",
+  "https://openalex.org/W2034694079",
+  "https://openalex.org/W2036491912",
+  "https://openalex.org/W2037429837",
+  "https://openalex.org/W2038277310",
+  "https://openalex.org/W2040225251",
+  "https://openalex.org/W2040321492",
+  "https://openalex.org/W2042526141",
+  "https://openalex.org/W2044331253",
+  "https://openalex.org/W2045792669",
+  "https://openalex.org/W2046251999",
+  "https://openalex.org/W2047574770",
+  "https://openalex.org/W2057845759",
+  "https://openalex.org/W2059013767",
+  "https://openalex.org/W2059919065",
+  "https://openalex.org/W2060435696",
+  "https://openalex.org/W2060448347",
+  "https://openalex.org/W2064789042",
+  "https://openalex.org/W2064901461",
+  "https://openalex.org/W2065436367",
+  "https://openalex.org/W2067699138",
+  "https://openalex.org/W2069072730",
+  "https://openalex.org/W2069480649",
+  "https://openalex.org/W2069739846",
+  "https://openalex.org/W2069856641",
+  "https://openalex.org/W2072262019",
+  "https://openalex.org/W2072448601",
+  "https://openalex.org/W2073674503",
+  "https://openalex.org/W2078516766",
+  "https://openalex.org/W2078520529",
+  "https://openalex.org/W2080497645",
+  "https://openalex.org/W2080572717",
+  "https://openalex.org/W2080778526",
+  "https://openalex.org/W2082055759",
+  "https://openalex.org/W2085133489",
+  "https://openalex.org/W2086345879",
+  "https://openalex.org/W2088117139",
+  "https://openalex.org/W2088118139",
+  "https://openalex.org/W2092812805",
+  "https://openalex.org/W2094334421",
+  "https://openalex.org/W2094700404",
+  "https://openalex.org/W2094982385",
+  "https://openalex.org/W2098615280",
+  "https://openalex.org/W2102954871",
+  "https://openalex.org/W2113822354",
+  "https://openalex.org/W2124192278",
+  "https://openalex.org/W2124485294",
+  "https://openalex.org/W2126783553",
+  "https://openalex.org/W2130944284",
+  "https://openalex.org/W2145295283",
+  "https://openalex.org/W2171992194",
+  "https://openalex.org/W2244764287",
+  "https://openalex.org/W2469890313",
+  "https://openalex.org/W2481652489",
+  "https://openalex.org/W2590471354",
+  "https://openalex.org/W2590822388",
+  "https://openalex.org/W2725014914",
+  "https://openalex.org/W2744008313",
+  "https://openalex.org/W2884150571",
+  "https://openalex.org/W2996986307",
+  "https://openalex.org/W3015082941",
+  "https://openalex.org/W3022458141",
+  "https://openalex.org/W3195614302",
+  "https://openalex.org/W4236584526",
+  "https://openalex.org/W4243935613",
+  "https://openalex.org/W4245671988",
+  "https://openalex.org/W4247924301",
+  "https://openalex.org/W4285719527"
+ ],
+ "related_works": [
+  "https://openalex.org/W2249858383",
+  "https://openalex.org/W3216669041",
+  "https://openalex.org/W3097094860",
+  "https://openalex.org/W3026015514",
+  "https://openalex.org/W4383645532",
+  "https://openalex.org/W3166283081",
+  "https://openalex.org/W2767677091",
+  "https://openalex.org/W3095202642",
+  "https://openalex.org/W4210995288",
+  "https://openalex.org/W1945855456"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 440
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 456
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 461
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 454
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 467
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 452
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 453
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 435
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 410
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 387
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 363
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 315
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 280
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 213
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 144
+  }
+ ],
+ "updated_date": "2026-10-22T09:42:04.148104",
+ "created_date": "2025-10-10T00:00:00"
+}

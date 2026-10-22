@@ -1,0 +1,719 @@
+{
+ "id": "https://openalex.org/W2898485094",
+ "doi": "https://doi.org/10.1016/j.energy.2018.10.131",
+ "title": "Degradation model and cycle life prediction for lithium-ion battery used in hybrid energy storage system",
+ "display_name": "Degradation model and cycle life prediction for lithium-ion battery used in hybrid energy storage system",
+ "publication_year": 2018,
+ "publication_date": "2018-10-24",
+ "ids": {
+  "openalex": "https://openalex.org/W2898485094",
+  "doi": "https://doi.org/10.1016/j.energy.2018.10.131",
+  "mag": "2898485094"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.energy.2018.10.131",
+  "doi": "https://doi.org/10.1016/j.energy.2018.10.131",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/j.energy.2018.10.131",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2497375143",
+   "display_name": "Energy",
+   "issn_l": "0360-5442",
+   "issn": [
+    "0360-5442",
+    "1873-6785"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-b",
+    "jufo-3",
+    "norway-2",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Energy",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5100353288",
+    "display_name": "Chang Liu",
+    "orcid": "https://orcid.org/0000-0002-7292-6107",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-7292-6107"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I126520041",
+     "display_name": "University of Science and Technology of China",
+     "ror": "https://ror.org/04c4dkn09",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I126520041",
+      "https://openalex.org/I19820366"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Chang Liu",
+   "raw_affiliation_strings": [
+    "Department of Automation, University of Science and Technology of China, Hefei 230027, PR China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-7292-6107",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Automation, University of Science and Technology of China, Hefei 230027, PR China",
+     "institution_ids": [
+      "https://openalex.org/I126520041"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5035542752",
+    "display_name": "Yujie Wang",
+    "orcid": "https://orcid.org/0000-0001-5722-2673",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5722-2673"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I126520041",
+     "display_name": "University of Science and Technology of China",
+     "ror": "https://ror.org/04c4dkn09",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I126520041",
+      "https://openalex.org/I19820366"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yujie Wang",
+   "raw_affiliation_strings": [
+    "Department of Automation, University of Science and Technology of China, Hefei 230027, PR China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5722-2673",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Automation, University of Science and Technology of China, Hefei 230027, PR China",
+     "institution_ids": [
+      "https://openalex.org/I126520041"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5071343023",
+    "display_name": "Zonghai Chen",
+    "orcid": "https://orcid.org/0000-0001-9312-9089",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9312-9089"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I126520041",
+     "display_name": "University of Science and Technology of China",
+     "ror": "https://ror.org/04c4dkn09",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I126520041",
+      "https://openalex.org/I19820366"
+     ]
+    }
+   ],
+   "countries": [
+    "CN"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Zonghai Chen",
+   "raw_affiliation_strings": [
+    "Department of Automation, University of Science and Technology of China, Hefei 230027, PR China"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-9312-9089",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Automation, University of Science and Technology of China, Hefei 230027, PR China",
+     "institution_ids": [
+      "https://openalex.org/I126520041"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5071343023"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I126520041"
+ ],
+ "apc_list": {
+  "value": 4260,
+  "currency": "USD",
+  "value_usd": 4260
+ },
+ "apc_paid": null,
+ "fwci": 7.62,
+ "has_fulltext": false,
+ "cited_by_count": 189,
+ "citation_normalized_percentile": {
+  "value": 0.97472363,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "166",
+  "issue": null,
+  "first_page": "796",
+  "last_page": "806"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10663",
+  "display_name": "Advanced Battery Technologies Research",
+  "score": 0.9994999766349792,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2203",
+   "display_name": "Automotive Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10663",
+   "display_name": "Advanced Battery Technologies Research",
+   "score": 0.9994999766349792,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10808",
+   "display_name": "Electric and Hybrid Vehicle Technologies",
+   "score": 9.999999747378752e-05,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10018",
+   "display_name": "Advancements in Battery Materials",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/hybrid-energy-storage-system",
+   "display_name": "hybrid energy storage",
+   "score": 0.8569999933242798
+  },
+  {
+   "id": "https://openalex.org/keywords/battery-ultracapacitor-hybrid",
+   "display_name": "battery-ultracapacitor hybrid",
+   "score": 0.8809999823570251
+  },
+  {
+   "id": "https://openalex.org/keywords/cycle-life-prediction",
+   "display_name": "cycle life prediction",
+   "score": 0.8669999837875366
+  },
+  {
+   "id": "https://openalex.org/keywords/remaining-useful-life-prediction",
+   "display_name": "remaining useful life prediction",
+   "score": 0.8500000238418579
+  },
+  {
+   "id": "https://openalex.org/keywords/state-of-health-estimation",
+   "display_name": "state of health estimation",
+   "score": 0.8429999947547913
+  },
+  {
+   "id": "https://openalex.org/keywords/capacity-fade",
+   "display_name": "capacity fade",
+   "score": 0.9070000052452087
+  },
+  {
+   "id": "https://openalex.org/keywords/electrochemical-degradation-mechanisms",
+   "display_name": "electrochemical degradation mechanisms",
+   "score": 0.8840000033378601
+  },
+  {
+   "id": "https://openalex.org/keywords/genetic-algorithm-parameter-estimation",
+   "display_name": "genetic algorithm parameter estimation",
+   "score": 0.8569999933242798
+  },
+  {
+   "id": "https://openalex.org/keywords/particle-filtering",
+   "display_name": "particle filter",
+   "score": 0.7770000100135803
+  },
+  {
+   "id": "https://openalex.org/keywords/data-driven-degradation-modeling",
+   "display_name": "data-driven degradation modeling",
+   "score": 0.5759999752044678
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C555008776",
+   "wikidata": "https://www.wikidata.org/wiki/Q267298",
+   "display_name": "Battery (electricity)",
+   "level": 3,
+   "score": 0.7584566473960876
+  },
+  {
+   "id": "https://openalex.org/C2777294910",
+   "wikidata": "https://www.wikidata.org/wiki/Q4050070",
+   "display_name": "State of health",
+   "level": 4,
+   "score": 0.6014934182167053
+  },
+  {
+   "id": "https://openalex.org/C2779197387",
+   "wikidata": "https://www.wikidata.org/wiki/Q2822895",
+   "display_name": "Lithium-ion battery",
+   "level": 4,
+   "score": 0.580531120300293
+  },
+  {
+   "id": "https://openalex.org/C541528975",
+   "wikidata": "https://www.wikidata.org/wiki/Q53121",
+   "display_name": "Cycling",
+   "level": 2,
+   "score": 0.5730097889900208
+  },
+  {
+   "id": "https://openalex.org/C200601418",
+   "wikidata": "https://www.wikidata.org/wiki/Q2193887",
+   "display_name": "Reliability engineering",
+   "level": 1,
+   "score": 0.5592923760414124
+  },
+  {
+   "id": "https://openalex.org/C52421305",
+   "wikidata": "https://www.wikidata.org/wiki/Q1151499",
+   "display_name": "Particle filter",
+   "level": 3,
+   "score": 0.5575444102287292
+  },
+  {
+   "id": "https://openalex.org/C2778518048",
+   "wikidata": "https://www.wikidata.org/wiki/Q848346",
+   "display_name": "Fade",
+   "level": 2,
+   "score": 0.5338820815086365
+  },
+  {
+   "id": "https://openalex.org/C2779679103",
+   "wikidata": "https://www.wikidata.org/wiki/Q5251805",
+   "display_name": "Degradation (telecommunications)",
+   "level": 2,
+   "score": 0.5069594383239746
+  },
+  {
+   "id": "https://openalex.org/C200013194",
+   "wikidata": "https://www.wikidata.org/wiki/Q5074261",
+   "display_name": "Charge cycle",
+   "level": 5,
+   "score": 0.4955326318740845
+  },
+  {
+   "id": "https://openalex.org/C73916439",
+   "wikidata": "https://www.wikidata.org/wiki/Q837718",
+   "display_name": "Energy storage",
+   "level": 3,
+   "score": 0.4121444821357727
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.4113812744617462
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.385749489068985
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.3440019190311432
+  },
+  {
+   "id": "https://openalex.org/C106131492",
+   "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+   "display_name": "Filter (signal processing)",
+   "level": 2,
+   "score": 0.24179768562316895
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.1750301718711853
+  },
+  {
+   "id": "https://openalex.org/C45811908",
+   "wikidata": "https://www.wikidata.org/wiki/Q902054",
+   "display_name": "Automotive battery",
+   "level": 4,
+   "score": 0.07947501540184021
+  },
+  {
+   "id": "https://openalex.org/C95457728",
+   "wikidata": "https://www.wikidata.org/wiki/Q309",
+   "display_name": "History",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C111919701",
+   "wikidata": "https://www.wikidata.org/wiki/Q9135",
+   "display_name": "Operating system",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C166957645",
+   "wikidata": "https://www.wikidata.org/wiki/Q23498",
+   "display_name": "Archaeology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.energy.2018.10.131",
+   "doi": "https://doi.org/10.1016/j.energy.2018.10.131",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.energy.2018.10.131",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2497375143",
+    "display_name": "Energy",
+    "issn_l": "0360-5442",
+    "issn": [
+     "0360-5442",
+     "1873-6785"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-class-a",
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-3",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Energy",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:RePEc:eee:energy:v:166:y:2019:i:c:p:796-806",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "http://www.sciencedirect.com/science/article/pii/S0360544218321273",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401271",
+    "display_name": "RePEc: Research Papers in Economics",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I77793887",
+    "host_organization_name": "Federal Reserve Bank of St. Louis",
+    "host_organization_lineage": [
+     "https://openalex.org/I77793887"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "score": 0.878000020980835,
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "score": 0.47999998927116394,
+   "id": "https://metadata.un.org/sdg/12",
+   "display_name": "Responsible consumption and production"
+  }
+ ],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G2069936568",
+   "display_name": null,
+   "funder_award_id": "61803359",
+   "funder_id": "https://openalex.org/F4320321001",
+   "funder_display_name": "National Natural Science Foundation of China"
+  },
+  {
+   "id": "https://openalex.org/G4678211511",
+   "display_name": null,
+   "funder_award_id": "2017M622019",
+   "funder_id": "https://openalex.org/F4320321543",
+   "funder_display_name": "China Postdoctoral Science Foundation"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320321001",
+   "display_name": "National Natural Science Foundation of China",
+   "ror": "https://ror.org/01h0zpd94"
+  },
+  {
+   "id": "https://openalex.org/F4320321543",
+   "display_name": "China Postdoctoral Science Foundation",
+   "ror": "https://ror.org/0426zh255"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 34,
+ "referenced_works": [
+  "https://openalex.org/W1628954589",
+  "https://openalex.org/W1970862825",
+  "https://openalex.org/W1984354255",
+  "https://openalex.org/W1985140644",
+  "https://openalex.org/W1995723008",
+  "https://openalex.org/W2005715530",
+  "https://openalex.org/W2007620240",
+  "https://openalex.org/W2037479256",
+  "https://openalex.org/W2062167409",
+  "https://openalex.org/W2065788296",
+  "https://openalex.org/W2071280205",
+  "https://openalex.org/W2075143718",
+  "https://openalex.org/W2078063051",
+  "https://openalex.org/W2078279667",
+  "https://openalex.org/W2082232475",
+  "https://openalex.org/W2089340434",
+  "https://openalex.org/W2094999625",
+  "https://openalex.org/W2095390899",
+  "https://openalex.org/W2114234026",
+  "https://openalex.org/W2144352195",
+  "https://openalex.org/W2146560932",
+  "https://openalex.org/W2165344987",
+  "https://openalex.org/W2272128138",
+  "https://openalex.org/W2293231618",
+  "https://openalex.org/W2342265232",
+  "https://openalex.org/W2571998960",
+  "https://openalex.org/W2588881132",
+  "https://openalex.org/W2612210564",
+  "https://openalex.org/W2768296959",
+  "https://openalex.org/W2769605893",
+  "https://openalex.org/W2774992281",
+  "https://openalex.org/W2791494814",
+  "https://openalex.org/W2793702125",
+  "https://openalex.org/W2799488509"
+ ],
+ "related_works": [
+  "https://openalex.org/W3131893207",
+  "https://openalex.org/W2995074223",
+  "https://openalex.org/W4244829147",
+  "https://openalex.org/W2768606939",
+  "https://openalex.org/W3197183436",
+  "https://openalex.org/W2953466410",
+  "https://openalex.org/W2620995593",
+  "https://openalex.org/W3092212136",
+  "https://openalex.org/W4389485657",
+  "https://openalex.org/W3201198192"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 17
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 32
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 25
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 31
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 26
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 28
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 20
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 10
+  }
+ ],
+ "updated_date": "2026-10-12T09:40:04.860316",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,58 @@
+{
+ "DOI": "10.1016/s0360-5442(96)00165-x",
+ "title": [
+  "A review of organic rankine cycles (ORCs) for the recovery of low-grade waste heat"
+ ],
+ "author": [
+  {
+   "given": "T.C.",
+   "family": "Hung",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "T.Y.",
+   "family": "Shai",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "S.K.",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "issued": {
+  "date-parts": [
+   [
+    1997,
+    7
+   ]
+  ]
+ },
+ "container-title": [
+  "Energy"
+ ],
+ "type": "journal-article",
+ "is-referenced-by-count": 766,
+ "publisher": "Elsevier BV"
+}

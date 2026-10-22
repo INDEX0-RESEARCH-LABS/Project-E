@@ -1,0 +1,608 @@
+{
+ "id": "https://openalex.org/W2059323363",
+ "doi": "https://doi.org/10.1016/s0360-5442(96)00165-x",
+ "title": "A review of organic rankine cycles (ORCs) for the recovery of low-grade waste heat",
+ "display_name": "A review of organic rankine cycles (ORCs) for the recovery of low-grade waste heat",
+ "publication_year": 1997,
+ "publication_date": "1997-07-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2059323363",
+  "doi": "https://doi.org/10.1016/s0360-5442(96)00165-x",
+  "mag": "2059323363"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/s0360-5442(96)00165-x",
+  "doi": "https://doi.org/10.1016/s0360-5442(96)00165-x",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/s0360-5442(96)00165-x",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2497375143",
+   "display_name": "Energy",
+   "issn_l": "0360-5442",
+   "issn": [
+    "0360-5442",
+    "1873-6785"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-b",
+    "jufo-3",
+    "norway-2",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Energy",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5015866292",
+    "display_name": "T. C. Hung",
+    "orcid": "https://orcid.org/0000-0002-9706-7185",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9706-7185"
+    ]
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "T.C. Hung",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Kaohsiung Polytechnic Institute, Kaohsiung County, Taiwan, R.O.C"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Kaohsiung Polytechnic Institute, Kaohsiung County, Taiwan, R.O.C",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5088085477",
+    "display_name": "T.Y. Shai",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "T.Y. Shai",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Kaohsiung Polytechnic Institute, Kaohsiung County, Taiwan, R.O.C"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Kaohsiung Polytechnic Institute, Kaohsiung County, Taiwan, R.O.C",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5068047108",
+    "display_name": "S.K. Wang",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "S.K. Wang",
+   "raw_affiliation_strings": [
+    "Department of Mechanical Engineering, Kaohsiung Polytechnic Institute, Kaohsiung County, Taiwan, R.O.C"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Mechanical Engineering, Kaohsiung Polytechnic Institute, Kaohsiung County, Taiwan, R.O.C",
+     "institution_ids": []
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5015866292"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": {
+  "value": 4260,
+  "currency": "USD",
+  "value_usd": 4260
+ },
+ "apc_paid": null,
+ "fwci": 0.0,
+ "has_fulltext": false,
+ "cited_by_count": 899,
+ "citation_normalized_percentile": {
+  "value": 0.3096935,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "22",
+  "issue": "7",
+  "first_page": "661",
+  "last_page": "667"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10568",
+  "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+  "score": 0.9990000128746033,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10568",
+   "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+   "score": 0.9990000128746033,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12139",
+   "display_name": "Advanced Thermodynamic Systems and Engines",
+   "score": 0.00039999998989515007,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11529",
+   "display_name": "Refrigeration and Air Conditioning Technologies",
+   "score": 9.999999747378752e-05,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/organic-rankine-cycle",
+   "display_name": "organic Rankine cycle",
+   "score": 0.8650000095367432
+  },
+  {
+   "id": "https://openalex.org/keywords/low-grade-heat-recovery",
+   "display_name": "low-grade heat recovery",
+   "score": 0.9409999847412109
+  },
+  {
+   "id": "https://openalex.org/keywords/working-fluid",
+   "display_name": "working fluid",
+   "score": 0.8349999785423279
+  },
+  {
+   "id": "https://openalex.org/keywords/cryogenic-fluids",
+   "display_name": "cryogenic fluids",
+   "score": 0.6679999828338623
+  },
+  {
+   "id": "https://openalex.org/keywords/benzene",
+   "display_name": "benzene",
+   "score": 0.8019999861717224
+  },
+  {
+   "id": "https://openalex.org/keywords/ammonia",
+   "display_name": "ammonia",
+   "score": 0.9900000095367432
+  },
+  {
+   "id": "https://openalex.org/keywords/r11",
+   "display_name": "R11",
+   "score": 0.7960000038146973
+  },
+  {
+   "id": "https://openalex.org/keywords/r12",
+   "display_name": "R12",
+   "score": 0.996999979019165
+  },
+  {
+   "id": "https://openalex.org/keywords/r-134a",
+   "display_name": "R134a",
+   "score": 0.9929999709129333
+  },
+  {
+   "id": "https://openalex.org/keywords/r113",
+   "display_name": "R113",
+   "score": 0.9959999918937683
+  },
+  {
+   "id": "https://openalex.org/keywords/system-efficiency",
+   "display_name": "system efficiency",
+   "score": 0.6809999942779541
+  },
+  {
+   "id": "https://openalex.org/keywords/isentropic-fluids",
+   "display_name": "isentropic fluids",
+   "score": 0.7820000052452087
+  },
+  {
+   "id": "https://openalex.org/keywords/turbine-inlet-temperature",
+   "display_name": "turbine inlet temperature",
+   "score": 0.8140000104904175
+  },
+  {
+   "id": "https://openalex.org/keywords/freon",
+   "display_name": "Freon",
+   "score": 0.5730000138282776
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C172959903",
+   "wikidata": "https://www.wikidata.org/wiki/Q907271",
+   "display_name": "Isentropic process",
+   "level": 2,
+   "score": 0.7759944200515747
+  },
+  {
+   "id": "https://openalex.org/C44431628",
+   "wikidata": "https://www.wikidata.org/wiki/Q207488",
+   "display_name": "Degree Rankine",
+   "level": 2,
+   "score": 0.7705656290054321
+  },
+  {
+   "id": "https://openalex.org/C146211579",
+   "wikidata": "https://www.wikidata.org/wiki/Q137649",
+   "display_name": "Isobaric process",
+   "level": 2,
+   "score": 0.7670804262161255
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.7026914358139038
+  },
+  {
+   "id": "https://openalex.org/C2779301550",
+   "wikidata": "https://www.wikidata.org/wiki/Q217236",
+   "display_name": "Working fluid",
+   "level": 2,
+   "score": 0.6843634843826294
+  },
+  {
+   "id": "https://openalex.org/C101519877",
+   "wikidata": "https://www.wikidata.org/wiki/Q616013",
+   "display_name": "Organic Rankine cycle",
+   "level": 4,
+   "score": 0.6755200624465942
+  },
+  {
+   "id": "https://openalex.org/C199499590",
+   "wikidata": "https://www.wikidata.org/wiki/Q266790",
+   "display_name": "Refrigerant",
+   "level": 3,
+   "score": 0.610609233379364
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.4639899730682373
+  },
+  {
+   "id": "https://openalex.org/C105994980",
+   "wikidata": "https://www.wikidata.org/wiki/Q15081379",
+   "display_name": "Waste heat recovery unit",
+   "level": 3,
+   "score": 0.45594772696495056
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.44825834035873413
+  },
+  {
+   "id": "https://openalex.org/C184235594",
+   "wikidata": "https://www.wikidata.org/wiki/Q288706",
+   "display_name": "Waste heat",
+   "level": 3,
+   "score": 0.30014345049858093
+  },
+  {
+   "id": "https://openalex.org/C107706546",
+   "wikidata": "https://www.wikidata.org/wiki/Q189124",
+   "display_name": "Heat exchanger",
+   "level": 2,
+   "score": 0.22696346044540405
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.14637655019760132
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/s0360-5442(96)00165-x",
+   "doi": "https://doi.org/10.1016/s0360-5442(96)00165-x",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/s0360-5442(96)00165-x",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2497375143",
+    "display_name": "Energy",
+    "issn_l": "0360-5442",
+    "issn": [
+     "0360-5442",
+     "1873-6785"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-class-a",
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-b",
+     "jufo-3",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Energy",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:RePEc:eee:energy:v:22:y:1997:i:7:p:661-667",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "http://www.sciencedirect.com/science/article/pii/S036054429600165X",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306401271",
+    "display_name": "RePEc: Research Papers in Economics",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I77793887",
+    "host_organization_name": "Federal Reserve Bank of St. Louis",
+    "host_organization_lineage": [
+     "https://openalex.org/I77793887"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/12",
+   "score": 0.8799999952316284,
+   "display_name": "Responsible consumption and production"
+  },
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.571399986743927,
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.44999998807907104,
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 6,
+ "referenced_works": [
+  "https://openalex.org/W53900648",
+  "https://openalex.org/W54484635",
+  "https://openalex.org/W1569685525",
+  "https://openalex.org/W1985349732",
+  "https://openalex.org/W1995635038",
+  "https://openalex.org/W2593577777"
+ ],
+ "related_works": [
+  "https://openalex.org/W2572290751",
+  "https://openalex.org/W2055671483",
+  "https://openalex.org/W1975379246",
+  "https://openalex.org/W2993868925",
+  "https://openalex.org/W2623881123",
+  "https://openalex.org/W4249421279",
+  "https://openalex.org/W4200459572",
+  "https://openalex.org/W2087411239",
+  "https://openalex.org/W2064798284",
+  "https://openalex.org/W2921835456"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 19
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 22
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 13
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 32
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 28
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 39
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 51
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 56
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 72
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 73
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 69
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 80
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 82
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 62
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 66
+  }
+ ],
+ "updated_date": "2026-10-17T09:40:24.721904",
+ "created_date": "2025-10-10T00:00:00"
+}

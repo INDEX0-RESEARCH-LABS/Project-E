@@ -1,0 +1,338 @@
+# Project E baseline configuration.
+# Every parameter is an explicit assumption. "evidence" is the E0-E6 ladder from the
+# validation register; "source" is where the number came from. Ranges feed the
+# sensitivity analysis (uniform, not a probability claim).
+meta:
+  name: baseline
+  version: 1
+  description: >
+    Portable off-grid unit: 1 kW continuous, 6 kW / 30 s pulses, 8 h mission.
+    Targets are mission requirements, not demonstrated performance.
+
+mission:
+  duration_h: 8.0
+  base_load_kw: 1.0
+  peak_load_kw: 6.0
+  pulse_duration_s: 30.0
+  pulse_period_s: 600.0
+
+targets:
+  mass_kg: 35.0
+  volume_l: 60.0
+  capex_usd: 5000.0
+  lcoe_usd_per_kwh: 0.40
+
+assumptions:
+  packaging_factor:
+    value: 1.25
+    source: "engineering allowance for enclosure, mounts, wiring"
+    evidence: E1
+    range: [1.15, 1.40]
+  degradation_margin:
+    value: 0.20
+    source: "end-of-life 80% capacity convention for Li-ion"
+    evidence: E2
+    range: [0.10, 0.30]
+  charger_efficiency:
+    value: 0.95
+    source: "typical LiFePO4 charger"
+    evidence: E2
+    range: [0.92, 0.97]
+  dt_s:
+    value: 1.0
+    source: "dispatch timestep; convergence checked at 2 s and 0.5 s"
+    evidence: E3
+    range: [0.5, 2.0]
+  missions_per_year:
+    value: 250.0
+    source: "assumed duty cycle, ~5 missions/week"
+    evidence: E0
+    range: [100.0, 350.0]
+  lifetime_years:
+    value: 10.0
+    source: "target service life"
+    evidence: E0
+    range: [5.0, 15.0]
+  discount_rate:
+    value: 0.08
+    source: "real discount rate assumption"
+    evidence: E0
+    range: [0.04, 0.12]
+  electricity_usd_per_kwh:
+    value: 0.15
+    source: "ESTIMATE industrial/remote tariff"
+    evidence: E0
+    range: [0.08, 0.30]
+  ambient_c:
+    value: 25.0
+    source: "standard reference ambient; sensitivity to 45 C tested"
+    evidence: E1
+    range: [15.0, 45.0]
+  coolant_c:
+    value: 65.0
+    source: "liquid-coolant rejection temperature, below electronics limits"
+    evidence: E1
+    range: [55.0, 75.0]
+  battery_coolant_c:
+    value: 45.0
+    source: "battery surface rejection temperature"
+    evidence: E1
+    range: [35.0, 55.0]
+  h_convection_w_m2k:
+    value: 10.0
+    source: "natural/forced air effective coefficient, not a material property"
+    evidence: E1
+    range: [5.0, 25.0]
+  heat_usd_per_kwh:
+    value: 0.04
+    source: "ESTIMATE for delivered process heat; zero-cost waste heat would need to be co-located"
+    evidence: E0
+    range: [0.0, 0.12]
+  radiator_kg_per_m2:
+    value: 3.0
+    source: "finned liquid-air heat exchanger + fan ESTIMATE"
+    evidence: E1
+    range: [2.0, 5.0]
+  pulse_cap_margin:
+    value: 1.2
+    source: "capacitor sizing margin over one pulse"
+    evidence: E1
+    range: [1.0, 2.0]
+
+battery:
+  specific_energy_wh_kg:
+    value: 175.0
+    source: "pack-level LiFePO4 ESTIMATE (cell 160-200 Wh/kg)"
+    evidence: E2
+    range: [140.0, 200.0]
+  energy_density_wh_l:
+    value: 350.0
+    source: "pack-level ESTIMATE"
+    evidence: E2
+    range: [250.0, 450.0]
+  specific_power_w_kg:
+    value: 300.0
+    source: "continuous pack power ESTIMATE"
+    evidence: E2
+    range: [200.0, 500.0]
+  round_trip_efficiency:
+    value: 0.92
+    source: "DC-DC pack round trip, typical LFP"
+    evidence: E2
+    range: [0.88, 0.95]
+  soc_min: 0.05
+  soc_max: 0.95
+  cost_usd_per_kwh:
+    value: 300.0
+    source: "2026 installed pack ESTIMATE (cell + BMS + assembly)"
+    evidence: E0
+    range: [180.0, 450.0]
+  power_electronics_usd_per_kw:
+    value: 80.0
+    source: "bidirectional converter ESTIMATE"
+    evidence: E0
+    range: [50.0, 150.0]
+  cycle_life:
+    value: 3000.0
+    source: "LFP cycle life to 80%, mid-range"
+    evidence: E2
+    range: [2000.0, 6000.0]
+
+supercap:
+  specific_energy_wh_kg:
+    value: 6.0
+    source: "commercial symmetric supercapacitor pack ESTIMATE"
+    evidence: E2
+    range: [4.0, 10.0]
+  cost_usd_per_kwh:
+    value: 8000.0
+    source: "ESTIMATE, high-power capacitor bank"
+    evidence: E0
+    range: [4000.0, 15000.0]
+  converter_usd_per_kw:
+    value: 60.0
+    source: "ESTIMATE"
+    evidence: E0
+    range: [40.0, 120.0]
+
+diesel:
+  efficiency_lhv:
+    value: 0.28
+    source: "small diesel genset, rated-load ESTIMATE"
+    evidence: E2
+    range: [0.22, 0.33]
+  part_load_floor:
+    value: 0.35
+    source: "fraction of rated efficiency retained near idle; ESTIMATE"
+    evidence: E1
+    range: [0.25, 0.45]
+  cost_usd_per_kw:
+    value: 400.0
+    source: "small genset capex ESTIMATE"
+    evidence: E0
+    range: [250.0, 700.0]
+  mass_kg_per_kw:
+    value: 12.0
+    source: "genset + alternator + enclosure ESTIMATE"
+    evidence: E0
+    range: [8.0, 18.0]
+  fuel_usd_per_l:
+    value: 1.4
+    source: "ESTIMATE delivered diesel price, remote site"
+    evidence: E0
+    range: [1.0, 2.2]
+  fuel_density_kg_per_l:
+    value: 0.83
+  maintenance_usd_per_kwh:
+    value: 0.02
+    source: "ESTIMATE, oil/filter/overhaul reserve"
+    evidence: E0
+    range: [0.01, 0.05]
+  source_sizing_factor:
+    value: 1.3
+    source: "hybrid source sized above average load for recharge"
+    evidence: E1
+    range: [1.1, 1.6]
+  buffer_kwh:
+    value: 0.5
+    source: "minimum buffer for pulse coverage and control"
+    evidence: E1
+    range: [0.3, 1.0]
+
+teg:
+  zt:
+    value: 1.0
+    source: "device-average ZT, optimistic commercial Bi2Te3-class"
+    evidence: E2
+    range: [0.5, 1.4]
+  hot_c:
+    value: 230.0
+    source: "hot-side limit for bismuth telluride modules"
+    evidence: E2
+    range: [150.0, 300.0]
+  cold_c:
+    value: 50.0
+    source: "coolant-side temperature"
+    evidence: E1
+    range: [35.0, 70.0]
+  burner_efficiency:
+    value: 0.90
+    source: "combustion heat delivery to hot side, ESTIMATE"
+    evidence: E1
+    range: [0.80, 0.95]
+  mass_kg_per_kw:
+    value: 20.0
+    source: "modules + heat exchangers per kW electric, ESTIMATE"
+    evidence: E0
+    range: [10.0, 40.0]
+  cost_usd_per_w:
+    value: 5.0
+    source: "TEG system cost ESTIMATE"
+    evidence: E0
+    range: [2.0, 12.0]
+  fuel: diesel
+
+tpv:
+  efficiency:
+    value: 0.32
+    source: "measured tandem TPV cells (S01 reports >40% at 1900-2400 C); 32% used as system-derated"
+    evidence: E2
+    range: [0.20, 0.40]
+  spectral_quality:
+    value: 0.85
+    source: "ESTIMATE for view-factor and selective-emitter losses"
+    evidence: E1
+    range: [0.70, 0.95]
+  storage_specific_kwh_per_kg:
+    value: 0.28
+    source: "graphite sensible heat, cp 0.71 kJ/kg/K over ~1400 K"
+    evidence: E2
+    range: [0.20, 0.35]
+  vessel_mass_fraction:
+    value: 0.25
+    source: "insulation and containment allowance"
+    evidence: E1
+    range: [0.15, 0.40]
+  storage_density_kg_per_l:
+    value: 1.5
+    source: "bulk graphite density ESTIMATE"
+    evidence: E1
+    range: [1.0, 2.0]
+  storage_cost_usd_per_kg:
+    value: 5.0
+    source: "graphite + containment ESTIMATE"
+    evidence: E0
+    range: [2.0, 12.0]
+  power_density_w_cm2:
+    value: 2.0
+    source: "TPV cell electrical power density ESTIMATE"
+    evidence: E1
+    range: [1.0, 4.0]
+  cell_mass_kg_per_m2:
+    value: 5.0
+    source: "cells + close-coupled optics ESTIMATE"
+    evidence: E1
+    range: [3.0, 10.0]
+  cell_cost_usd_per_m2:
+    value: 2500.0
+    source: "III-V tandem cell cost ESTIMATE"
+    evidence: E0
+    range: [1200.0, 5000.0]
+  emitter_cost_usd: 800.0
+  cold_c:
+    value: 60.0
+    source: "cell cooling temperature"
+    evidence: E1
+    range: [40.0, 80.0]
+
+fuel_cell:
+  efficiency_lhv:
+    value: 0.50
+    source: "PEM system efficiency on H2 LHV, mid-range"
+    evidence: E2
+    range: [0.42, 0.58]
+  cost_usd_per_kw:
+    value: 3500.0
+    source: "small-scale PEM system ESTIMATE"
+    evidence: E0
+    range: [1800.0, 6000.0]
+  mass_kg_per_kw:
+    value: 8.0
+    source: "stack mass per kW ESTIMATE"
+    evidence: E0
+    range: [5.0, 15.0]
+  balance_of_plant_kg:
+    value: 6.0
+    source: "air supply, cooling, controls ESTIMATE"
+    evidence: E0
+    range: [4.0, 12.0]
+  tank_gravimetric_fraction:
+    value: 0.05
+    source: "700 bar system H2 mass fraction ESTIMATE"
+    evidence: E2
+    range: [0.03, 0.07]
+  tank_cost_usd_per_kg_h2:
+    value: 1500.0
+    source: "small composite tank ESTIMATE"
+    evidence: E0
+    range: [800.0, 3000.0]
+  tank_l_per_kg_h2:
+    value: 25.0
+    source: "700 bar system volume per kg H2 ESTIMATE"
+    evidence: E1
+    range: [18.0, 40.0]
+  h2_usd_per_kg:
+    value: 6.0
+    source: "delivered green H2 ESTIMATE"
+    evidence: E0
+    range: [3.0, 12.0]
+  source_sizing_factor:
+    value: 1.3
+    source: "hybrid source sized above average load"
+    evidence: E1
+    range: [1.1, 1.6]
+  buffer_kwh:
+    value: 0.5
+    source: "minimum buffer for pulse coverage"
+    evidence: E1
+    range: [0.3, 1.0]

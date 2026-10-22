@@ -1,0 +1,70 @@
+{
+ "DOI": "10.1016/j.rser.2007.10.005",
+ "title": [
+  "Review on thermal energy storage with phase change materials and applications"
+ ],
+ "author": [
+  {
+   "given": "Atul",
+   "family": "Sharma",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "V.V.",
+   "family": "Tyagi",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "C.R.",
+   "family": "Chen",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "D.",
+   "family": "Buddhi",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "issued": {
+  "date-parts": [
+   [
+    2009,
+    2
+   ]
+  ]
+ },
+ "container-title": [
+  "Renewable and Sustainable Energy Reviews"
+ ],
+ "type": "journal-article",
+ "is-referenced-by-count": 5438,
+ "publisher": "Elsevier BV"
+}

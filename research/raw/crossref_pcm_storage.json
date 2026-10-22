@@ -1,0 +1,295 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 7191627,
+  "items": [
+   {
+    "DOI": "10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906",
+    "title": [
+     "Stability investigation on phase change materials for industrial latent heat thermal energy storage"
+    ],
+    "author": [
+     {
+      "ORCID": "https://orcid.org/0000-0002-2769-0334",
+      "authenticated-orcid": false,
+      "given": "Hamza",
+      "family": "Ayaz",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "id": [
+         {
+          "id": "https://ror.org/01frn9647",
+          "id-type": "ROR",
+          "asserted-by": "publisher"
+         }
+        ],
+        "name": "Pau"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "dissertation",
+    "is-referenced-by-count": 0,
+    "abstract": "<jats:title>\u00c9tude de la stabilit\u00e9 des mat\u00e9riaux \u00e0 changement de phase pour le stockage industriel de l'\u00e9nergie thermique par chaleur latente</jats:title>\n                <jats:p xml:lang=\"fr\">Acc\u00e9l\u00e9rer le d\u00e9ploiement des \u00e9nergies renouvelables et am\u00e9liorer l'efficacit\u00e9 des syst\u00e8mes \u00e9nerg\u00e9tiques sont deux leviers essentiels de la transition \u00e9nerg\u00e9tique. Les technologies de stockage d'\u00e9nergie thermique peuvent relever ces d\u00e9fis, et le stockage d'\u00e9nergie thermique \u00e0 chaleur latente utilisant des mat\u00e9riaux \u00e0 changement de phase (MCP) suscite un int\u00e9r\u00eat croissant. L'objectif de ce travail est d'\u00e9laborer un cadre qui doit \u00eatre utilis\u00e9 pour \u00e9tudier de mani\u00e8re rigoureuse la stabilit\u00e9 \u00e0 long terme des MCP, car \u00e0 ce jour, aucun protocole standard n'est disponible dans la litt\u00e9rature scientifique. La d\u00e9marche suivie dans ce travail comprend des cycles thermiques acc\u00e9l\u00e9r\u00e9s, des tests de contrainte thermique et des tests de corrosion. Cette approche vise \u00e0 d\u00e9montrer l'importance d'utiliser ces exp\u00e9riences de mani\u00e8re combin\u00e9e plut\u00f4t que de se limiter \u00e0 un type de test sp\u00e9cifique.Trois MCP ont \u00e9t\u00e9 s\u00e9lectionn\u00e9s repr\u00e9sentant les principales cat\u00e9gories existantes : l'acide caprique (corps organique), le chlorure de calcium hexahydrat\u00e9 (corps inorganique) et un m\u00e9lange binaire eutectique (organique) de 1-octad\u00e9canol et d'acide palmitique.Le premier chapitre de la th\u00e8se pr\u00e9sente le contexte g\u00e9n\u00e9ral de l'\u00e9tude et propose une synth\u00e8se des travaux ant\u00e9rieurs sur la stabilit\u00e9 des MCP ainsi que des techniques de caract\u00e9risation associ\u00e9es. Cette analyse met en \u00e9vidence les lacunes de la recherche, qui ont guid\u00e9 l'\u00e9laboration du protocole d'\u00e9tude de la stabilit\u00e9.Le chapitre 2 correspond \u00e0 l'\u00e9tude de l'acide caprique (puret\u00e9 de 98 %). Le MCP a subi 1500 cycles thermiques afin d'\u00e9valuer sa stabilit\u00e9 thermique. La calorim\u00e9trie diff\u00e9rentielle \u00e0 balayage (DSC) a r\u00e9v\u00e9l\u00e9 une r\u00e9duction de 10,45 % de l'enthalpie de fusion apr\u00e8s cyclage. La chromatographie en phase gazeuse (CG) et la r\u00e9sonance magn\u00e9tique nucl\u00e9aire protonique (\u00b9H RMN) ont confirm\u00e9 et identifi\u00e9 la formation de sous-produits de d\u00e9gradation.Le chapitre 3 \u00e9tend l'analyse \u00e0 deux types d'\u00e9chantillons d'acide caprique : l'acide caprique d'une puret\u00e9 de 99,5 % et celui d'une puret\u00e9 de 98 % mais d\u00e9gaz\u00e9 (sans oxyg\u00e8ne). 1500 cycles thermiques ont \u00e9t\u00e9 effectu\u00e9s. Les deux \u00e9chantillons ont pr\u00e9sent\u00e9 des cycles de d\u00e9gradation plus lents que l'acide caprique (98 % non d\u00e9gaz\u00e9), ce qui indique l'influence de la puret\u00e9 et de la pr\u00e9sence ou non d'oxyg\u00e8ne. Les tests de compatibilit\u00e9 des mat\u00e9riaux avec lesquels l'acide caprique (98 % non d\u00e9gaz\u00e9) peut \u00eatre en contact, ont montr\u00e9 que l'acier inoxydable (316) et l'aluminium \u00e9taient adapt\u00e9s \u00e0 une utilisation \u00e0 long terme.Le quatri\u00e8me chapitre pr\u00e9sente l'\u00e9tude de la stabilit\u00e9 d'un sel hydrat\u00e9 (CaCl2\u00b76H2O). Le cycle thermique acc\u00e9l\u00e9r\u00e9 a \u00e9t\u00e9 effectu\u00e9 pour 180 cycles. Le ph\u00e9nom\u00e8ne de d\u00e9gradation est plus prononc\u00e9 pendant le cycle thermique acc\u00e9l\u00e9r\u00e9 que pendant le test de contrainte thermique. L'acier inoxydable (316) a montr\u00e9 une bonne r\u00e9sistance \u00e0 la corrosion pendant 84 jours.Dans le dernier chapitre, un nouveau m\u00e9lange binaire biosourc\u00e9 eutectique a \u00e9t\u00e9 pr\u00e9par\u00e9 \u00e0 partir de 1-octad\u00e9canol et d'acide palmitique afin d'\u00e9tudier sa stabilit\u00e9 \u00e0 long terme en tant que MCP. Le test de cycles thermiques acc\u00e9l\u00e9r\u00e9s a port\u00e9 sur 600 cycles dans un dispositif de refroidissement/chauffage. Un second test, r\u00e9alis\u00e9 dans le four d'un DSC, a permis d'\u00e9tudier une taille d'\u00e9chantillon plus faible \u00e9valuant ainsi l'effet de la taille de l'\u00e9chantillon et des conditions thermiques. Les \u00e9chantillons de grand volume ont montr\u00e9 une d\u00e9gradation plus marqu\u00e9e que ceux de petit volume. Il convient de noter qu'un taux de corrosion plus \u00e9lev\u00e9 a \u00e9t\u00e9 observ\u00e9 pour le cuivre, qui n'est donc pas recommand\u00e9 pour une application \u00e0 long terme.Ces r\u00e9sultats fournissent des indications pr\u00e9cieuses pour concevoir des protocoles de tests de stabilit\u00e9 adapt\u00e9s et pour s\u00e9lectionner des m\u00e9thodes de caract\u00e9risation appropri\u00e9es, favorisant des \u00e9tudes plus pr\u00e9cises et fiables des MCP \u00e0 long terme.</jats:p>"
+   },
+   {
+    "DOI": "10.1016/j.est.2021.102442",
+    "title": [
+     "Investigation of storage rotation effect on phase change material charging process in latent heat thermal energy storage system"
+    ],
+    "author": [
+     {
+      "given": "Alireza",
+      "family": "Jaberi Khosroshahi",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Siamak",
+      "family": "Hossainpour",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2021,
+       4
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Energy Storage"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 39
+   },
+   {
+    "DOI": "10.56896/ijmmst.2025.4.2.008",
+    "title": [
+     "Phase Change Material Heat Exchanger (PCMHE) for Thermal Energy Storage Applications"
+    ],
+    "author": [
+     {
+      "given": "Sachin",
+      "family": "Rana",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2025,
+       12
+      ]
+     ]
+    },
+    "container-title": [
+     "International Journal of Materials, Manufacturing and Sustainable Technologies"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1016/j.renene.2016.04.018",
+    "title": [
+     "Numerical analysis of latent heat thermal energy storage using encapsulated phase change material for solar thermal power plant"
+    ],
+    "author": [
+     {
+      "given": "Kunal",
+      "family": "Bhagat",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sandip K.",
+      "family": "Saha",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2016,
+       9
+      ]
+     ]
+    },
+    "container-title": [
+     "Renewable Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 104
+   },
+   {
+    "DOI": "10.1016/j.est.2023.107791",
+    "title": [
+     "Exploration of phase change material melt front during latent heat thermal energy storage charging"
+    ],
+    "author": [
+     {
+      "given": "Jack W.",
+      "family": "Woodcock",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Hollie",
+      "family": "Ryan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Geoffrey",
+      "family": "Will",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Theodore",
+      "family": "Steinberg",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2023,
+       9
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Energy Storage"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 8
+   },
+   {
+    "DOI": "10.2139/ssrn.7649671",
+    "title": [
+     "Effect of phase change material stage count on exergy performance and cost screening of cascaded latent heat thermal energy storage"
+    ],
+    "author": [
+     {
+      "given": "An\u0131l  Kemal",
+      "family": "AKBULUT",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "ORCID": "https://orcid.org/0000-0002-2133-6721",
+      "authenticated-orcid": true,
+      "given": "Atilla",
+      "family": "B\u0131y\u0131ko\u011flu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2026
+      ]
+     ]
+    },
+    "type": "posted-content",
+    "is-referenced-by-count": 0,
+    "abstract": "<jats:p>Latent heat thermal energy storage using cascaded phase change materials can reduce finite-temperature heat-transfer irreversibility, but the benefit of adding stages must be balanced against diminishing thermodynamic returns and additional hardware cost. This study develops a number-of-transfer-units (NTU)-based exergy model for an n-stage cascaded storage system and implements it in MATLAB for charging by a hot heat-transfer fluid and discharging to water. Detailed 3-stage and 10-stage configurations are compared under common boundary conditions, while 3, 5, 8, 10, 12, 13, and 15 stages are screened using an illustrative capital-cost dataset. Under the stated model conditions, charging, discharging, and overall exergy efficiencies increase from 0.4871, 0.6238, and 0.3039 for three stages to 0.6352, 0.9060, and 0.5755 for ten stages. The useful-exergy rate continues to rise with stage count, but its marginal gain decreases sharply. The capital-to-annual-exergy screening ratio is lowest at five stages, whereas the 10-stage case delivers 92.5% of the 15-stage useful-exergy rate at 68.0% of its stated capital cost. The results show that PCM stage count, melting-temperature distribution, and heat-transfer conductance should be selected jointly rather than by maximizing stage count alone.</jats:p>"
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

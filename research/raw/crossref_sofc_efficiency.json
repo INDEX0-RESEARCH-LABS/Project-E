@@ -1,0 +1,351 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 9387069,
+  "items": [
+   {
+    "DOI": "10.58837/chula.the.2009.1698",
+    "title": [
+     "Electrical efficiency of ethanol fuelled solid oxide fuel cell system : comparison between distillation and pervaporation for bioethanol purification"
+    ],
+    "author": [
+     {
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Issara",
+      "family": "Choedkiatsakul",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "dissertation",
+    "is-referenced-by-count": 0,
+    "abstract": "<jats:p>The overall electrical efficiencies of the solid oxide fuel cell (SOFC) systemintegrated with two different bio-ethanol purification processes, i.e. distillation and pervaporation were investigated and compared. It was found that the purification by pervaporation consumed less heat energy than that by distillation but the additional electrical power is required for the vacuum pump operation. In addition, two different levels of the permeate pressure for pervaporation were studied. The results show that the lowering pressure at the permeate side from 0.1 atm to 0.05 atm required less heat consumption but more electrical power consumption. For the SOFC system integrated with the purification process, the simulation studies were based on the condition that the net useful heat (Qnet) is equal to zero. It was found that the most suitable operating voltage is between 0.65 and 0.8 V and the operating temperature is in the range between 973 and 1173 K. For the effect of the ethanol recovery, the optimal ethanol recovery of the SOFC system integrated with distillation and pervaporation process are 95% and 99% respectively. The results indicate that the SOFC system integrated with pervaporation process with the permeate pressure of 0.1 atm offers the maximum overall electrical efficiency that is 41.6% (voltage = 0.7 V, temperature = 1073 K, separation factor = 923 and ethanol recovery = 99%)</jats:p>"
+   },
+   {
+    "DOI": "10.1533/9781845696511.141",
+    "title": [
+     "Direct current (DC) electrical efficiency and power of a solid oxide fuel cell (SOFC)"
+    ],
+    "author": [
+     {
+      "given": "Kevin",
+      "family": "Huang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "John B.",
+      "family": "Goodenough",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2009
+      ]
+     ]
+    },
+    "container-title": [
+     "Solid Oxide Fuel Cell Technology"
+    ],
+    "type": "book-chapter",
+    "is-referenced-by-count": 1
+   },
+   {
+    "DOI": "10.23919/ecc.2018.8550296",
+    "title": [
+     "Maximizing the Electrical Efficiency of a Solid Oxide Fuel Cell System"
+    ],
+    "author": [
+     {
+      "given": "Bostjan",
+      "family": "Dolenc",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Damir",
+      "family": "Vrancic",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Darko",
+      "family": "Vrecko",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Dani",
+      "family": "Juricic",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2018,
+       6
+      ]
+     ]
+    },
+    "container-title": [
+     "2018 European Control Conference (ECC)"
+    ],
+    "type": "proceedings-article",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1016/j.applthermaleng.2021.117214",
+    "title": [
+     "Design and performance analysis of a cascade solid oxide fuel cell system for high electrical efficiency"
+    ],
+    "author": [
+     {
+      "given": "Donghwan",
+      "family": "Shin",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Taebeen",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Sanggyu",
+      "family": "Kang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2021,
+       8
+      ]
+     ]
+    },
+    "container-title": [
+     "Applied Thermal Engineering"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 16
+   },
+   {
+    "DOI": "10.58837/chula.the.2012.919",
+    "title": [
+     "Improvement of electrical conductivity of La0.3Sr0.7Co0.9Fe0.1O3 perovskites for solid oxide fuel cell"
+    ],
+    "author": [
+     {
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Anucha",
+      "family": "Koedtruad",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "dissertation",
+    "is-referenced-by-count": 0,
+    "abstract": "<jats:p>The electrical conductivity and oxygen permeation of Ca2+, Zn2+ and Mg2+-doped La0.3Sr0.7Co0.9Fe0.1O3 (LSCF) were investigated. The synthesized materials were characterized by XRD, XPS and XAS. LSCFs were synthesized by modified citrate method and studied for the effect of sintering temperature. LSCF sintered at 1200 oC showed the higher oxygen permeation rate and more idealized cubic structure than others. By replacing La3+ and Sr2+ ions of LSCF with Ca2+ ions, La0.3Sr0.7-xCax Co0.9Fe0.1O3 (X = 0 - 0.7) and (La0.3Sr0.7)1-xCaxCo0.9 Fe0.1O3 (X = 0 - 0.4) were successfully synthesized. La0.3Sr0.7-xCaxCo0.9Fe0.1O3 showed pure perovskite phase with primitive cubic form when X = 0 - 0.5 whereas (La0.3Sr0.7)1-xCaxCo0.9Fe0.1O3 exhibited pure perovskite phase with primitive cubic and tetragonal forms when X = 0-0.2 and X = 0.3 - 0.4, respectively. La0.3Sr0.5Ca0.2Co0.9Fe0.1O3 showed the highest electrical conductivity in this work due to a lot of IS Co4+ and HS Co3+. To improve oxygen permeation of La0.3Sr0.5Ca0.2Co0.9Fe0.1O3, Co3+ and Fe3+ ions were replaced with Zn2+ and Mg2+ ions to obtain La0.3Sr0.5Ca0.2Co0.9-yMyFe0.1O3 and La0.3Sr0.5Ca0.2(Co0.9Fe0.1)1-y MyO3 (M = Zn2+, Mg2+, Y = 0 - 0.05). Only La0.3Sr0.5Ca0.2Co0.9-yZnyFe0.1O3 (Y = 0 - 0.03) were achieved as pure perovskite phase with primitive cubic structure. The oxygen permeation rate was increased with increasing Zn2+ content because high spin Co2+,3+ and oxygen vacancies were increased.</jats:p>"
+   },
+   {
+    "DOI": "10.53829/ntr200910sf3",
+    "title": [
+     "Solid Oxide Fuel Cell Stack with High Electrical Efficiency"
+    ],
+    "author": [
+     {
+      "given": "Katsuya",
+      "family": "Hayashi",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "NTT Energy and Environment Systems Laboratories, NTT Corporation"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Masayuki",
+      "family": "Yokoo",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "NTT Energy and Environment Systems Laboratories, NTT Corporation"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yoshiteru",
+      "family": "Yoshida",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "NTT Energy and Environment Systems Laboratories, NTT Corporation"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Hajime",
+      "family": "Arai",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "NTT Energy and Environment Systems Laboratories, NTT Corporation"
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2009,
+       10
+      ]
+     ]
+    },
+    "container-title": [
+     "NTT Technical Review"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 14
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

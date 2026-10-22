@@ -1,0 +1,101 @@
+# Conservative scenario: every uncertain parameter moved toward the unfavourable end.
+# These are bounds used for stress testing, not predictions.
+meta:
+  name: conservative
+  description: "Pessimistic component performance and cost; physics unchanged."
+
+assumptions:
+  packaging_factor:
+    value: 1.40
+    source: "scenario: conservative packaging allowance"
+    evidence: E1
+  degradation_margin:
+    value: 0.30
+    source: "scenario: conservative end-of-life margin"
+    evidence: E1
+  missions_per_year:
+    value: 200.0
+    source: "scenario: conservative utilisation"
+    evidence: E0
+  electricity_usd_per_kwh:
+    value: 0.30
+    source: "scenario: remote-site electricity price"
+    evidence: E0
+  h_convection_w_m2k:
+    value: 5.0
+    source: "scenario: poor natural convection"
+    evidence: E1
+  ambient_c:
+    value: 40.0
+    source: "scenario: hot-climate ambient (45 C makes the 45 C battery coolant infeasible; see OPEN_QUESTIONS)"
+    evidence: E1
+
+battery:
+  specific_energy_wh_kg:
+    value: 140.0
+    source: "scenario: conservative pack"
+    evidence: E2
+  energy_density_wh_l:
+    value: 250.0
+    source: "scenario: conservative pack"
+    evidence: E2
+  cost_usd_per_kwh:
+    value: 450.0
+    source: "scenario: high pack price"
+    evidence: E0
+  round_trip_efficiency:
+    value: 0.88
+    source: "scenario: conservative round trip"
+    evidence: E2
+
+diesel:
+  efficiency_lhv:
+    value: 0.22
+    source: "scenario: poorly maintained genset"
+    evidence: E2
+  fuel_usd_per_l:
+    value: 2.2
+    source: "scenario: remote fuel delivery"
+    evidence: E0
+  maintenance_usd_per_kwh:
+    value: 0.05
+    source: "scenario: high maintenance"
+    evidence: E0
+
+teg:
+  zt:
+    value: 0.5
+    source: "scenario: commodity TEG modules"
+    evidence: E2
+  cost_usd_per_w:
+    value: 12.0
+    source: "scenario: low-volume TEG cost"
+    evidence: E0
+
+tpv:
+  efficiency:
+    value: 0.20
+    source: "scenario: system-level TPV efficiency"
+    evidence: E2
+  storage_specific_kwh_per_kg:
+    value: 0.20
+    source: "scenario: conservative thermal storage"
+    evidence: E2
+
+fuel_cell:
+  efficiency_lhv:
+    value: 0.42
+    source: "scenario: conservative PEM system"
+    evidence: E2
+  cost_usd_per_kw:
+    value: 6000.0
+    source: "scenario: low-volume PEM cost"
+    evidence: E0
+  h2_usd_per_kg:
+    value: 12.0
+    source: "scenario: delivered hydrogen price"
+    evidence: E0
+  tank_cost_usd_per_kg_h2:
+    value: 3000.0
+    source: "scenario: small composite tank"
+    evidence: E0

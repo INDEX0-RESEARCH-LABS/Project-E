@@ -1,0 +1,681 @@
+{
+ "id": "https://openalex.org/W4206713088",
+ "doi": "https://doi.org/10.1201/9781003207382-23",
+ "title": "The Organic Rankine Cycle",
+ "display_name": "The Organic Rankine Cycle",
+ "publication_year": 2021,
+ "publication_date": "2021-12-14",
+ "ids": {
+  "openalex": "https://openalex.org/W4206713088",
+  "doi": "https://doi.org/10.1201/9781003207382-23"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1201/9781003207382-23",
+  "doi": "https://doi.org/10.1201/9781003207382-23",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1201/9781003207382-23",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4306463845",
+   "display_name": "River Publishers eBooks",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": null,
+   "host_organization_name": null,
+   "host_organization_lineage": [],
+   "host_organization_lineage_names": [],
+   "type": "ebook platform"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Small-Scale Cogeneration Handbook",
+  "raw_type": "book-chapter"
+ },
+ "volume": {
+  "id": "https://openalex.org/W4206326514",
+  "display_name": "Small-Scale Cogeneration Handbook"
+ },
+ "type": "book-chapter",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5060350022",
+    "display_name": "Bernard F. Kolanowski",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Bernard F. Kolanowski",
+   "raw_affiliation_strings": [],
+   "raw_orcid": null,
+   "affiliations": []
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5060350022"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.0,
+ "has_fulltext": false,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": {
+  "value": 0.45964375,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "177",
+  "last_page": "182"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10568",
+  "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+  "score": 1.0,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10568",
+   "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12139",
+   "display_name": "Advanced Thermodynamic Systems and Engines",
+   "score": 9.999999747378752e-05,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13856",
+   "display_name": "Advanced Power Generation Technologies",
+   "score": 9.999999747378752e-05,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/organic-rankine-cycle",
+   "display_name": "organic Rankine cycle",
+   "score": 0.9599999785423279
+  },
+  {
+   "id": "https://openalex.org/keywords/waste-heat-recovery",
+   "display_name": "waste heat recovery",
+   "score": 0.9120000004768372
+  },
+  {
+   "id": "https://openalex.org/keywords/glass-manufacturing",
+   "display_name": "glassmaking",
+   "score": 0.6510000228881836
+  },
+  {
+   "id": "https://openalex.org/keywords/combined-heat-and-power",
+   "display_name": "combined heat and power",
+   "score": 0.8289999961853027
+  },
+  {
+   "id": "https://openalex.org/keywords/heat-to-electricity-conversion",
+   "display_name": "heat-to-electricity conversion",
+   "score": 0.6439999938011169
+  },
+  {
+   "id": "https://openalex.org/keywords/working-fluid",
+   "display_name": "working fluid",
+   "score": 0.4320000112056732
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C101519877",
+   "wikidata": "https://www.wikidata.org/wiki/Q616013",
+   "display_name": "Organic Rankine cycle",
+   "level": 4,
+   "score": 0.8604637384414673
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.599152147769928
+  },
+  {
+   "id": "https://openalex.org/C44431628",
+   "wikidata": "https://www.wikidata.org/wiki/Q207488",
+   "display_name": "Degree Rankine",
+   "level": 2,
+   "score": 0.5940709114074707
+  },
+  {
+   "id": "https://openalex.org/C161911898",
+   "wikidata": "https://www.wikidata.org/wiki/Q215612",
+   "display_name": "Rankine cycle",
+   "level": 3,
+   "score": 0.5209758877754211
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.30499541759490967
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.23978108167648315
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.12258279323577881
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.11452525854110718
+  },
+  {
+   "id": "https://openalex.org/C423512",
+   "wikidata": "https://www.wikidata.org/wiki/Q383973",
+   "display_name": "Electricity generation",
+   "level": 3,
+   "score": 0.0644705593585968
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.05727025866508484
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1201/9781003207382-23",
+   "doi": "https://doi.org/10.1201/9781003207382-23",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1201/9781003207382-23",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306463845",
+    "display_name": "River Publishers eBooks",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "ebook platform"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Small-Scale Cogeneration Handbook",
+   "raw_type": "book-chapter"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "score": 1.0,
+   "id": "https://metadata.un.org/sdg/12",
+   "display_name": "Responsible consumption and production"
+  },
+  {
+   "score": 0.9853000044822693,
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "score": 0.46000000834465027,
+   "id": "https://metadata.un.org/sdg/2",
+   "display_name": "Zero hunger"
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [
+  "https://openalex.org/W4200459572",
+  "https://openalex.org/W3039049605",
+  "https://openalex.org/W2042948117",
+  "https://openalex.org/W1972020798",
+  "https://openalex.org/W2034114618",
+  "https://openalex.org/W3024900228",
+  "https://openalex.org/W2384896494",
+  "https://openalex.org/W2071388740",
+  "https://openalex.org/W2378521459",
+  "https://openalex.org/W2983195066"
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0,
+   49,
+   117
+  ],
+  "Rankine": [
+   1,
+   51
+  ],
+  "cycle": [
+   2,
+   10
+  ],
+  "is": [
+   3,
+   41
+  ],
+  "the": [
+   4,
+   18,
+   28,
+   55,
+   63,
+   104,
+   128,
+   132,
+   141
+  ],
+  "most": [
+   5,
+   16
+  ],
+  "commonly": [
+   6
+  ],
+  "used": [
+   7,
+   87,
+   139
+  ],
+  "power": [
+   8,
+   99
+  ],
+  "production": [
+   9,
+   102,
+   123
+  ],
+  "in": [
+   11,
+   88,
+   127
+  ],
+  "existence": [
+   12
+  ],
+  "today.": [
+   13
+  ],
+  "It": [
+   14
+  ],
+  "represents": [
+   15
+  ],
+  "of": [
+   17,
+   30,
+   108
+  ],
+  "electricity": [
+   19,
+   26
+  ],
+  "produced": [
+   20
+  ],
+  "by": [
+   21,
+   140
+  ],
+  "converting": [
+   22,
+   36
+  ],
+  "fuel": [
+   23,
+   64
+  ],
+  "energy": [
+   24
+  ],
+  "to": [
+   25,
+   38,
+   46,
+   70,
+   80,
+   143
+  ],
+  "via": [
+   27
+  ],
+  "heating": [
+   29
+  ],
+  "a": [
+   31,
+   44,
+   67,
+   71,
+   78
+  ],
+  "fluid,": [
+   32
+  ],
+  "mostly": [
+   33
+  ],
+  "always": [
+   34
+  ],
+  "water,": [
+   35
+  ],
+  "it": [
+   37
+  ],
+  "steam": [
+   39
+  ],
+  "which": [
+   40,
+   65,
+   111
+  ],
+  "put": [
+   42
+  ],
+  "through": [
+   43
+  ],
+  "turbine": [
+   45,
+   79
+  ],
+  "produce": [
+   47,
+   81
+  ],
+  "electricity.": [
+   48,
+   82,
+   145
+  ],
+  "Organic": [
+   50
+  ],
+  "Cycle": [
+   52
+  ],
+  "(ORC)": [
+   53
+  ],
+  "uses": [
+   54,
+   59
+  ],
+  "same": [
+   56
+  ],
+  "principle": [
+   57
+  ],
+  "but": [
+   58
+  ],
+  "waste": [
+   60
+  ],
+  "heat": [
+   61,
+   92,
+   97,
+   119
+  ],
+  "as": [
+   62
+  ],
+  "converts": [
+   66
+  ],
+  "working": [
+   68
+  ],
+  "fluid": [
+   69
+  ],
+  "vapor": [
+   72,
+   76
+  ],
+  "and": [
+   73,
+   98,
+   106,
+   134
+  ],
+  "this": [
+   74,
+   135
+  ],
+  "organic": [
+   75
+  ],
+  "drives": [
+   77
+  ],
+  "ORC": [
+   83,
+   142
+  ],
+  "systems": [
+   84
+  ],
+  "can": [
+   85,
+   124,
+   137
+  ],
+  "be": [
+   86,
+   125,
+   138
+  ],
+  "conjunction": [
+   89
+  ],
+  "with": [
+   90
+  ],
+  "various": [
+   91
+  ],
+  "sources": [
+   93
+  ],
+  "including": [
+   94
+  ],
+  "conventional": [
+   95
+  ],
+  "combined": [
+   96
+  ],
+  "systems.": [
+   100
+  ],
+  "Glass": [
+   101
+  ],
+  "involves": [
+   103
+  ],
+  "melting": [
+   105
+  ],
+  "refining": [
+   107
+  ],
+  "raw": [
+   109
+  ],
+  "materials": [
+   110
+  ],
+  "take": [
+   112
+  ],
+  "place": [
+   113
+  ],
+  "at": [
+   114
+  ],
+  "high": [
+   115
+  ],
+  "temperatures.": [
+   116
+  ],
+  "unused": [
+   118
+  ],
+  "supplied": [
+   120
+  ],
+  "for": [
+   121
+  ],
+  "glass": [
+   122
+  ],
+  "found": [
+   126
+  ],
+  "combustion": [
+   129
+  ],
+  "gas": [
+   130
+  ],
+  "exiting": [
+   131
+  ],
+  "oven": [
+   133
+  ],
+  "flow": [
+   136
+  ],
+  "generate": [
+   144
+  ]
+ },
+ "counts_by_year": [],
+ "updated_date": "2026-10-10T09:11:00.788812",
+ "created_date": "2025-10-10T00:00:00"
+}

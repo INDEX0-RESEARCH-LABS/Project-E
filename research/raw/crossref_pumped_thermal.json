@@ -1,0 +1,308 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 4384267,
+  "items": [
+   {
+    "DOI": "10.1016/j.est.2026.122600",
+    "title": [
+     "Round-trip efficiency and power output of Pumped Thermal Energy systems with realistic component constraints"
+    ],
+    "author": [
+     {
+      "ORCID": "https://orcid.org/0009-0005-8461-0539",
+      "authenticated-orcid": false,
+      "given": "Tom",
+      "family": "Schneider",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "ORCID": "https://orcid.org/0000-0001-5417-8726",
+      "authenticated-orcid": false,
+      "given": "Caroline",
+      "family": "Willich",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2026,
+       8
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Energy Storage"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1016/j.est.2024.114285",
+    "title": [
+     "Influence of capital cost input on optimized round-trip efficiency of pumped thermal electricity storage under finite time thermoeconomic optimization"
+    ],
+    "author": [
+     {
+      "given": "Yanchao",
+      "family": "Zhang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2024,
+       12
+      ]
+     ]
+    },
+    "container-title": [
+     "Journal of Energy Storage"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 6
+   },
+   {
+    "DOI": "10.2139/ssrn.4882646",
+    "title": [
+     "Influence of Capital Cost Input on Optimized Round-Trip Efficiency of Pumped Thermal Electricity Storage Under Finite Time Thermoeconomic Optimization"
+    ],
+    "author": [
+     {
+      "given": "Yanchao",
+      "family": "Zhang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2024
+      ]
+     ]
+    },
+    "type": "posted-content",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1016/j.enconman.2021.114182",
+    "title": [
+     "Comparative study on optimized round-trip efficiency of pumped thermal and pumped cryogenic electricity storages"
+    ],
+    "author": [
+     {
+      "given": "Yanchao",
+      "family": "Zhang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Zhimin",
+      "family": "Yang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2021,
+       6
+      ]
+     ]
+    },
+    "container-title": [
+     "Energy Conversion and Management"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 13
+   },
+   {
+    "DOI": "10.1115/power2019-1860",
+    "title": [
+     "Analysis of Round Trip Efficiency of Thermal Energy Storage in Northern Arizona"
+    ],
+    "author": [
+     {
+      "given": "Amin",
+      "family": "Sepehri",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "Northern Arizona University, Flagstaff, AZ"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     },
+     {
+      "given": "Brent",
+      "family": "Nelson",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "Northern Arizona University, Flagstaff, AZ"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2019,
+       7,
+       15
+      ]
+     ]
+    },
+    "container-title": [
+     "ASME 2019 Power Conference"
+    ],
+    "type": "proceedings-article",
+    "is-referenced-by-count": 1,
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Energy storage systems provide a variety of benefits, including taking better advantage of renewable electricity when available and smoothing demand by shifting demand peaks to times when electricity prices and demand are lower. When low electricity demand occurs during the nighttime, system wide advantages also occur. These lower nighttime ambient temperatures lead to efficiency improvements throughout the grid, including power generators, transmission and distribution systems, chillers, etc. An analysis of ice thermal energy storage carried out by T. Deetjen et al. in 2018 analyzed fuel consumption of the power generation fleet for meeting cooling demand in buildings as a function of ambient temperature, relative humidity, transmission and distribution current, and baseline power plant efficiency. Their results showed that the effective round trip efficiency for ice thermal energy storage could exceed 100% due to the efficiency gains of nighttime operation. However, their analysis was performed on a case study in Dallas, where relatively high humidities lead to a relatively small diurnal temperature variation during the cooling season. In order to expand on this limitation, our study extends this analysis to a mountain west climate, using northern Arizona as a case study. The climate of the mountain west has several key differences from that of the Dallas case study in the previous work, including lower relative humidity, higher diurnal temperature variation, and near- and below-freezing nighttime temperatures during shoulder seasons that also exhibit cooling demand in buildings. To address these differences, this paper updates the models of Deetjen et al. to consider generator fleet efficiency and chiller/icemaking COP for local weather characteristics relevant to the mountain west, as well as considering the differences between fuel mixes of the generator fleet in nighttime and daytime. Compared to Dallas, the larger temperature variation of northern Arizona leads to higher round trip efficiencies (RTE) over the course of the year in most days of the year (e.g. 313 days of the year in northern Arizona in comparison with 182 days in Dallas), demonstrating frequent achievement of over 100% effective round trip efficiency. The presence of a mature commercial market and the possibility of gaining over 100% effective round trip efficiency create a strong case for cooling thermal energy storage as an energy storage approach. Future work will investigate emissions impacts as well as extend the analysis to additional western climates, including the hot dry and marine climates.</jats:p>"
+   },
+   {
+    "DOI": "10.1016/j.apenergy.2022.120580",
+    "title": [
+     "Demonstration system of pumped heat energy storage (PHES) and its round-trip efficiency"
+    ],
+    "author": [
+     {
+      "given": "Muhammad Tahir",
+      "family": "Ameen",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Zhiwei",
+      "family": "Ma",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Andrew",
+      "family": "Smallbone",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Rose",
+      "family": "Norman",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Anthony Paul",
+      "family": "Roskilly",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2023,
+       3
+      ]
+     ]
+    },
+    "container-title": [
+     "Applied Energy"
+    ],
+    "type": "journal-article",
+    "is-referenced-by-count": 49
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

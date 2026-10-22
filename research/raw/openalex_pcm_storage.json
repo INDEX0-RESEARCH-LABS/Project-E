@@ -1,0 +1,1589 @@
+{
+ "id": "https://openalex.org/W7152644797",
+ "doi": "https://doi.org/10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906",
+ "title": "Stability investigation on phase change materials for industrial latent heat thermal energy storage",
+ "display_name": "Stability investigation on phase change materials for industrial latent heat thermal energy storage",
+ "publication_year": 2025,
+ "publication_date": "2025-11-28",
+ "ids": {
+  "openalex": "https://openalex.org/W7152644797",
+  "doi": "https://doi.org/10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906",
+  "doi": "https://doi.org/10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906",
+  "pdf_url": null,
+  "source": null,
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Pau",
+  "raw_type": "dissertation"
+ },
+ "volume": null,
+ "type": "dissertation",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5034177646",
+    "display_name": "Hamza Ayaz",
+    "orcid": "https://orcid.org/0000-0002-2769-0334",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2769-0334"
+    ]
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": true,
+   "raw_author_name": "Hamza Ayaz",
+   "raw_affiliation_strings": [
+    "Pau"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-2769-0334",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Pau",
+     "institution_ids": []
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5034177646"
+ ],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": null,
+ "has_fulltext": false,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": null,
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10938",
+  "display_name": "Phase Change Materials Research",
+  "score": 0.9994999766349792,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10938",
+   "display_name": "Phase Change Materials Research",
+   "score": 0.9994999766349792,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11774",
+   "display_name": "Adsorption and Cooling Systems",
+   "score": 0.0003000000142492354,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12358",
+   "display_name": "Thermal and Kinetic Analysis",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/phase-change-materials",
+   "display_name": "phase change materials",
+   "score": 0.9909999966621399
+  },
+  {
+   "id": "https://openalex.org/keywords/latent-heat-storage",
+   "display_name": "latent heat storage",
+   "score": 0.9409999847412109
+  },
+  {
+   "id": "https://openalex.org/keywords/long-term-stability",
+   "display_name": "long-term stability",
+   "score": 0.847000002861023
+  },
+  {
+   "id": "https://openalex.org/keywords/accelerated-thermal-cycling",
+   "display_name": "accelerated thermal cycling",
+   "score": 0.800000011920929
+  },
+  {
+   "id": "https://openalex.org/keywords/thermal-degradation",
+   "display_name": "thermal degradation",
+   "score": 0.7570000290870667
+  },
+  {
+   "id": "https://openalex.org/keywords/decanoic-acid",
+   "display_name": "capric acid",
+   "score": 0.7289999723434448
+  },
+  {
+   "id": "https://openalex.org/keywords/calcium-chloride-hexahydrate",
+   "display_name": "calcium chloride hexahydrate",
+   "score": 0.9520000219345093
+  },
+  {
+   "id": "https://openalex.org/keywords/palmitic-acid",
+   "display_name": "palmitic acid",
+   "score": 0.8790000081062317
+  },
+  {
+   "id": "https://openalex.org/keywords/high-temperature-corrosion",
+   "display_name": "high-temperature corrosion",
+   "score": 0.4189999997615814
+  },
+  {
+   "id": "https://openalex.org/keywords/thermal-degradation-products",
+   "display_name": "thermal degradation products",
+   "score": 0.33000001311302185
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C15708023",
+   "wikidata": "https://www.wikidata.org/wiki/Q80083",
+   "display_name": "Humanities",
+   "level": 1,
+   "score": 0.5333999991416931
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.3901999890804291
+  },
+  {
+   "id": "https://openalex.org/C133256868",
+   "wikidata": "https://www.wikidata.org/wiki/Q7180940",
+   "display_name": "Phase change",
+   "level": 2,
+   "score": 0.3546999990940094
+  },
+  {
+   "id": "https://openalex.org/C183287310",
+   "wikidata": "https://www.wikidata.org/wiki/Q2142963",
+   "display_name": "Thermal energy storage",
+   "level": 2,
+   "score": 0.3513999879360199
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.3230000138282776
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.27709999680519104
+  },
+  {
+   "id": "https://openalex.org/C2989418100",
+   "wikidata": "https://www.wikidata.org/wiki/Q44432",
+   "display_name": "Heat energy",
+   "level": 2,
+   "score": 0.2524000108242035
+  },
+  {
+   "id": "https://openalex.org/C44280652",
+   "wikidata": "https://www.wikidata.org/wiki/Q104837",
+   "display_name": "Phase (matter)",
+   "level": 2,
+   "score": 0.24410000443458557
+  },
+  {
+   "id": "https://openalex.org/C17744445",
+   "wikidata": "https://www.wikidata.org/wiki/Q36442",
+   "display_name": "Political science",
+   "level": 0,
+   "score": 0.24379999935626984
+  },
+  {
+   "id": "https://openalex.org/C2986087423",
+   "wikidata": "https://www.wikidata.org/wiki/Q487756",
+   "display_name": "Specific heat",
+   "level": 2,
+   "score": 0.2402999997138977
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906",
+   "doi": "https://doi.org/10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.70675/7dd12f18z1691z47d8z99bbz6eaf7324c906",
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Pau",
+   "raw_type": "dissertation"
+  },
+  {
+   "id": "pmh:2025PAUU3038",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "http://www.theses.fr/2025PAUU3038",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4406923047",
+    "display_name": "theses.fr (ABES)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "Electronic Thesis or Dissertation"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [],
+ "sustainable_development_goals_aurora": [
+  {
+   "score": 0.7979878783226013,
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "\u00c9tude": [
+   0
+  ],
+  "de": [
+   1,
+   8,
+   14,
+   36,
+   42,
+   63,
+   71,
+   84,
+   120,
+   126,
+   137,
+   142,
+   148,
+   167,
+   178,
+   185,
+   192,
+   210,
+   220,
+   230,
+   238,
+   242,
+   267,
+   270,
+   272,
+   296,
+   298,
+   315,
+   322,
+   342,
+   357,
+   361,
+   369,
+   405,
+   424,
+   438,
+   469,
+   487,
+   499,
+   521,
+   524,
+   532,
+   543,
+   548,
+   552,
+   582,
+   584,
+   592
+  ],
+  "la": [
+   2,
+   37,
+   87,
+   104,
+   186,
+   202,
+   221,
+   231,
+   283,
+   294,
+   358,
+   362,
+   406,
+   450,
+   522
+  ],
+  "stabilit\u00e9": [
+   3,
+   88,
+   203,
+   255,
+   407,
+   477,
+   585
+  ],
+  "des": [
+   4,
+   23,
+   29,
+   59,
+   92,
+   114,
+   118,
+   124,
+   198,
+   204,
+   208,
+   340,
+   371,
+   527,
+   575,
+   580,
+   590,
+   596,
+   602
+  ],
+  "mat\u00e9riaux": [
+   5,
+   60,
+   372
+  ],
+  "\u00e0": [
+   6,
+   55,
+   61,
+   89,
+   95,
+   131,
+   145,
+   236,
+   260,
+   304,
+   395,
+   398,
+   449,
+   467,
+   478,
+   570,
+   604
+  ],
+  "changement": [
+   7,
+   62
+  ],
+  "phase": [
+   9,
+   64,
+   279
+  ],
+  "pour": [
+   10,
+   82,
+   419,
+   559,
+   567,
+   578,
+   588
+  ],
+  "le": [
+   11,
+   21,
+   51,
+   165,
+   189,
+   430,
+   436,
+   455,
+   506,
+   560
+  ],
+  "stockage": [
+   12,
+   43,
+   52
+  ],
+  "industriel": [
+   13
+  ],
+  "l'\u00e9nergie": [
+   15
+  ],
+  "thermique": [
+   16,
+   45,
+   54,
+   122,
+   414,
+   432
+  ],
+  "par": [
+   17
+  ],
+  "chaleur": [
+   18,
+   56
+  ],
+  "latente": [
+   19,
+   57
+  ],
+  "Acc\u00e9l\u00e9rer": [
+   20
+  ],
+  "d\u00e9ploiement": [
+   22
+  ],
+  "\u00e9nergies": [
+   24
+  ],
+  "renouvelables": [
+   25
+  ],
+  "et": [
+   26,
+   50,
+   123,
+   172,
+   180,
+   194,
+   282,
+   292,
+   318,
+   360,
+   391,
+   471,
+   526,
+   587,
+   600
+  ],
+  "am\u00e9liorer": [
+   27
+  ],
+  "l'efficacit\u00e9": [
+   28
+  ],
+  "syst\u00e8mes": [
+   30
+  ],
+  "\u00e9nerg\u00e9tiques": [
+   31
+  ],
+  "sont": [
+   32
+  ],
+  "deux": [
+   33,
+   305,
+   336
+  ],
+  "leviers": [
+   34
+  ],
+  "essentiels": [
+   35
+  ],
+  "transition": [
+   38
+  ],
+  "\u00e9nerg\u00e9tique.": [
+   39
+  ],
+  "Les": [
+   40,
+   335,
+   367,
+   530
+  ],
+  "technologies": [
+   41
+  ],
+  "d'\u00e9nergie": [
+   44,
+   53
+  ],
+  "peuvent": [
+   46
+  ],
+  "relever": [
+   47
+  ],
+  "ces": [
+   48,
+   135
+  ],
+  "d\u00e9fis,": [
+   49
+  ],
+  "utilisant": [
+   58
+  ],
+  "(MCP)": [
+   65
+  ],
+  "suscite": [
+   66
+  ],
+  "un": [
+   67,
+   76,
+   146,
+   173,
+   458,
+   497
+  ],
+  "int\u00e9r\u00eat": [
+   68
+  ],
+  "croissant.": [
+   69
+  ],
+  "L'objectif": [
+   70
+  ],
+  "ce": [
+   72,
+   96,
+   111,
+   353
+  ],
+  "travail": [
+   73,
+   112
+  ],
+  "est": [
+   74,
+   426
+  ],
+  "d'\u00e9laborer": [
+   75
+  ],
+  "cadre": [
+   77
+  ],
+  "qui": [
+   78,
+   223,
+   354,
+   562
+  ],
+  "doit": [
+   79
+  ],
+  "\u00eatre": [
+   80,
+   382
+  ],
+  "utilis\u00e9": [
+   81
+  ],
+  "\u00e9tudier": [
+   83
+  ],
+  "mani\u00e8re": [
+   85,
+   138
+  ],
+  "rigoureuse": [
+   86
+  ],
+  "long": [
+   90,
+   399,
+   479,
+   571,
+   605
+  ],
+  "terme": [
+   91,
+   480
+  ],
+  "MCP,": [
+   93
+  ],
+  "car": [
+   94
+  ],
+  "jour,": [
+   97
+  ],
+  "aucun": [
+   98
+  ],
+  "protocole": [
+   99,
+   228
+  ],
+  "standard": [
+   100
+  ],
+  "n'est": [
+   101,
+   563
+  ],
+  "disponible": [
+   102
+  ],
+  "dans": [
+   103,
+   110,
+   496,
+   505
+  ],
+  "litt\u00e9rature": [
+   105
+  ],
+  "scientifique.": [
+   106
+  ],
+  "La": [
+   107,
+   257,
+   276
+  ],
+  "d\u00e9marche": [
+   108
+  ],
+  "suivie": [
+   109
+  ],
+  "comprend": [
+   113
+  ],
+  "cycles": [
+   115,
+   250,
+   330,
+   341,
+   488,
+   495
+  ],
+  "thermiques": [
+   116,
+   251,
+   331,
+   489
+  ],
+  "acc\u00e9l\u00e9r\u00e9s,": [
+   117
+  ],
+  "tests": [
+   119,
+   125,
+   368,
+   583
+  ],
+  "contrainte": [
+   121,
+   439
+  ],
+  "corrosion.": [
+   127
+  ],
+  "Cette": [
+   128,
+   213
+  ],
+  "approche": [
+   129
+  ],
+  "vise": [
+   130
+  ],
+  "d\u00e9montrer": [
+   132
+  ],
+  "l'importance": [
+   133
+  ],
+  "d'utiliser": [
+   134
+  ],
+  "exp\u00e9riences": [
+   136
+  ],
+  "combin\u00e9e": [
+   139
+  ],
+  "plut\u00f4t": [
+   140
+  ],
+  "que": [
+   141,
+   207,
+   346,
+   387,
+   434,
+   483,
+   541
+  ],
+  "se": [
+   143
+  ],
+  "limiter": [
+   144
+  ],
+  "type": [
+   147
+  ],
+  "test": [
+   149,
+   437,
+   486
+  ],
+  "sp\u00e9cifique.Trois": [
+   150
+  ],
+  "MCP": [
+   151,
+   205,
+   246,
+   603
+  ],
+  "ont": [
+   152,
+   224,
+   290,
+   332,
+   338,
+   385,
+   535
+  ],
+  "\u00e9t\u00e9": [
+   153,
+   333,
+   417,
+   465,
+   557
+  ],
+  "s\u00e9lectionn\u00e9s": [
+   154
+  ],
+  "repr\u00e9sentant": [
+   155
+  ],
+  "les": [
+   156,
+   218
+  ],
+  "principales": [
+   157
+  ],
+  "cat\u00e9gories": [
+   158
+  ],
+  "existantes": [
+   159
+  ],
+  ":": [
+   160,
+   310
+  ],
+  "l'acide": [
+   161,
+   239,
+   311,
+   347,
+   375
+  ],
+  "caprique": [
+   162,
+   240,
+   309,
+   312,
+   348,
+   376
+  ],
+  "(corps": [
+   163,
+   170
+  ],
+  "organique),": [
+   164
+  ],
+  "chlorure": [
+   166
+  ],
+  "calcium": [
+   168
+  ],
+  "hexahydrat\u00e9": [
+   169
+  ],
+  "inorganique)": [
+   171
+  ],
+  "m\u00e9lange": [
+   174,
+   460
+  ],
+  "binaire": [
+   175,
+   461
+  ],
+  "eutectique": [
+   176,
+   463
+  ],
+  "(organique)": [
+   177
+  ],
+  "1-octad\u00e9canol": [
+   179,
+   470
+  ],
+  "d'acide": [
+   181,
+   308,
+   472
+  ],
+  "palmitique.Le": [
+   182
+  ],
+  "premier": [
+   183
+  ],
+  "chapitre": [
+   184,
+   233,
+   300,
+   402
+  ],
+  "th\u00e8se": [
+   187
+  ],
+  "pr\u00e9sente": [
+   188,
+   403
+  ],
+  "contexte": [
+   190
+  ],
+  "g\u00e9n\u00e9ral": [
+   191
+  ],
+  "l'\u00e9tude": [
+   193,
+   237,
+   404
+  ],
+  "propose": [
+   195
+  ],
+  "une": [
+   196,
+   265,
+   396,
+   446,
+   513,
+   537,
+   568
+  ],
+  "synth\u00e8se": [
+   197
+  ],
+  "travaux": [
+   199
+  ],
+  "ant\u00e9rieurs": [
+   200
+  ],
+  "sur": [
+   201,
+   493
+  ],
+  "ainsi": [
+   206,
+   519
+  ],
+  "techniques": [
+   209
+  ],
+  "caract\u00e9risation": [
+   211,
+   593
+  ],
+  "associ\u00e9es.": [
+   212
+  ],
+  "analyse": [
+   214
+  ],
+  "met": [
+   215
+  ],
+  "en": [
+   216,
+   278,
+   383,
+   481
+  ],
+  "\u00e9vidence": [
+   217
+  ],
+  "lacunes": [
+   219
+  ],
+  "recherche,": [
+   222
+  ],
+  "guid\u00e9": [
+   225
+  ],
+  "l'\u00e9laboration": [
+   226
+  ],
+  "du": [
+   227
+  ],
+  "d'\u00e9tude": [
+   229
+  ],
+  "stabilit\u00e9.Le": [
+   232
+  ],
+  "2": [
+   234
+  ],
+  "correspond": [
+   235
+  ],
+  "(puret\u00e9": [
+   241
+  ],
+  "98": [
+   243,
+   323
+  ],
+  "%).": [
+   244
+  ],
+  "Le": [
+   245,
+   412,
+   422,
+   485
+  ],
+  "a": [
+   247,
+   263,
+   416,
+   444,
+   464,
+   491,
+   510,
+   556
+  ],
+  "subi": [
+   248
+  ],
+  "1500": [
+   249,
+   329
+  ],
+  "afin": [
+   252,
+   474
+  ],
+  "d'\u00e9valuer": [
+   253
+  ],
+  "sa": [
+   254,
+   476
+  ],
+  "thermique.": [
+   256,
+   440
+  ],
+  "calorim\u00e9trie": [
+   258
+  ],
+  "diff\u00e9rentielle": [
+   259
+  ],
+  "balayage": [
+   261
+  ],
+  "(DSC)": [
+   262
+  ],
+  "r\u00e9v\u00e9l\u00e9": [
+   264
+  ],
+  "r\u00e9duction": [
+   266
+  ],
+  "10,45": [
+   268
+  ],
+  "%": [
+   269,
+   317,
+   324,
+   350,
+   378
+  ],
+  "l'enthalpie": [
+   271
+  ],
+  "fusion": [
+   273
+  ],
+  "apr\u00e8s": [
+   274
+  ],
+  "cyclage.": [
+   275
+  ],
+  "chromatographie": [
+   277
+  ],
+  "gazeuse": [
+   280
+  ],
+  "(CG)": [
+   281
+  ],
+  "r\u00e9sonance": [
+   284
+  ],
+  "magn\u00e9tique": [
+   285
+  ],
+  "nucl\u00e9aire": [
+   286
+  ],
+  "protonique": [
+   287
+  ],
+  "(\u00b9H": [
+   288
+  ],
+  "RMN)": [
+   289
+  ],
+  "confirm\u00e9": [
+   291
+  ],
+  "identifi\u00e9": [
+   293
+  ],
+  "formation": [
+   295
+  ],
+  "sous-produits": [
+   297
+  ],
+  "d\u00e9gradation.Le": [
+   299
+  ],
+  "3": [
+   301
+  ],
+  "\u00e9tend": [
+   302
+  ],
+  "l'analyse": [
+   303
+  ],
+  "types": [
+   306
+  ],
+  "d'\u00e9chantillons": [
+   307
+  ],
+  "d'une": [
+   313,
+   320
+  ],
+  "puret\u00e9": [
+   314,
+   321,
+   359
+  ],
+  "99,5": [
+   316
+  ],
+  "celui": [
+   319
+  ],
+  "mais": [
+   325
+  ],
+  "d\u00e9gaz\u00e9": [
+   326
+  ],
+  "(sans": [
+   327
+  ],
+  "oxyg\u00e8ne).": [
+   328
+  ],
+  "effectu\u00e9s.": [
+   334
+  ],
+  "\u00e9chantillons": [
+   337,
+   531
+  ],
+  "pr\u00e9sent\u00e9": [
+   339
+  ],
+  "d\u00e9gradation": [
+   343,
+   425,
+   538
+  ],
+  "plus": [
+   344,
+   427,
+   516,
+   539,
+   554,
+   598
+  ],
+  "lents": [
+   345
+  ],
+  "(98": [
+   349,
+   377
+  ],
+  "non": [
+   351,
+   365,
+   379
+  ],
+  "d\u00e9gaz\u00e9),": [
+   352
+  ],
+  "indique": [
+   355
+  ],
+  "l'influence": [
+   356
+  ],
+  "pr\u00e9sence": [
+   363
+  ],
+  "ou": [
+   364
+  ],
+  "d'oxyg\u00e8ne.": [
+   366
+  ],
+  "compatibilit\u00e9": [
+   370
+  ],
+  "avec": [
+   373
+  ],
+  "lesquels": [
+   374
+  ],
+  "d\u00e9gaz\u00e9)": [
+   380
+  ],
+  "peut": [
+   381
+  ],
+  "contact,": [
+   384
+  ],
+  "montr\u00e9": [
+   386,
+   445,
+   536
+  ],
+  "l'acier": [
+   388
+  ],
+  "inoxydable": [
+   389,
+   442
+  ],
+  "(316)": [
+   390,
+   443
+  ],
+  "l'aluminium": [
+   392
+  ],
+  "\u00e9taient": [
+   393
+  ],
+  "adapt\u00e9s": [
+   394,
+   586
+  ],
+  "utilisation": [
+   397
+  ],
+  "terme.Le": [
+   400
+  ],
+  "quatri\u00e8me": [
+   401
+  ],
+  "d'un": [
+   408,
+   508
+  ],
+  "sel": [
+   409
+  ],
+  "hydrat\u00e9": [
+   410
+  ],
+  "(CaCl2\u00b76H2O).": [
+   411
+  ],
+  "cycle": [
+   413,
+   431
+  ],
+  "acc\u00e9l\u00e9r\u00e9": [
+   415,
+   433
+  ],
+  "effectu\u00e9": [
+   418
+  ],
+  "180": [
+   420
+  ],
+  "cycles.": [
+   421
+  ],
+  "ph\u00e9nom\u00e8ne": [
+   423
+  ],
+  "prononc\u00e9": [
+   428
+  ],
+  "pendant": [
+   429,
+   435,
+   452
+  ],
+  "L'acier": [
+   441
+  ],
+  "bonne": [
+   447
+  ],
+  "r\u00e9sistance": [
+   448
+  ],
+  "corrosion": [
+   451,
+   553
+  ],
+  "84": [
+   453
+  ],
+  "jours.Dans": [
+   454
+  ],
+  "dernier": [
+   456
+  ],
+  "chapitre,": [
+   457
+  ],
+  "nouveau": [
+   459
+  ],
+  "biosourc\u00e9": [
+   462
+  ],
+  "pr\u00e9par\u00e9": [
+   466
+  ],
+  "partir": [
+   468
+  ],
+  "palmitique": [
+   473
+  ],
+  "d'\u00e9tudier": [
+   475,
+   512
+  ],
+  "tant": [
+   482
+  ],
+  "MCP.": [
+   484
+  ],
+  "acc\u00e9l\u00e9r\u00e9s": [
+   490
+  ],
+  "port\u00e9": [
+   492
+  ],
+  "600": [
+   494
+  ],
+  "dispositif": [
+   498
+  ],
+  "refroidissement/chauffage.": [
+   500
+  ],
+  "Un": [
+   501
+  ],
+  "second": [
+   502
+  ],
+  "test,": [
+   503
+  ],
+  "r\u00e9alis\u00e9": [
+   504
+  ],
+  "four": [
+   507
+  ],
+  "DSC,": [
+   509
+  ],
+  "permis": [
+   511
+  ],
+  "taille": [
+   514,
+   523
+  ],
+  "d'\u00e9chantillon": [
+   515
+  ],
+  "faible": [
+   517
+  ],
+  "\u00e9valuant": [
+   518
+  ],
+  "l'effet": [
+   520
+  ],
+  "l'\u00e9chantillon": [
+   525
+  ],
+  "conditions": [
+   528
+  ],
+  "thermiques.": [
+   529
+  ],
+  "grand": [
+   533
+  ],
+  "volume": [
+   534
+  ],
+  "marqu\u00e9e": [
+   540
+  ],
+  "ceux": [
+   542
+  ],
+  "petit": [
+   544
+  ],
+  "volume.": [
+   545
+  ],
+  "Il": [
+   546
+  ],
+  "convient": [
+   547
+  ],
+  "noter": [
+   549
+  ],
+  "qu'un": [
+   550
+  ],
+  "taux": [
+   551
+  ],
+  "\u00e9lev\u00e9": [
+   555
+  ],
+  "observ\u00e9": [
+   558
+  ],
+  "cuivre,": [
+   561
+  ],
+  "donc": [
+   564
+  ],
+  "pas": [
+   565
+  ],
+  "recommand\u00e9": [
+   566
+  ],
+  "application": [
+   569
+  ],
+  "terme.Ces": [
+   572
+  ],
+  "r\u00e9sultats": [
+   573
+  ],
+  "fournissent": [
+   574
+  ],
+  "indications": [
+   576
+  ],
+  "pr\u00e9cieuses": [
+   577
+  ],
+  "concevoir": [
+   579
+  ],
+  "protocoles": [
+   581
+  ],
+  "s\u00e9lectionner": [
+   589
+  ],
+  "m\u00e9thodes": [
+   591
+  ],
+  "appropri\u00e9es,": [
+   594
+  ],
+  "favorisant": [
+   595
+  ],
+  "\u00e9tudes": [
+   597
+  ],
+  "pr\u00e9cises": [
+   599
+  ],
+  "fiables": [
+   601
+  ],
+  "terme.": [
+   606
+  ]
+ },
+ "counts_by_year": [],
+ "updated_date": "2026-09-25T08:18:29.962427",
+ "created_date": "2026-04-10T00:00:00"
+}

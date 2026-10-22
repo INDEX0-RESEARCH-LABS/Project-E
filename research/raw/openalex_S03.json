@@ -1,0 +1,1278 @@
+{
+ "id": "https://openalex.org/W2053328406",
+ "doi": "https://doi.org/10.1038/nmat2297",
+ "title": "Materials for electrochemical capacitors",
+ "display_name": "Materials for electrochemical capacitors",
+ "publication_year": 2008,
+ "publication_date": "2008-10-28",
+ "ids": {
+  "openalex": "https://openalex.org/W2053328406",
+  "doi": "https://doi.org/10.1038/nmat2297",
+  "mag": "2053328406",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/18956000"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1038/nmat2297",
+  "doi": "https://doi.org/10.1038/nmat2297",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1038/nmat2297",
+  "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
+  "source": {
+   "id": "https://openalex.org/S103895331",
+   "display_name": "Nature Materials",
+   "issn_l": "1476-1122",
+   "issn": [
+    "1476-1122",
+    "1476-4660"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-a",
+    "jufo-3",
+    "ki-jl-3",
+    "medline",
+    "norway-2",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310319908",
+   "host_organization_name": "Nature Portfolio",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319908",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Nature Portfolio",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Nature Materials",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "bronze",
+  "oa_url": "https://www.nature.com/articles/nmat2297.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5016144644",
+    "display_name": "Patrice Simon",
+    "orcid": "https://orcid.org/0000-0002-0461-8268",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-0461-8268"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I1294671590",
+     "display_name": "Centre National de la Recherche Scientifique",
+     "ror": "https://ror.org/02feahw73",
+     "country_code": "FR",
+     "type": "government",
+     "lineage": [
+      "https://openalex.org/I1294671590"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I134560555",
+     "display_name": "Universit\u00e9 Toulouse III - Paul Sabatier",
+     "ror": "https://ror.org/02v6kpv12",
+     "country_code": "FR",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I134560555",
+      "https://openalex.org/I4405258862"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I185839726",
+     "display_name": "Institut Universitaire de France",
+     "ror": "https://ror.org/055khg266",
+     "country_code": "FR",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I185839726"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I4210135817",
+     "display_name": "Centre Interuniversitaire de Recherche et d\u2019Ing\u00e9nierie des Mat\u00e9riaux",
+     "ror": "https://ror.org/03xhggy77",
+     "country_code": "FR",
+     "type": "facility",
+     "lineage": [
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I205747304",
+      "https://openalex.org/I4210128300",
+      "https://openalex.org/I4210135817",
+      "https://openalex.org/I4405258862"
+     ]
+    }
+   ],
+   "countries": [
+    "FR"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Patrice Simon",
+   "raw_affiliation_strings": [
+    "Universit\u00e9 Paul Sabatier, CIRIMAT, UMR-CNRS 5085, 31062 Toulouse Cedex 4, France. simon@chimie.ups-tlse.fr",
+    "Institut Universitaire de France, Paris, France",
+    "Universit\u00e9 Paul Sabatier, CIRIMAT, UMR-CNRS 5085, Toulouse, France"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Universit\u00e9 Paul Sabatier, CIRIMAT, UMR-CNRS 5085, 31062 Toulouse Cedex 4, France. simon@chimie.ups-tlse.fr",
+     "institution_ids": [
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I134560555",
+      "https://openalex.org/I4210135817"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Institut Universitaire de France, Paris, France",
+     "institution_ids": [
+      "https://openalex.org/I185839726"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Universit\u00e9 Paul Sabatier, CIRIMAT, UMR-CNRS 5085, Toulouse, France",
+     "institution_ids": [
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I134560555",
+      "https://openalex.org/I4210135817"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5035467559",
+    "display_name": "Yury G. Gogotsi",
+    "orcid": "https://orcid.org/0000-0001-9423-4032",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-9423-4032"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I72816309",
+     "display_name": "Drexel University",
+     "ror": "https://ror.org/04bdffz58",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I72816309"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yury Gogotsi",
+   "raw_affiliation_strings": [
+    "Department of Materials Science & Engineering, Drexel University, 3141 Chestnut Street, Philadelphia, 19104, USA",
+    "Department of Materials Science and Engineering, Drexel University, Philadelphia, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Materials Science & Engineering, Drexel University, 3141 Chestnut Street, Philadelphia, 19104, USA",
+     "institution_ids": [
+      "https://openalex.org/I72816309"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Department of Materials Science and Engineering, Drexel University, Philadelphia, USA",
+     "institution_ids": [
+      "https://openalex.org/I72816309"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 5,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": {
+  "value": 12690,
+  "currency": "USD",
+  "value_usd": 12690
+ },
+ "apc_paid": null,
+ "fwci": 98.2002,
+ "has_fulltext": true,
+ "cited_by_count": 16462,
+ "citation_normalized_percentile": {
+  "value": 0.99969706,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "7",
+  "issue": "11",
+  "first_page": "845",
+  "last_page": "854"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10179",
+  "display_name": "Supercapacitor Materials and Fabrication",
+  "score": 1.0,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2504",
+   "display_name": "Electronic, Optical and Magnetic Materials"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/25",
+   "display_name": "Materials Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10179",
+   "display_name": "Supercapacitor Materials and Fabrication",
+   "score": 1.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2504",
+    "display_name": "Electronic, Optical and Magnetic Materials"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12046",
+   "display_name": "MXene and MAX Phase Materials",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10018",
+   "display_name": "Advancements in Battery Materials",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/supercapacitors",
+   "display_name": "supercapacitors",
+   "score": 0.9449999928474426
+  },
+  {
+   "id": "https://openalex.org/keywords/electric-double-layer-capacitors",
+   "display_name": "electric double-layer capacitors",
+   "score": 0.847000002861023
+  },
+  {
+   "id": "https://openalex.org/keywords/pseudocapacitors",
+   "display_name": "pseudocapacitors",
+   "score": 0.906000018119812
+  },
+  {
+   "id": "https://openalex.org/keywords/ion-desolvation",
+   "display_name": "ion desolvation",
+   "score": 0.8799999952316284
+  },
+  {
+   "id": "https://openalex.org/keywords/carbon-electrodes",
+   "display_name": "carbon electrodes",
+   "score": 0.9169999957084656
+  },
+  {
+   "id": "https://openalex.org/keywords/nanostructured-materials",
+   "display_name": "nanostructured materials",
+   "score": 0.8190000057220459
+  },
+  {
+   "id": "https://openalex.org/keywords/lithium-metal-electrode",
+   "display_name": "lithium electrode",
+   "score": 0.5440000295639038
+  },
+  {
+   "id": "https://openalex.org/keywords/carbon-nanotubes",
+   "display_name": "carbon nanotubes",
+   "score": 0.8069999814033508
+  },
+  {
+   "id": "https://openalex.org/keywords/energy-storage",
+   "display_name": "energy storage",
+   "score": 0.6340000033378601
+  },
+  {
+   "id": "https://openalex.org/keywords/charge-storage-mechanism",
+   "display_name": "charge storage mechanism",
+   "score": 0.7429999709129333
+  },
+  {
+   "id": "https://openalex.org/keywords/electrolytes",
+   "display_name": "electrolytes",
+   "score": 0.6880000233650208
+  },
+  {
+   "id": "https://openalex.org/keywords/mathematical-modeling",
+   "display_name": "mathematical modeling",
+   "score": 0.6850000023841858
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C6585489",
+   "wikidata": "https://www.wikidata.org/wiki/Q754523",
+   "display_name": "Supercapacitor",
+   "level": 4,
+   "score": 0.8706486225128174
+  },
+  {
+   "id": "https://openalex.org/C52192207",
+   "wikidata": "https://www.wikidata.org/wiki/Q5322",
+   "display_name": "Capacitor",
+   "level": 3,
+   "score": 0.7934235334396362
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7480804324150085
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.6227828860282898
+  },
+  {
+   "id": "https://openalex.org/C73916439",
+   "wikidata": "https://www.wikidata.org/wiki/Q837718",
+   "display_name": "Energy storage",
+   "level": 3,
+   "score": 0.5942183136940002
+  },
+  {
+   "id": "https://openalex.org/C30066665",
+   "wikidata": "https://www.wikidata.org/wiki/Q164399",
+   "display_name": "Capacitance",
+   "level": 3,
+   "score": 0.4984931945800781
+  },
+  {
+   "id": "https://openalex.org/C52859227",
+   "wikidata": "https://www.wikidata.org/wiki/Q7877",
+   "display_name": "Electrochemistry",
+   "level": 3,
+   "score": 0.46930861473083496
+  },
+  {
+   "id": "https://openalex.org/C6202296",
+   "wikidata": "https://www.wikidata.org/wiki/Q7254569",
+   "display_name": "Pseudocapacitor",
+   "level": 5,
+   "score": 0.4549323320388794
+  },
+  {
+   "id": "https://openalex.org/C17525397",
+   "wikidata": "https://www.wikidata.org/wiki/Q176140",
+   "display_name": "Electrode",
+   "level": 2,
+   "score": 0.4227748215198517
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.17121273279190063
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.1004096269607544
+  },
+  {
+   "id": "https://openalex.org/C165801399",
+   "wikidata": "https://www.wikidata.org/wiki/Q25428",
+   "display_name": "Voltage",
+   "level": 2,
+   "score": 0.08201894164085388
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.07565039396286011
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C147789679",
+   "wikidata": "https://www.wikidata.org/wiki/Q11372",
+   "display_name": "Physical chemistry",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 4,
+ "locations": [
+  {
+   "id": "doi:10.1038/nmat2297",
+   "doi": "https://doi.org/10.1038/nmat2297",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1038/nmat2297",
+   "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
+   "source": {
+    "id": "https://openalex.org/S103895331",
+    "display_name": "Nature Materials",
+    "issn_l": "1476-1122",
+    "issn": [
+     "1476-1122",
+     "1476-4660"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-a",
+     "jufo-3",
+     "ki-jl-3",
+     "medline",
+     "norway-2",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310319908",
+    "host_organization_name": "Nature Portfolio",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319908",
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Nature Portfolio",
+     "Springer Nature"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Nature Materials",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmid:18956000",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18956000",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Nature materials",
+   "raw_type": "Journal Article"
+  },
+  {
+   "id": "pmh:oai:oatao.univ-toulouse.fr:3942",
+   "doi": null,
+   "is_oa": true,
+   "landing_page_url": "https://oatao.univ-toulouse.fr/3942/1/Simon_3942.pdf",
+   "pdf_url": "https://oatao.univ-toulouse.fr/3942/1/Simon_3942.pdf",
+   "source": {
+    "id": "https://openalex.org/S4306401987",
+    "display_name": "Open Archive Toulouse Archive Ouverte (University of Toulouse)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I17866349",
+    "host_organization_name": "Universit\u00e9 F\u00e9d\u00e9rale de Toulouse Midi-Pyr\u00e9n\u00e9es",
+    "host_organization_lineage": [
+     "https://openalex.org/I17866349"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "other-oa",
+   "license_id": "https://openalex.org/licenses/other-oa",
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": "",
+   "raw_type": "info:eu-repo/semantics/article"
+  },
+  {
+   "id": "pmh:oai:HAL:hal-02417326v1",
+   "doi": null,
+   "is_oa": true,
+   "landing_page_url": "https://hal.science/hal-02417326",
+   "pdf_url": "https://hal.science/hal-02417326/document",
+   "source": {
+    "id": "https://openalex.org/S4306402512",
+    "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I1294671590",
+    "host_organization_name": "Centre National de la Recherche Scientifique",
+    "host_organization_lineage": [
+     "https://openalex.org/I1294671590"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Nature Materials, 2008, 7 (11), pp.845-854. &#x27E8;10.1038/nmat2297&#x27E9;",
+   "raw_type": "info:eu-repo/semantics/article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1038/nmat2297",
+  "doi": "https://doi.org/10.1038/nmat2297",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1038/nmat2297",
+  "pdf_url": "https://www.nature.com/articles/nmat2297.pdf",
+  "source": {
+   "id": "https://openalex.org/S103895331",
+   "display_name": "Nature Materials",
+   "issn_l": "1476-1122",
+   "issn": [
+    "1476-1122",
+    "1476-4660"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-a",
+    "jufo-3",
+    "ki-jl-3",
+    "medline",
+    "norway-2",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310319908",
+   "host_organization_name": "Nature Portfolio",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319908",
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Nature Portfolio",
+    "Springer Nature"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Nature Materials",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.75,
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.8500000238418579,
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306084",
+   "display_name": "U.S. Department of Energy",
+   "ror": "https://ror.org/01bj3aw27"
+  },
+  {
+   "id": "https://openalex.org/F4320309370",
+   "display_name": "University of Pennsylvania",
+   "ror": "https://ror.org/00b30xv10"
+  },
+  {
+   "id": "https://openalex.org/F4320310343",
+   "display_name": "Drexel University",
+   "ror": "https://ror.org/04bdffz58"
+  },
+  {
+   "id": "https://openalex.org/F4320323495",
+   "display_name": "D\u00e9l\u00e9gation G\u00e9n\u00e9rale pour l'Armement",
+   "ror": "https://ror.org/025er3q23"
+  }
+ ],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": false
+ },
+ "content_urls": {
+  "grobid_xml": "https://content.openalex.org/works/W2053328406.grobid-xml"
+ },
+ "referenced_works_count": 455,
+ "referenced_works": [
+  "https://openalex.org/W10640993",
+  "https://openalex.org/W59906577",
+  "https://openalex.org/W101407797",
+  "https://openalex.org/W108179286",
+  "https://openalex.org/W125124066",
+  "https://openalex.org/W187670314",
+  "https://openalex.org/W613060151",
+  "https://openalex.org/W1482347972",
+  "https://openalex.org/W1499036410",
+  "https://openalex.org/W1515916080",
+  "https://openalex.org/W1525197209",
+  "https://openalex.org/W1541543671",
+  "https://openalex.org/W1554220936",
+  "https://openalex.org/W1575366268",
+  "https://openalex.org/W1586165706",
+  "https://openalex.org/W1591020994",
+  "https://openalex.org/W1603647494",
+  "https://openalex.org/W1608137301",
+  "https://openalex.org/W1615647321",
+  "https://openalex.org/W1767325933",
+  "https://openalex.org/W1949231392",
+  "https://openalex.org/W1950116877",
+  "https://openalex.org/W1963496313",
+  "https://openalex.org/W1963564175",
+  "https://openalex.org/W1964195084",
+  "https://openalex.org/W1964698893",
+  "https://openalex.org/W1964771138",
+  "https://openalex.org/W1965121196",
+  "https://openalex.org/W1965363538",
+  "https://openalex.org/W1965372433",
+  "https://openalex.org/W1965776589",
+  "https://openalex.org/W1965790091",
+  "https://openalex.org/W1966100622",
+  "https://openalex.org/W1966168225",
+  "https://openalex.org/W1966365747",
+  "https://openalex.org/W1966822323",
+  "https://openalex.org/W1967154514",
+  "https://openalex.org/W1967254570",
+  "https://openalex.org/W1967567840",
+  "https://openalex.org/W1967708419",
+  "https://openalex.org/W1967807105",
+  "https://openalex.org/W1968013777",
+  "https://openalex.org/W1968111454",
+  "https://openalex.org/W1968425105",
+  "https://openalex.org/W1968426135",
+  "https://openalex.org/W1968810845",
+  "https://openalex.org/W1968833987",
+  "https://openalex.org/W1968923146",
+  "https://openalex.org/W1969552909",
+  "https://openalex.org/W1969600553",
+  "https://openalex.org/W1969921397",
+  "https://openalex.org/W1973101250",
+  "https://openalex.org/W1974203542",
+  "https://openalex.org/W1974260810",
+  "https://openalex.org/W1974634746",
+  "https://openalex.org/W1974750288",
+  "https://openalex.org/W1975837939",
+  "https://openalex.org/W1975881340",
+  "https://openalex.org/W1976000202",
+  "https://openalex.org/W1976784545",
+  "https://openalex.org/W1977636416",
+  "https://openalex.org/W1977843083",
+  "https://openalex.org/W1978327124",
+  "https://openalex.org/W1978494492",
+  "https://openalex.org/W1978586909",
+  "https://openalex.org/W1979107603",
+  "https://openalex.org/W1979198089",
+  "https://openalex.org/W1979298006",
+  "https://openalex.org/W1979664712",
+  "https://openalex.org/W1979982531",
+  "https://openalex.org/W1980599249",
+  "https://openalex.org/W1980635893",
+  "https://openalex.org/W1980721063",
+  "https://openalex.org/W1981323802",
+  "https://openalex.org/W1981450639",
+  "https://openalex.org/W1981652014",
+  "https://openalex.org/W1981845574",
+  "https://openalex.org/W1981992870",
+  "https://openalex.org/W1982151362",
+  "https://openalex.org/W1982291001",
+  "https://openalex.org/W1982546801",
+  "https://openalex.org/W1982630999",
+  "https://openalex.org/W1982697028",
+  "https://openalex.org/W1983057632",
+  "https://openalex.org/W1983170195",
+  "https://openalex.org/W1983822274",
+  "https://openalex.org/W1983981353",
+  "https://openalex.org/W1984118718",
+  "https://openalex.org/W1984173907",
+  "https://openalex.org/W1984278079",
+  "https://openalex.org/W1985623674",
+  "https://openalex.org/W1985714016",
+  "https://openalex.org/W1985877259",
+  "https://openalex.org/W1985985334",
+  "https://openalex.org/W1986101426",
+  "https://openalex.org/W1986189937",
+  "https://openalex.org/W1986470855",
+  "https://openalex.org/W1986856106",
+  "https://openalex.org/W1987354186",
+  "https://openalex.org/W1988268524",
+  "https://openalex.org/W1989495966",
+  "https://openalex.org/W1989584647",
+  "https://openalex.org/W1989937017",
+  "https://openalex.org/W1990132615",
+  "https://openalex.org/W1990878667",
+  "https://openalex.org/W1991329900",
+  "https://openalex.org/W1991453660",
+  "https://openalex.org/W1991502672",
+  "https://openalex.org/W1992034481",
+  "https://openalex.org/W1992379425",
+  "https://openalex.org/W1992536106",
+  "https://openalex.org/W1992775150",
+  "https://openalex.org/W1993186452",
+  "https://openalex.org/W1993365679",
+  "https://openalex.org/W1993371672",
+  "https://openalex.org/W1993385169",
+  "https://openalex.org/W1995008219",
+  "https://openalex.org/W1995308224",
+  "https://openalex.org/W1995689492",
+  "https://openalex.org/W1996003894",
+  "https://openalex.org/W1996568176",
+  "https://openalex.org/W1996761247",
+  "https://openalex.org/W1996838930",
+  "https://openalex.org/W1997021924",
+  "https://openalex.org/W1997430185",
+  "https://openalex.org/W1998085208",
+  "https://openalex.org/W1998194446",
+  "https://openalex.org/W1998888978",
+  "https://openalex.org/W1999411046",
+  "https://openalex.org/W1999669972",
+  "https://openalex.org/W1999756899",
+  "https://openalex.org/W2000152744",
+  "https://openalex.org/W2000353900",
+  "https://openalex.org/W2000769154",
+  "https://openalex.org/W2001085791",
+  "https://openalex.org/W2001726169",
+  "https://openalex.org/W2002083500",
+  "https://openalex.org/W2002190436",
+  "https://openalex.org/W2002641145",
+  "https://openalex.org/W2003060184",
+  "https://openalex.org/W2003334411",
+  "https://openalex.org/W2003359244",
+  "https://openalex.org/W2003515583",
+  "https://openalex.org/W2003577684",
+  "https://openalex.org/W2004558737",
+  "https://openalex.org/W2004616217",
+  "https://openalex.org/W2004682249",
+  "https://openalex.org/W2005159023",
+  "https://openalex.org/W2005467344",
+  "https://openalex.org/W2005824291",
+  "https://openalex.org/W2005920792",
+  "https://openalex.org/W2006070021",
+  "https://openalex.org/W2006117757",
+  "https://openalex.org/W2006210594",
+  "https://openalex.org/W2006318126",
+  "https://openalex.org/W2006523487",
+  "https://openalex.org/W2006630588",
+  "https://openalex.org/W2006709619",
+  "https://openalex.org/W2006715609",
+  "https://openalex.org/W2006881995",
+  "https://openalex.org/W2007417413",
+  "https://openalex.org/W2007903361",
+  "https://openalex.org/W2008034971",
+  "https://openalex.org/W2008166107",
+  "https://openalex.org/W2008294721",
+  "https://openalex.org/W2009223823",
+  "https://openalex.org/W2009310189",
+  "https://openalex.org/W2009378130",
+  "https://openalex.org/W2009393911",
+  "https://openalex.org/W2010556499",
+  "https://openalex.org/W2011010168",
+  "https://openalex.org/W2011122881",
+  "https://openalex.org/W2011738101",
+  "https://openalex.org/W2012032162",
+  "https://openalex.org/W2012279541",
+  "https://openalex.org/W2012293812",
+  "https://openalex.org/W2012513954",
+  "https://openalex.org/W2012727447",
+  "https://openalex.org/W2012771937",
+  "https://openalex.org/W2012915075",
+  "https://openalex.org/W2013309492",
+  "https://openalex.org/W2013408784",
+  "https://openalex.org/W2013797252",
+  "https://openalex.org/W2013968155",
+  "https://openalex.org/W2013974338",
+  "https://openalex.org/W2014111412",
+  "https://openalex.org/W2015338034",
+  "https://openalex.org/W2015395095",
+  "https://openalex.org/W2015439936",
+  "https://openalex.org/W2015655770",
+  "https://openalex.org/W2016343347",
+  "https://openalex.org/W2016944066",
+  "https://openalex.org/W2017388362",
+  "https://openalex.org/W2017456432",
+  "https://openalex.org/W2017682725",
+  "https://openalex.org/W2018557724",
+  "https://openalex.org/W2018732797",
+  "https://openalex.org/W2019028039",
+  "https://openalex.org/W2019064111",
+  "https://openalex.org/W2019902941",
+  "https://openalex.org/W2019903682",
+  "https://openalex.org/W2020516028",
+  "https://openalex.org/W2020524540",
+  "https://openalex.org/W2020794400",
+  "https://openalex.org/W2021076295",
+  "https://openalex.org/W2021277845",
+  "https://openalex.org/W2021684049",
+  "https://openalex.org/W2022048221",
+  "https://openalex.org/W2022781250",
+  "https://openalex.org/W2023394388",
+  "https://openalex.org/W2023605659",
+  "https://openalex.org/W2025104620",
+  "https://openalex.org/W2025522374",
+  "https://openalex.org/W2025577392",
+  "https://openalex.org/W2025725384",
+  "https://openalex.org/W2026818906",
+  "https://openalex.org/W2026843879",
+  "https://openalex.org/W2027629680",
+  "https://openalex.org/W2027785472",
+  "https://openalex.org/W2027883342",
+  "https://openalex.org/W2027887931",
+  "https://openalex.org/W2028040352",
+  "https://openalex.org/W2028535387",
+  "https://openalex.org/W2028847297",
+  "https://openalex.org/W2029254640",
+  "https://openalex.org/W2029570446",
+  "https://openalex.org/W2029911912",
+  "https://openalex.org/W2029955166",
+  "https://openalex.org/W2030124799",
+  "https://openalex.org/W2031004145",
+  "https://openalex.org/W2031569346",
+  "https://openalex.org/W2031956125",
+  "https://openalex.org/W2032160753",
+  "https://openalex.org/W2032773283",
+  "https://openalex.org/W2033742128",
+  "https://openalex.org/W2034354915",
+  "https://openalex.org/W2034916417",
+  "https://openalex.org/W2035438415",
+  "https://openalex.org/W2035544478",
+  "https://openalex.org/W2035824158",
+  "https://openalex.org/W2036148824",
+  "https://openalex.org/W2036952301",
+  "https://openalex.org/W2037001440",
+  "https://openalex.org/W2037887304",
+  "https://openalex.org/W2038501946",
+  "https://openalex.org/W2038634532",
+  "https://openalex.org/W2038765764",
+  "https://openalex.org/W2038944164",
+  "https://openalex.org/W2038995797",
+  "https://openalex.org/W2039659051",
+  "https://openalex.org/W2040266908",
+  "https://openalex.org/W2040605167",
+  "https://openalex.org/W2041301774",
+  "https://openalex.org/W2041602764",
+  "https://openalex.org/W2041773142",
+  "https://openalex.org/W2042829386",
+  "https://openalex.org/W2043267228",
+  "https://openalex.org/W2043512589",
+  "https://openalex.org/W2044878932",
+  "https://openalex.org/W2046199066",
+  "https://openalex.org/W2047087323",
+  "https://openalex.org/W2047153449",
+  "https://openalex.org/W2047416934",
+  "https://openalex.org/W2048547801",
+  "https://openalex.org/W2048694385",
+  "https://openalex.org/W2049099122",
+  "https://openalex.org/W2049158219",
+  "https://openalex.org/W2050265063",
+  "https://openalex.org/W2050300487",
+  "https://openalex.org/W2050951419",
+  "https://openalex.org/W2051118252",
+  "https://openalex.org/W2052076512",
+  "https://openalex.org/W2052538732",
+  "https://openalex.org/W2053489534",
+  "https://openalex.org/W2053646414",
+  "https://openalex.org/W2054089580",
+  "https://openalex.org/W2054473654",
+  "https://openalex.org/W2054658196",
+  "https://openalex.org/W2055284587",
+  "https://openalex.org/W2055486200",
+  "https://openalex.org/W2055887665",
+  "https://openalex.org/W2055945158",
+  "https://openalex.org/W2056305100",
+  "https://openalex.org/W2056603542",
+  "https://openalex.org/W2057146384",
+  "https://openalex.org/W2057727284",
+  "https://openalex.org/W2057869025",
+  "https://openalex.org/W2058047981",
+  "https://openalex.org/W2058392682",
+  "https://openalex.org/W2058755128",
+  "https://openalex.org/W2059154525",
+  "https://openalex.org/W2059221436",
+  "https://openalex.org/W2059580955",
+  "https://openalex.org/W2059698416",
+  "https://openalex.org/W2059741548",
+  "https://openalex.org/W2061394037",
+  "https://openalex.org/W2061402376",
+  "https://openalex.org/W2061628839",
+  "https://openalex.org/W2062393127",
+  "https://openalex.org/W2062930473",
+  "https://openalex.org/W2063145976",
+  "https://openalex.org/W2064389980",
+  "https://openalex.org/W2064580902",
+  "https://openalex.org/W2064863732",
+  "https://openalex.org/W2065146676",
+  "https://openalex.org/W2067186583",
+  "https://openalex.org/W2067365310",
+  "https://openalex.org/W2067921285",
+  "https://openalex.org/W2068155925",
+  "https://openalex.org/W2069637615",
+  "https://openalex.org/W2070318305",
+  "https://openalex.org/W2070867798",
+  "https://openalex.org/W2071128965",
+  "https://openalex.org/W2071824207",
+  "https://openalex.org/W2071929905",
+  "https://openalex.org/W2072177807",
+  "https://openalex.org/W2072333441",
+  "https://openalex.org/W2072487490",
+  "https://openalex.org/W2073196345",
+  "https://openalex.org/W2074987773",
+  "https://openalex.org/W2075550639",
+  "https://openalex.org/W2075649539",
+  "https://openalex.org/W2075904417",
+  "https://openalex.org/W2076140177",
+  "https://openalex.org/W2076334499",
+  "https://openalex.org/W2076474318",
+  "https://openalex.org/W2076588387",
+  "https://openalex.org/W2076914724",
+  "https://openalex.org/W2076972870",
+  "https://openalex.org/W2076993180",
+  "https://openalex.org/W2078099256",
+  "https://openalex.org/W2078116467",
+  "https://openalex.org/W2078218085",
+  "https://openalex.org/W2078662264",
+  "https://openalex.org/W2078750452",
+  "https://openalex.org/W2078858935",
+  "https://openalex.org/W2079300687",
+  "https://openalex.org/W2079992182",
+  "https://openalex.org/W2081288965",
+  "https://openalex.org/W2083890447",
+  "https://openalex.org/W2084613743",
+  "https://openalex.org/W2085072678",
+  "https://openalex.org/W2085163995",
+  "https://openalex.org/W2085765990",
+  "https://openalex.org/W2085985476",
+  "https://openalex.org/W2086526201",
+  "https://openalex.org/W2086589561",
+  "https://openalex.org/W2086696857",
+  "https://openalex.org/W2087115475",
+  "https://openalex.org/W2087777292",
+  "https://openalex.org/W2088030953",
+  "https://openalex.org/W2088092624",
+  "https://openalex.org/W2088254942",
+  "https://openalex.org/W2088749500",
+  "https://openalex.org/W2088892904",
+  "https://openalex.org/W2089045889",
+  "https://openalex.org/W2089457705",
+  "https://openalex.org/W2090181000",
+  "https://openalex.org/W2091840091",
+  "https://openalex.org/W2092104856",
+  "https://openalex.org/W2094387796",
+  "https://openalex.org/W2095116311",
+  "https://openalex.org/W2096149731",
+  "https://openalex.org/W2097224253",
+  "https://openalex.org/W2097860584",
+  "https://openalex.org/W2099345435",
+  "https://openalex.org/W2100825532",
+  "https://openalex.org/W2103092625",
+  "https://openalex.org/W2104034101",
+  "https://openalex.org/W2104630261",
+  "https://openalex.org/W2104816174",
+  "https://openalex.org/W2105018813",
+  "https://openalex.org/W2105720810",
+  "https://openalex.org/W2106248046",
+  "https://openalex.org/W2107709658",
+  "https://openalex.org/W2108031695",
+  "https://openalex.org/W2108047789",
+  "https://openalex.org/W2109317525",
+  "https://openalex.org/W2109491380",
+  "https://openalex.org/W2110949383",
+  "https://openalex.org/W2111022026",
+  "https://openalex.org/W2114649101",
+  "https://openalex.org/W2116061666",
+  "https://openalex.org/W2116535686",
+  "https://openalex.org/W2117639094",
+  "https://openalex.org/W2118034597",
+  "https://openalex.org/W2120528276",
+  "https://openalex.org/W2120759895",
+  "https://openalex.org/W2122143506",
+  "https://openalex.org/W2125216369",
+  "https://openalex.org/W2125399526",
+  "https://openalex.org/W2126606390",
+  "https://openalex.org/W2126883040",
+  "https://openalex.org/W2127459378",
+  "https://openalex.org/W2129396911",
+  "https://openalex.org/W2129525251",
+  "https://openalex.org/W2130698887",
+  "https://openalex.org/W2133226943",
+  "https://openalex.org/W2133938372",
+  "https://openalex.org/W2139684709",
+  "https://openalex.org/W2142290579",
+  "https://openalex.org/W2142583169",
+  "https://openalex.org/W2142841029",
+  "https://openalex.org/W2143167297",
+  "https://openalex.org/W2143429349",
+  "https://openalex.org/W2144063043",
+  "https://openalex.org/W2146154865",
+  "https://openalex.org/W2146597160",
+  "https://openalex.org/W2147211793",
+  "https://openalex.org/W2150302714",
+  "https://openalex.org/W2152529281",
+  "https://openalex.org/W2154022035",
+  "https://openalex.org/W2154940808",
+  "https://openalex.org/W2155950021",
+  "https://openalex.org/W2158771677",
+  "https://openalex.org/W2159433467",
+  "https://openalex.org/W2161488775",
+  "https://openalex.org/W2163585067",
+  "https://openalex.org/W2166901092",
+  "https://openalex.org/W2168004372",
+  "https://openalex.org/W2169498210",
+  "https://openalex.org/W2170072021",
+  "https://openalex.org/W2170332885",
+  "https://openalex.org/W2170333478",
+  "https://openalex.org/W2171626364",
+  "https://openalex.org/W2172155599",
+  "https://openalex.org/W2185616751",
+  "https://openalex.org/W2186370724",
+  "https://openalex.org/W2259599158",
+  "https://openalex.org/W2314006827",
+  "https://openalex.org/W2318228245",
+  "https://openalex.org/W2320415235",
+  "https://openalex.org/W2328507053",
+  "https://openalex.org/W2341031313",
+  "https://openalex.org/W2472113000",
+  "https://openalex.org/W2502771235",
+  "https://openalex.org/W2534036108",
+  "https://openalex.org/W2724958535",
+  "https://openalex.org/W2742060324",
+  "https://openalex.org/W2947283792",
+  "https://openalex.org/W2951730548",
+  "https://openalex.org/W2953206516",
+  "https://openalex.org/W2972912035",
+  "https://openalex.org/W2976621978",
+  "https://openalex.org/W2992291508",
+  "https://openalex.org/W3036506115",
+  "https://openalex.org/W3113560831",
+  "https://openalex.org/W3146916526",
+  "https://openalex.org/W4230016485",
+  "https://openalex.org/W4233374055",
+  "https://openalex.org/W4236631348",
+  "https://openalex.org/W4245158813",
+  "https://openalex.org/W4250269001",
+  "https://openalex.org/W4251962307",
+  "https://openalex.org/W4285719527"
+ ],
+ "related_works": [
+  "https://openalex.org/W4226101589",
+  "https://openalex.org/W4388559977",
+  "https://openalex.org/W3112104931",
+  "https://openalex.org/W2344079997",
+  "https://openalex.org/W3160452554",
+  "https://openalex.org/W4380881192",
+  "https://openalex.org/W2904067906",
+  "https://openalex.org/W4386542769",
+  "https://openalex.org/W3161605495",
+  "https://openalex.org/W3117841959"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 767
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 709
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 691
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 683
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 708
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 948
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 1089
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 1317
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 1522
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 1517
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 1424
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 1368
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 1257
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 996
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 660
+  }
+ ],
+ "updated_date": "2026-10-22T09:42:04.148104",
+ "created_date": "2025-10-10T00:00:00"
+}

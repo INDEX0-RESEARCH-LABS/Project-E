@@ -1,0 +1,106 @@
+{
+ "status": "ok",
+ "message-type": "work-list",
+ "message-version": "1.0.0",
+ "message": {
+  "facets": {},
+  "total-results": 4238911,
+  "items": [
+   {
+    "DOI": "10.1021/acsami.2c22203.s001",
+    "title": [
+     "Solid Silicon Nanosheet Sandwiched by Self-Assembled Honeycomb Silicon Nanosheets Enabling Long Life at High Current Density for a Lithium-Ion Battery Anode"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acsami.4c10178.s001",
+    "title": [
+     "Relationship between Silicon Percentage in Graphite Anode to Achieve High-Energy-Density Lithium-Ion Batteries"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acsami.8b17729.s001",
+    "title": [
+     "Surface-Functionalized Silicon Nanoparticles as Anode Material for Lithium-Ion Battery"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acsaem.4c00941.s001",
+    "title": [
+     "Composition-Nanoarchitecture-Performance Analysis of High Energy Density Electrodeposited Silicon for Lithium-Ion Battery Anodes"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acsaem.6c01795.s001",
+    "title": [
+     "Multilayer silicon carbon coated graphite as anode material for lithium ion battery"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   },
+   {
+    "DOI": "10.1021/acsami.5c16264.s001",
+    "title": [
+     "Layer-by-Layer Assembled Graphite/Silicon/Graphite Anode via Magnetron Sputtering for High-Energy-Density Lithium-Ion Batteries"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       null
+      ]
+     ]
+    },
+    "type": "component",
+    "is-referenced-by-count": 0
+   }
+  ],
+  "items-per-page": 6,
+  "query": {
+   "start-index": 0,
+   "search-terms": null
+  }
+ }
+}

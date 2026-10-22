@@ -1,0 +1,951 @@
+{
+ "id": "https://openalex.org/W4247282858",
+ "doi": "https://doi.org/10.14741/ijcet/22774106/spl.4.2016.2",
+ "title": "Thermoelectric Power Generation using Waste-Heat Energy from Internal Combustion Engine",
+ "display_name": "Thermoelectric Power Generation using Waste-Heat Energy from Internal Combustion Engine",
+ "publication_year": 2011,
+ "publication_date": "2011-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W4247282858",
+  "doi": "https://doi.org/10.14741/ijcet/22774106/spl.4.2016.2"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.14741/ijcet/22774106/spl.4.2016.2",
+  "doi": "https://doi.org/10.14741/ijcet/22774106/spl.4.2016.2",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.14741/ijcet/22774106/spl.4.2016.2",
+  "pdf_url": "http://inpressco.com/wp-content/uploads/2016/03/Paper27-15.pdf",
+  "source": {
+   "id": "https://openalex.org/S2764494239",
+   "display_name": "International Journal of Current Engineering and Technology",
+   "issn_l": "2277-4106",
+   "issn": [
+    "2277-4106",
+    "2347-5161"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core"
+   ],
+   "host_organization": null,
+   "host_organization_name": null,
+   "host_organization_lineage": [],
+   "host_organization_lineage_names": [],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "International Journal of Current Engineering and Technology",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "http://inpressco.com/wp-content/uploads/2016/03/Paper27-15.pdf",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 0.0,
+ "has_fulltext": true,
+ "cited_by_count": 3,
+ "citation_normalized_percentile": {
+  "value": 0.39223639,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 88,
+  "max": 96
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10440",
+  "display_name": "Advanced Thermoelectric Materials and Devices",
+  "score": 0.9945999979972839,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2505",
+   "display_name": "Materials Chemistry"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/25",
+   "display_name": "Materials Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10440",
+   "display_name": "Advanced Thermoelectric Materials and Devices",
+   "score": 0.9945999979972839,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2505",
+    "display_name": "Materials Chemistry"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/25",
+    "display_name": "Materials Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10568",
+   "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+   "score": 0.00279999990016222,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14327",
+   "display_name": "Advanced Energy Technologies and Civil Engineering Innovations",
+   "score": 0.0006000000284984708,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2104",
+    "display_name": "Nuclear Energy and Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/thermoelectric-power-generation",
+   "display_name": "thermoelectric power generation",
+   "score": 0.890999972820282
+  },
+  {
+   "id": "https://openalex.org/keywords/waste-heat-recovery",
+   "display_name": "waste heat recovery",
+   "score": 0.8619999885559082
+  },
+  {
+   "id": "https://openalex.org/keywords/internal-combustion-engines",
+   "display_name": "internal combustion engines",
+   "score": 0.9319999814033508
+  },
+  {
+   "id": "https://openalex.org/keywords/thermoelectric-generators",
+   "display_name": "thermoelectric generators",
+   "score": 0.9240000247955322
+  },
+  {
+   "id": "https://openalex.org/keywords/seebeck-effect",
+   "display_name": "Seebeck effect",
+   "score": 0.9860000014305115
+  },
+  {
+   "id": "https://openalex.org/keywords/heat-exchanger-design",
+   "display_name": "heat exchanger design",
+   "score": 0.7720000147819519
+  },
+  {
+   "id": "https://openalex.org/keywords/exhaust-gas",
+   "display_name": "exhaust gas",
+   "score": 0.6740000247955322
+  },
+  {
+   "id": "https://openalex.org/keywords/engine-operating-conditions",
+   "display_name": "engine operating conditions",
+   "score": 0.7559999823570251
+  },
+  {
+   "id": "https://openalex.org/keywords/fuel-efficiency",
+   "display_name": "fuel economy",
+   "score": 0.6779999732971191
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C105923489",
+   "wikidata": "https://www.wikidata.org/wiki/Q133235",
+   "display_name": "Combustion",
+   "level": 2,
+   "score": 0.6118721961975098
+  },
+  {
+   "id": "https://openalex.org/C511840579",
+   "wikidata": "https://www.wikidata.org/wiki/Q12757",
+   "display_name": "Internal combustion engine",
+   "level": 2,
+   "score": 0.569489598274231
+  },
+  {
+   "id": "https://openalex.org/C184235594",
+   "wikidata": "https://www.wikidata.org/wiki/Q288706",
+   "display_name": "Waste heat",
+   "level": 3,
+   "score": 0.5512923002243042
+  },
+  {
+   "id": "https://openalex.org/C105994980",
+   "wikidata": "https://www.wikidata.org/wiki/Q15081379",
+   "display_name": "Waste heat recovery unit",
+   "level": 3,
+   "score": 0.534854531288147
+  },
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.49876928329467773
+  },
+  {
+   "id": "https://openalex.org/C63024428",
+   "wikidata": "https://www.wikidata.org/wiki/Q552456",
+   "display_name": "Thermoelectric effect",
+   "level": 2,
+   "score": 0.4894465506076813
+  },
+  {
+   "id": "https://openalex.org/C129716092",
+   "wikidata": "https://www.wikidata.org/wiki/Q912130",
+   "display_name": "Internal heating",
+   "level": 2,
+   "score": 0.47736430168151855
+  },
+  {
+   "id": "https://openalex.org/C548081761",
+   "wikidata": "https://www.wikidata.org/wiki/Q180388",
+   "display_name": "Waste management",
+   "level": 1,
+   "score": 0.4760598838329315
+  },
+  {
+   "id": "https://openalex.org/C2989418100",
+   "wikidata": "https://www.wikidata.org/wiki/Q44432",
+   "display_name": "Heat energy",
+   "level": 2,
+   "score": 0.4755544364452362
+  },
+  {
+   "id": "https://openalex.org/C117127486",
+   "wikidata": "https://www.wikidata.org/wiki/Q11569191",
+   "display_name": "Thermoelectric generator",
+   "level": 3,
+   "score": 0.46760502457618713
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.4221721589565277
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.4165150225162506
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.4064871370792389
+  },
+  {
+   "id": "https://openalex.org/C116915560",
+   "wikidata": "https://www.wikidata.org/wiki/Q83504",
+   "display_name": "Nuclear engineering",
+   "level": 1,
+   "score": 0.3543228805065155
+  },
+  {
+   "id": "https://openalex.org/C171146098",
+   "wikidata": "https://www.wikidata.org/wiki/Q124192",
+   "display_name": "Automotive engineering",
+   "level": 1,
+   "score": 0.31065845489501953
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.24872928857803345
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.14316320419311523
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.13494354486465454
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.09989237785339355
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0649501383304596
+  },
+  {
+   "id": "https://openalex.org/C107706546",
+   "wikidata": "https://www.wikidata.org/wiki/Q189124",
+   "display_name": "Heat exchanger",
+   "level": 2,
+   "score": 0.05964478850364685
+  },
+  {
+   "id": "https://openalex.org/C178790620",
+   "wikidata": "https://www.wikidata.org/wiki/Q11351",
+   "display_name": "Organic chemistry",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.14741/ijcet/22774106/spl.4.2016.2",
+   "doi": "https://doi.org/10.14741/ijcet/22774106/spl.4.2016.2",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.14741/ijcet/22774106/spl.4.2016.2",
+   "pdf_url": "http://inpressco.com/wp-content/uploads/2016/03/Paper27-15.pdf",
+   "source": {
+    "id": "https://openalex.org/S2764494239",
+    "display_name": "International Journal of Current Engineering and Technology",
+    "issn_l": "2277-4106",
+    "issn": [
+     "2277-4106",
+     "2347-5161"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core"
+    ],
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "International Journal of Current Engineering and Technology",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.14741/ijcet/22774106/spl.4.2016.2",
+  "doi": "https://doi.org/10.14741/ijcet/22774106/spl.4.2016.2",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.14741/ijcet/22774106/spl.4.2016.2",
+  "pdf_url": "http://inpressco.com/wp-content/uploads/2016/03/Paper27-15.pdf",
+  "source": {
+   "id": "https://openalex.org/S2764494239",
+   "display_name": "International Journal of Current Engineering and Technology",
+   "issn_l": "2277-4106",
+   "issn": [
+    "2277-4106",
+    "2347-5161"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core"
+   ],
+   "host_organization": null,
+   "host_organization_name": null,
+   "host_organization_lineage": [],
+   "host_organization_lineage_names": [],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "International Journal of Current Engineering and Technology",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 1.0,
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.6899999976158142,
+   "display_name": "Affordable and clean energy"
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4247282858.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4247282858.grobid-xml"
+ },
+ "referenced_works_count": 23,
+ "referenced_works": [
+  "https://openalex.org/W1527734873",
+  "https://openalex.org/W1967927249",
+  "https://openalex.org/W1984428764",
+  "https://openalex.org/W1989536892",
+  "https://openalex.org/W2002350661",
+  "https://openalex.org/W2028693129",
+  "https://openalex.org/W2031996728",
+  "https://openalex.org/W2055754491",
+  "https://openalex.org/W2063428560",
+  "https://openalex.org/W2072130064",
+  "https://openalex.org/W2088933073",
+  "https://openalex.org/W2117546893",
+  "https://openalex.org/W2135645210",
+  "https://openalex.org/W3210469100",
+  "https://openalex.org/W6600339963",
+  "https://openalex.org/W6600762866",
+  "https://openalex.org/W6601101692",
+  "https://openalex.org/W6602705565",
+  "https://openalex.org/W6603101929",
+  "https://openalex.org/W6607845342",
+  "https://openalex.org/W6632862934",
+  "https://openalex.org/W6689144392",
+  "https://openalex.org/W6830196190"
+ ],
+ "related_works": [
+  "https://openalex.org/W4248633963",
+  "https://openalex.org/W2348729264",
+  "https://openalex.org/W2984679352",
+  "https://openalex.org/W2603011121",
+  "https://openalex.org/W4308711354",
+  "https://openalex.org/W2902250508",
+  "https://openalex.org/W3084433980",
+  "https://openalex.org/W2242991341",
+  "https://openalex.org/W4318159678",
+  "https://openalex.org/W2978484651"
+ ],
+ "abstract_inverted_index": {
+  "The": [
+   0
+  ],
+  "efficiency": [
+   1
+  ],
+  "in": [
+   2,
+   19,
+   63,
+   139
+  ],
+  "an": [
+   3,
+   78
+  ],
+  "internal": [
+   4
+  ],
+  "combustion": [
+   5,
+   21
+  ],
+  "engine": [
+   6,
+   22,
+   186,
+   190
+  ],
+  "ranges": [
+   7
+  ],
+  "from": [
+   8,
+   111
+  ],
+  "25%": [
+   9
+  ],
+  "to": [
+   10,
+   107,
+   115
+  ],
+  "35%.About": [
+   11
+  ],
+  "40%": [
+   12
+  ],
+  "of": [
+   13,
+   47,
+   67,
+   72,
+   94,
+   100,
+   124,
+   129,
+   154,
+   181,
+   195
+  ],
+  "the": [
+   14,
+   31,
+   40,
+   48,
+   64,
+   73,
+   98,
+   127,
+   143,
+   149,
+   160,
+   166,
+   175,
+   179
+  ],
+  "overall": [
+   15
+  ],
+  "fuel": [
+   16,
+   69
+  ],
+  "energy": [
+   17,
+   56,
+   96,
+   110,
+   117,
+   137
+  ],
+  "losses": [
+   18
+  ],
+  "a": [
+   20,
+   44,
+   61,
+   112
+  ],
+  "are": [
+   23,
+   86,
+   105,
+   163
+  ],
+  "waste": [
+   24,
+   49,
+   80
+  ],
+  "heat": [
+   25,
+   50,
+   81,
+   144,
+   158,
+   167
+  ],
+  "which": [
+   26
+  ],
+  "is": [
+   27,
+   36,
+   146,
+   177
+  ],
+  "blown": [
+   28
+  ],
+  "out": [
+   29
+  ],
+  "with": [
+   30,
+   97
+  ],
+  "exhaust": [
+   32,
+   196
+  ],
+  "gases": [
+   33
+  ],
+  "and": [
+   34,
+   118,
+   152
+  ],
+  "30%": [
+   35
+  ],
+  "cooled": [
+   37
+  ],
+  "away": [
+   38
+  ],
+  "by": [
+   39
+  ],
+  "vehicle's": [
+   41
+  ],
+  "radiator.Even": [
+   42
+  ],
+  "if": [
+   43
+  ],
+  "small": [
+   45
+  ],
+  "fraction": [
+   46
+  ],
+  "could": [
+   51
+  ],
+  "be": [
+   52,
+   60
+  ],
+  "turned": [
+   53
+  ],
+  "into": [
+   54
+  ],
+  "useful": [
+   55
+  ],
+  "again": [
+   57
+  ],
+  "it": [
+   58,
+   119
+  ],
+  "would": [
+   59
+  ],
+  "step": [
+   62
+  ],
+  "right": [
+   65
+  ],
+  "direction": [
+   66
+  ],
+  "improving": [
+   68
+  ],
+  "economy.Being": [
+   70
+  ],
+  "one": [
+   71
+  ],
+  "promising": [
+   74
+  ],
+  "new": [
+   75
+  ],
+  "devices": [
+   76
+  ],
+  "for": [
+   77,
+   136,
+   169
+  ],
+  "automotive": [
+   79
+  ],
+  "recovery,": [
+   82
+  ],
+  "thermoelectric": [
+   83,
+   101,
+   130,
+   140,
+   161,
+   182
+  ],
+  "generators": [
+   84
+  ],
+  "(TEG)": [
+   85
+  ],
+  "used": [
+   87,
+   106
+  ],
+  "now": [
+   88
+  ],
+  "days.This": [
+   89
+  ],
+  "paper": [
+   90
+  ],
+  "focuses": [
+   91
+  ],
+  "on": [
+   92,
+   121,
+   148,
+   165,
+   178
+  ],
+  "generation": [
+   93
+  ],
+  "electrical": [
+   95,
+   116
+  ],
+  "help": [
+   99
+  ],
+  "power": [
+   102
+  ],
+  "generator.Thermoelectric": [
+   103
+  ],
+  "modules": [
+   104,
+   162
+  ],
+  "convert": [
+   108
+  ],
+  "thermal": [
+   109
+  ],
+  "temperature": [
+   113
+  ],
+  "gradient": [
+   114
+  ],
+  "works": [
+   120
+  ],
+  "basic": [
+   122
+  ],
+  "principle": [
+   123
+  ],
+  "Seebeck": [
+   125
+  ],
+  "effect.Hence": [
+   126
+  ],
+  "selection": [
+   128
+  ],
+  "materials": [
+   131
+  ],
+  "plays": [
+   132
+  ],
+  "very": [
+   133
+  ],
+  "important": [
+   134
+  ],
+  "role": [
+   135
+  ],
+  "conversion": [
+   138
+  ],
+  "applications.Sizing": [
+   141
+  ],
+  "up": [
+   142
+  ],
+  "exchanger": [
+   145,
+   168
+  ],
+  "based": [
+   147
+  ],
+  "size,": [
+   150
+  ],
+  "orientation,": [
+   151
+  ],
+  "number": [
+   153
+  ],
+  "modules.After": [
+   155
+  ],
+  "designing": [
+   156
+  ],
+  "suitable": [
+   157
+  ],
+  "exchanger,": [
+   159
+  ],
+  "integrated": [
+   164
+  ],
+  "performance": [
+   170,
+   180
+  ],
+  "analysis..": [
+   171
+  ],
+  "In": [
+   172
+  ],
+  "this": [
+   173
+  ],
+  "work,": [
+   174
+  ],
+  "effort": [
+   176
+  ],
+  "generator": [
+   183
+  ],
+  "under": [
+   184
+  ],
+  "various": [
+   185
+  ],
+  "operating": [
+   187
+  ],
+  "conditions": [
+   188
+  ],
+  "like": [
+   189
+  ],
+  "speed,": [
+   191
+  ],
+  "mass": [
+   192
+  ],
+  "flow": [
+   193
+  ],
+  "rate": [
+   194
+  ],
+  "gas.": [
+   197
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-09-06T09:10:53.072986",
+ "created_date": "2022-05-12T00:00:00"
+}

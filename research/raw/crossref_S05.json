@@ -1,0 +1,501 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    22
+   ]
+  ],
+  "date-time": "2026-10-22T14:47:03Z",
+  "timestamp": 1792680423668,
+  "version": "4.5.0"
+ },
+ "reference-count": 47,
+ "publisher": "AIP Publishing",
+ "issue": "3",
+ "content-domain": {
+  "domain": [
+   "pubs.aip.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [],
+ "published-print": {
+  "date-parts": [
+   [
+    1961,
+    3,
+    1
+   ]
+  ]
+ },
+ "abstract": "<jats:p>In order to find an upper theoretical limit for the efficiency of p-n junction solar energy converters, a limiting efficiency, called the detailed balance limit of efficiency, has been calculated for an ideal case in which the only recombination mechanism of hole-electron pairs is radiative as required by the principle of detailed balance. The efficiency is also calculated for the case in which radiative recombination is only a fixed fraction fc of the total recombination, the rest being nonradiative. Efficiencies at the matched loads have been calculated with band gap and fc as parameters, the sun and cell being assumed to be blackbodies with temperatures of 6000\u00b0K and 300\u00b0K, respectively. The maximum efficiency is found to be 30% for an energy gap of 1.1 ev and fc = 1. Actual junctions do not obey the predicted current-voltage relationship, and reasons for the difference and its relevance to efficiency are discussed.</jats:p>",
+ "DOI": "10.1063/1.1736034",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2005,
+    4,
+    22
+   ]
+  ],
+  "date-time": "2005-04-22T12:28:47Z",
+  "timestamp": 1114172927000
+ },
+ "page": "510-519",
+ "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+ "source": "Crossref",
+ "is-referenced-by-count": 12713,
+ "title": [
+  "Detailed Balance Limit of Efficiency of\n                    <i>p-n</i>\n                    Junction Solar Cells"
+ ],
+ "prefix": "10.1063",
+ "volume": "32",
+ "author": [
+  {
+   "given": "William",
+   "family": "Shockley",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Shockley Transistor, Unit of Clevite Transistor, Palo Alto, California"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Hans J.",
+   "family": "Queisser",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Shockley Transistor, Unit of Clevite Transistor, Palo Alto, California"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "317",
+ "reference": [
+  {
+   "key": "2024020119155135000_r1",
+   "doi-asserted-by": "crossref",
+   "first-page": "676",
+   "DOI": "10.1063/1.1721711",
+   "volume": "25",
+   "year": "1954",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2024020119155135000_r2",
+   "doi-asserted-by": "crossref",
+   "first-page": "1422",
+   "DOI": "10.1063/1.1721579",
+   "volume": "25",
+   "year": "1954",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2024020119155135000_r3",
+   "doi-asserted-by": "crossref",
+   "first-page": "534",
+   "DOI": "10.1063/1.1722034",
+   "volume": "26",
+   "year": "1955",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2024020119155135000_r4",
+   "doi-asserted-by": "crossref",
+   "first-page": "777",
+   "DOI": "10.1063/1.1722483",
+   "volume": "27",
+   "year": "1956",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2024020119155135000_r5",
+   "first-page": "373",
+   "volume": "20",
+   "year": "1959",
+   "journal-title": "RCA Rev."
+  },
+  {
+   "key": "2024020119155135000_r6",
+   "doi-asserted-by": "crossref",
+   "first-page": "1246",
+   "DOI": "10.1109/JRPROC.1960.287647",
+   "volume": "48",
+   "year": "1960",
+   "journal-title": "Proc. I.R.E."
+  },
+  {
+   "key": "2024020119155135000_r7",
+   "doi-asserted-by": "crossref",
+   "first-page": "1640",
+   "DOI": "10.1063/1.1735906",
+   "volume": "31",
+   "year": "1960",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2024020119155135000_r8",
+   "doi-asserted-by": "crossref",
+   "first-page": "380",
+   "DOI": "10.1007/BF01325571",
+   "volume": "148",
+   "year": "1957",
+   "journal-title": "Z. Physik"
+  },
+  {
+   "key": "2024020119155135000_r8a"
+  },
+  {
+   "key": "2024020119155135000_r9",
+   "doi-asserted-by": "crossref",
+   "first-page": "1558",
+   "DOI": "10.1103/PhysRev.94.1558",
+   "volume": "94",
+   "year": "1954",
+   "journal-title": "Phys. Rev."
+  },
+  {
+   "key": "2024020119155135000_r10",
+   "first-page": "160",
+   "volume": "5",
+   "year": "1960",
+   "journal-title": "Bull. Am. Phys. Soc."
+  },
+  {
+   "key": "2024020119155135000_r11"
+  },
+  {
+   "key": "2024020119155135000_r12",
+   "doi-asserted-by": "crossref",
+   "first-page": "223",
+   "DOI": "10.1016/0022-3697(59)90322-1",
+   "volume": "8",
+   "year": "1959",
+   "journal-title": "J. Phys. Chem. Solids"
+  },
+  {
+   "key": "2024020119155135000_r12a",
+   "doi-asserted-by": "crossref",
+   "first-page": "219",
+   "DOI": "10.1016/0022-3697(59)90321-X",
+   "volume": "8",
+   "year": "1959",
+   "journal-title": "J. Phys. Chem. Solids"
+  },
+  {
+   "key": "2024020119155135000_r12b",
+   "doi-asserted-by": "crossref",
+   "first-page": "35",
+   "DOI": "10.1016/0038-1101(61)90054-5",
+   "volume": "2",
+   "year": "1961",
+   "journal-title": "Solid State Electronics"
+  },
+  {
+   "key": "2024020119155135000_r13"
+  },
+  {
+   "key": "2024020119155135000_r13a"
+  },
+  {
+   "key": "2024020119155135000_r14",
+   "first-page": "95",
+   "volume": "43",
+   "year": "1957",
+   "journal-title": "Z. Astrophysik"
+  },
+  {
+   "key": "2024020119155135000_r14a",
+   "first-page": "884",
+   "volume": "20",
+   "year": "1949",
+   "journal-title": "Rev. Sci. Instr."
+  },
+  {
+   "key": "2024020119155135000_r15",
+   "first-page": "385",
+   "volume": "148",
+   "year": "1957",
+   "journal-title": "Z. Physik"
+  },
+  {
+   "key": "2024020119155135000_r16"
+  },
+  {
+   "key": "2024020119155135000_r17"
+  },
+  {
+   "key": "2024020119155135000_r17a",
+   "doi-asserted-by": "crossref",
+   "first-page": "435",
+   "DOI": "10.1002/j.1538-7305.1949.tb03645.x",
+   "volume": "28",
+   "year": "1949",
+   "journal-title": "Bell System Tech. J."
+  },
+  {
+   "key": "2024020119155135000_r18"
+  },
+  {
+   "key": "2024020119155135000_r19"
+  },
+  {
+   "key": "2024020119155135000_r20"
+  },
+  {
+   "issue": "17",
+   "key": "2024020119155135000_r21",
+   "first-page": "908",
+   "volume": "106",
+   "year": "1959",
+   "journal-title": "Proc. Inst. Elec. Engrs. (London)"
+  },
+  {
+   "key": "2024020119155135000_r22",
+   "first-page": "2115",
+   "volume": "28",
+   "year": "1958",
+   "journal-title": "J. Tech. Phys. (U.S.S.R.)"
+  },
+  {
+   "key": "2024020119155135000_r23",
+   "doi-asserted-by": "crossref",
+   "first-page": "1228",
+   "DOI": "10.1109/JRPROC.1957.278528",
+   "volume": "45",
+   "year": "1957",
+   "journal-title": "Proc. I.R.E."
+  },
+  {
+   "key": "2024020119155135000_r24",
+   "doi-asserted-by": "crossref",
+   "first-page": "87",
+   "DOI": "10.1002/j.1538-7305.1960.tb03923.x",
+   "volume": "39",
+   "year": "1960",
+   "journal-title": "Bell System Tech. J."
+  },
+  {
+   "key": "2024020119155135000_r25"
+  },
+  {
+   "key": "2024020119155135000_r26",
+   "doi-asserted-by": "crossref",
+   "first-page": "418",
+   "DOI": "10.1103/PhysRev.106.418",
+   "volume": "106",
+   "year": "1957",
+   "journal-title": "Phys. Rev."
+  },
+  {
+   "key": "2024020119155135000_r27"
+  },
+  {
+   "key": "2024020119155135000_r28"
+  },
+  {
+   "key": "2024020119155135000_r28a",
+   "first-page": "409",
+   "volume": "4",
+   "year": "1959",
+   "journal-title": "Bull. Am. Phys. Soc."
+  },
+  {
+   "key": "2024020119155135000_r29",
+   "first-page": "160",
+   "volume": "5",
+   "year": "1960",
+   "journal-title": "Bull. Am. Phys. Soc."
+  },
+  {
+   "key": "2024020119155135000_r29a",
+   "doi-asserted-by": "crossref",
+   "first-page": "1821",
+   "DOI": "10.1063/1.1735455",
+   "volume": "31",
+   "year": "1960",
+   "journal-title": "J. Appl. Phys."
+  },
+  {
+   "key": "2024020119155135000_r30",
+   "doi-asserted-by": "crossref",
+   "first-page": "535",
+   "DOI": "10.1002/j.1538-7305.1956.tb02393.x",
+   "volume": "35",
+   "year": "1956",
+   "journal-title": "Bell System Tech. J."
+  },
+  {
+   "key": "2024020119155135000_r31",
+   "doi-asserted-by": "crossref",
+   "first-page": "1480",
+   "DOI": "10.1103/PhysRev.119.1480",
+   "volume": "119",
+   "year": "1960",
+   "journal-title": "Phys. Rev."
+  },
+  {
+   "key": "2024020119155135000_r32",
+   "first-page": "1259",
+   "volume": "48",
+   "year": "1960",
+   "journal-title": "Proc. I.R.E."
+  },
+  {
+   "key": "2024020119155135000_r33",
+   "first-page": "319",
+   "volume": "B68",
+   "year": "1955",
+   "journal-title": "Proc. Phys. Soc. (London)"
+  },
+  {
+   "key": "2024020119155135000_r33a",
+   "doi-asserted-by": "crossref",
+   "first-page": "1469",
+   "DOI": "10.1103/PhysRev.105.1469",
+   "volume": "105",
+   "year": "1957",
+   "journal-title": "Phys. Rev."
+  },
+  {
+   "key": "2024020119155135000_r33b",
+   "first-page": "16",
+   "volume": "A249",
+   "year": "1958",
+   "journal-title": "Proc. Roy. Soc. (London)"
+  },
+  {
+   "key": "2024020119155135000_r34",
+   "doi-asserted-by": "crossref",
+   "first-page": "1535",
+   "DOI": "10.1109/JRPROC.1957.278348",
+   "volume": "45",
+   "year": "1957",
+   "journal-title": "Proc. I.R.E."
+  },
+  {
+   "key": "2024020119155135000_r34a"
+  },
+  {
+   "key": "2024020119155135000_r35",
+   "first-page": "106",
+   "volume": "6",
+   "year": "1961",
+   "journal-title": "Bull. Am. Phys. Soc."
+  },
+  {
+   "key": "2024020119155135000_r36"
+  }
+ ],
+ "container-title": [
+  "Journal of Applied Physics"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://pubs.aip.org/aip/jap/article-pdf/32/3/510/18323491/510_1_online.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://pubs.aip.org/aip/jap/article-pdf/32/3/510/18323491/510_1_online.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2024,
+    12,
+    31
+   ]
+  ],
+  "date-time": "2024-12-31T16:39:34Z",
+  "timestamp": 1735663174000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://pubs.aip.org/jap/article/32/3/510/505950/Detailed-Balance-Limit-of-Efficiency-of-p-n"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    1961,
+    3,
+    1
+   ]
+  ]
+ },
+ "references-count": 47,
+ "journal-issue": {
+  "issue": "3",
+  "published-print": {
+   "date-parts": [
+    [
+     1961,
+     3,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1063/1.1736034",
+ "relation": {},
+ "ISSN": [
+  "0021-8979",
+  "1089-7550"
+ ],
+ "issn-type": [
+  {
+   "value": "0021-8979",
+   "type": "print"
+  },
+  {
+   "value": "1089-7550",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published-other": {
+  "date-parts": [
+   [
+    1961,
+    3
+   ]
+  ]
+ },
+ "published": {
+  "date-parts": [
+   [
+    1961,
+    3,
+    1
+   ]
+  ]
+ }
+}

@@ -1,0 +1,955 @@
+{
+ "id": "https://openalex.org/W2029637177",
+ "doi": "https://doi.org/10.1063/1.1736034",
+ "title": "Detailed Balance Limit of Efficiency of p-n Junction Solar Cells",
+ "display_name": "Detailed Balance Limit of Efficiency of p-n Junction Solar Cells",
+ "publication_year": 1961,
+ "publication_date": "1961-03-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2029637177",
+  "doi": "https://doi.org/10.1063/1.1736034",
+  "mag": "2029637177"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1063/1.1736034",
+  "doi": "https://doi.org/10.1063/1.1736034",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1063/1.1736034",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S187991544",
+   "display_name": "Journal of Applied Physics",
+   "issn_l": "0021-8979",
+   "issn": [
+    "0021-8979",
+    "1089-7550",
+    "1520-8850"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "anvur-scientific",
+    "cwts-core",
+    "dongbi-d",
+    "jufo-1",
+    "norway-1",
+    "poland-100",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320257",
+   "host_organization_name": "American Institute of Physics",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320257"
+   ],
+   "host_organization_lineage_names": [
+    "American Institute of Physics"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Applied Physics",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5043077347",
+    "display_name": "W. Shockley",
+    "orcid": "https://orcid.org/0000-0002-9504-7156",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9504-7156"
+    ]
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "William Shockley",
+   "raw_affiliation_strings": [
+    "Shockley Transistor, Unit of Clevite Transistor, Palo Alto, California"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shockley Transistor, Unit of Clevite Transistor, Palo Alto, California",
+     "institution_ids": []
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5109559702",
+    "display_name": "Hans Joachim Queisser",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [],
+   "countries": [],
+   "is_corresponding": false,
+   "raw_author_name": "Hans J. Queisser",
+   "raw_affiliation_strings": [
+    "Shockley Transistor, Unit of Clevite Transistor, Palo Alto, California"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Shockley Transistor, Unit of Clevite Transistor, Palo Alto, California",
+     "institution_ids": []
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 0,
+ "institutions_distinct_count": 0,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": {
+  "value": 3500,
+  "currency": "USD",
+  "value_usd": 3500
+ },
+ "apc_paid": null,
+ "fwci": 9.4709,
+ "has_fulltext": false,
+ "cited_by_count": 13280,
+ "citation_normalized_percentile": {
+  "value": 0.98010893,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 99,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "32",
+  "issue": "3",
+  "first_page": "510",
+  "last_page": "519"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T12309",
+  "display_name": "solar cell performance optimization",
+  "score": 0.7670999765396118,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2208",
+   "display_name": "Electrical and Electronic Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T12309",
+   "display_name": "solar cell performance optimization",
+   "score": 0.7670999765396118,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10624",
+   "display_name": "Silicon and Solar Cell Technologies",
+   "score": 0.2094999998807907,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10468",
+   "display_name": "Photovoltaic System Optimization Techniques",
+   "score": 0.002199999988079071,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2105",
+    "display_name": "Renewable Energy, Sustainability and the Environment"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/p-n-junction-solar-cells",
+   "display_name": "p-n junction solar cells",
+   "score": 0.8740000128746033
+  },
+  {
+   "id": "https://openalex.org/keywords/shockley-queisser-limit",
+   "display_name": "Shockley-Queisser limit",
+   "score": 0.6819999814033508
+  },
+  {
+   "id": "https://openalex.org/keywords/radiative-recombination",
+   "display_name": "radiative recombination",
+   "score": 0.9559999704360962
+  },
+  {
+   "id": "https://openalex.org/keywords/nonradiative-recombination",
+   "display_name": "nonradiative recombination",
+   "score": 0.996999979019165
+  },
+  {
+   "id": "https://openalex.org/keywords/band-gap",
+   "display_name": "band gap",
+   "score": 0.6759999990463257
+  },
+  {
+   "id": "https://openalex.org/keywords/matched-load",
+   "display_name": "matched load",
+   "score": 0.656000018119812
+  },
+  {
+   "id": "https://openalex.org/keywords/current-voltage-characteristics",
+   "display_name": "current-voltage characteristics",
+   "score": 0.7879999876022339
+  },
+  {
+   "id": "https://openalex.org/keywords/solar-cell-efficiency",
+   "display_name": "solar cell efficiency",
+   "score": 0.6340000033378601
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C135694725",
+   "wikidata": "https://www.wikidata.org/wiki/Q1201087",
+   "display_name": "Detailed balance",
+   "level": 2,
+   "score": 0.8155432939529419
+  },
+  {
+   "id": "https://openalex.org/C74902906",
+   "wikidata": "https://www.wikidata.org/wiki/Q1190858",
+   "display_name": "Radiative transfer",
+   "level": 2,
+   "score": 0.6591611504554749
+  },
+  {
+   "id": "https://openalex.org/C181966813",
+   "wikidata": "https://www.wikidata.org/wiki/Q806352",
+   "display_name": "Band gap",
+   "level": 2,
+   "score": 0.6133636236190796
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.5923564434051514
+  },
+  {
+   "id": "https://openalex.org/C206991015",
+   "wikidata": "https://www.wikidata.org/wiki/Q192704",
+   "display_name": "Energy conversion efficiency",
+   "level": 2,
+   "score": 0.5888110995292664
+  },
+  {
+   "id": "https://openalex.org/C151201525",
+   "wikidata": "https://www.wikidata.org/wiki/Q177239",
+   "display_name": "Limit (mathematics)",
+   "level": 2,
+   "score": 0.5182890295982361
+  },
+  {
+   "id": "https://openalex.org/C111154242",
+   "wikidata": "https://www.wikidata.org/wiki/Q923545",
+   "display_name": "Spontaneous emission",
+   "level": 3,
+   "score": 0.4969930946826935
+  },
+  {
+   "id": "https://openalex.org/C2777423268",
+   "wikidata": "https://www.wikidata.org/wiki/Q3663116",
+   "display_name": "Energy balance",
+   "level": 2,
+   "score": 0.48373010754585266
+  },
+  {
+   "id": "https://openalex.org/C156695909",
+   "wikidata": "https://www.wikidata.org/wiki/Q3373825",
+   "display_name": "Recombination",
+   "level": 3,
+   "score": 0.47954604029655457
+  },
+  {
+   "id": "https://openalex.org/C184779094",
+   "wikidata": "https://www.wikidata.org/wiki/Q26383",
+   "display_name": "Atomic physics",
+   "level": 1,
+   "score": 0.463058203458786
+  },
+  {
+   "id": "https://openalex.org/C190168584",
+   "wikidata": "https://www.wikidata.org/wiki/Q7556087",
+   "display_name": "Solar cell efficiency",
+   "level": 3,
+   "score": 0.4560421109199524
+  },
+  {
+   "id": "https://openalex.org/C147120987",
+   "wikidata": "https://www.wikidata.org/wiki/Q2225",
+   "display_name": "Electron",
+   "level": 2,
+   "score": 0.4447908401489258
+  },
+  {
+   "id": "https://openalex.org/C2780824857",
+   "wikidata": "https://www.wikidata.org/wiki/Q58803",
+   "display_name": "Solar cell",
+   "level": 2,
+   "score": 0.3897896707057953
+  },
+  {
+   "id": "https://openalex.org/C30475298",
+   "wikidata": "https://www.wikidata.org/wiki/Q909554",
+   "display_name": "Computational physics",
+   "level": 1,
+   "score": 0.37274110317230225
+  },
+  {
+   "id": "https://openalex.org/C26873012",
+   "wikidata": "https://www.wikidata.org/wiki/Q214781",
+   "display_name": "Condensed matter physics",
+   "level": 1,
+   "score": 0.23801949620246887
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.23240455985069275
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.2260618507862091
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.2188643217086792
+  },
+  {
+   "id": "https://openalex.org/C49040817",
+   "wikidata": "https://www.wikidata.org/wiki/Q193091",
+   "display_name": "Optoelectronics",
+   "level": 1,
+   "score": 0.21242153644561768
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.1360880732536316
+  },
+  {
+   "id": "https://openalex.org/C33923547",
+   "wikidata": "https://www.wikidata.org/wiki/Q395",
+   "display_name": "Mathematics",
+   "level": 0,
+   "score": 0.08204993605613708
+  },
+  {
+   "id": "https://openalex.org/C104317684",
+   "wikidata": "https://www.wikidata.org/wiki/Q7187",
+   "display_name": "Gene",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C134306372",
+   "wikidata": "https://www.wikidata.org/wiki/Q7754",
+   "display_name": "Mathematical analysis",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C55493867",
+   "wikidata": "https://www.wikidata.org/wiki/Q7094",
+   "display_name": "Biochemistry",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C520434653",
+   "wikidata": "https://www.wikidata.org/wiki/Q38867",
+   "display_name": "Laser",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1063/1.1736034",
+   "doi": "https://doi.org/10.1063/1.1736034",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1063/1.1736034",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S187991544",
+    "display_name": "Journal of Applied Physics",
+    "issn_l": "0021-8979",
+    "issn": [
+     "0021-8979",
+     "1089-7550",
+     "1520-8850"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "anvur-scientific",
+     "cwts-core",
+     "dongbi-d",
+     "jufo-1",
+     "norway-1",
+     "poland-100",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320257",
+    "host_organization_name": "American Institute of Physics",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320257"
+    ],
+    "host_organization_lineage_names": [
+     "American Institute of Physics"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of Applied Physics",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "score": 0.9090999960899353,
+   "display_name": "Affordable and clean energy",
+   "id": "https://metadata.un.org/sdg/7"
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "score": 0.9100000262260437,
+   "display_name": "Affordable and clean energy",
+   "id": "https://metadata.un.org/sdg/7"
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 25,
+ "referenced_works": [
+  "https://openalex.org/W1489736311",
+  "https://openalex.org/W1970971203",
+  "https://openalex.org/W1974932723",
+  "https://openalex.org/W1980138276",
+  "https://openalex.org/W1980808677",
+  "https://openalex.org/W2005693771",
+  "https://openalex.org/W2008460116",
+  "https://openalex.org/W2019010245",
+  "https://openalex.org/W2021540879",
+  "https://openalex.org/W2026808227",
+  "https://openalex.org/W2027804161",
+  "https://openalex.org/W2030482650",
+  "https://openalex.org/W2044928470",
+  "https://openalex.org/W2046504395",
+  "https://openalex.org/W2052210024",
+  "https://openalex.org/W2056089508",
+  "https://openalex.org/W2061093700",
+  "https://openalex.org/W2062624166",
+  "https://openalex.org/W2064829633",
+  "https://openalex.org/W2069507527",
+  "https://openalex.org/W2073300639",
+  "https://openalex.org/W2081590770",
+  "https://openalex.org/W2084465580",
+  "https://openalex.org/W2086836761",
+  "https://openalex.org/W2501322140"
+ ],
+ "related_works": [
+  "https://openalex.org/W2534213272",
+  "https://openalex.org/W2008929440",
+  "https://openalex.org/W1955050202",
+  "https://openalex.org/W2088875791",
+  "https://openalex.org/W2060275187",
+  "https://openalex.org/W2227653335",
+  "https://openalex.org/W2346204402",
+  "https://openalex.org/W2119803253",
+  "https://openalex.org/W2026071941",
+  "https://openalex.org/W1633749567"
+ ],
+ "abstract_inverted_index": {
+  "In": [
+   0
+  ],
+  "order": [
+   1
+  ],
+  "to": [
+   2,
+   100,
+   115,
+   146
+  ],
+  "find": [
+   3
+  ],
+  "an": [
+   4,
+   31,
+   119
+  ],
+  "upper": [
+   5
+  ],
+  "theoretical": [
+   6
+  ],
+  "limit": [
+   7,
+   24
+  ],
+  "for": [
+   8,
+   30,
+   58,
+   118,
+   140
+  ],
+  "the": [
+   9,
+   21,
+   36,
+   48,
+   59,
+   72,
+   75,
+   81,
+   94,
+   134,
+   141
+  ],
+  "efficiency": [
+   10,
+   54,
+   112,
+   147
+  ],
+  "of": [
+   11,
+   25,
+   40,
+   50,
+   71,
+   105,
+   122
+  ],
+  "p-n": [
+   12
+  ],
+  "junction": [
+   13
+  ],
+  "solar": [
+   14
+  ],
+  "energy": [
+   15,
+   120
+  ],
+  "converters,": [
+   16
+  ],
+  "a": [
+   17,
+   67
+  ],
+  "limiting": [
+   18
+  ],
+  "efficiency,": [
+   19,
+   26
+  ],
+  "called": [
+   20
+  ],
+  "detailed": [
+   22,
+   51
+  ],
+  "balance": [
+   23
+  ],
+  "has": [
+   27
+  ],
+  "been": [
+   28,
+   85
+  ],
+  "calculated": [
+   29,
+   57,
+   86
+  ],
+  "ideal": [
+   32
+  ],
+  "case": [
+   33,
+   60
+  ],
+  "in": [
+   34,
+   61
+  ],
+  "which": [
+   35,
+   62
+  ],
+  "only": [
+   37,
+   66
+  ],
+  "recombination": [
+   38,
+   64
+  ],
+  "mechanism": [
+   39
+  ],
+  "hole-electron": [
+   41
+  ],
+  "pairs": [
+   42
+  ],
+  "is": [
+   43,
+   55,
+   65,
+   113
+  ],
+  "radiative": [
+   44,
+   63
+  ],
+  "as": [
+   45,
+   92
+  ],
+  "required": [
+   46
+  ],
+  "by": [
+   47
+  ],
+  "principle": [
+   49
+  ],
+  "balance.": [
+   52
+  ],
+  "The": [
+   53,
+   110
+  ],
+  "also": [
+   56
+  ],
+  "fixed": [
+   68
+  ],
+  "fraction": [
+   69
+  ],
+  "fc": [
+   70,
+   91,
+   126
+  ],
+  "total": [
+   73
+  ],
+  "recombination,": [
+   74
+  ],
+  "rest": [
+   76
+  ],
+  "being": [
+   77,
+   98
+  ],
+  "nonradiative.": [
+   78
+  ],
+  "Efficiencies": [
+   79
+  ],
+  "at": [
+   80
+  ],
+  "matched": [
+   82
+  ],
+  "loads": [
+   83
+  ],
+  "have": [
+   84
+  ],
+  "with": [
+   87,
+   103
+  ],
+  "band": [
+   88
+  ],
+  "gap": [
+   89,
+   121
+  ],
+  "and": [
+   90,
+   96,
+   107,
+   125,
+   138,
+   143
+  ],
+  "parameters,": [
+   93
+  ],
+  "sun": [
+   95
+  ],
+  "cell": [
+   97
+  ],
+  "assumed": [
+   99
+  ],
+  "be": [
+   101,
+   116
+  ],
+  "blackbodies": [
+   102
+  ],
+  "temperatures": [
+   104
+  ],
+  "6000\u00b0K": [
+   106
+  ],
+  "300\u00b0K,": [
+   108
+  ],
+  "respectively.": [
+   109
+  ],
+  "maximum": [
+   111
+  ],
+  "found": [
+   114
+  ],
+  "30%": [
+   117
+  ],
+  "1.1": [
+   123
+  ],
+  "ev": [
+   124
+  ],
+  "=": [
+   127
+  ],
+  "1.": [
+   128
+  ],
+  "Actual": [
+   129
+  ],
+  "junctions": [
+   130
+  ],
+  "do": [
+   131
+  ],
+  "not": [
+   132
+  ],
+  "obey": [
+   133
+  ],
+  "predicted": [
+   135
+  ],
+  "current-voltage": [
+   136
+  ],
+  "relationship,": [
+   137
+  ],
+  "reasons": [
+   139
+  ],
+  "difference": [
+   142
+  ],
+  "its": [
+   144
+  ],
+  "relevance": [
+   145
+  ],
+  "are": [
+   148
+  ],
+  "discussed.": [
+   149
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 648
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 821
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 866
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 955
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 991
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 1002
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 954
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 865
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 925
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 833
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 704
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 694
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 676
+  },
+  {
+   "year": 2013,
+   "cited_by_count": 620
+  },
+  {
+   "year": 2012,
+   "cited_by_count": 482
+  }
+ ],
+ "updated_date": "2026-10-22T09:42:04.148104",
+ "created_date": "2016-06-24T00:00:00"
+}

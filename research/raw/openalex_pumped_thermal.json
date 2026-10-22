@@ -1,0 +1,1182 @@
+{
+ "id": "https://openalex.org/W7161131882",
+ "doi": "https://doi.org/10.1016/j.est.2026.122600",
+ "title": "Round-trip efficiency and power output of Pumped Thermal Energy systems with realistic component constraints",
+ "display_name": "Round-trip efficiency and power output of Pumped Thermal Energy systems with realistic component constraints",
+ "publication_year": 2026,
+ "publication_date": "2026-05-14",
+ "ids": {
+  "openalex": "https://openalex.org/W7161131882",
+  "doi": "https://doi.org/10.1016/j.est.2026.122600"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.est.2026.122600",
+  "doi": "https://doi.org/10.1016/j.est.2026.122600",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.est.2026.122600",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2764865925",
+   "display_name": "Journal of Energy Storage",
+   "issn_l": "2352-152X",
+   "issn": [
+    "2352-152X",
+    "2352-1538"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-2",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Energy Storage",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://doi.org/10.1016/j.est.2026.122600",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5136176287",
+    "display_name": "Tom Schneider",
+    "orcid": "https://orcid.org/0009-0005-8461-0539",
+    "observed_orcids": [
+     "https://orcid.org/0009-0005-8461-0539"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I196349391",
+     "display_name": "Universit\u00e4t Ulm",
+     "ror": "https://ror.org/032000t02",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I196349391"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Tom Schneider",
+   "raw_affiliation_strings": [
+    "Institute for Energy Conversion and Storage, Universit\u00e4t Ulm, Albert-Einstein-Allee 47, Ulm, Baden-W\u00fcrttemberg, Germany"
+   ],
+   "raw_orcid": "https://orcid.org/0009-0005-8461-0539",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Energy Conversion and Storage, Universit\u00e4t Ulm, Albert-Einstein-Allee 47, Ulm, Baden-W\u00fcrttemberg, Germany",
+     "institution_ids": [
+      "https://openalex.org/I196349391"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5027220614",
+    "display_name": "Caroline Willich",
+    "orcid": "https://orcid.org/0000-0001-5417-8726",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-5417-8726"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I196349391",
+     "display_name": "Universit\u00e4t Ulm",
+     "ror": "https://ror.org/032000t02",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I196349391"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Caroline Willich",
+   "raw_affiliation_strings": [
+    "Institute for Energy Conversion and Storage, Universit\u00e4t Ulm, Albert-Einstein-Allee 47, Ulm, Baden-W\u00fcrttemberg, Germany"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-5417-8726",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Institute for Energy Conversion and Storage, Universit\u00e4t Ulm, Albert-Einstein-Allee 47, Ulm, Baden-W\u00fcrttemberg, Germany",
+     "institution_ids": [
+      "https://openalex.org/I196349391"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5027220614"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I196349391"
+ ],
+ "apc_list": {
+  "value": 3560,
+  "currency": "USD",
+  "value_usd": 3560
+ },
+ "apc_paid": {
+  "value": 3560,
+  "currency": "USD",
+  "value_usd": 3560
+ },
+ "fwci": 0.0,
+ "has_fulltext": false,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": {
+  "value": 0.2721198,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": "168",
+  "issue": null,
+  "first_page": "122600",
+  "last_page": "122600"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10568",
+  "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+  "score": 0.9663000106811523,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10568",
+   "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+   "score": 0.9663000106811523,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12139",
+   "display_name": "Advanced Thermodynamic Systems and Engines",
+   "score": 0.013700000010430813,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14444",
+   "display_name": "Power Systems and Renewable Energy",
+   "score": 0.0052999998442828655,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2102",
+    "display_name": "Energy Engineering and Power Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/pumped-thermal-energy-storage",
+   "display_name": "pumped thermal energy storage",
+   "score": 0.9919999837875366
+  },
+  {
+   "id": "https://openalex.org/keywords/round-trip-efficiency",
+   "display_name": "round-trip efficiency",
+   "score": 1.0
+  },
+  {
+   "id": "https://openalex.org/keywords/brayton-cycle",
+   "display_name": "Brayton cycle",
+   "score": 0.7960000038146973
+  },
+  {
+   "id": "https://openalex.org/keywords/compressor-efficiency",
+   "display_name": "compressor efficiency",
+   "score": 0.621999979019165
+  },
+  {
+   "id": "https://openalex.org/keywords/turbine-efficiency",
+   "display_name": "turbine efficiency",
+   "score": 0.8899999856948853
+  },
+  {
+   "id": "https://openalex.org/keywords/storage-capacity-utilization",
+   "display_name": "storage capacity utilization",
+   "score": 0.734000027179718
+  },
+  {
+   "id": "https://openalex.org/keywords/power-output",
+   "display_name": "output power",
+   "score": 0.6389999985694885
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C172959903",
+   "wikidata": "https://www.wikidata.org/wiki/Q907271",
+   "display_name": "Isentropic process",
+   "level": 2,
+   "score": 0.7843000292778015
+  },
+  {
+   "id": "https://openalex.org/C131097465",
+   "wikidata": "https://www.wikidata.org/wiki/Q178898",
+   "display_name": "Gas compressor",
+   "level": 2,
+   "score": 0.6585000157356262
+  },
+  {
+   "id": "https://openalex.org/C18762648",
+   "wikidata": "https://www.wikidata.org/wiki/Q42213",
+   "display_name": "Work (physics)",
+   "level": 2,
+   "score": 0.5924999713897705
+  },
+  {
+   "id": "https://openalex.org/C168167062",
+   "wikidata": "https://www.wikidata.org/wiki/Q1117970",
+   "display_name": "Component (thermodynamics)",
+   "level": 2,
+   "score": 0.5810999870300293
+  },
+  {
+   "id": "https://openalex.org/C2778449969",
+   "wikidata": "https://www.wikidata.org/wiki/Q130760",
+   "display_name": "Turbine",
+   "level": 2,
+   "score": 0.548799991607666
+  },
+  {
+   "id": "https://openalex.org/C200398353",
+   "wikidata": "https://www.wikidata.org/wiki/Q63973",
+   "display_name": "Turbomachinery",
+   "level": 2,
+   "score": 0.5430999994277954
+  },
+  {
+   "id": "https://openalex.org/C73916439",
+   "wikidata": "https://www.wikidata.org/wiki/Q837718",
+   "display_name": "Energy storage",
+   "level": 3,
+   "score": 0.5051000118255615
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.5016999840736389
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.46650001406669617
+  },
+  {
+   "id": "https://openalex.org/C183287310",
+   "wikidata": "https://www.wikidata.org/wiki/Q2142963",
+   "display_name": "Thermal energy storage",
+   "level": 2,
+   "score": 0.42640000581741333
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.4235999882221222
+  },
+  {
+   "id": "https://openalex.org/C204530211",
+   "wikidata": "https://www.wikidata.org/wiki/Q752823",
+   "display_name": "Thermal",
+   "level": 2,
+   "score": 0.41440001130104065
+  },
+  {
+   "id": "https://openalex.org/C50406533",
+   "wikidata": "https://www.wikidata.org/wiki/Q1452104",
+   "display_name": "Thermal efficiency",
+   "level": 3,
+   "score": 0.40939998626708984
+  },
+  {
+   "id": "https://openalex.org/C116915560",
+   "wikidata": "https://www.wikidata.org/wiki/Q83504",
+   "display_name": "Nuclear engineering",
+   "level": 1,
+   "score": 0.38839998841285706
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.38499999046325684
+  },
+  {
+   "id": "https://openalex.org/C111335779",
+   "wikidata": "https://www.wikidata.org/wiki/Q3454686",
+   "display_name": "Reduction (mathematics)",
+   "level": 2,
+   "score": 0.3833000063896179
+  },
+  {
+   "id": "https://openalex.org/C2742236",
+   "wikidata": "https://www.wikidata.org/wiki/Q924713",
+   "display_name": "Efficient energy use",
+   "level": 2,
+   "score": 0.3698999881744385
+  },
+  {
+   "id": "https://openalex.org/C89227174",
+   "wikidata": "https://www.wikidata.org/wiki/Q2388981",
+   "display_name": "Electric power system",
+   "level": 3,
+   "score": 0.3580999970436096
+  },
+  {
+   "id": "https://openalex.org/C186370098",
+   "wikidata": "https://www.wikidata.org/wiki/Q442787",
+   "display_name": "Energy (signal processing)",
+   "level": 2,
+   "score": 0.3549000024795532
+  },
+  {
+   "id": "https://openalex.org/C171146098",
+   "wikidata": "https://www.wikidata.org/wiki/Q124192",
+   "display_name": "Automotive engineering",
+   "level": 1,
+   "score": 0.34950000047683716
+  },
+  {
+   "id": "https://openalex.org/C423512",
+   "wikidata": "https://www.wikidata.org/wiki/Q383973",
+   "display_name": "Electricity generation",
+   "level": 3,
+   "score": 0.3422999978065491
+  },
+  {
+   "id": "https://openalex.org/C118993495",
+   "wikidata": "https://www.wikidata.org/wiki/Q5042828",
+   "display_name": "Electrical efficiency",
+   "level": 3,
+   "score": 0.3337000012397766
+  },
+  {
+   "id": "https://openalex.org/C138549593",
+   "wikidata": "https://www.wikidata.org/wiki/Q8034634",
+   "display_name": "Work output",
+   "level": 2,
+   "score": 0.320499986410141
+  },
+  {
+   "id": "https://openalex.org/C42611778",
+   "wikidata": "https://www.wikidata.org/wiki/Q746338",
+   "display_name": "Brayton cycle",
+   "level": 3,
+   "score": 0.3172999918460846
+  },
+  {
+   "id": "https://openalex.org/C110910425",
+   "wikidata": "https://www.wikidata.org/wiki/Q900729",
+   "display_name": "Combined cycle",
+   "level": 3,
+   "score": 0.30300000309944153
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.3003999888896942
+  },
+  {
+   "id": "https://openalex.org/C2039551",
+   "wikidata": "https://www.wikidata.org/wiki/Q200297",
+   "display_name": "Thermal power station",
+   "level": 2,
+   "score": 0.29499998688697815
+  },
+  {
+   "id": "https://openalex.org/C96261405",
+   "wikidata": "https://www.wikidata.org/wiki/Q7113544",
+   "display_name": "Overall pressure ratio",
+   "level": 3,
+   "score": 0.29429998993873596
+  },
+  {
+   "id": "https://openalex.org/C107861326",
+   "wikidata": "https://www.wikidata.org/wiki/Q209233",
+   "display_name": "Thermal energy",
+   "level": 2,
+   "score": 0.29170000553131104
+  },
+  {
+   "id": "https://openalex.org/C144822601",
+   "wikidata": "https://www.wikidata.org/wiki/Q11271324",
+   "display_name": "Energy transformation",
+   "level": 2,
+   "score": 0.28999999165534973
+  },
+  {
+   "id": "https://openalex.org/C47446073",
+   "wikidata": "https://www.wikidata.org/wiki/Q5165890",
+   "display_name": "Control theory (sociology)",
+   "level": 3,
+   "score": 0.2849999964237213
+  },
+  {
+   "id": "https://openalex.org/C194739806",
+   "wikidata": "https://www.wikidata.org/wiki/Q66221",
+   "display_name": "Computer data storage",
+   "level": 2,
+   "score": 0.27730000019073486
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.27079999446868896
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.26170000433921814
+  },
+  {
+   "id": "https://openalex.org/C206991015",
+   "wikidata": "https://www.wikidata.org/wiki/Q192704",
+   "display_name": "Energy conversion efficiency",
+   "level": 2,
+   "score": 0.26089999079704285
+  },
+  {
+   "id": "https://openalex.org/C125989502",
+   "wikidata": "https://www.wikidata.org/wiki/Q5281443",
+   "display_name": "Discharge pressure",
+   "level": 3,
+   "score": 0.2556000053882599
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.est.2026.122600",
+   "doi": "https://doi.org/10.1016/j.est.2026.122600",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.est.2026.122600",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764865925",
+    "display_name": "Journal of Energy Storage",
+    "issn_l": "2352-152X",
+    "issn": [
+     "2352-152X",
+     "2352-1538"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "jufo-2",
+     "norway-1"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Journal of Energy Storage",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1016/j.est.2026.122600",
+  "doi": "https://doi.org/10.1016/j.est.2026.122600",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.est.2026.122600",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S2764865925",
+   "display_name": "Journal of Energy Storage",
+   "issn_l": "2352-152X",
+   "issn": [
+    "2352-152X",
+    "2352-1538"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "jufo-2",
+    "norway-1"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Journal of Energy Storage",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 0.9853000044822693
+  },
+  {
+   "id": "https://metadata.un.org/sdg/9",
+   "display_name": "Industry, innovation and infrastructure",
+   "score": 0.4943999946117401
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "id": "https://metadata.un.org/sdg/7",
+   "display_name": "Affordable and clean energy",
+   "score": 0.9081176519393921
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 20,
+ "referenced_works": [
+  "https://openalex.org/W1972376115",
+  "https://openalex.org/W2008571569",
+  "https://openalex.org/W2041068408",
+  "https://openalex.org/W2048868987",
+  "https://openalex.org/W2781470683",
+  "https://openalex.org/W2805392918",
+  "https://openalex.org/W2945709491",
+  "https://openalex.org/W3048715430",
+  "https://openalex.org/W3086486039",
+  "https://openalex.org/W3088155817",
+  "https://openalex.org/W4214552287",
+  "https://openalex.org/W4225424710",
+  "https://openalex.org/W4302425250",
+  "https://openalex.org/W4303987539",
+  "https://openalex.org/W4312402511",
+  "https://openalex.org/W4313408593",
+  "https://openalex.org/W4313534932",
+  "https://openalex.org/W4387144163",
+  "https://openalex.org/W4397028033",
+  "https://openalex.org/W4405105918"
+ ],
+ "related_works": [],
+ "abstract_inverted_index": {
+  "This": [
+   0
+  ],
+  "paper": [
+   1
+  ],
+  "examines": [
+   2
+  ],
+  "the": [
+   3,
+   18,
+   27,
+   67,
+   107,
+   122,
+   130,
+   158
+  ],
+  "potential": [
+   4
+  ],
+  "of": [
+   5,
+   46,
+   52,
+   168,
+   187,
+   197
+  ],
+  "Pumped": [
+   6
+  ],
+  "Thermal": [
+   7
+  ],
+  "Energy": [
+   8
+  ],
+  "Storage": [
+   9
+  ],
+  "(PTES)": [
+   10
+  ],
+  "systems": [
+   11,
+   178
+  ],
+  "using": [
+   12,
+   147
+  ],
+  "a": [
+   13,
+   92,
+   113,
+   191
+  ],
+  "MATLAB/Simulink": [
+   14
+  ],
+  "model,": [
+   15
+  ],
+  "motivated": [
+   16
+  ],
+  "by": [
+   17,
+   32
+  ],
+  "discrepancy": [
+   19
+  ],
+  "between": [
+   20
+  ],
+  "round-trip": [
+   21
+  ],
+  "efficiency": [
+   22,
+   87,
+   152
+  ],
+  "(RTE)": [
+   23
+  ],
+  "values": [
+   24
+  ],
+  "reported": [
+   25
+  ],
+  "in": [
+   26,
+   190
+  ],
+  "literature": [
+   28
+  ],
+  "and": [
+   29,
+   62,
+   80,
+   101,
+   150
+  ],
+  "those": [
+   30
+  ],
+  "achieved": [
+   31
+  ],
+  "existing": [
+   33
+  ],
+  "prototypes.": [
+   34
+  ],
+  "Consequently,": [
+   35
+  ],
+  "this": [
+   36
+  ],
+  "work": [
+   37
+  ],
+  "focuses": [
+   38
+  ],
+  "on": [
+   39,
+   66,
+   95,
+   181
+  ],
+  "system": [
+   40,
+   78,
+   193
+  ],
+  "configurations": [
+   41
+  ],
+  "that": [
+   42,
+   74,
+   121
+  ],
+  "respect": [
+   43
+  ],
+  "temperature": [
+   44
+  ],
+  "limits": [
+   45
+  ],
+  "currently": [
+   47
+  ],
+  "available": [
+   48
+  ],
+  "turbomachinery.": [
+   49
+  ],
+  "The": [
+   50,
+   71
+  ],
+  "influence": [
+   51
+  ],
+  "key": [
+   53
+  ],
+  "loss": [
+   54
+  ],
+  "mechanisms": [
+   55
+  ],
+  "like": [
+   56
+  ],
+  "turbomachinery": [
+   57
+  ],
+  "isentropic": [
+   58,
+   75
+  ],
+  "efficiency,": [
+   59
+  ],
+  "heat-exchanger": [
+   60
+  ],
+  "losses,": [
+   61
+  ],
+  "thermal": [
+   63
+  ],
+  "storage": [
+   64,
+   84,
+   102,
+   198
+  ],
+  "losses": [
+   65,
+   76,
+   103,
+   111
+  ],
+  "RTE": [
+   68,
+   160
+  ],
+  "is": [
+   69,
+   88,
+   119,
+   134,
+   145,
+   161
+  ],
+  "analyzed.": [
+   70,
+   194
+  ],
+  "results": [
+   72
+  ],
+  "show": [
+   73
+  ],
+  "dominate": [
+   77
+  ],
+  "performance": [
+   79,
+   96
+  ],
+  "lead": [
+   81
+  ],
+  "to": [
+   82,
+   90,
+   163
+  ],
+  "unused": [
+   83
+  ],
+  "capacity.": [
+   85
+  ],
+  "Turbine": [
+   86
+  ],
+  "found": [
+   89,
+   120,
+   162
+  ],
+  "have": [
+   91
+  ],
+  "stronger": [
+   93
+  ],
+  "impact": [
+   94
+  ],
+  "than": [
+   97,
+   129
+  ],
+  "compressor": [
+   98
+  ],
+  "efficiency.": [
+   99
+  ],
+  "Heat-exchanger": [
+   100
+  ],
+  "also": [
+   104
+  ],
+  "significantly": [
+   105
+  ],
+  "reduce": [
+   106
+  ],
+  "RTE,": [
+   108
+  ],
+  "while": [
+   109
+  ],
+  "pressure": [
+   110
+  ],
+  "play": [
+   112
+  ],
+  "minor": [
+   114
+  ],
+  "role.": [
+   115
+  ],
+  "In": [
+   116
+  ],
+  "addition": [
+   117
+  ],
+  "it": [
+   118
+  ],
+  "output": [
+   123,
+   189
+  ],
+  "power": [
+   124,
+   188
+  ],
+  "can": [
+   125
+  ],
+  "be": [
+   126,
+   164
+  ],
+  "substantially": [
+   127
+  ],
+  "lower": [
+   128
+  ],
+  "input": [
+   131
+  ],
+  "power,": [
+   132
+  ],
+  "which": [
+   133
+  ],
+  "critical": [
+   135
+  ],
+  "when": [
+   136
+  ],
+  "defining": [
+   137
+  ],
+  "suitable": [
+   138
+  ],
+  "use": [
+   139
+  ],
+  "cases.": [
+   140
+  ],
+  "A": [
+   141
+  ],
+  "full": [
+   142
+  ],
+  "charge\u2013storage\u2013discharge": [
+   143
+  ],
+  "cycle": [
+   144,
+   203
+  ],
+  "simulated": [
+   146
+  ],
+  "both": [
+   148
+  ],
+  "modest": [
+   149
+  ],
+  "optimistic": [
+   151
+  ],
+  "assumptions.": [
+   153
+  ],
+  "Under": [
+   154
+  ],
+  "highly": [
+   155
+  ],
+  "favorable": [
+   156
+  ],
+  "conditions,": [
+   157
+  ],
+  "maximum": [
+   159
+  ],
+  "36.2%.": [
+   165
+  ],
+  "\u2022": [
+   166,
+   174,
+   185,
+   195,
+   201
+  ],
+  "Modeling": [
+   167
+  ],
+  "an": [
+   169
+  ],
+  "air-based": [
+   170
+  ],
+  "closed-loop": [
+   171
+  ],
+  "Brayton-PTES": [
+   172
+  ],
+  "system.": [
+   173
+  ],
+  "Efficiency": [
+   175
+  ],
+  "for": [
+   176,
+   205
+  ],
+  "PTES": [
+   177,
+   192
+  ],
+  "determined": [
+   179
+  ],
+  "based": [
+   180
+  ],
+  "realistic": [
+   182
+  ],
+  "component": [
+   183
+  ],
+  "constraints.": [
+   184
+  ],
+  "Reduction": [
+   186
+  ],
+  "Analysis": [
+   196
+  ],
+  "capacity": [
+   199
+  ],
+  "utilization.": [
+   200
+  ],
+  "Discharge": [
+   202
+  ],
+  "optimization": [
+   204
+  ],
+  "high": [
+   206
+  ],
+  "efficiencies.": [
+   207
+  ]
+ },
+ "counts_by_year": [],
+ "updated_date": "2026-08-21T09:56:20.448147",
+ "created_date": "2026-05-15T00:00:00"
+}

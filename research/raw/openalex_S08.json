@@ -1,0 +1,737 @@
+{
+ "id": "https://openalex.org/W2793134211",
+ "doi": "https://doi.org/10.1016/j.tsep.2018.01.017",
+ "title": "Pumped Thermal Electricity Storage: A technology overview",
+ "display_name": "Pumped Thermal Electricity Storage: A technology overview",
+ "publication_year": 2018,
+ "publication_date": "2018-02-02",
+ "ids": {
+  "openalex": "https://openalex.org/W2793134211",
+  "doi": "https://doi.org/10.1016/j.tsep.2018.01.017",
+  "mag": "2793134211"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.tsep.2018.01.017",
+  "doi": "https://doi.org/10.1016/j.tsep.2018.01.017",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1016/j.tsep.2018.01.017",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4210220034",
+   "display_name": "Thermal Science and Engineering Progress",
+   "issn_l": "2451-9049",
+   "issn": [
+    "2451-9049",
+    "2451-9057"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "dongbi-d",
+    "jufo-1",
+    "norway-1",
+    "poland-20",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Thermal Science and Engineering Progress",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5071767741",
+    "display_name": "Alberto Benato",
+    "orcid": "https://orcid.org/0000-0002-0122-1353",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-0122-1353"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I138689650",
+     "display_name": "University of Padua",
+     "ror": "https://ror.org/00240q980",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I138689650"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Alberto Benato",
+   "raw_affiliation_strings": [
+    "Department of Industrial Engineering (DII), University of Padova, via Venezia 1, 35131 Padova, Italy"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0002-0122-1353",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Industrial Engineering (DII), University of Padova, via Venezia 1, 35131 Padova, Italy",
+     "institution_ids": [
+      "https://openalex.org/I138689650"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5046933338",
+    "display_name": "Anna Stoppato",
+    "orcid": "https://orcid.org/0000-0001-6986-872X",
+    "observed_orcids": [
+     "https://orcid.org/0000-0001-6986-872X"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I138689650",
+     "display_name": "University of Padua",
+     "ror": "https://ror.org/00240q980",
+     "country_code": "IT",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I138689650"
+     ]
+    }
+   ],
+   "countries": [
+    "IT"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Anna Stoppato",
+   "raw_affiliation_strings": [
+    "Department of Industrial Engineering (DII), University of Padova, via Venezia 1, 35131 Padova, Italy"
+   ],
+   "raw_orcid": "https://orcid.org/0000-0001-6986-872X",
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Department of Industrial Engineering (DII), University of Padova, via Venezia 1, 35131 Padova, Italy",
+     "institution_ids": [
+      "https://openalex.org/I138689650"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 1,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5071767741"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I138689650"
+ ],
+ "apc_list": {
+  "value": 3000,
+  "currency": "USD",
+  "value_usd": 3000
+ },
+ "apc_paid": null,
+ "fwci": 12.835,
+ "has_fulltext": false,
+ "cited_by_count": 301,
+ "citation_normalized_percentile": {
+  "value": 0.99451058,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 96,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "6",
+  "issue": null,
+  "first_page": "301",
+  "last_page": "315"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10568",
+  "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+  "score": 0.4578000009059906,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2210",
+   "display_name": "Mechanical Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10568",
+   "display_name": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+   "score": 0.4578000009059906,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2210",
+    "display_name": "Mechanical Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T11185",
+   "display_name": "Integrated Energy Systems Optimization",
+   "score": 0.2971000075340271,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T14444",
+   "display_name": "Power Systems and Renewable Energy",
+   "score": 0.12620000541210175,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2102",
+    "display_name": "Energy Engineering and Power Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/pumped-thermal-electricity-storage",
+   "display_name": "pumped thermal electricity storage",
+   "score": 0.9430000185966492
+  },
+  {
+   "id": "https://openalex.org/keywords/large-scale-energy-storage",
+   "display_name": "large-scale energy storage",
+   "score": 0.9330000281333923
+  },
+  {
+   "id": "https://openalex.org/keywords/variable-renewable-energy-integration",
+   "display_name": "variable renewable energy integration",
+   "score": 0.7739999890327454
+  },
+  {
+   "id": "https://openalex.org/keywords/thermal-energy-storage",
+   "display_name": "thermal energy storage",
+   "score": 0.4650000035762787
+  },
+  {
+   "id": "https://openalex.org/keywords/cycle-life",
+   "display_name": "cycle life",
+   "score": 0.5230000019073486
+  },
+  {
+   "id": "https://openalex.org/keywords/compressed-air-energy-storage",
+   "display_name": "compressed air energy storage",
+   "score": 0.7099999785423279
+  },
+  {
+   "id": "https://openalex.org/keywords/flow-batteries",
+   "display_name": "flow batteries",
+   "score": 0.8309999704360962
+  },
+  {
+   "id": "https://openalex.org/keywords/pumped-hydro-storage",
+   "display_name": "pumped storage",
+   "score": 0.9810000061988831
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2780113879",
+   "wikidata": "https://www.wikidata.org/wiki/Q1260916",
+   "display_name": "Compressed air energy storage",
+   "level": 4,
+   "score": 0.8261939287185669
+  },
+  {
+   "id": "https://openalex.org/C73916439",
+   "wikidata": "https://www.wikidata.org/wiki/Q837718",
+   "display_name": "Energy storage",
+   "level": 3,
+   "score": 0.754845142364502
+  },
+  {
+   "id": "https://openalex.org/C183287310",
+   "wikidata": "https://www.wikidata.org/wiki/Q2142963",
+   "display_name": "Thermal energy storage",
+   "level": 2,
+   "score": 0.6973445415496826
+  },
+  {
+   "id": "https://openalex.org/C183739832",
+   "wikidata": "https://www.wikidata.org/wiki/Q339353",
+   "display_name": "Pumped-storage hydroelectricity",
+   "level": 4,
+   "score": 0.677735447883606
+  },
+  {
+   "id": "https://openalex.org/C188573790",
+   "wikidata": "https://www.wikidata.org/wiki/Q12705",
+   "display_name": "Renewable energy",
+   "level": 2,
+   "score": 0.62595134973526
+  },
+  {
+   "id": "https://openalex.org/C38864968",
+   "wikidata": "https://www.wikidata.org/wiki/Q1832610",
+   "display_name": "Grid energy storage",
+   "level": 4,
+   "score": 0.6062757968902588
+  },
+  {
+   "id": "https://openalex.org/C68189081",
+   "wikidata": "https://www.wikidata.org/wiki/Q12748",
+   "display_name": "Fossil fuel",
+   "level": 2,
+   "score": 0.5011367797851562
+  },
+  {
+   "id": "https://openalex.org/C206658404",
+   "wikidata": "https://www.wikidata.org/wiki/Q12725",
+   "display_name": "Electricity",
+   "level": 2,
+   "score": 0.48248055577278137
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.4643452763557434
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.45590347051620483
+  },
+  {
+   "id": "https://openalex.org/C1934278",
+   "wikidata": "https://www.wikidata.org/wiki/Q143746",
+   "display_name": "Compressed air",
+   "level": 2,
+   "score": 0.44927582144737244
+  },
+  {
+   "id": "https://openalex.org/C548081761",
+   "wikidata": "https://www.wikidata.org/wiki/Q180388",
+   "display_name": "Waste management",
+   "level": 1,
+   "score": 0.32619595527648926
+  },
+  {
+   "id": "https://openalex.org/C544738498",
+   "wikidata": "https://www.wikidata.org/wiki/Q861135",
+   "display_name": "Distributed generation",
+   "level": 3,
+   "score": 0.3120177984237671
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.28503817319869995
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.24433836340904236
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.17180368304252625
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.17046156525611877
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C18903297",
+   "wikidata": "https://www.wikidata.org/wiki/Q7150",
+   "display_name": "Ecology",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C86803240",
+   "wikidata": "https://www.wikidata.org/wiki/Q420",
+   "display_name": "Biology",
+   "level": 0,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 2,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.tsep.2018.01.017",
+   "doi": "https://doi.org/10.1016/j.tsep.2018.01.017",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1016/j.tsep.2018.01.017",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4210220034",
+    "display_name": "Thermal Science and Engineering Progress",
+    "issn_l": "2451-9049",
+    "issn": [
+     "2451-9049",
+     "2451-9057"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "dongbi-d",
+     "jufo-1",
+     "norway-1",
+     "poland-20",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Thermal Science and Engineering Progress",
+   "raw_type": "journal-article"
+  },
+  {
+   "id": "pmh:oai:www.research.unipd.it:11577/3255380",
+   "doi": null,
+   "is_oa": false,
+   "landing_page_url": "http://hdl.handle.net/11577/3255380",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306402547",
+    "display_name": "Padua Research Archive (University of Padova)",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/I138689650",
+    "host_organization_name": "University of Padua",
+    "host_organization_lineage": [
+     "https://openalex.org/I138689650"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": null,
+   "raw_type": "info:eu-repo/semantics/article"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "display_name": "Affordable and clean energy",
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 1.0
+  },
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.7207000255584717
+  },
+  {
+   "display_name": "Climate action",
+   "id": "https://metadata.un.org/sdg/13",
+   "score": 0.685699999332428
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "display_name": "Affordable and clean energy",
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.6700000166893005
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": false,
+  "pdf": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 121,
+ "referenced_works": [
+  "https://openalex.org/W246086836",
+  "https://openalex.org/W328373301",
+  "https://openalex.org/W587213144",
+  "https://openalex.org/W784564648",
+  "https://openalex.org/W1576399215",
+  "https://openalex.org/W1663434495",
+  "https://openalex.org/W1963554583",
+  "https://openalex.org/W1965303585",
+  "https://openalex.org/W1968522699",
+  "https://openalex.org/W1968671164",
+  "https://openalex.org/W1970423582",
+  "https://openalex.org/W1972376115",
+  "https://openalex.org/W1973308766",
+  "https://openalex.org/W1974077895",
+  "https://openalex.org/W1979126412",
+  "https://openalex.org/W1985086830",
+  "https://openalex.org/W1991642535",
+  "https://openalex.org/W1992165194",
+  "https://openalex.org/W1992240330",
+  "https://openalex.org/W1993756545",
+  "https://openalex.org/W1996573378",
+  "https://openalex.org/W2002171295",
+  "https://openalex.org/W2005824841",
+  "https://openalex.org/W2008286849",
+  "https://openalex.org/W2008571569",
+  "https://openalex.org/W2009257951",
+  "https://openalex.org/W2009775084",
+  "https://openalex.org/W2014871558",
+  "https://openalex.org/W2017428530",
+  "https://openalex.org/W2017579366",
+  "https://openalex.org/W2021655215",
+  "https://openalex.org/W2022897269",
+  "https://openalex.org/W2024736544",
+  "https://openalex.org/W2025216641",
+  "https://openalex.org/W2025516135",
+  "https://openalex.org/W2025741626",
+  "https://openalex.org/W2034967232",
+  "https://openalex.org/W2035837781",
+  "https://openalex.org/W2041068408",
+  "https://openalex.org/W2048868987",
+  "https://openalex.org/W2049642529",
+  "https://openalex.org/W2050779718",
+  "https://openalex.org/W2054266351",
+  "https://openalex.org/W2056338136",
+  "https://openalex.org/W2060381595",
+  "https://openalex.org/W2061601331",
+  "https://openalex.org/W2063866856",
+  "https://openalex.org/W2064834131",
+  "https://openalex.org/W2065182010",
+  "https://openalex.org/W2068605276",
+  "https://openalex.org/W2075409469",
+  "https://openalex.org/W2077172990",
+  "https://openalex.org/W2079904478",
+  "https://openalex.org/W2080039994",
+  "https://openalex.org/W2080547417",
+  "https://openalex.org/W2081016891",
+  "https://openalex.org/W2085206767",
+  "https://openalex.org/W2087094294",
+  "https://openalex.org/W2090730713",
+  "https://openalex.org/W2091079037",
+  "https://openalex.org/W2109669144",
+  "https://openalex.org/W2120757859",
+  "https://openalex.org/W2124528883",
+  "https://openalex.org/W2136000121",
+  "https://openalex.org/W2150485858",
+  "https://openalex.org/W2156050425",
+  "https://openalex.org/W2176090987",
+  "https://openalex.org/W2224021613",
+  "https://openalex.org/W2268542678",
+  "https://openalex.org/W2294302435",
+  "https://openalex.org/W2312429424",
+  "https://openalex.org/W2338710623",
+  "https://openalex.org/W2402865211",
+  "https://openalex.org/W2440428219",
+  "https://openalex.org/W2461617884",
+  "https://openalex.org/W2491281309",
+  "https://openalex.org/W2502052623",
+  "https://openalex.org/W2508338568",
+  "https://openalex.org/W2511607742",
+  "https://openalex.org/W2520167805",
+  "https://openalex.org/W2532980250",
+  "https://openalex.org/W2541205613",
+  "https://openalex.org/W2560005518",
+  "https://openalex.org/W2577532417",
+  "https://openalex.org/W2588485103",
+  "https://openalex.org/W2590171112",
+  "https://openalex.org/W2599688695",
+  "https://openalex.org/W2605268710",
+  "https://openalex.org/W2610955015",
+  "https://openalex.org/W2613990303",
+  "https://openalex.org/W2617802594",
+  "https://openalex.org/W2619944542",
+  "https://openalex.org/W2620996747",
+  "https://openalex.org/W2621116946",
+  "https://openalex.org/W2623582797",
+  "https://openalex.org/W2626339242",
+  "https://openalex.org/W2689687103",
+  "https://openalex.org/W2734346593",
+  "https://openalex.org/W2735515108",
+  "https://openalex.org/W2738436865",
+  "https://openalex.org/W2744970422",
+  "https://openalex.org/W2752023638",
+  "https://openalex.org/W2753338586",
+  "https://openalex.org/W2758941016",
+  "https://openalex.org/W2759734404",
+  "https://openalex.org/W2766616816",
+  "https://openalex.org/W2782950010",
+  "https://openalex.org/W2802925371",
+  "https://openalex.org/W2854411141",
+  "https://openalex.org/W3015082941",
+  "https://openalex.org/W3043533439",
+  "https://openalex.org/W3119177616",
+  "https://openalex.org/W3121414207",
+  "https://openalex.org/W4231035585",
+  "https://openalex.org/W4236113534",
+  "https://openalex.org/W4240372988",
+  "https://openalex.org/W4243575258",
+  "https://openalex.org/W4255171622",
+  "https://openalex.org/W6600688380",
+  "https://openalex.org/W7002056237",
+  "https://openalex.org/W7056267353"
+ ],
+ "related_works": [
+  "https://openalex.org/W2911830017",
+  "https://openalex.org/W2352656630",
+  "https://openalex.org/W3087790934",
+  "https://openalex.org/W2602186302",
+  "https://openalex.org/W159024905",
+  "https://openalex.org/W2899811866",
+  "https://openalex.org/W2040999343",
+  "https://openalex.org/W2484219598",
+  "https://openalex.org/W4205329917",
+  "https://openalex.org/W2491367250"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 35
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 55
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 40
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 41
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 50
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 28
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 32
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 17
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 3
+  }
+ ],
+ "updated_date": "2026-10-22T09:42:04.148104",
+ "created_date": "2025-10-10T00:00:00"
+}

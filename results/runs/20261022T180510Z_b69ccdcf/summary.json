@@ -1,0 +1,262 @@
+{
+  "run_id": "20261022T180510Z_b69ccdcf",
+  "timestamp_utc": "2026-10-22T18:05:10.010481+00:00",
+  "git_commit": "uncommitted",
+  "config_checksum_sha256": "b69ccdcf570aa225ac4b92f2422404870d7d1ac5cd5dbb4e31a657ea4056ca26",
+  "software": {
+    "python": "3.12.14",
+    "platform": "Linux-7.2.5-3-omarchy-x86_64-with-glibc2.44",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "mission": {
+    "duration_h": 8.0,
+    "base_load_kw": 1.0,
+    "peak_load_kw": 6.0,
+    "pulse_duration_s": 30.0,
+    "pulse_period_s": 600.0
+  },
+  "targets": {
+    "mass_kg": 35.0,
+    "volume_l": 60.0,
+    "capex_usd": 5000.0,
+    "lcoe_usd_per_kwh": 0.4
+  },
+  "architecture_metrics": {
+    "A1": {
+      "name": "LiFePO4 battery only",
+      "class": "A storage",
+      "source": "grid/electric charging before mission",
+      "delivered_kwh": 10.0,
+      "input_kwh": 11.0803,
+      "efficiency": 0.9025,
+      "mass_kg": 71.53,
+      "volume_l": 31.6,
+      "capex_usd": 2702.0,
+      "lcoe_usd_per_kwh": 0.2633,
+      "waste_heat_kw": 0.135,
+      "radiator_area_m2": 0.18,
+      "unmet_kwh": 0.0,
+      "targets": {
+        "mass": false,
+        "volume": true,
+        "capex": true,
+        "lcoe": true,
+        "unmet": true
+      },
+      "targets_met": 4,
+      "notes": [
+        "sized for end-of-life capacity with 10% degradation margin",
+        "battery supplies both energy and 6 kW pulses"
+      ],
+      "evidence": "E2/E3 (sizing model); component parameters are ESTIMATES"
+    },
+    "A2": {
+      "name": "LiFePO4 + supercapacitor pulse buffer",
+      "class": "A storage",
+      "source": "grid/electric charging before mission",
+      "delivered_kwh": 10.0,
+      "input_kwh": 11.0803,
+      "efficiency": 0.9025,
+      "mass_kg": 79.86,
+      "volume_l": 31.6,
+      "capex_usd": 3462.0,
+      "lcoe_usd_per_kwh": 0.2957,
+      "waste_heat_kw": 0.135,
+      "radiator_area_m2": 0.18,
+      "unmet_kwh": 0.0,
+      "targets": {
+        "mass": false,
+        "volume": true,
+        "capex": true,
+        "lcoe": true,
+        "unmet": true
+      },
+      "targets_met": 4,
+      "notes": [
+        "sized for end-of-life capacity with 10% degradation margin",
+        "battery supplies both energy and 6 kW pulses",
+        "capacitor covers one 30 s pulse; it cannot reduce mission energy",
+        "strictly heavier and costlier than A1 for this mission"
+      ],
+      "evidence": "E2/E3 (sizing model); component parameters are ESTIMATES"
+    },
+    "B1": {
+      "name": "Diesel genset, no buffer (rated to peak)",
+      "class": "B generation",
+      "source": "diesel fuel",
+      "delivered_kwh": 10.0,
+      "input_kwh": 62.4268,
+      "efficiency": 0.1602,
+      "mass_kg": 94.3,
+      "volume_l": 56.5,
+      "capex_usd": 2400.0,
+      "lcoe_usd_per_kwh": 0.7402,
+      "waste_heat_kw": 6.553,
+      "radiator_area_m2": 1.83,
+      "unmet_kwh": 0.0,
+      "targets": {
+        "mass": false,
+        "volume": true,
+        "capex": true,
+        "lcoe": false,
+        "unmet": true
+      },
+      "targets_met": 3,
+      "notes": [
+        "genset sized to peak load, so most operating time is at low part load",
+        "part-load efficiency model is an ESTIMATE"
+      ],
+      "evidence": "E1/E3"
+    },
+    "B2": {
+      "name": "Thermoelectric generator on a burner",
+      "class": "B generation",
+      "source": "combustion heat -> TEG",
+      "delivered_kwh": 10.0,
+      "input_kwh": 123.9334,
+      "efficiency": 0.0807,
+      "mass_kg": 174.32,
+      "volume_l": 88.8,
+      "capex_usd": 12000.0,
+      "lcoe_usd_per_kwh": 1.7578,
+      "waste_heat_kw": 14.242,
+      "radiator_area_m2": 8.14,
+      "unmet_kwh": 0.0,
+      "targets": {
+        "mass": false,
+        "volume": false,
+        "capex": false,
+        "lcoe": false,
+        "unmet": true
+      },
+      "targets_met": 1,
+      "notes": [
+        "TEG efficiency 9.0% from ZT=1.4 at 230.0/50.0 C",
+        "heat rejection dominates the design at kW scale"
+      ],
+      "evidence": "E1/E3"
+    },
+    "B3": {
+      "name": "TPV + high-temperature thermal store",
+      "class": "B generation (stored heat)",
+      "source": "external heat >=1500 C charging the thermal store",
+      "delivered_kwh": 10.0,
+      "input_kwh": 29.4118,
+      "efficiency": 0.34,
+      "mass_kg": 128.35,
+      "volume_l": 80.5,
+      "capex_usd": 2075.0,
+      "lcoe_usd_per_kwh": 0.206,
+      "waste_heat_kw": 2.426,
+      "radiator_area_m2": 1.94,
+      "unmet_kwh": 0.0,
+      "targets": {
+        "mass": false,
+        "volume": false,
+        "capex": true,
+        "lcoe": true,
+        "unmet": true
+      },
+      "targets_met": 3,
+      "notes": [
+        "energy source must supply >1500 C heat; heat is priced as an input",
+        "storage mass is the binding constraint, not cell efficiency"
+      ],
+      "evidence": "E1/E3"
+    },
+    "B4": {
+      "name": "PEM fuel cell, no buffer (rated to peak)",
+      "class": "B generation",
+      "source": "compressed hydrogen",
+      "delivered_kwh": 10.0,
+      "input_kwh": 17.2414,
+      "efficiency": 0.58,
+      "mass_kg": 75.08,
+      "volume_l": 48.9,
+      "capex_usd": 11214.0,
+      "lcoe_usd_per_kwh": 0.6327,
+      "waste_heat_kw": 0.905,
+      "radiator_area_m2": 0.36,
+      "unmet_kwh": 0.0,
+      "targets": {
+        "mass": false,
+        "volume": true,
+        "capex": false,
+        "lcoe": false,
+        "unmet": true
+      },
+      "targets_met": 2,
+      "notes": [
+        "sized to peak power, so the stack is oversized for average load",
+        "tank mass assumes 5 wt% system gravimetric fraction"
+      ],
+      "evidence": "E1/E3"
+    },
+    "C1": {
+      "name": "PEM fuel cell + small battery buffer",
+      "class": "C hybrid",
+      "source": "compressed hydrogen",
+      "delivered_kwh": 10.0,
+      "input_kwh": 17.2154,
+      "efficiency": 0.5809,
+      "mass_kg": 34.72,
+      "volume_l": 21.8,
+      "capex_usd": 3324.0,
+      "lcoe_usd_per_kwh": 0.3263,
+      "waste_heat_kw": 0.902,
+      "radiator_area_m2": 0.36,
+      "unmet_kwh": 0.0,
+      "targets": {
+        "mass": true,
+        "volume": true,
+        "capex": true,
+        "lcoe": true,
+        "unmet": true
+      },
+      "targets_met": 5,
+      "notes": [
+        "stack sized for average load; battery carries 6 kW pulses",
+        "hydrogen supply chain is an external dependency",
+        "dispatch: SOC 0.30-0.60, unmet 0.00e+00 kWh"
+      ],
+      "evidence": "E1/E3"
+    },
+    "C2": {
+      "name": "Diesel genset + small battery buffer",
+      "class": "C hybrid",
+      "source": "diesel fuel",
+      "delivered_kwh": 10.0,
+      "input_kwh": 30.2574,
+      "efficiency": 0.3305,
+      "mass_kg": 26.58,
+      "volume_l": 14.5,
+      "capex_usd": 1090.0,
+      "lcoe_usd_per_kwh": 0.3637,
+      "waste_heat_kw": 2.532,
+      "radiator_area_m2": 0.71,
+      "unmet_kwh": 0.0,
+      "targets": {
+        "mass": true,
+        "volume": true,
+        "capex": true,
+        "lcoe": true,
+        "unmet": true
+      },
+      "targets_met": 5,
+      "notes": [
+        "small genset runs near its efficient point; battery carries pulses",
+        "combustion emissions and noise are not modeled but are disqualifying indoors",
+        "dispatch: SOC 0.30-0.60, unmet 0.00e+00 kWh"
+      ],
+      "evidence": "E1/E3"
+    }
+  },
+  "invariants": "passed",
+  "warnings": [
+    "Component parameters are estimates; no hardware was measured.",
+    "Mass and cost are parametric estimates, not bills of materials.",
+    "Diesel emissions and noise are not modeled."
+  ],
+  "runtime_s": 2.78
+}

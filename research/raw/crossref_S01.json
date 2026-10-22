@@ -1,0 +1,191 @@
+{
+ "DOI": "10.1038/s41586-022-04473-y",
+ "title": [
+  "Thermophotovoltaic efficiency of 40%"
+ ],
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-9002-4174",
+   "authenticated-orcid": false,
+   "given": "Alina",
+   "family": "LaPotin",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-4273-6254",
+   "authenticated-orcid": false,
+   "given": "Kevin L.",
+   "family": "Schulte",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Myles A.",
+   "family": "Steiner",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Kyle",
+   "family": "Buznitsky",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Colin C.",
+   "family": "Kelsall",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Daniel J.",
+   "family": "Friedman",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-8517-9649",
+   "authenticated-orcid": false,
+   "given": "Eric J.",
+   "family": "Tervo",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ryan M.",
+   "family": "France",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Michelle R.",
+   "family": "Young",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Andrew",
+   "family": "Rohskopf",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0402-9930",
+   "authenticated-orcid": false,
+   "given": "Shomik",
+   "family": "Verma",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-7045-1200",
+   "authenticated-orcid": false,
+   "given": "Evelyn N.",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9097-4882",
+   "authenticated-orcid": false,
+   "given": "Asegun",
+   "family": "Henry",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "issued": {
+  "date-parts": [
+   [
+    2022,
+    4,
+    13
+   ]
+  ]
+ },
+ "container-title": [
+  "Nature"
+ ],
+ "type": "journal-article",
+ "is-referenced-by-count": 345,
+ "publisher": "Springer Science and Business Media LLC"
+}

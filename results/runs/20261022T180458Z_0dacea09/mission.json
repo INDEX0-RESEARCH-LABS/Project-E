@@ -1,0 +1,7 @@
+{
+  "duration_h": 8.0,
+  "base_load_kw": 1.0,
+  "peak_load_kw": 6.0,
+  "pulse_duration_s": 30.0,
+  "pulse_period_s": 600.0
+}

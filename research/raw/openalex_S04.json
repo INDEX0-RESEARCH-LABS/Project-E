@@ -1,0 +1,1504 @@
+{
+ "id": "https://openalex.org/W2065077785",
+ "doi": "https://doi.org/10.1016/j.mattod.2014.10.040",
+ "title": "Li-ion battery materials: present and future",
+ "display_name": "Li-ion battery materials: present and future",
+ "publication_year": 2014,
+ "publication_date": "2014-11-24",
+ "ids": {
+  "openalex": "https://openalex.org/W2065077785",
+  "doi": "https://doi.org/10.1016/j.mattod.2014.10.040",
+  "mag": "2065077785"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1016/j.mattod.2014.10.040",
+  "doi": "https://doi.org/10.1016/j.mattod.2014.10.040",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.mattod.2014.10.040",
+  "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1369702114004118/pdf",
+  "source": {
+   "id": "https://openalex.org/S63322718",
+   "display_name": "Materials Today",
+   "issn_l": "1369-7021",
+   "issn": [
+    "1369-7021",
+    "1873-4103"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "dongbi-b",
+    "jufo-3",
+    "ki-jl-1",
+    "norway-1",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Materials Today",
+  "raw_type": "journal-article"
+ },
+ "volume": null,
+ "type": "article",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "hybrid",
+  "oa_url": "https://www.sciencedirect.com/science/article/pii/S1369702114004118/pdf",
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5102232595",
+    "display_name": "Naoki Nitta",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I130701444",
+     "display_name": "Georgia Institute of Technology",
+     "ror": "https://ror.org/01zkghx44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I130701444"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Naoki Nitta",
+   "raw_affiliation_strings": [
+    "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA",
+     "institution_ids": [
+      "https://openalex.org/I130701444"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5089699624",
+    "display_name": "Feixiang Wu",
+    "orcid": "https://orcid.org/0000-0002-9688-2428",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-9688-2428"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I130701444",
+     "display_name": "Georgia Institute of Technology",
+     "ror": "https://ror.org/01zkghx44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I130701444"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I139660479",
+     "display_name": "Central South University",
+     "ror": "https://ror.org/00f1zfq44",
+     "country_code": "CN",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ],
+   "countries": [
+    "CN",
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Feixiang Wu",
+   "raw_affiliation_strings": [
+    "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA",
+    "School of Metallurgy and Environment, Central South University, Changsha 410083, PR China"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA",
+     "institution_ids": [
+      "https://openalex.org/I130701444"
+     ]
+    },
+    {
+     "raw_affiliation_string": "School of Metallurgy and Environment, Central South University, Changsha 410083, PR China",
+     "institution_ids": [
+      "https://openalex.org/I139660479"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5101810229",
+    "display_name": "Jung Tae Lee",
+    "orcid": "https://orcid.org/0000-0002-2228-1849",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-2228-1849"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I130701444",
+     "display_name": "Georgia Institute of Technology",
+     "ror": "https://ror.org/01zkghx44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I130701444"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Jung Tae Lee",
+   "raw_affiliation_strings": [
+    "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA",
+     "institution_ids": [
+      "https://openalex.org/I130701444"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5061542135",
+    "display_name": "Gleb N. Yushin",
+    "orcid": "https://orcid.org/0000-0002-3274-9265",
+    "observed_orcids": [
+     "https://orcid.org/0000-0002-3274-9265"
+    ]
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I130701444",
+     "display_name": "Georgia Institute of Technology",
+     "ror": "https://ror.org/01zkghx44",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I130701444"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "Gleb Yushin",
+   "raw_affiliation_strings": [
+    "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA",
+     "institution_ids": [
+      "https://openalex.org/I130701444"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5061542135"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I130701444"
+ ],
+ "apc_list": {
+  "value": 6070,
+  "currency": "USD",
+  "value_usd": 6070
+ },
+ "apc_paid": {
+  "value": 6070,
+  "currency": "USD",
+  "value_usd": 6070
+ },
+ "fwci": 104.943,
+ "has_fulltext": true,
+ "cited_by_count": 7416,
+ "citation_normalized_percentile": {
+  "value": 0.99975553,
+  "is_in_top_1_percent": true,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "18",
+  "issue": "5",
+  "first_page": "252",
+  "last_page": "264"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10018",
+  "display_name": "Advancements in Battery Materials",
+  "score": 0.9994999766349792,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2208",
+   "display_name": "Electrical and Electronic Engineering"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/22",
+   "display_name": "Engineering"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10018",
+   "display_name": "Advancements in Battery Materials",
+   "score": 0.9994999766349792,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10663",
+   "display_name": "Advanced Battery Technologies Research",
+   "score": 0.00019999999494757503,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10281",
+   "display_name": "Advanced Battery Materials and Technologies",
+   "score": 0.0,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/lithium-ion-batteries",
+   "display_name": "lithium-ion batteries",
+   "score": 0.8769999742507935
+  },
+  {
+   "id": "https://openalex.org/keywords/battery-electrode-materials",
+   "display_name": "battery electrode materials",
+   "score": 0.7540000081062317
+  },
+  {
+   "id": "https://openalex.org/keywords/intercalation-materials",
+   "display_name": "intercalation materials",
+   "score": 0.8259999752044678
+  },
+  {
+   "id": "https://openalex.org/keywords/licoo2",
+   "display_name": "LiCoO2",
+   "score": 0.8939999938011169
+  },
+  {
+   "id": "https://openalex.org/keywords/ncm-cathode",
+   "display_name": "NCM cathode",
+   "score": 0.8349999785423279
+  },
+  {
+   "id": "https://openalex.org/keywords/nca-cathode",
+   "display_name": "NCA cathode",
+   "score": 0.9980000257492065
+  },
+  {
+   "id": "https://openalex.org/keywords/lithium-iron-phosphate",
+   "display_name": "lithium iron phosphate",
+   "score": 0.9890000224113464
+  },
+  {
+   "id": "https://openalex.org/keywords/lithium-titanate",
+   "display_name": "lithium titanate",
+   "score": 0.9909999966621399
+  },
+  {
+   "id": "https://openalex.org/keywords/silicon-anodes",
+   "display_name": "silicon anodes",
+   "score": 0.9190000295639038
+  },
+  {
+   "id": "https://openalex.org/keywords/polyanion-cathodes",
+   "display_name": "polyanionic cathodes",
+   "score": 0.9879999756813049
+  },
+  {
+   "id": "https://openalex.org/keywords/volume-expansion",
+   "display_name": "volume expansion",
+   "score": 0.7129999995231628
+  },
+  {
+   "id": "https://openalex.org/keywords/material-dissolution",
+   "display_name": "material dissolution",
+   "score": 0.7239999771118164
+  },
+  {
+   "id": "https://openalex.org/keywords/electron-transport",
+   "display_name": "electron transport",
+   "score": 0.6389999985694885
+  },
+  {
+   "id": "https://openalex.org/keywords/lithium-transport",
+   "display_name": "lithium transport",
+   "score": 0.5979999899864197
+  },
+  {
+   "id": "https://openalex.org/keywords/battery-safety",
+   "display_name": "battery safety",
+   "score": 0.4860000014305115
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C192562407",
+   "wikidata": "https://www.wikidata.org/wiki/Q228736",
+   "display_name": "Materials science",
+   "level": 0,
+   "score": 0.7047907114028931
+  },
+  {
+   "id": "https://openalex.org/C2778541603",
+   "wikidata": "https://www.wikidata.org/wiki/Q152763",
+   "display_name": "Lithium (medication)",
+   "level": 2,
+   "score": 0.6344994902610779
+  },
+  {
+   "id": "https://openalex.org/C2779664699",
+   "wikidata": "https://www.wikidata.org/wiki/Q726248",
+   "display_name": "Cobalt oxide",
+   "level": 3,
+   "score": 0.6127852201461792
+  },
+  {
+   "id": "https://openalex.org/C515602321",
+   "wikidata": "https://www.wikidata.org/wiki/Q740",
+   "display_name": "Cobalt",
+   "level": 2,
+   "score": 0.5581498742103577
+  },
+  {
+   "id": "https://openalex.org/C555008776",
+   "wikidata": "https://www.wikidata.org/wiki/Q267298",
+   "display_name": "Battery (electricity)",
+   "level": 3,
+   "score": 0.555908739566803
+  },
+  {
+   "id": "https://openalex.org/C89395315",
+   "wikidata": "https://www.wikidata.org/wiki/Q181232",
+   "display_name": "Anode",
+   "level": 3,
+   "score": 0.5385903120040894
+  },
+  {
+   "id": "https://openalex.org/C504270822",
+   "wikidata": "https://www.wikidata.org/wiki/Q744",
+   "display_name": "Nickel",
+   "level": 2,
+   "score": 0.5324073433876038
+  },
+  {
+   "id": "https://openalex.org/C2779851234",
+   "wikidata": "https://www.wikidata.org/wiki/Q50690",
+   "display_name": "Oxide",
+   "level": 2,
+   "score": 0.5262500643730164
+  },
+  {
+   "id": "https://openalex.org/C49110097",
+   "wikidata": "https://www.wikidata.org/wiki/Q175233",
+   "display_name": "Cathode",
+   "level": 2,
+   "score": 0.5201675891876221
+  },
+  {
+   "id": "https://openalex.org/C179104552",
+   "wikidata": "https://www.wikidata.org/wiki/Q11165",
+   "display_name": "Inorganic chemistry",
+   "level": 1,
+   "score": 0.47730839252471924
+  },
+  {
+   "id": "https://openalex.org/C528890316",
+   "wikidata": "https://www.wikidata.org/wiki/Q731",
+   "display_name": "Manganese",
+   "level": 2,
+   "score": 0.4483453631401062
+  },
+  {
+   "id": "https://openalex.org/C137824038",
+   "wikidata": "https://www.wikidata.org/wiki/Q175562",
+   "display_name": "Intercalation (chemistry)",
+   "level": 2,
+   "score": 0.44050148129463196
+  },
+  {
+   "id": "https://openalex.org/C88380143",
+   "wikidata": "https://www.wikidata.org/wiki/Q416674",
+   "display_name": "Dissolution",
+   "level": 2,
+   "score": 0.42765021324157715
+  },
+  {
+   "id": "https://openalex.org/C17525397",
+   "wikidata": "https://www.wikidata.org/wiki/Q176140",
+   "display_name": "Electrode",
+   "level": 2,
+   "score": 0.4055190980434418
+  },
+  {
+   "id": "https://openalex.org/C171250308",
+   "wikidata": "https://www.wikidata.org/wiki/Q11468",
+   "display_name": "Nanotechnology",
+   "level": 1,
+   "score": 0.3799430727958679
+  },
+  {
+   "id": "https://openalex.org/C42360764",
+   "wikidata": "https://www.wikidata.org/wiki/Q83588",
+   "display_name": "Chemical engineering",
+   "level": 1,
+   "score": 0.27408871054649353
+  },
+  {
+   "id": "https://openalex.org/C191897082",
+   "wikidata": "https://www.wikidata.org/wiki/Q11467",
+   "display_name": "Metallurgy",
+   "level": 1,
+   "score": 0.24694931507110596
+  },
+  {
+   "id": "https://openalex.org/C185592680",
+   "wikidata": "https://www.wikidata.org/wiki/Q2329",
+   "display_name": "Chemistry",
+   "level": 0,
+   "score": 0.14224734902381897
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C71924100",
+   "wikidata": "https://www.wikidata.org/wiki/Q11190",
+   "display_name": "Medicine",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C147789679",
+   "wikidata": "https://www.wikidata.org/wiki/Q11372",
+   "display_name": "Physical chemistry",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C134018914",
+   "wikidata": "https://www.wikidata.org/wiki/Q162606",
+   "display_name": "Endocrinology",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1016/j.mattod.2014.10.040",
+   "doi": "https://doi.org/10.1016/j.mattod.2014.10.040",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.1016/j.mattod.2014.10.040",
+   "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1369702114004118/pdf",
+   "source": {
+    "id": "https://openalex.org/S63322718",
+    "display_name": "Materials Today",
+    "issn_l": "1369-7021",
+    "issn": [
+     "1369-7021",
+     "1873-4103"
+    ],
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": true,
+    "listed_in": [
+     "cwts-core",
+     "dongbi-b",
+     "jufo-3",
+     "ki-jl-1",
+     "norway-1",
+     "poland-200",
+     "russia-white-list-1",
+     "vabb-shw"
+    ],
+    "host_organization": "https://openalex.org/P4310320990",
+    "host_organization_name": "Elsevier BV",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310320990"
+    ],
+    "host_organization_lineage_names": [
+     "Elsevier BV"
+    ],
+    "type": "journal"
+   },
+   "license": "cc-by-nc-nd",
+   "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Materials Today",
+   "raw_type": "journal-article"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.1016/j.mattod.2014.10.040",
+  "doi": "https://doi.org/10.1016/j.mattod.2014.10.040",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.1016/j.mattod.2014.10.040",
+  "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1369702114004118/pdf",
+  "source": {
+   "id": "https://openalex.org/S63322718",
+   "display_name": "Materials Today",
+   "issn_l": "1369-7021",
+   "issn": [
+    "1369-7021",
+    "1873-4103"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": true,
+   "listed_in": [
+    "cwts-core",
+    "dongbi-b",
+    "jufo-3",
+    "ki-jl-1",
+    "norway-1",
+    "poland-200",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "host_organization": "https://openalex.org/P4310320990",
+   "host_organization_name": "Elsevier BV",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310320990"
+   ],
+   "host_organization_lineage_names": [
+    "Elsevier BV"
+   ],
+   "type": "journal"
+  },
+  "license": "cc-by-nc-nd",
+  "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Materials Today",
+  "raw_type": "journal-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "display_name": "Affordable and clean energy",
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.75
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.47999998927116394
+  }
+ ],
+ "study_designs": [],
+ "awards": [
+  {
+   "id": "https://openalex.org/G1523888516",
+   "display_name": null,
+   "funder_award_id": "FA9550-",
+   "funder_id": "https://openalex.org/F4320338279",
+   "funder_display_name": "Air Force Office of Scientific Research"
+  },
+  {
+   "id": "https://openalex.org/G2765803919",
+   "display_name": null,
+   "funder_award_id": "201206370083",
+   "funder_id": "https://openalex.org/F4320322725",
+   "funder_display_name": "China Scholarship Council"
+  },
+  {
+   "id": "https://openalex.org/G5314446657",
+   "display_name": null,
+   "funder_award_id": "0922776",
+   "funder_id": "https://openalex.org/F4320337367",
+   "funder_display_name": "Division of Materials Research"
+  },
+  {
+   "id": "https://openalex.org/G5536312660",
+   "display_name": null,
+   "funder_award_id": "FA9550\u201013\u20101\u20100054",
+   "funder_id": "https://openalex.org/F4320338279",
+   "funder_display_name": "Air Force Office of Scientific Research"
+  },
+  {
+   "id": "https://openalex.org/G6232274773",
+   "display_name": null,
+   "funder_award_id": "W911NF\u201012\u20101\u20100259",
+   "funder_id": "https://openalex.org/F4320338281",
+   "funder_display_name": "Army Research Office"
+  },
+  {
+   "id": "https://openalex.org/G6942296185",
+   "display_name": "MRI: Acquisition of a High-Resolution Analytical Transmission Electron Microscope",
+   "funder_award_id": "0922776",
+   "funder_id": "https://openalex.org/F4320306076",
+   "funder_display_name": "National Science Foundation"
+  },
+  {
+   "id": "https://openalex.org/G7090116110",
+   "display_name": null,
+   "funder_award_id": "FA9550",
+   "funder_id": "https://openalex.org/F4320332467",
+   "funder_display_name": "U.S. Air Force"
+  },
+  {
+   "id": "https://openalex.org/G7452299184",
+   "display_name": null,
+   "funder_award_id": "W911NF",
+   "funder_id": "https://openalex.org/F4320338281",
+   "funder_display_name": "Army Research Office"
+  },
+  {
+   "id": "https://openalex.org/G8603477135",
+   "display_name": null,
+   "funder_award_id": "20118510010030",
+   "funder_id": "https://openalex.org/F4320335199",
+   "funder_display_name": "Korea Institute of Energy Technology Evaluation and Planning"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306076",
+   "display_name": "National Science Foundation",
+   "ror": "https://ror.org/021nxhr62"
+  },
+  {
+   "id": "https://openalex.org/F4320321640",
+   "display_name": "Ministry of Knowledge Economy",
+   "ror": "https://ror.org/008nkqk13"
+  },
+  {
+   "id": "https://openalex.org/F4320322725",
+   "display_name": "China Scholarship Council",
+   "ror": "https://ror.org/04atp4p48"
+  },
+  {
+   "id": "https://openalex.org/F4320332467",
+   "display_name": "U.S. Air Force",
+   "ror": "https://ror.org/006gmme17"
+  },
+  {
+   "id": "https://openalex.org/F4320335199",
+   "display_name": "Korea Institute of Energy Technology Evaluation and Planning",
+   "ror": "https://ror.org/02zq38y32"
+  },
+  {
+   "id": "https://openalex.org/F4320337367",
+   "display_name": "Division of Materials Research",
+   "ror": "https://ror.org/01pc7k308"
+  },
+  {
+   "id": "https://openalex.org/F4320338279",
+   "display_name": "Air Force Office of Scientific Research",
+   "ror": "https://ror.org/011e9bt93"
+  },
+  {
+   "id": "https://openalex.org/F4320338281",
+   "display_name": "Army Research Office",
+   "ror": "https://ror.org/05epdh915"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W2065077785.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W2065077785.grobid-xml"
+ },
+ "referenced_works_count": 236,
+ "referenced_works": [
+  "https://openalex.org/W364191951",
+  "https://openalex.org/W1486503855",
+  "https://openalex.org/W1498183568",
+  "https://openalex.org/W1502853825",
+  "https://openalex.org/W1506668105",
+  "https://openalex.org/W1551553295",
+  "https://openalex.org/W1802451349",
+  "https://openalex.org/W1808360606",
+  "https://openalex.org/W1835637410",
+  "https://openalex.org/W1854827278",
+  "https://openalex.org/W1949231392",
+  "https://openalex.org/W1968132117",
+  "https://openalex.org/W1968443684",
+  "https://openalex.org/W1969528836",
+  "https://openalex.org/W1972767018",
+  "https://openalex.org/W1972977797",
+  "https://openalex.org/W1974018524",
+  "https://openalex.org/W1974041024",
+  "https://openalex.org/W1974454071",
+  "https://openalex.org/W1974467567",
+  "https://openalex.org/W1976081287",
+  "https://openalex.org/W1977113979",
+  "https://openalex.org/W1978111930",
+  "https://openalex.org/W1978153904",
+  "https://openalex.org/W1978959485",
+  "https://openalex.org/W1979821537",
+  "https://openalex.org/W1980462387",
+  "https://openalex.org/W1981234535",
+  "https://openalex.org/W1982270493",
+  "https://openalex.org/W1983145827",
+  "https://openalex.org/W1983868253",
+  "https://openalex.org/W1987738718",
+  "https://openalex.org/W1990652323",
+  "https://openalex.org/W1991022945",
+  "https://openalex.org/W1992375084",
+  "https://openalex.org/W1992582793",
+  "https://openalex.org/W1992732132",
+  "https://openalex.org/W1992985800",
+  "https://openalex.org/W1993645851",
+  "https://openalex.org/W1993910016",
+  "https://openalex.org/W1996643294",
+  "https://openalex.org/W1996847815",
+  "https://openalex.org/W1997863751",
+  "https://openalex.org/W1997913824",
+  "https://openalex.org/W1998629634",
+  "https://openalex.org/W2000695737",
+  "https://openalex.org/W2001605634",
+  "https://openalex.org/W2001932786",
+  "https://openalex.org/W2002426152",
+  "https://openalex.org/W2005690714",
+  "https://openalex.org/W2005905100",
+  "https://openalex.org/W2006373869",
+  "https://openalex.org/W2007084362",
+  "https://openalex.org/W2008305658",
+  "https://openalex.org/W2008964389",
+  "https://openalex.org/W2009273624",
+  "https://openalex.org/W2009994680",
+  "https://openalex.org/W2011532406",
+  "https://openalex.org/W2012134506",
+  "https://openalex.org/W2012708277",
+  "https://openalex.org/W2014315779",
+  "https://openalex.org/W2014361194",
+  "https://openalex.org/W2014411652",
+  "https://openalex.org/W2014475523",
+  "https://openalex.org/W2014820109",
+  "https://openalex.org/W2015197254",
+  "https://openalex.org/W2015296551",
+  "https://openalex.org/W2015387690",
+  "https://openalex.org/W2015392032",
+  "https://openalex.org/W2015727774",
+  "https://openalex.org/W2018537749",
+  "https://openalex.org/W2018942930",
+  "https://openalex.org/W2019519090",
+  "https://openalex.org/W2020396925",
+  "https://openalex.org/W2021435259",
+  "https://openalex.org/W2022558116",
+  "https://openalex.org/W2022624548",
+  "https://openalex.org/W2022822173",
+  "https://openalex.org/W2022900174",
+  "https://openalex.org/W2023209522",
+  "https://openalex.org/W2025884482",
+  "https://openalex.org/W2027207616",
+  "https://openalex.org/W2028494374",
+  "https://openalex.org/W2029872662",
+  "https://openalex.org/W2030279405",
+  "https://openalex.org/W2031198813",
+  "https://openalex.org/W2031725186",
+  "https://openalex.org/W2033317558",
+  "https://openalex.org/W2035673267",
+  "https://openalex.org/W2036138450",
+  "https://openalex.org/W2037341861",
+  "https://openalex.org/W2037576859",
+  "https://openalex.org/W2037834969",
+  "https://openalex.org/W2038845148",
+  "https://openalex.org/W2039693575",
+  "https://openalex.org/W2040899896",
+  "https://openalex.org/W2041035867",
+  "https://openalex.org/W2041113176",
+  "https://openalex.org/W2041624346",
+  "https://openalex.org/W2041773142",
+  "https://openalex.org/W2042490528",
+  "https://openalex.org/W2043661273",
+  "https://openalex.org/W2044958744",
+  "https://openalex.org/W2045435493",
+  "https://openalex.org/W2045859976",
+  "https://openalex.org/W2046273661",
+  "https://openalex.org/W2046327011",
+  "https://openalex.org/W2047113715",
+  "https://openalex.org/W2048851226",
+  "https://openalex.org/W2050697016",
+  "https://openalex.org/W2050721587",
+  "https://openalex.org/W2052279837",
+  "https://openalex.org/W2053285282",
+  "https://openalex.org/W2053661964",
+  "https://openalex.org/W2054418341",
+  "https://openalex.org/W2054550361",
+  "https://openalex.org/W2055099194",
+  "https://openalex.org/W2055849344",
+  "https://openalex.org/W2056194919",
+  "https://openalex.org/W2057114467",
+  "https://openalex.org/W2057696779",
+  "https://openalex.org/W2057899803",
+  "https://openalex.org/W2057912137",
+  "https://openalex.org/W2058151025",
+  "https://openalex.org/W2059532086",
+  "https://openalex.org/W2060142904",
+  "https://openalex.org/W2061079303",
+  "https://openalex.org/W2061294357",
+  "https://openalex.org/W2062256348",
+  "https://openalex.org/W2063006629",
+  "https://openalex.org/W2063139960",
+  "https://openalex.org/W2063303129",
+  "https://openalex.org/W2063339299",
+  "https://openalex.org/W2063487137",
+  "https://openalex.org/W2064547799",
+  "https://openalex.org/W2067810469",
+  "https://openalex.org/W2068638744",
+  "https://openalex.org/W2069786258",
+  "https://openalex.org/W2071719680",
+  "https://openalex.org/W2072817097",
+  "https://openalex.org/W2073926109",
+  "https://openalex.org/W2074514815",
+  "https://openalex.org/W2075649539",
+  "https://openalex.org/W2076569587",
+  "https://openalex.org/W2077170993",
+  "https://openalex.org/W2077905485",
+  "https://openalex.org/W2078405861",
+  "https://openalex.org/W2079824849",
+  "https://openalex.org/W2080185665",
+  "https://openalex.org/W2080445869",
+  "https://openalex.org/W2080891030",
+  "https://openalex.org/W2081535899",
+  "https://openalex.org/W2085267645",
+  "https://openalex.org/W2085287640",
+  "https://openalex.org/W2086126442",
+  "https://openalex.org/W2087512768",
+  "https://openalex.org/W2087650991",
+  "https://openalex.org/W2087778414",
+  "https://openalex.org/W2088254960",
+  "https://openalex.org/W2088697886",
+  "https://openalex.org/W2088967793",
+  "https://openalex.org/W2089340434",
+  "https://openalex.org/W2091124081",
+  "https://openalex.org/W2092114411",
+  "https://openalex.org/W2095812423",
+  "https://openalex.org/W2097535432",
+  "https://openalex.org/W2099895320",
+  "https://openalex.org/W2100800890",
+  "https://openalex.org/W2102338363",
+  "https://openalex.org/W2105728980",
+  "https://openalex.org/W2106176530",
+  "https://openalex.org/W2106238224",
+  "https://openalex.org/W2107844859",
+  "https://openalex.org/W2111286908",
+  "https://openalex.org/W2114443513",
+  "https://openalex.org/W2114801198",
+  "https://openalex.org/W2116645857",
+  "https://openalex.org/W2117747216",
+  "https://openalex.org/W2118131661",
+  "https://openalex.org/W2124043346",
+  "https://openalex.org/W2125289179",
+  "https://openalex.org/W2127941413",
+  "https://openalex.org/W2129584943",
+  "https://openalex.org/W2131159186",
+  "https://openalex.org/W2132221912",
+  "https://openalex.org/W2133594054",
+  "https://openalex.org/W2133719430",
+  "https://openalex.org/W2135353596",
+  "https://openalex.org/W2136822440",
+  "https://openalex.org/W2138285500",
+  "https://openalex.org/W2140306448",
+  "https://openalex.org/W2140603533",
+  "https://openalex.org/W2141143482",
+  "https://openalex.org/W2142015025",
+  "https://openalex.org/W2142853275",
+  "https://openalex.org/W2142987519",
+  "https://openalex.org/W2145085513",
+  "https://openalex.org/W2145102652",
+  "https://openalex.org/W2145634883",
+  "https://openalex.org/W2145918269",
+  "https://openalex.org/W2146504247",
+  "https://openalex.org/W2146691175",
+  "https://openalex.org/W2147069536",
+  "https://openalex.org/W2154232712",
+  "https://openalex.org/W2154542100",
+  "https://openalex.org/W2155041276",
+  "https://openalex.org/W2155489103",
+  "https://openalex.org/W2156001664",
+  "https://openalex.org/W2156369401",
+  "https://openalex.org/W2159033863",
+  "https://openalex.org/W2162361974",
+  "https://openalex.org/W2163589232",
+  "https://openalex.org/W2168072698",
+  "https://openalex.org/W2171928012",
+  "https://openalex.org/W2171967860",
+  "https://openalex.org/W2263085369",
+  "https://openalex.org/W2264792490",
+  "https://openalex.org/W2266231778",
+  "https://openalex.org/W2288141994",
+  "https://openalex.org/W2313386836",
+  "https://openalex.org/W2325620630",
+  "https://openalex.org/W2325995139",
+  "https://openalex.org/W2328831587",
+  "https://openalex.org/W2329290176",
+  "https://openalex.org/W2329733896",
+  "https://openalex.org/W2330633149",
+  "https://openalex.org/W2331109089",
+  "https://openalex.org/W2346640580",
+  "https://openalex.org/W2739616593",
+  "https://openalex.org/W2951068492",
+  "https://openalex.org/W3154755461",
+  "https://openalex.org/W4231627579",
+  "https://openalex.org/W4237601012",
+  "https://openalex.org/W4239172143",
+  "https://openalex.org/W4249504962",
+  "https://openalex.org/W4254413512"
+ ],
+ "related_works": [
+  "https://openalex.org/W2000881355",
+  "https://openalex.org/W1972644913",
+  "https://openalex.org/W2944021533",
+  "https://openalex.org/W4390428330",
+  "https://openalex.org/W2404627466",
+  "https://openalex.org/W2392510262",
+  "https://openalex.org/W2031988908",
+  "https://openalex.org/W2042029348",
+  "https://openalex.org/W3147614911",
+  "https://openalex.org/W2123524334"
+ ],
+ "abstract_inverted_index": {
+  "This": [
+   0
+  ],
+  "review": [
+   1
+  ],
+  "covers": [
+   2
+  ],
+  "key": [
+   3
+  ],
+  "technological": [
+   4
+  ],
+  "developments": [
+   5
+  ],
+  "and": [
+   6,
+   19,
+   35,
+   71,
+   92,
+   111,
+   118,
+   131,
+   141
+  ],
+  "scientific": [
+   7
+  ],
+  "challenges": [
+   8,
+   138
+  ],
+  "for": [
+   9,
+   121
+  ],
+  "a": [
+   10
+  ],
+  "broad": [
+   11
+  ],
+  "range": [
+   12
+  ],
+  "of": [
+   13,
+   28,
+   41,
+   77,
+   124
+  ],
+  "Li-ion": [
+   14
+  ],
+  "battery": [
+   15
+  ],
+  "electrodes.": [
+   16
+  ],
+  "Periodic": [
+   17
+  ],
+  "table": [
+   18
+  ],
+  "potential/capacity": [
+   20
+  ],
+  "plots": [
+   21
+  ],
+  "are": [
+   22,
+   73,
+   103,
+   127,
+   139
+  ],
+  "used": [
+   23
+  ],
+  "to": [
+   24,
+   134
+  ],
+  "compare": [
+   25
+  ],
+  "many": [
+   26
+  ],
+  "families": [
+   27
+  ],
+  "suitable": [
+   29
+  ],
+  "materials.": [
+   30
+  ],
+  "Performance": [
+   31
+  ],
+  "characteristics,": [
+   32
+  ],
+  "current": [
+   33,
+   137
+  ],
+  "limitations,": [
+   34
+  ],
+  "recent": [
+   36
+  ],
+  "breakthroughs": [
+   37
+  ],
+  "in": [
+   38
+  ],
+  "the": [
+   39,
+   136
+  ],
+  "development": [
+   40
+  ],
+  "commercial": [
+   42
+  ],
+  "intercalation": [
+   43
+  ],
+  "materials": [
+   44,
+   102,
+   126
+  ],
+  "such": [
+   45,
+   80
+  ],
+  "as": [
+   46,
+   81
+  ],
+  "lithium": [
+   47,
+   51,
+   57,
+   63,
+   67
+  ],
+  "cobalt": [
+   48,
+   53,
+   59
+  ],
+  "oxide": [
+   49,
+   55,
+   61,
+   69
+  ],
+  "(LCO),": [
+   50
+  ],
+  "nickel": [
+   52,
+   58
+  ],
+  "manganese": [
+   54
+  ],
+  "(NCM),": [
+   56
+  ],
+  "aluminum": [
+   60
+  ],
+  "(NCA),": [
+   62
+  ],
+  "iron": [
+   64
+  ],
+  "phosphate": [
+   65
+  ],
+  "(LFP),": [
+   66
+  ],
+  "titanium": [
+   68
+  ],
+  "(LTO)": [
+   70
+  ],
+  "others": [
+   72
+  ],
+  "contrasted": [
+   74
+  ],
+  "with": [
+   75
+  ],
+  "that": [
+   76
+  ],
+  "conversion": [
+   78
+  ],
+  "materials,": [
+   79
+  ],
+  "alloying": [
+   82
+  ],
+  "anodes": [
+   83
+  ],
+  "(Si,": [
+   84
+  ],
+  "Ge,": [
+   85
+  ],
+  "Sn,": [
+   86
+  ],
+  "etc.),": [
+   87
+  ],
+  "chalcogenides": [
+   88
+  ],
+  "(S,": [
+   89
+  ],
+  "Se,": [
+   90
+  ],
+  "Te),": [
+   91
+  ],
+  "metal": [
+   93
+  ],
+  "halides": [
+   94
+  ],
+  "(F,": [
+   95
+  ],
+  "Cl,": [
+   96
+  ],
+  "Br,": [
+   97
+  ],
+  "I).": [
+   98
+  ],
+  "New": [
+   99
+  ],
+  "polyanion": [
+   100
+  ],
+  "cathode": [
+   101
+  ],
+  "also": [
+   104
+  ],
+  "discussed.": [
+   105
+  ],
+  "The": [
+   106
+  ],
+  "cost,": [
+   107
+  ],
+  "abundance,": [
+   108
+  ],
+  "safety,": [
+   109
+  ],
+  "Li": [
+   110
+  ],
+  "electron": [
+   112
+  ],
+  "transport,": [
+   113
+  ],
+  "volumetric": [
+   114
+  ],
+  "expansion,": [
+   115
+  ],
+  "material": [
+   116
+  ],
+  "dissolution,": [
+   117
+  ],
+  "surface": [
+   119
+  ],
+  "reactions": [
+   120
+  ],
+  "each": [
+   122
+  ],
+  "type": [
+   123
+  ],
+  "electrode": [
+   125
+  ],
+  "described.": [
+   128
+  ],
+  "Both": [
+   129
+  ],
+  "general": [
+   130
+  ],
+  "specific": [
+   132
+  ],
+  "strategies": [
+   133
+  ],
+  "overcome": [
+   135
+  ],
+  "covered": [
+   140
+  ],
+  "categorized.": [
+   142
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2026,
+   "cited_by_count": 548
+  },
+  {
+   "year": 2025,
+   "cited_by_count": 648
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 760
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 799
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 850
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 858
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 889
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 877
+  },
+  {
+   "year": 2018,
+   "cited_by_count": 588
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 379
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 178
+  },
+  {
+   "year": 2015,
+   "cited_by_count": 36
+  },
+  {
+   "year": 2014,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-10-21T09:56:26.102985",
+ "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,74 @@
+{
+ "DOI": "10.1126/science.1212741",
+ "title": [
+  "Electrical Energy Storage for the Grid: A Battery of Choices"
+ ],
+ "author": [
+  {
+   "given": "Bruce",
+   "family": "Dunn",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Materials Science and Engineering and California NanoSystems Institute, University of California, Los Angeles, Los Angeles, CA 90095, USA."
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Haresh",
+   "family": "Kamath",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electric Power Research Institute (EPRI), Palo Alto, CA 94304, USA."
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jean-Marie",
+   "family": "Tarascon",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Universit\u00e9 de Picardie Jules Verne, Laboratoire de R\u00e9activit\u00e9 Chimie des Solides, Amiens 80039, France."
+    },
+    {
+     "name": "Coll\u00e8ge de France, Paris 75231, France."
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "issued": {
+  "date-parts": [
+   [
+    2011,
+    11,
+    18
+   ]
+  ]
+ },
+ "container-title": [
+  "Science"
+ ],
+ "type": "journal-article",
+ "is-referenced-by-count": 14696,
+ "publisher": "American Association for the Advancement of Science (AAAS)"
+}

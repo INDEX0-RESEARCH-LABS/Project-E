@@ -1,0 +1,14 @@
+{
+ "tpv_efficiency": 6,
+ "teg_zt": 6,
+ "liion_degradation": 6,
+ "sofc_efficiency": 6,
+ "pumped_thermal": 6,
+ "pcm_storage": 6,
+ "supercapacitor": 6,
+ "lcoe_storage": 6,
+ "csp_tpv": 6,
+ "si_anode": 6,
+ "thermoelectric_harvesting": 6,
+ "heat_engine_small": 6
+}

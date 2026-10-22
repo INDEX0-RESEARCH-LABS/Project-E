@@ -1,0 +1,528 @@
+{
+ "id": "https://openalex.org/W2168613979",
+ "doi": "https://doi.org/10.1007/978-1-4757-3058-6_15",
+ "title": "Energy Density and Power Density of Electrical Energy Storage Devices",
+ "display_name": "Energy Density and Power Density of Electrical Energy Storage Devices",
+ "publication_year": 1999,
+ "publication_date": "1999-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2168613979",
+  "doi": "https://doi.org/10.1007/978-1-4757-3058-6_15",
+  "mag": "2168613979"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.1007/978-1-4757-3058-6_15",
+  "doi": "https://doi.org/10.1007/978-1-4757-3058-6_15",
+  "is_oa": false,
+  "landing_page_url": "https://doi.org/10.1007/978-1-4757-3058-6_15",
+  "pdf_url": null,
+  "source": {
+   "id": "https://openalex.org/S4306463937",
+   "display_name": "Springer eBooks",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "listed_in": [],
+   "host_organization": "https://openalex.org/P4310319965",
+   "host_organization_name": "Springer Nature",
+   "host_organization_lineage": [
+    "https://openalex.org/P4310319965"
+   ],
+   "host_organization_lineage_names": [
+    "Springer Nature"
+   ],
+   "type": "ebook platform"
+  },
+  "license": null,
+  "license_id": null,
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Electrochemical Supercapacitors",
+  "raw_type": "book-chapter"
+ },
+ "volume": {
+  "id": "https://openalex.org/W4245158813",
+  "display_name": "Electrochemical Supercapacitors"
+ },
+ "type": "book-chapter",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": false,
+  "oa_status": "closed",
+  "oa_url": null,
+  "any_repository_has_fulltext": false
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5109331515",
+    "display_name": "B. E. Conway",
+    "orcid": null,
+    "observed_orcids": []
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I153718931",
+     "display_name": "University of Ottawa",
+     "ror": "https://ror.org/03c4mmv16",
+     "country_code": "CA",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I153718931"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I2802602770",
+     "display_name": "Royal Society of Canada",
+     "ror": "https://ror.org/00xya3a34",
+     "country_code": "CA",
+     "type": "nonprofit",
+     "lineage": [
+      "https://openalex.org/I2802602770"
+     ]
+    }
+   ],
+   "countries": [
+    "CA"
+   ],
+   "is_corresponding": true,
+   "raw_author_name": "B. E. Conway",
+   "raw_affiliation_strings": [
+    "Fellow of the Royal Society of Canada, University of Ottawa, Ottawa, Ontario, Canada"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Fellow of the Royal Society of Canada, University of Ottawa, Ottawa, Ontario, Canada",
+     "institution_ids": [
+      "https://openalex.org/I153718931",
+      "https://openalex.org/I2802602770"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 1,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [
+  "https://openalex.org/A5109331515"
+ ],
+ "corresponding_institution_ids": [
+  "https://openalex.org/I153718931",
+  "https://openalex.org/I2802602770"
+ ],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": null,
+ "has_fulltext": false,
+ "cited_by_count": 5,
+ "citation_normalized_percentile": {
+  "value": 0.42857143,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": false
+ },
+ "cited_by_percentile_year": {
+  "min": 89,
+  "max": 95
+ },
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": "417",
+  "last_page": "477"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T14444",
+  "display_name": "Power Systems and Renewable Energy",
+  "score": 0.3917999863624573,
+  "subfield": {
+   "id": "https://openalex.org/subfields/2102",
+   "display_name": "Energy Engineering and Power Technology"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/21",
+   "display_name": "Energy"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T14444",
+   "display_name": "Power Systems and Renewable Energy",
+   "score": 0.3917999863624573,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2102",
+    "display_name": "Energy Engineering and Power Technology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/21",
+    "display_name": "Energy"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10663",
+   "display_name": "Advanced Battery Technologies Research",
+   "score": 0.13050000369548798,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2203",
+    "display_name": "Automotive Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T13856",
+   "display_name": "Advanced Power Generation Technologies",
+   "score": 0.08179999887943268,
+   "subfield": {
+    "id": "https://openalex.org/subfields/2208",
+    "display_name": "Electrical and Electronic Engineering"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/22",
+    "display_name": "Engineering"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/energy-density",
+   "display_name": "energy density",
+   "score": 0.8180000185966492
+  },
+  {
+   "id": "https://openalex.org/keywords/power-density",
+   "display_name": "power density",
+   "score": 1.0
+  },
+  {
+   "id": "https://openalex.org/keywords/electrical-energy-storage",
+   "display_name": "electrical energy storage",
+   "score": 0.949999988079071
+  },
+  {
+   "id": "https://openalex.org/keywords/prime-movers",
+   "display_name": "prime movers",
+   "score": 0.7990000247955322
+  },
+  {
+   "id": "https://openalex.org/keywords/steam-engines",
+   "display_name": "steam engines",
+   "score": 0.6290000081062317
+  },
+  {
+   "id": "https://openalex.org/keywords/indicator-diagrams",
+   "display_name": "indicator diagrams",
+   "score": 0.753000020980835
+  },
+  {
+   "id": "https://openalex.org/keywords/engine-efficiency",
+   "display_name": "engine efficiency",
+   "score": 0.8029999732971191
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C2780934509",
+   "wikidata": "https://www.wikidata.org/wiki/Q571589",
+   "display_name": "Condenser (optics)",
+   "level": 3,
+   "score": 0.7595054507255554
+  },
+  {
+   "id": "https://openalex.org/C44012409",
+   "wikidata": "https://www.wikidata.org/wiki/Q25236",
+   "display_name": "Watt",
+   "level": 3,
+   "score": 0.6516458988189697
+  },
+  {
+   "id": "https://openalex.org/C2776377115",
+   "wikidata": "https://www.wikidata.org/wiki/Q12760",
+   "display_name": "Steam engine",
+   "level": 2,
+   "score": 0.48244792222976685
+  },
+  {
+   "id": "https://openalex.org/C163258240",
+   "wikidata": "https://www.wikidata.org/wiki/Q25342",
+   "display_name": "Power (physics)",
+   "level": 2,
+   "score": 0.4756864309310913
+  },
+  {
+   "id": "https://openalex.org/C21880701",
+   "wikidata": "https://www.wikidata.org/wiki/Q2144042",
+   "display_name": "Process engineering",
+   "level": 1,
+   "score": 0.4516524374485016
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.4475722908973694
+  },
+  {
+   "id": "https://openalex.org/C186370098",
+   "wikidata": "https://www.wikidata.org/wiki/Q442787",
+   "display_name": "Energy (signal processing)",
+   "level": 2,
+   "score": 0.44303417205810547
+  },
+  {
+   "id": "https://openalex.org/C2742236",
+   "wikidata": "https://www.wikidata.org/wiki/Q924713",
+   "display_name": "Efficient energy use",
+   "level": 2,
+   "score": 0.43772000074386597
+  },
+  {
+   "id": "https://openalex.org/C25343380",
+   "wikidata": "https://www.wikidata.org/wiki/Q277521",
+   "display_name": "Relation (database)",
+   "level": 2,
+   "score": 0.4361564517021179
+  },
+  {
+   "id": "https://openalex.org/C73916439",
+   "wikidata": "https://www.wikidata.org/wiki/Q837718",
+   "display_name": "Energy storage",
+   "level": 3,
+   "score": 0.42810916900634766
+  },
+  {
+   "id": "https://openalex.org/C171146098",
+   "wikidata": "https://www.wikidata.org/wiki/Q124192",
+   "display_name": "Automotive engineering",
+   "level": 1,
+   "score": 0.42710548639297485
+  },
+  {
+   "id": "https://openalex.org/C21881925",
+   "wikidata": "https://www.wikidata.org/wiki/Q3503313",
+   "display_name": "Power density",
+   "level": 3,
+   "score": 0.41684508323669434
+  },
+  {
+   "id": "https://openalex.org/C39432304",
+   "wikidata": "https://www.wikidata.org/wiki/Q188847",
+   "display_name": "Environmental science",
+   "level": 0,
+   "score": 0.39704105257987976
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.3778112232685089
+  },
+  {
+   "id": "https://openalex.org/C78519656",
+   "wikidata": "https://www.wikidata.org/wiki/Q101333",
+   "display_name": "Mechanical engineering",
+   "level": 1,
+   "score": 0.2798957824707031
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.2785213589668274
+  },
+  {
+   "id": "https://openalex.org/C121332964",
+   "wikidata": "https://www.wikidata.org/wiki/Q413",
+   "display_name": "Physics",
+   "level": 0,
+   "score": 0.09182268381118774
+  },
+  {
+   "id": "https://openalex.org/C97355855",
+   "wikidata": "https://www.wikidata.org/wiki/Q11473",
+   "display_name": "Thermodynamics",
+   "level": 1,
+   "score": 0.0763707160949707
+  },
+  {
+   "id": "https://openalex.org/C77088390",
+   "wikidata": "https://www.wikidata.org/wiki/Q8513",
+   "display_name": "Database",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C62520636",
+   "wikidata": "https://www.wikidata.org/wiki/Q944",
+   "display_name": "Quantum mechanics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C120665830",
+   "wikidata": "https://www.wikidata.org/wiki/Q14620",
+   "display_name": "Optics",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C2982854487",
+   "wikidata": "https://www.wikidata.org/wiki/Q9128",
+   "display_name": "Light source",
+   "level": 2,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.1007/978-1-4757-3058-6_15",
+   "doi": "https://doi.org/10.1007/978-1-4757-3058-6_15",
+   "is_oa": false,
+   "landing_page_url": "https://doi.org/10.1007/978-1-4757-3058-6_15",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306463937",
+    "display_name": "Springer eBooks",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "listed_in": [],
+    "host_organization": "https://openalex.org/P4310319965",
+    "host_organization_name": "Springer Nature",
+    "host_organization_lineage": [
+     "https://openalex.org/P4310319965"
+    ],
+    "host_organization_lineage_names": [
+     "Springer Nature"
+    ],
+    "type": "ebook platform"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Electrochemical Supercapacitors",
+   "raw_type": "book-chapter"
+  }
+ ],
+ "best_oa_location": null,
+ "sustainable_development_goals": [
+  {
+   "display_name": "Affordable and clean energy",
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.9853000044822693
+  },
+  {
+   "display_name": "Industry, innovation and infrastructure",
+   "id": "https://metadata.un.org/sdg/9",
+   "score": 0.5378999710083008
+  }
+ ],
+ "sustainable_development_goals_aurora": [
+  {
+   "display_name": "Affordable and clean energy",
+   "id": "https://metadata.un.org/sdg/7",
+   "score": 0.8999999761581421
+  }
+ ],
+ "study_designs": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "pdf": false,
+  "grobid_xml": false
+ },
+ "content_urls": null,
+ "referenced_works_count": 19,
+ "referenced_works": [
+  "https://openalex.org/W125124066",
+  "https://openalex.org/W279718226",
+  "https://openalex.org/W1521533637",
+  "https://openalex.org/W1534948681",
+  "https://openalex.org/W1554874616",
+  "https://openalex.org/W1557741149",
+  "https://openalex.org/W1579048467",
+  "https://openalex.org/W1969361460",
+  "https://openalex.org/W1975980988",
+  "https://openalex.org/W1982071322",
+  "https://openalex.org/W1983601669",
+  "https://openalex.org/W1995065657",
+  "https://openalex.org/W1996550621",
+  "https://openalex.org/W2002028996",
+  "https://openalex.org/W2023679097",
+  "https://openalex.org/W2031618142",
+  "https://openalex.org/W2063895420",
+  "https://openalex.org/W2073257503",
+  "https://openalex.org/W2081926166"
+ ],
+ "related_works": [
+  "https://openalex.org/W2352359141",
+  "https://openalex.org/W3006222594",
+  "https://openalex.org/W3004703365",
+  "https://openalex.org/W1496448576",
+  "https://openalex.org/W2730990519",
+  "https://openalex.org/W1565790932",
+  "https://openalex.org/W4239016486",
+  "https://openalex.org/W2301517044",
+  "https://openalex.org/W4234956216",
+  "https://openalex.org/W4240829683"
+ ],
+ "abstract_inverted_index": null,
+ "counts_by_year": [
+  {
+   "year": 2024,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 2
+  },
+  {
+   "year": 2017,
+   "cited_by_count": 1
+  },
+  {
+   "year": 2016,
+   "cited_by_count": 1
+  }
+ ],
+ "updated_date": "2026-10-10T09:11:00.788812",
+ "created_date": "2025-10-10T00:00:00"
+}
