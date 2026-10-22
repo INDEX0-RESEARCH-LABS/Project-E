@@ -1,6 +1,6 @@
 key,name,class,source,delivered_kwh,input_kwh,efficiency,mass_kg,volume_l,capex_usd,lcoe_usd_per_kwh,waste_heat_kw,radiator_area_m2,unmet_kwh,targets_met
 A1,LiFePO4 battery only,A storage,grid/electric charging before mission,10.0,12.0438,0.8303,118.38,52.2,4866.0,0.6015,0.18,0.9,0.0,3
-A2,LiFePO4 + supercapacitor pulse buffer,A storage,grid/electric charging before mission,10.0,12.0438,0.8303,127.15,65.4,5647.0,0.6481,0.18,0.9,0.0,1
+A2,LiFePO4 + supercapacitor pulse buffer,A storage,grid/electric charging before mission,10.0,12.0438,0.8303,129.35,65.4,5647.0,0.6481,0.18,0.9,0.0,1
 B1,"Diesel genset, no buffer (rated to peak)",B generation,diesel fuel,10.0,73.5745,0.1359,118.54,72.5,2400.0,1.1993,7.947,6.95,0.0,2
 B2,Thermoelectric generator on a burner,B generation,combustion heat -> TEG,10.0,162.3141,0.0616,300.32,122.3,31579.0,4.1686,19.039,38.08,0.0,1
 B3,TPV + high-temperature thermal store,B generation (stored heat),external heat >=1500 C charging the thermal store,10.0,38.6997,0.2584,256.86,144.0,2453.0,0.301,3.587,9.22,0.0,3

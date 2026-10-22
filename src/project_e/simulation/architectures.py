@@ -164,7 +164,7 @@ def battery_supercap(mission: Mission, p: dict) -> ArchResult:
         base,
         key="A2",
         name="LiFePO4 + supercapacitor pulse buffer",
-        mass_kg=base.mass_kg + cap_mass,
+        mass_kg=base.mass_kg + _m(cap_mass, p["assumptions"]["packaging_factor"]),
         volume_l=base.volume_l + cap_kwh * 1000.0 / sc["energy_density_wh_l"],
         capex_usd=base.capex_usd + extra_capex,
         capex_items={

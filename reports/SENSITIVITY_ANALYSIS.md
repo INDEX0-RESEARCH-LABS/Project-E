@@ -17,7 +17,7 @@ Dispatch timestep 2 s (baseline verified at 1 s and 0.5 s).
 | Key | Architecture | Mass kg | Capex USD | LCOE $/kWh |
 |---|---|---:|---:|---:|
 | A1 | LiFePO4 battery only | 118.4 | 4,866 | 0.602 |
-| A2 | LiFePO4 + supercapacitor pulse buffer | 127.2 | 5,647 | 0.648 |
+| A2 | LiFePO4 + supercapacitor pulse buffer | 129.3 | 5,647 | 0.648 |
 | B1 | Diesel genset, no buffer (rated to peak) | 118.5 | 2,400 | 1.199 |
 | B2 | Thermoelectric generator on a burner | 300.3 | 31,579 | 4.169 |
 | B3 | TPV + high-temperature thermal store | 256.9 | 2,453 | 0.301 |
@@ -30,7 +30,7 @@ Dispatch timestep 2 s (baseline verified at 1 s and 0.5 s).
 | Key | Conservative mass / LCOE | Optimistic mass / LCOE |
 |---|---:|---:|
 | A1 | 209.1 kg / $0.974 | 85.6 kg / $0.271 |
-| A2 | 217.9 kg / $1.032 | 94.4 kg / $0.305 |
+| A2 | 221.4 kg / $1.032 | 95.7 kg / $0.305 |
 | B1 | 199.6 kg / $2.301 | 94.3 kg / $0.740 |
 | B2 | 1202.2 kg / $11.658 | 194.0 kg / $1.850 |
 | B3 | 731.8 kg / $0.510 | 145.6 kg / $0.215 |

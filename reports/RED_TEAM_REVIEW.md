@@ -2,7 +2,7 @@
 
 **Scope:** attack the model, the mission, and the conclusions. Each item states
 severity, evidence, response, and status. Written against the baseline run
-`20261022T194106Z_920ce114` and the cycle-3 sensitivity report.
+`20261022T195415Z_920ce114` and the cycle-3 sensitivity report.
 
 Severity: **H** could change the decision, **M** changes a number, **L** cosmetic.
 
@@ -224,7 +224,7 @@ note that still said converter efficiency was excluded. Numbers no current code
 path reproduces are the most dangerous artefact in the repository.
 
 *Response:* every report now stamps the run it came from; the comparison, cost
-model, status and plan were regenerated from run `20261022T194106Z_920ce114`;
+model, status and plan were regenerated from run `20261022T195415Z_920ce114`;
 register item 18 and the environment-audit evidence ceiling were corrected.
 
 *Status:* closed for this cycle. The rule is regenerate from a pinned run, not

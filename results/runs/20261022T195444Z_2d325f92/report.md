@@ -1,8 +1,8 @@
-# Simulation report — 20261022T194126Z_2d325f92
+# Simulation report — 20261022T195444Z_2d325f92
 
-- git commit: `c4cb1414666b20f53d58718b331358a78f72d596`
+- git commit: `bbfe9d3a442e91a1f7b143ef060438631762eb07`
 - config checksum: `2d325f92ab835d2c…`
-- runtime: 8.01 s
+- runtime: 7.9 s
 - mission: 1.0 kW base, 6.0 kW peak, 8.0 h
 
 ## Architecture results
@@ -10,7 +10,7 @@
 | Key | Architecture | Delivered kWh | Efficiency | Mass kg | Capex USD | LCOE $/kWh | Targets met (of 5) |
 |---|---|---:|---:|---:|---:|---:|---:|
 | A1 | LiFePO4 battery only | 10.00 | 85.7% | 85.6 | 2,819 | 0.272 | 4 |
-| A2 | LiFePO4 + supercapacitor pulse buffer | 10.00 | 85.7% | 94.4 | 3,600 | 0.305 | 4 |
+| A2 | LiFePO4 + supercapacitor pulse buffer | 10.00 | 85.7% | 95.7 | 3,600 | 0.305 | 4 |
 | B1 | Diesel genset, no buffer (rated to peak) | 10.00 | 16.0% | 94.3 | 2,400 | 0.740 | 2 |
 | B2 | Thermoelectric generator on a burner | 10.00 | 7.7% | 193.9 | 12,632 | 1.850 | 1 |
 | B3 | TPV + high-temperature thermal store | 10.00 | 32.3% | 145.6 | 2,142 | 0.215 | 3 |

@@ -1,6 +1,6 @@
 # Architecture comparison
 
-**Baseline run:** `results/runs/20261022T194106Z_920ce114`
+**Baseline run:** `results/runs/20261022T195415Z_920ce114`
 **Mission:** 1 kW continuous, 6 kW / 30 s pulses every 10 min, 8 h
 **Targets:** 35 kg, 60 L, $5,000, $0.40/kWh, 10 years
 **Requirements:** [`PROJECT_E_REQUIREMENTS.md`](PROJECT_E_REQUIREMENTS.md)
@@ -73,7 +73,7 @@ missions. Dispatch is simulated at 1 s and verified at 2 s and 0.5 s.
 | Key | Architecture | Source | Mass kg | Volume L | Capex USD | LCOE $/kWh | Efficiency | Radiator m² | Targets |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | A1 | LiFePO4 battery only | grid charge | 118.4 | 52.2 | 4,866 | 0.602 | 83.0% | 0.90 | 3/5 |
-| A2 | LiFePO4 + supercapacitor | grid charge | 127.2 | 65.4 | 5,647 | 0.648 | 83.0% | 0.90 | 1/5 |
+| A2 | LiFePO4 + supercapacitor | grid charge | 129.4 | 65.4 | 5,647 | 0.648 | 83.0% | 0.90 | 1/5 |
 | B1 | Diesel genset, no buffer | diesel | 118.5 | 72.5 | 2,400 | 1.199 | 13.6% | 6.95 | 2/5 |
 | B2 | TEG on a burner | combustion heat | 300.3 | 122.3 | 31,579 | 4.169 | 6.2% | 38.08 | 1/5 |
 | B3 | TPV + thermal store | ≥1500 °C heat | 256.9 | 144.0 | 2,453 | 0.301 | 25.8% | 9.22 | 3/5 |
@@ -89,7 +89,7 @@ including the 95% output stage.
 | Key | ≤35 kg | ≤60 L | ≤$5,000 | ≤$0.40/kWh | No unmet load | Score |
 |---|:--:|:--:|:--:|:--:|:--:|:--:|
 | A1 | ✗ 118.4 | ✓ 52.2 | ✓ 4,866 | ✗ 0.602 | ✓ | 3/5 |
-| A2 | ✗ 127.2 | ✗ 65.4 | ✗ 5,647 | ✗ 0.648 | ✓ | 1/5 |
+| A2 | ✗ 129.4 | ✗ 65.4 | ✗ 5,647 | ✗ 0.648 | ✓ | 1/5 |
 | B1 | ✗ 118.5 | ✗ 72.5 | ✓ 2,400 | ✗ 1.199 | ✓ | 2/5 |
 | B2 | ✗ 300.3 | ✗ 122.3 | ✗ 31,579 | ✗ 4.169 | ✓ | 1/5 |
 | B3 | ✗ 256.9 | ✗ 144.0 | ✓ 2,453 | ✓ 0.301 | ✓ | 3/5 |

@@ -1,7 +1,7 @@
 {
-  "run_id": "20261022T194126Z_2d325f92",
-  "timestamp_utc": "2026-10-22T19:41:26.566009+00:00",
-  "git_commit": "c4cb1414666b20f53d58718b331358a78f72d596",
+  "run_id": "20261022T195444Z_2d325f92",
+  "timestamp_utc": "2026-10-22T19:54:44.901197+00:00",
+  "git_commit": "bbfe9d3a442e91a1f7b143ef060438631762eb07",
   "config_checksum_sha256": "2d325f92ab835d2c5552e17e79cc0ca5f401d3306a6d81d156ae4e09a8b696d9",
   "software": {
     "python": "3.12.14",
@@ -58,7 +58,7 @@
       "delivered_kwh": 10.0,
       "input_kwh": 11.6635,
       "efficiency": 0.8574,
-      "mass_kg": 94.39,
+      "mass_kg": 95.7,
       "volume_l": 45.3,
       "capex_usd": 3600.0,
       "lcoe_usd_per_kwh": 0.3047,
@@ -258,7 +258,7 @@
     "Mass and cost are parametric estimates, not bills of materials.",
     "Diesel emissions and noise are not modeled."
   ],
-  "runtime_s": 8.01,
+  "runtime_s": 7.9,
   "figures": [
     "figures/mass_vs_lcoe.png",
     "figures/lcoe_by_architecture.png",
