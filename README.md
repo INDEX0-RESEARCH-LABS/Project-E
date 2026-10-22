@@ -16,7 +16,7 @@ Targets: ≤ 35 kg, ≤ 60 L, ≤ $5,000 capex, ≤ $0.40/kWh delivered, 10-year
 
 ```bash
 python3.12 -m venv .venv
-.venv/bin/pip install -e .
+.venv/bin/pip install -e ".[dev]"
 .venv/bin/python -m pytest -q
 ```
 
